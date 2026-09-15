@@ -1,9 +1,10 @@
 = IALA reference layouts — which PDF applies to which document type
 
 Mapping for the IALA XSLT work (mn-native-pdf#1109). The reference PDFs
-are copyrighted IALA originals kept **locally only** in
-`reference-docs/<doctype>/` of mn-samples-iala (gitignored); extracts for
-cover/footer design reference are available on request from @ronaldtse.
+are the IALA publications, publicly downloadable from
+https://www.iala.int[www.iala.int]; local copies are organized in
+`reference-docs/<doctype>/` of mn-samples-iala for convenience.
+Transcribing them into Metanorma format is this repository's purpose.
 
 [cols="1,3,2"]
 |===
