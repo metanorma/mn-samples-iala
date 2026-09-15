@@ -1,0 +1,69 @@
+== General principles of VTS digital communications
+
+=== Managing a mix of voice communication, digital communications, and automated data exchange
+
+The digitalisation of information will diversify the communication means between shore and vessels and will affect VTS procedures regarding exchange of information. VTS interaction with vessels has traditionally almost exclusively been via VHF voice communications. It is expected that VHF voice communication will be partially replaced by digital communication in the future. The mix of voice communication, digital communication, and automated data exchange may differ from VTS to VTS.
+
+VTS has to manage the mix of voice communication, digital communication, and automated data exchange. The use of digital communication could reduce workload by automating repetitive tasks, which could lead to reduction of the VHF traffic, communication barriers and the risk of misunderstandings. Digital communications also have the opportunity to disseminate information as well as consolidate and process the information for better decision support.
+
+Messages can be conveyed to an individual vessel or a group of vessels. This not only includes person-to-person but also person-to-machine, machine-to-machine and machine-to-person communication. The change of communication and interaction to digital can also utilise automated processes in many situations.
+
+The introduction of digital communication marks a period where digital communication and voice communication exists next to each other. The gradual advent of technical services may potential increase VTS workload, as the same tasks must be executed using both the new and old methods side by side. Over time digital communication holds the potential to reduce workload by automating repetitive tasks and voice communication.
+
+Voice communications can be also used in addition to digital communications for example for urgent and time critical messages and can act as a backup for digital communication service technical failure.
+
+==== Information originating from sources outside of VTS
+
+When transitioning to digital communications some of the information provided to vessels today by VTS may be provided directly to vessels from other sources. This can include for example hydrographic and environmental information, information on Marine Aids to Navigation (AtoN) and Maritime Safety Information (MSI).
+
+==== Cyber security
+
+From the VTS point of view the digital data exchange is secure unless the system indicates the data quality is insufficient due to reduced cyber security level. In these cases, the VTS personnel should revert to voice communication and the conventional way of working. For cases in which cyber security is impaired and not system detectable, VTS personnel should receive training how such cases might be observed and detected.
+
+==== Technical failures
+
+In case the digital communication service suffers a technical failure, it is a responsibility of a VTS to have alternative procedure in place. One option is to revert to the conventional way of working with voice communication. It is possible that the VTS operators will not be able to revert to the conventional way of working serving the amount of traffic at hand. The other possible option is to have a redundant digital communication system or a back-up system.
+
+==== Human machine interface (HMI) aspects
+
+Digital communication has the potential to streamline the VTS operations for a VTS center. It depends however highly on the specific implementation in the VTS system to which level an individual VTS operator is supported in his or her task. From a system architecture perspective and system acquisition perspective it might seem a logical solution to have digital communication functionality added as a separate function on the VTS operator working position. The real benefit of digital communication however will only be achieved with an HMI solution which supports the task of the operator optimally with an integrated HMI solution. Especially for VTS centers where the workload of the VTS operators forms a bottleneck in the operation, the HMI design is vital to assure the workload reduces when applying digital communication rather than increases.
+
+=== Delivery of the information
+
+The added benefit of digital communication is having the information in standardized structure, ensuring that the same information is available to all relevant actors when required and designed in a way to minimize misinterpretations and to provide common situational awareness. This includes machine-to-machine communications between VTS, vessels and other relevant actors.
+
+Digital communications should have the same communication procedures as the voice communications where applicable. Digital communication should be processed according to G1132 VTS Voice Communications and Phraseology where applicable.
+
+To achieve closed-loop communication in digital communications different types of responses should be implemented such as:
+
+* Delivered: system acknowledges message delivery
+* Received: human or system acknowledges message reception
+* Approved: human or system approves the content of the message
+
+.Example of Digital Communication Principle
+image::image5.png[]
+
+In Figure 2  typical communication sequence is presented by means of a time sequence diagram explaining the sequence of message exchanges between VTS and vessels. Time progresses from left to right in the figure. In this example, it shows the arrival of a vessel through a VTS area towards a berth. VTS represents the top line and the vessel the bottom line in the figure. The arrows depict the messages being transferred between VTS and vessels as time progresses. In the document “Use Cases for VTS Digital Communications”, on the IALA website, the specific message exchange is explained by such time sequence diagrams for the specific functions and services.
+
+=== Technical infrastructure
+
+Digital communications require technical solutions that are different and more complex than technical infrastructure needed for traditional communication methods like VHF voice. Technical infrastructure for digital communications consists of various technical building blocks but also immaterial assets like specifications, data models and harmonized ways to manage technical services and underlying platforms. Figure 3 shows a simplified view of technical services related to VTS digital communications.
+
+.High level view on the Digital Delivery of VTS Information
+image::image6.png[]
+
+The digital communication for VTS should reach beyond one single VTS area or be ideally even globally accessible. The technical services that implement digital communications for VTS should be standardised, secure and robust as described in section 4.1. All these can be achieved by establishing technical infrastructure according to Service Oriented Architecture (SOA) principles. The implementation of VTS digital communications requires at least following building blocks:
+
+. Harmonized way to describe technical services and link them to relevant data models according to IMO resolution MSC.467(101) “Guidance on the definition and harmonization of the format and structure of maritime services in the context of e-navigation”;
+. Unified and global data models that are compliant with IMO’s Common Maritime Data Structure (CMDS);
+. Global and unique identifiers for data and maritime resource for this data, such as MRNs;
+. Service platform supporting maritime SOA architecture and service provision; and
+. Data exchange infrastructure to facilitate the real-time and cyber secure data exchange using standardised data transport mechanisms;
+
+IALA and other maritime organisations have developed extensive guidance to support implementation of these requirements in a harmonized way. The most relevant guidelines and standards for the building blocks mentioned above are as follows:
+
+. Guideline G1128 The Specification of e-Navigation Technical Services
+. IHO S-100 Universal Hydrographic Data Model and Guidelines G1088 Introduction to Preparing S-100 Product Specifications and G1106 Producing an IALA S100 Product Specification
+. Guideline G1143 Unique Identifiers for Maritime Resources
+. Guidelines G1157 Web Service Based S-100 Data Exchange and G1161 Evaluation of Platforms for the Provision of Maritime Services in the Context of e-Navigation
+. The data exchange itself can be implemented using various industrial standards. The most relevant in the context of VTS digital communications are SECOM (IEC 63173-2), MMS (RTCM standard 13900.0 for Maritime Messaging Service Architecture and Protocol) and VDES VDE (Recommendation R1007 The VHF Data Exchange System (VDES) For Shore Infrastructure)

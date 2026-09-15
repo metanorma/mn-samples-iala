@@ -1,0 +1,101 @@
+== VTS operational functions and digital services
+
+This paragraph includes the operational descriptions for potential digital services identified in the domain of Maritime Services in the context of e-Navigation. The operational functions/services are not limited, if needed further functions/services can be added. A local implementation of a function may include all, or subset of, underlying services. Before implementation of digital services, a risk assessment should be carried out.
+
+The Maritime Service for VTS includes several different potential operational functions associated with this Maritime Service. These operational functions can be divided into VTS-specific services and services developed within other Maritime Services. This guideline only focuses on the VTS specific operational functions under the remit of IALA, MS 1 VTS. Development of technical services is out of scope of this guideline. Operational functions are divided in services (Figure 4). These digital services are worked out in use cases that can be found under the headline “VTS Digital Communication” on the IALA website of “Topical Matters”.
+
+.Detailed illustration of different levels of digital services in relation to the document context
+image::image7.png[]
+
+Technical services are needed to coordinate a seamless combination between different product specifications. Information provided using S-100 based product specifications is brought together by technical services to deliver a Maritime Service. G1128 gives guidance on how to make specifications of Technical Services. A Maritime Service can be implemented by one or more Technical Services and one technical service can implement multiple operational functions.
+
+=== Publishing information on VTS digital services
+
+The number and type of digital services may vary between different VTS centres. Mariners should have access to information about which digital services are available at each VTS. Additionally, VTS digital services should be compatible with and supported by on-board systems.
+
+=== VTS specific digital operational services
+
+VTS specific digital operational services provide structured methods for exchanging data between vessels and VTS. VTS specific operational functions and digital services are described in this section. The principles for information exchange are provided in Section 4.2 of this Guideline.
+
+Currently identified VTS specific Operational functions are:
+
+* Route Functions
+* VTS Information Functions
+* Traffic Functions
+* Planning Functions
+
+==== Route functions
+
+Route Functions consist of digital services that enable the exchange of routes, the provision of reference routes, the crosschecking of planned routes in relation to conditions in the VTS area, and the monitoring of vessel movements in accordance to their planned routes. These digital services provide a structured way for vessels and VTS to share, verify, and oversee navigational information to support safe and efficient maritime traffic in the VTS area.
+
+===== Digital route exchange service
+
+Digital Route Exchange Service enables vessels and VTS to share planned routes and schedules in a standardized format. By exchanging route information digitally, vessel and VTS share a common understanding of navigational intentions, supporting safe and efficient vessel traffic, while also reducing VHF communication load within the VTS area. Furthermore, Digital Route Exchange Service is the base for other digital route-related services such as Digital Route Monitoring, Digital Route Crosscheck, and Digital Route Reference.
+
+===== Digital route reference service
+
+With Digital Route Reference Service VTS and other service providers offer routes and waypoints in electronic format,  Digital Route Reference Service is designed to assist mariners in their voyage planning to define the suitable route on commonly used passages, such as shipping lanes, approaches to ports, and coastal routes. Digital Reference routes can be fully predefined and/or can be calculated based on predefined waypoints.
+
+===== Digital route crosscheck service
+
+The purpose of Digital Route Crosscheck Service is to validate a planned or monitored route from the vessel and compare the information with expertise of the VTS and its information regarding the specific VTS area, e.g. traffic separation, depth, speed restriction, etc. When the VTS receives a route from a vessel, the VTS should be able to execute a Route cross check. The cross-checking may be done before the vessel’s departure or before arrival at a  a VTS area. The cross-check may include Under Keel Clearance (UKC), air draft, no violation of no-go areas, Maritime Safety Information and compliance with mandatory routeing.
+
+===== Digital route monitoring service
+
+The Route Monitoring Service is used to monitor vessels´ movement in vicinity and in the VTS area. Within this service the VTS may detect vessels’ deviating from their routes or schedules, allowing the VTS to intervene promptly in case of potential safety hazards and navigational issues.
+
+==== VTS information functions
+
+VTS Information Functions include digital services that enable the exchange of information between vessels and the VTS. Digital services contain the reporting and the provision of structured and unstructured navigational and traffic-related information. These functions ensure that accurate, timely, and relevant information is shared to enhance situational awareness, support safe and efficient navigation.
+
+===== Digital VTS reporting service
+
+Digital VTS Reporting service is designed for vessels to digitally report information to the VTS as specified by the VTS. This includes an arrival/departure report, position report and specific information about the vessel which may affect the traffic in the VTS area.
+
+===== Digital VTS information service
+
+The primary purpose of the Digital VTS Information Service is to support the safe navigation of vessels within and in the vicinity of the VTS area by providing relevant information. This may include details on uncharted obstacles, traffic conditions, pilotage, UKC or general operations. The service can deliver both structured and unstructured information, where digital messages also should begin with a message marker.
+
+==== Traffic functions
+
+Traffic Functions consist of digital services that enable the exchange and sharing of real-time digital traffic information between vessels and VTS. Digital services include the provision of a common traffic image, the exchange of intended tracks, and digital navigation support. Together, these digital services enhance situational awareness, reduce the risk of collisions, and allow timely communication of information to ensure safe and efficient vessel movements within the VTS area. Digital services ensure that vessels and VTS have a common understanding of the traffic situation, enabling timely decisions and actions to maintain navigational safety.
+
+===== Digital traffic image service
+
+Digital Traffic Image Service enables the exchange of real-time digital traffic information between VTS and vessels. For example, using sources like AIS, radar, or CCTV, it provides vessels and VTS with an up-to-date traffic picture and supports the creation of a common traffic image within the VTS area.
+
+===== Digital intended track exchange service
+
+Digital intended track exchange service is designed to automatically broadcast the intended trajectory of the vessel covering a route segment of a certain amount of time which is significantly shorter, rather minutes than hours, than the complete planned route. This intended trajectory may consist of the current track and speed or a limited set of waypoints of the route including time at each waypoint. Depending on the applied control of the vessel, for example manual control, autopilot or track pilot, it broadcasts the track and speed or a set of waypoints. Vessels share their intentions from vessel to vessel as well as from vessel to VTS digitally. This allows vessels to avoid potential conflicts because this digital service provides the vessels insight in the developing traffic situation. With this digital service, the VTS may receive all vessels’ intentions within the VTS area, allowing the VTS to intervene promptly in case of potential safety hazards and navigational issues.
+
+===== Digital navigation support service
+
+Digital Navigation Support Service supports VTS in responding to developing unsafe situations. These situations may include a vessel unsure of its position, deviating from its route, needing guidance to anchorage, experiencing equipment failure, facing severe weather, being at risk of grounding or collision, or requiring emergency support. The digital service provides navigational information, advice, warnings or instructions to individual vessels or to groups of vessels within the VTS area. All messages are transmitted reliably to ensure that vessels receive them and can maintain safe navigation.
+
+==== Planning functions
+
+Planning Functions consist of digital services that support the safe and efficient planning of vessel movements within a VTS area. Digital services include providing traffic clearance to ensure safe passage and allocating time slots for arrivals, departures, or transits. These digital services allow VTS to coordinate traffic flow, prevent congestions and/or conflicts, and optimise the safe and efficient use of the VTS area.
+
+===== Digital traffic clearance service
+
+Digital Traffic Clearance refers to the process of ensuring that there is sufficient space and time for vessels to navigate safely through an area, taking into account other vessels, obstructions, regulatory and environmental factors. The Digital Traffic Clearance Service provides vessels with permission to proceed, set conditions and/or denies clearance. Within this digital service the VTS coordinates, authorizes, and monitors the approach and passage of vessels through the area.
+
+===== Digital slot management service
+
+Digital Slot Management Service is designed to provide time slots for vessels in advance to ensure safe, efficient, and organized movement within the VTS area. A time slot includes scheduling and allocation for vessels within a VTS-area. The digital service includes assigning specific time slots for vessels' arrival, departure, or transit. The time slot may be based on for example weather and/or hydrologic conditions (e.g. tide, fog), UKC, port/area resources (e.g. berth, anchorage), traffic density, infrastructure (e.g. bridge, lock), type/size of vessel. This integrated approach enables the VTS to manage traffic flow while maintaining safety and operational efficiency.
+
+=== examples how to use operational functions
+
+Figure 5 to 8 show four examples of the applicability of the various operational functions of digital communication. At the bottom of the figure the vessel voyage is indicated where the voyage progresses from left to right. The dark blue at the bottom stands for the vessel sailing outside the VTS area, the light blue stands for the VTS area with or without an anchoring area and the yellow part is the port of arrival or departure. The different colored bars above indicate in which phase of the voyage the various services of the four functions can become relevant and can be applied.
+
+.Example of different digital services when a vessel is arriving to a port within a VTS area
+image::image8.png[]
+
+.F Example of different digital services when a vessel is arriving to an anchorage area within a VTS area
+image::image9.png[]
+
+.Example of different digital services when a vessel is transiting a VTS area
+image::image10.png[]
+
+.Example of different digital services when a vessel is departing from a port within a VTS area
+image::image11.png[]

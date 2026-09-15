@@ -1,0 +1,28 @@
+= VTS Digital Communications
+:doctype: guideline
+:series: G
+:docnumber: 1199
+:docidentifier: G1199
+:edition: 1.0
+:language: en
+:published-date: 2026-06
+:copyright-year: 2026
+:mn-document-class: iala
+:mn-output-extensions: xml,html,doc,rxl
+:imagesdir: images
+:local-cache-only:
+:data-uri-image:
+:toclevels: 3
+:urn: urn:mrn:iala:pub:g1199:ed1.0
+
+include::sections/01-introduction.adoc[]
+
+include::sections/02-document-purpose.adoc[]
+
+include::sections/03-general-principles-of-vts-digital-communications.adoc[]
+
+include::sections/04-vts-operational-functions-and-digital-services.adoc[]
+
+include::sections/05-abbreviations.adoc[]
+
+include::sections/06-references.adoc[]

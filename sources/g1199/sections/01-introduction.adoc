@@ -1,0 +1,40 @@
+== Introduction
+
+Effective communication is an essential component for operations in the maritime domain and is achieved when the intended meaning of the sender and the perceived meaning of the receiver is the same.
+
+In the context of Vessel Traffic Services (VTS), communication forms part of the broader concept of interaction between VTS and participating ships, as described in IMO Resolution A.1158(32) and further explained in  Guideline G1089 Provision of a VTS. Digital communications represent one of the means by which this interaction can be achieved, alongside voice communications and automated data exchange.
+
+If a vessel intends to use IMO Maritime Service MS-1 Vessel Traffic Service (IMO circular MSC.1/CIRC.1610/rev.1), it must be capable of receiving these and must subscribe to the digital services. The vessel is responsible for managing its subscriptions to and un-subscriptions from the digital services. Vessel Traffic Service (VTS) should ensure that VTS personnel are aware of which vessels have received information digitally, reducing the need for duplication via VHF. If a vessel has not received the information digitally, the VTS personnel are responsible for providing it via VHF voice communication in the conventional manner.
+
+Modern technologies have improved communication through digital means. Compared to traditional voice communication, digital communication offers several advantages, including speed, efficiency, and reduced risk of misunderstandings. It can be used both with human involvement and in automated processes without human intervention.
+
+Providing digital communication in a globally harmonized way requires a common understanding of the operational functions and standardised technical services.
+
+.Illustration of different levels of digital services and functions in relation to the document context
+image::image4.png[]
+
+This guideline describes the operational procedures and functions which are specific to VTS as defined in Maritime Service 1 (MS 1) “Description of maritime services in the context of e-navigation (IMO circular MSC.1/CIRC.1610/rev.1). This guideline does not describe other Maritime Services  which might be used by a VTS as they are under the responsibility of other international organizations acting as domain coordinating bodies for each Maritime Service.
+
+In the following documents essential principles for the safe and efficient digital communication are mentioned and are used as a base for this Guideline:
+
+* IMO Resolution A.1158(32) Guidelines for vessel traffic services states:
++
+____
+Effective harmonized data exchange and information-sharing is fundamental to the overall operational efficiency and safety. VTS providers are encouraged to make use of automated reporting where possible.
+____
+* IMO circular MSC.1/Circ.1595 e-navigation strategy implementation plan – update 1 states:
++
+____
+As shipping moves into the digital world, e-navigation is expected to provide digital information and infrastructure for the benefit of maritime safety, security and protection of the marine environment, reducing the administrative burden and increasing the efficiency of maritime trade and transport.
+____
++
+And that of the prioritised e-navigation solutions is:
++
+____
+…improved communication of VTS Service Portfolio (not limited to VTS stations).
+____
+* IMO circular MSC.1/CIRC.1610/rev.1 Descriptions of Maritime Services in the context of e-navigation defines the purpose of MS 1 Vessel Traffic Services (VTS) states:
++
+____
+The purpose of this digital Maritime Service is to support the provision of VTS to participating ships by providing information in a digital format. Information could be presented in appropriate systems on board and ashore in order to create the means to reduce the administrative burden and information overload, reduce miscommunication due to external interference, simplify work procedures, promote sustainable shipping and increase navigational safety.
+____

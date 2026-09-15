@@ -1,0 +1,676 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# Import an IALA Word document (e.g. "G1199 Ed1.0 VTS Digital Communications.docx"
+# from reference-docs/) into a Metanorma source directory:
+#
+#   sources/<id>/document.adoc      header attributes + section includes
+#   sources/<id>/sections/*.adoc    one file per level-1 section / annex
+#   sources/<id>/images/*           images referenced from the document body
+#
+# Usage: bin/import-docx <file.docx> [--sources-dir DIR]   (default: sources)
+
+require "optparse"
+require "fileutils"
+require "uniword"
+
+class IalaDocxImporter
+  WP = Uniword::Wordprocessingml
+
+  HEADING_LEVELS = {
+    "Titre1" => 1, "Titre2" => 2, "Titre3" => 3, "Titre4" => 4, "Titre5" => 5,
+    "Heading1" => 1, "Heading2" => 2, "Heading3" => 3, "Heading4" => 4, "Heading5" => 5,
+    "Titreannexe1" => 1, "AnnexTitleHead1" => 1,
+  }.freeze
+
+  ABBREV_STYLES = %w[Abbreviations].freeze
+  CAPTION_STYLES = %w[Figurecaption Tablecaption Legendeillustration Legendetableau
+                      AnnexFigurecaption AnnexTablecaption].freeze
+  REFERENCE_STYLES = %w[Reference Reference1 Furtherreading].freeze
+  BULLET_STYLES = %w[Bullet1 Bullet2 Bullet3].freeze
+  ORDERED_STYLES = %w[List1 Lista Listi List2 List3].freeze
+
+  COVER_STYLE_RE = /\A(?:document(?:type|number|name|date|edition)|editionnumber|urn|mrn|logo|address)\z/i.freeze
+  TOC_STYLE_RE = /\A(?:tm[1-9]|toc[1-9]|tabledesillustrations|listoffigures|listoftables|contents)\z/i.freeze
+  HEADING_STYLE_RE = /\A(?:titre|heading|annexhead)\s?([1-5])\z/i.freeze
+  CAPTION_STYLE_RE = /caption|legende/i.freeze
+  BULLET_STYLE_RE = /\Abullet\s?\d?\z/i.freeze
+  ORDERED_STYLE_RE = /\Alist\s?(?:1|a|i|\d+)\z/i.freeze
+
+  # Indentation (twips) above which a body paragraph is treated as a list
+  # continuation (quoted block under a preceding bullet in the IALA template).
+  CONTINUATION_INDENT = 360
+
+  # Prefix letters per Pubid::Iala Identifiers::*#type.short
+  DOCTYPES = {
+    "S" => "standard", "R" => "recommendation", "G" => "guideline",
+    "C" => "model-course", "M" => "manual", "A" => "advice",
+    "X" => "report", "P" => "resolution", "GA" => "general-assembly",
+    "L" => "letter",
+  }.freeze
+
+  MONTHS = %w[january february march april may june july august september
+              october november december].freeze
+  ANNEX_RE = /\A\s*(?:ANNEX|APPENDIX)\s+([A-Z0-9]+)\s*[-–—:]?\s*(.*)\z/i.freeze
+  BACKMATTER = {
+    /\Adefinitions?\s*\z/i => "Definitions",
+    /\Aabbreviations?\s*\z/i => "Abbreviations",
+    /\Areferences?\s*\z/i => "References",
+    /\Afurther\s+reading\s*\z/i => "Further reading",
+  }.freeze
+  CONTENTS_TITLE_RE = /\A\s*(?:contents?|sommaire|table\s+of\s+contents)\s*\z/i.freeze
+  REF_ENTRY_RE = /\A\s*\[(\d+)\]\s*/.freeze
+  FIGNUM_RE = /\A\s*(?:figure|table)\s*\d+\s*[-–—:.]?\s*/i.freeze
+
+  # Whole-word acronyms preserved when converting ALL-CAPS titles to sentence case.
+  ACRONYMS = %w[
+    AIS AtoN CCTV CMDS DTEC ENG HMI IALA IMO JIT MASS MRN MS MSC MSI
+    OED RGB SOA URN UTC VHF VTS VTSO ARM WG
+  ].freeze
+
+  CONTENT_TYPES = {
+    "image/png" => ".png", "image/jpeg" => ".jpg", "image/gif" => ".gif",
+    "image/tiff" => ".tif", "image/svg+xml" => ".svg",
+    "image/x-emf" => ".emf", "image/x-wmf" => ".wmf",
+  }.freeze
+
+  # Split a free-text reference into (identifier, remainder) for bibliography keys.
+  REF_ID_PATTERNS = [
+    /\A(IALA\s+(?:Guideline|Recommendation|Standard|Model\s+Course)\s+[A-Z]?\d+(?:-\d+)?)\s+(.+)\z/i,
+    /\A(IHO\s+S-?\d+(?:-\w+)?)\s+(.+)\z/i,
+    /\A(IMO\s+Resolution\s+[A-Z0-9.]+(?:\([^)]+\))?)\s+(.+)\z/i,
+    /\A(IMO\s+(?:Circular\s+)?MSC\.1\/Circ\.[A-Za-z0-9.\/]+)\s+(.+)\z/i,
+    /\A(IMO\s+MSC\.1\/Circ\.[A-Za-z0-9.\/]+)\s+(.+)\z/i,
+  ].freeze
+
+  def initialize(docx_path, sources_dir)
+    @docx_path = docx_path
+    @sources_dir = sources_dir
+    @meta = {}
+    @sections = []
+    @dropped = []
+    @skipped = Hash.new(0)
+    @images_used = {}
+    @pending_fig_caption = nil
+    @pending_tbl_caption = nil
+    @in_list_item = false
+    @last_was_heading = false
+    @backmatter = nil
+    @ref_counter = 0
+  end
+
+  def run
+    parse_filename
+    @doc = Uniword.load(@docx_path)
+    walk(body_sequence)
+    write_output
+    print_report
+  end
+
+  private
+
+  def parse_filename
+    base = File.basename(@docx_path, ".docx")
+    m = base.match(/\A([A-Z]{1,2})(\d{2,4}(?:-\d+)?)\s+(?:Ed\s*([\d.]+)\s+)?(.+)\z/i)
+    raise "cannot parse IALA reference from filename: #{base}" unless m
+
+    @meta[:series] = m[1].upcase
+    @meta[:docnumber] = m[2]
+    @meta[:edition] = m[3] if m[3]
+    @meta[:title] = m[4].strip
+    @doc_id = "#{@meta[:series]}#{@meta[:docnumber]}"
+    @dir_name = @doc_id.downcase
+  end
+
+  # Body#elements returns type-grouped arrays, not document order; element_order
+  # holds ordered markers, so consume the typed arrays as queues driven by it.
+  def body_sequence
+    body = @doc.body
+    order = body.element_order
+    paragraphs = Array(body.paragraphs)
+    tables = Array(body.tables)
+    seq =
+      if order && order.any? { |e| %w[p tbl].include?(e.name) }
+        order.filter_map do |e|
+          case e.name
+          when "p" then paragraphs.shift
+          when "tbl" then tables.shift
+          end
+        end.compact
+      else
+        paragraphs.dup
+      end
+    seq.concat(paragraphs).concat(tables) unless paragraphs.empty? && tables.empty?
+    seq
+  end
+
+  def walk(seq)
+    @in_content = false
+    seq.each do |node|
+      case node
+      when WP::Table then handle_table(node)
+      when WP::Paragraph then handle_paragraph(node)
+      end
+    end
+  end
+
+  def handle_paragraph(para)
+    style = style_id(para)
+    text = clean(paragraph_text(para))
+
+    if COVER_STYLE_RE.match?(style) || TOC_STYLE_RE.match?(style) ||
+       style == "Documentrevisiontabletitle"
+      @skipped["style:#{style}"] += 1
+      return
+    end
+
+    level = heading_level(style)
+    if level
+      return if CONTENTS_TITLE_RE.match?(text)
+
+      @in_content = true
+      @in_list_item = false
+      start_section(level, text)
+      @last_was_heading = true
+      return
+    end
+
+    unless @in_content
+      if text.match?(/Revisions to this document are to be noted/i)
+        @meta[:revision_note] = text
+        return
+      end
+      @dropped << text unless text.empty?
+      return
+    end
+
+    rids = drawing_rids(para)
+    emit_figures(rids) if rids.any?
+
+    return if text.empty? && !caption_style?(style)
+
+    if caption_style?(style)
+      handle_caption(style, text)
+    elsif @backmatter == "Abbreviations" || abbrev_style?(style)
+      @in_list_item = false
+      emit_abbreviation(text)
+    elsif reference_style?(style) || @backmatter == "References" || @backmatter == "Further reading"
+      @in_list_item = false
+      emit_reference(text)
+    elsif bullet_style?(style)
+      # Word sometimes leaves body paragraphs on Bullet1 immediately under a
+      # heading (see 4.2.1.x). Demote those; keep genuine list runs even when long.
+      if @last_was_heading && !list_item_text?(text)
+        @in_list_item = false
+        @last_was_heading = false
+        emit_paragraph(para)
+      else
+        @last_was_heading = false
+        emit_list_item(text, ordered: false)
+      end
+    elsif ordered_style?(style)
+      @last_was_heading = false
+      emit_list_item(text, ordered: true)
+    elsif list_continuation?(para)
+      emit_list_continuation(text)
+    else
+      @in_list_item = false
+      @last_was_heading = false
+      emit_paragraph(para)
+    end
+  end
+
+  def style_id(para)
+    s = para.style
+    return "" unless s
+
+    s.respond_to?(:value) ? s.value.to_s : s.to_s
+  end
+
+  def heading_level(style)
+    HEADING_LEVELS[style] || style[HEADING_STYLE_RE, 1]&.to_i
+  end
+
+  def caption_style?(style)
+    CAPTION_STYLES.include?(style) || CAPTION_STYLE_RE.match?(style)
+  end
+
+  def abbrev_style?(style)
+    ABBREV_STYLES.include?(style)
+  end
+
+  def reference_style?(style)
+    REFERENCE_STYLES.include?(style)
+  end
+
+  def bullet_style?(style)
+    BULLET_STYLES.include?(style) || BULLET_STYLE_RE.match?(style)
+  end
+
+  def ordered_style?(style)
+    ORDERED_STYLES.include?(style) || ORDERED_STYLE_RE.match?(style)
+  end
+
+  # Short bullets / labelled bullets ("Delivered: …") stay as list items; long
+  # free-prose runs that the template left on Bullet1 are demoted to paragraphs.
+  def list_item_text?(text)
+    t = text.to_s.strip
+    return false if t.empty?
+    return true if t.length <= 120
+    return true if t.match?(/\A[^.:;]{1,60}:\s+\S/)
+    return true if t.match?(/\A[^.]{1,80}\.\z/) # single short sentence / title-like
+
+    false
+  end
+
+  def list_continuation?(para)
+    return false unless @in_list_item
+
+    indent = paragraph_left_indent(para)
+    indent && indent >= CONTINUATION_INDENT
+  end
+
+  def paragraph_left_indent(para)
+    ind = para.properties&.indentation
+    return nil unless ind
+
+    left = ind.respond_to?(:left) ? ind.left : nil
+    left.is_a?(Numeric) ? left : left.to_s[/\d+/]&.to_i
+  end
+
+  def current_section
+    @sections.last
+  end
+
+  def start_section(level, raw_title)
+    annex = raw_title.match(ANNEX_RE)
+    back = BACKMATTER.find { |re, _| re.match?(raw_title.strip) }&.last
+    title = if annex
+              t = annex[2].to_s.strip
+              t.empty? ? "Annex #{annex[1]}" : sentence_case(t)
+            else
+              back || sentence_case(raw_title)
+            end
+
+    if level == 1 || annex
+      @backmatter = back
+      @sections << { level: 1, title: title, lines: [] }
+      if annex
+        add_line("[[annex-#{annex[1].downcase}]]")
+        add_line("[appendix]")
+        add_line("== #{escape_heading(title)}")
+      elsif back == "References" || back == "Further reading"
+        # Metanorma requires [bibliography] immediately before the heading
+        add_line("[bibliography]")
+        add_line("== #{title}")
+      else
+        add_line("== #{escape_heading(title)}")
+      end
+      return
+    end
+
+    if current_section.nil?
+      @sections << { level: 1, title: title, lines: [] }
+      add_line("== #{escape_heading(title)}")
+      return
+    end
+    add_line("#{"=" * (level + 1)} #{escape_heading(title)}")
+  end
+
+  def add_line(line)
+    sec = current_section or return
+    lines = sec[:lines]
+    lines << "" unless lines.empty? || line.empty? || compact_with?(line, lines.last)
+    lines << line
+  end
+
+  def compact_with?(candidate, previous)
+    return true if candidate == "+" || previous == "+"
+    return true if candidate == "____" || previous == "____"
+    return true if list_marker?(candidate) && list_marker?(previous)
+    return true if deflist_marker?(candidate) && deflist_marker?(previous)
+    return true if biblio_marker?(candidate) && biblio_marker?(previous)
+
+    false
+  end
+
+  def list_marker?(line)
+    return false if line.start_with?("* [[[")
+
+    line.start_with?("* ", ". ")
+  end
+
+  def deflist_marker?(line)
+    line.include?(":: ")
+  end
+
+  def biblio_marker?(_line)
+    false
+  end
+
+  def emit_paragraph(para)
+    add_line(escape_block(formatted_text(para).gsub(/\t+/, " ")))
+  end
+
+  def emit_list_item(text, ordered:)
+    text = text.gsub(/\t+/, " ").strip
+    marker = ordered ? "." : "*"
+    add_line("#{marker} #{escape_inline(text)}")
+    @in_list_item = true
+  end
+
+  def emit_list_continuation(text)
+    text = text.gsub(/\t+/, " ").strip
+    return if text.empty?
+
+    add_line("+")
+    if quote_text?(text)
+      body = text.sub(/\A[“"«]/, "").sub(/[”"»]\z/, "")
+      add_line("____")
+      add_line(escape_block(body))
+      add_line("____")
+    else
+      add_line(escape_block(text))
+    end
+  end
+
+  def quote_text?(text)
+    text.start_with?("“", '"', "«", "‘", "'") || text.start_with?("…")
+  end
+
+  def emit_abbreviation(text)
+    term, definition = text.split(/\t|\s{2,}/, 2)
+    if definition.nil? || definition.empty?
+      add_line(escape_block(text.gsub(/\t+/, " ").strip))
+      return
+    end
+    # Mid-definition tabs split single words (e.g. "Tele\tvision")
+    definition = definition.gsub(/\t+/, "").strip
+    add_line("#{escape_inline(term.strip)}:: #{escape_inline(definition)}")
+  end
+
+  # IHO bibliography form: * [[[anchor,Display ID]]], remainder
+  def emit_reference(text)
+    entry = text.sub(REF_ENTRY_RE, "").gsub(/\t+/, " ").strip
+    return if entry.empty?
+
+    id, rest = split_reference(entry)
+    anchor = id.downcase.gsub(%r{[^a-z0-9]+}, "-").gsub(/\A-+|-+\z/, "")
+    if rest && !rest.empty?
+      add_line("* [[[#{anchor},#{id}]]], #{escape_inline(rest)}")
+    else
+      add_line("* [[[#{anchor},#{id}]]]")
+    end
+  end
+
+  def split_reference(entry)
+    REF_ID_PATTERNS.each do |re|
+      if (m = entry.match(re))
+        return [m[1].strip, m[2].strip]
+      end
+    end
+    [entry, nil]
+  end
+
+  def handle_caption(style, text)
+    caption = text.sub(FIGNUM_RE, "").gsub(/\t+/, " ").strip
+    return if caption.empty?
+
+    if style.match?(/table/i) || @pending_tbl_caption
+      @pending_tbl_caption = caption
+      return
+    end
+    lines = current_section && current_section[:lines]
+    idx = lines&.rindex { |l| l.start_with?("image::") }
+    if idx && (idx.zero? || !lines[idx - 1].start_with?("."))
+      lines.insert(idx, ".#{escape_inline(caption)}")
+    else
+      @pending_fig_caption = caption
+    end
+  end
+
+  def emit_figures(rids)
+    rids.each do |rid|
+      @images_used[rid] ||= filename_for(rid)
+      if @pending_fig_caption
+        add_line(".#{escape_inline(@pending_fig_caption)}")
+        @pending_fig_caption = nil
+      end
+      add_line("image::#{@images_used[rid]}[]")
+      @in_list_item = false
+    end
+  end
+
+  def handle_table(table)
+    unless @in_content
+      parse_revision_table(table)
+      return
+    end
+    @in_list_item = false
+    rows = Array(table.rows)
+    return if rows.empty?
+
+    header = rows.first.respond_to?(:header?) && rows.first.header?
+    add_line(".#{@pending_tbl_caption}") if @pending_tbl_caption
+    @pending_tbl_caption = nil
+    add_line("[#{'%header' if header}]")
+    add_line("|===")
+    rows.each do |row|
+      cells = Array(row.cells).map { |c| escape_cell(cell_text(c)) }
+      add_line("| #{cells.join(' | ')}")
+    end
+    add_line("|===")
+  end
+
+  def parse_revision_table(table)
+    Array(table.rows).each do |row|
+      cells = Array(row.cells).map { |c| clean(cell_text(c)) }
+      next unless cells.size >= 2
+
+      date = cells[0].to_s
+      if (m = date.match(/\A\d{1,2}\s+([A-Za-z]+)\s+(\d{4})\z/) ||
+               date.match(/\A([A-Za-z]+)\s+(\d{4})\z/))
+        month = MONTHS.index(m[1].downcase)
+        if month
+          @meta[:published_date] = format("%<year>s-%<month>02d", year: m[2], month: month + 1)
+          @meta[:approval] = cells[2] if cells[2] && !cells[2].empty?
+        end
+      end
+    end
+    @skipped["revision-table"] += 1
+  end
+
+  # ---- text extraction -----------------------------------------------------
+
+  def paragraph_text(para)
+    Array(para.runs).map { |r| "#{r.text_string}#{r.tab ? "\t" : ''}" }.join
+  end
+
+  def cell_text(cell)
+    Array(cell.paragraphs).map { |p| paragraph_text(p) }.join(" ")
+  end
+
+  def formatted_text(para)
+    out = +""
+    Array(para.runs).each do |run|
+      t = run.text_string.to_s
+      next if t.empty?
+
+      bold = flag_on?(run.properties&.bold)
+      italic = flag_on?(run.properties&.italic)
+      if bold && italic
+        out << "*_#{t}_*"
+      elsif bold
+        out << "*#{t}*"
+      elsif italic
+        out << "_#{t}_"
+      else
+        out << t
+      end
+    end
+    clean(out.empty? ? paragraph_text(para) : out)
+  end
+
+  def flag_on?(wrapper)
+    wrapper && !%w[0 false off no].include?(wrapper.val.to_s.downcase)
+  end
+
+  def drawing_rids(para)
+    Array(para.runs).flat_map { |run| drawing_node(run) }.compact
+  end
+
+  def drawing_node(run)
+    Array(run.drawings).filter_map do |d|
+      g = d.respond_to?(:inline) && d.inline ? d.inline : d.anchor
+      pic = g&.graphic&.graphic_data&.picture rescue nil
+      pic&.blip_fill&.blip&.embed
+    end
+  rescue StandardError
+    []
+  end
+
+  def filename_for(rid)
+    part = @doc.image_parts[rid]
+    target = part_field(part, :target).to_s
+    name = target.empty? ? "image-#{rid}" : File.basename(target)
+    if File.extname(name).empty?
+      name += CONTENT_TYPES[part_field(part, :content_type).to_s] || ".png"
+    end
+    name
+  end
+
+  def part_field(part, key)
+    return nil unless part
+    return part[key] if part.is_a?(Hash)
+    return part.public_send(key) if part.respond_to?(key)
+
+    part[key]
+  rescue StandardError
+    nil
+  end
+
+  # ---- casing / escaping ---------------------------------------------------
+
+  def sentence_case(text)
+    t = text.to_s.strip
+    return t if t.empty?
+    # Only rewrite when the heading is essentially ALL CAPS (IALA template style).
+    letters = t.gsub(/[^A-Za-z]/, "")
+    return t if letters.empty? || letters != letters.upcase
+
+    words = t.downcase.split(/(\s+|[-–—\/(),.])/)
+    words = words.map do |w|
+      next w if w.match?(/\A[\s\-–—\/(),.]+\z/)
+
+      acr = ACRONYMS.find { |a| a.casecmp?(w) }
+      acr || w
+    end
+    result = words.join
+    result[0] = result[0].upcase if result[0]&.match?(/[a-z]/)
+    result
+  end
+
+  def clean(text)
+    text.to_s.tr("   ", "   ").strip
+  end
+
+  def escape_block(line)
+    line.sub(/\A(?=\*|\.|\d+[.)]\s|\||\[|=|_|\/\/)/, "{empty}")
+  end
+
+  def escape_inline(text)
+    text.gsub("|", "\\|")
+  end
+
+  def escape_cell(text)
+    escape_inline(text.gsub(/\s+/, " ").strip)
+  end
+
+  def escape_heading(text)
+    text.sub(/\A(?=\[)/, "{empty}")
+  end
+
+  # ---- output --------------------------------------------------------------
+
+  def slug(title)
+    title.downcase.gsub(/[^a-z0-9]+/, "-").gsub(/\A-+|-+\z/, "").slice(0, 48)
+  end
+
+  def write_output
+    dir = File.join(@sources_dir, @dir_name)
+    sections_dir = File.join(dir, "sections")
+    images_dir = File.join(dir, "images")
+    FileUtils.mkdir_p(sections_dir)
+
+    @images_used.each do |rid, name|
+      part = @doc.image_parts[rid]
+      data = part_field(part, :data) || part_field(part, :content)
+      if data
+        FileUtils.mkdir_p(images_dir)
+        File.binwrite(File.join(images_dir, name), data)
+      end
+    end
+
+    includes = []
+    @sections.each_with_index do |sec, i|
+      file = format("%02d-%s.adoc", i + 1, slug(sec[:title]))
+      File.write(File.join(sections_dir, file), sec[:lines].join("\n") + "\n")
+      includes << "include::sections/#{file}[]"
+    end
+
+    File.write(File.join(dir, "document.adoc"), document_header + includes.join("\n\n") + "\n")
+  end
+
+  def document_header
+    year = @meta[:published_date]&.split("-")&.first
+    lines = [
+      "= #{@meta[:title]}",
+      ":doctype: #{DOCTYPES[@meta[:series]] || 'document'}",
+      ":series: #{@meta[:series]}",
+      ":docnumber: #{@meta[:docnumber]}",
+      # Explicit primary docidentifier (series letter + number), e.g. G1199
+      ":docidentifier: #{@doc_id}",
+    ]
+    lines << ":edition: #{@meta[:edition]}" if @meta[:edition]
+    lines << ":language: en"
+    lines << ":published-date: #{@meta[:published_date]}" if @meta[:published_date]
+    lines << ":copyright-year: #{year}" if year
+    lines << ":mn-document-class: iala"
+    # PDF joins when the IALA XSLT lands (metanorma-iala M4). presentation is
+    # no longer required here — metanorma's compile layer adds it implicitly
+    # whenever html/doc/pdf is requested (fix in metanorma#feat/flavors-table).
+    lines << ":mn-output-extensions: xml,html,doc,rxl"
+    lines << ":imagesdir: images"
+    lines << ":local-cache-only:"
+    lines << ":data-uri-image:"
+    lines << ":toclevels: 3"
+    lines << ":urn: urn:mrn:iala:pub:#{@dir_name}:ed#{@meta[:edition] || '1.0'}"
+    lines << ""
+    lines.join("\n") + "\n"
+  end
+
+  def print_report
+    puts "Imported #{@doc_id} → #{File.join(@sources_dir, @dir_name)}/"
+    puts "  doctype:   #{DOCTYPES[@meta[:series]] || '?'}  edition: #{@meta[:edition]}  published: #{@meta[:published_date]}"
+    puts "  sections:  #{@sections.map { |s| s[:title] }.join(' | ')}"
+    puts "  images:    #{@images_used.size} written"
+    unless @skipped.empty?
+      puts "  skipped:   #{@skipped.map { |k, v| "#{k} x#{v}" }.join(', ')}"
+    end
+    unless @dropped.empty?
+      puts "  DROPPED #{@dropped.size} front-matter paragraph(s); first few:"
+      @dropped.first(3).each { |t| puts "    - #{t[0, 90]}" }
+    end
+  end
+end
+
+options = { sources_dir: "sources" }
+OptionParser.new do |opts|
+  opts.banner = "Usage: bin/import-docx <file.docx> [--sources-dir DIR]"
+  opts.on("--sources-dir DIR", "output root (default: sources)") { |v| options[:sources_dir] = v }
+end.parse!
+
+input = ARGV.shift or abort "Usage: bin/import-docx <file.docx>"
+abort "not a file: #{input}" unless File.file?(input)
+
+IalaDocxImporter.new(input, options[:sources_dir]).run

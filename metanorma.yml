@@ -1,0 +1,8 @@
+metanorma:
+  source:
+    files:
+      - sources/g1199/document.adoc
+
+  collection:
+    organization: "IALA: International Organization for Marine Aids to Navigation"
+    name: "IALA Publications in Metanorma"

@@ -1,0 +1,7 @@
+== Document purpose
+
+The guideline defines functions and services for digital communication from a VTS operational perspective and aims to harmonize VTS digital communications through standard procedures and technical services. The technical services for exchanging digital information between vessels and VTS are under development. The operational requirements set out in this document should therefore give guidance on further development.
+
+In addition to this Guideline, there is a document on the IALA website under the “Topical Matters”, which provides useful operational elaborated use cases of VTS Digital Communications. The document “Use Cases for VTS Digital Communications” is a living resource, updated as digitalisation advances and new technologies emerge, supporting the continuous improvement of VTS operational procedures.
+
+This Guideline is associated with Recommendation R1012 VTS Communications, a normative provision of Standard S1040 Vessel Traffic Services (VTS). To demonstrate compliance with the Recommendation, the provisions of this Guideline should be taken into account.

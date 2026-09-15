@@ -1,0 +1,31 @@
+[bibliography]
+
+== References
+
+* [[[imo-msc-1-circ-1610-rev-1,IMO MSC.1/Circ.1610/Rev.1]]], Descriptions of Maritime Services in the Context of E-Navigation
+
+* [[[imo-resolution-a-1158-32,IMO Resolution A.1158(32)]]], Guidelines for vessel traffic services
+
+* [[[imo-circular-msc-1-circ-1595,IMO Circular MSC.1/Circ.1595]]], E-navigation strategy implementation plan – update 1
+
+* [[[iala-guideline-g1182,IALA Guideline G1182]]], Cyber Security Specifics from an IALA Perspective
+
+* [[[iala-guideline-g1132,IALA Guideline G1132]]], VTS Voice Communication and Phraseology
+
+* [[[imo-resolution-msc-467-101,IMO Resolution MSC.467(101)]]], Guidance on the definition and harmonization of the format and structure of maritime services in the context of e-navigation
+
+* [[[iala-guideline-g1128,IALA Guideline G1128]]], The Specification of e-Navigation Technical Services
+
+* [[[iho-s-100,IHO S-100]]], Universal Hydrographic Data Model
+
+* [[[iala-guideline-g1143,IALA Guideline G1143]]], Unique Identifiers for Maritime Resources
+
+* [[[iala-guideline-g1157,IALA Guideline G1157]]], Web Service Based S-100 Data Exchange
+
+* [[[iala-guideline-g1161,IALA Guideline G1161]]], Evaluation of Platforms for the Provision of Maritime Services in the Context of e-Navigation
+
+* [[[iala-guideline-g1088,IALA Guideline G1088]]], Introduction to Preparing S-100 Product Specifications
+
+* [[[iala-guideline-g1106,IALA Guideline G1106]]], Producing an IALA S100 Product Specification
+
+* [[[iala-guideline-g1089,IALA Guideline G1089]]], Provision of a VTS

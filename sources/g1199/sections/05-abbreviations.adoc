@@ -1,0 +1,17 @@
+== Abbreviations
+
+AIS:: Automatic Identification System
+CCTV:: Closed-Circuit Television
+CMDS:: Common Maritime Data Structure
+IMO:: International Maritime Organisation
+HMI:: Human Machine Interface
+JIT:: Just in Time arrival
+MASS:: Maritime Autonomous Surface Ship
+MRN:: Marine Resource Name
+MS:: Maritime Service in the context of e-navigation
+MSC:: IMO Maritime Safety Committee
+MSI:: Maritime Safety Information
+SOA:: Service Oriented Architecture
+VHF:: Very High Frequency
+VTS:: Vessel Traffic Services
+VTSO:: VTS Operator
