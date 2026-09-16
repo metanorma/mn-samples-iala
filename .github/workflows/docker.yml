@@ -25,9 +25,12 @@ jobs:
       - name: Print Metanorma version
         run: metanorma --version
 
-      # The IALA flavor is not yet released: compilation needs this
-      # repo's git-pinned Gemfile, so the build runs under bundler
-      # inside the container (use-bundler), as in mn-samples-plateau-cg3.
+      # The IALA flavor is not yet released: install the repo's
+      # git-pinned stack into the container before building under
+      # bundler (mn-samples-plateau-cg3 pattern).
+      - name: Install the repo bundle
+        run: bundle install --jobs 4
+
       - name: Cache or generate Metanorma XML
         uses: actions-mn/build-and-publish@v2
         with:
