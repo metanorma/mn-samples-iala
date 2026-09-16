@@ -1,115 +1,70 @@
 name: docker
 
-# Gated until the released metanorma toolchain supports the IALA flavor
-# (metanorma-iala gem; until then compilation needs this repo's
-# git-pinned Gemfile, which the released container does not install).
 on:
-  workflow_dispatch:
+  push:
+    branches: [ main ]
   pull_request:
-    types:
-    - opened
-    - reopened
-    - synchronize
-    - closed
-    paths-ignore:
-    - .gitlab-ci.yml
-    - .github/workflows/test.yml
-    - .github/workflows/generate.yml
-    - .github/workflows/automerge.yml
-  repository_dispatch:
-    types: [ metanorma/metanorma-docker ]
   workflow_dispatch:
-
-concurrency:
-  group: '${{ github.workflow }}-${{ github.head_ref || github.ref_name }}'
-  cancel-in-progress: true
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
-  pull-requests: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.ref_name }}
+  cancel-in-progress: true
 
 jobs:
   build:
-    if: ${{ github.event.action != 'closed' }}
     runs-on: ubuntu-latest
     container:
-      image: metanorma/metanorma # ${{ inputs.docker-image }}
+      image: metanorma/metanorma:latest
     steps:
-    - uses: actions/checkout@v3
-      with:
-        token: ${{ secrets.pat_token || github.token }}
-        submodules: true
+      - name: Checkout
+        uses: actions/checkout@v4
 
-    - if: false
-      run: |
-        fontist update
-        fontist repo setup metanorma https://metanorma-ci:${{ secrets.pat_token }}@github.com/metanorma/fontist-formulas-private
-        fontist repo update metanorma
+      - name: Print Metanorma version
+        run: metanorma --version
 
-    - uses: metanorma/ci/gh-rubygems-setup-action@main
-      with:
-        token: ${{ secrets.pat_token }}
+      # The IALA flavor is not yet released: compilation needs this
+      # repo's git-pinned Gemfile, so the build runs under bundler
+      # inside the container (use-bundler), as in mn-samples-plateau-cg3.
+      - name: Cache or generate Metanorma XML
+        uses: actions-mn/build-and-publish@v2
+        with:
+          agree-to-terms: true
+          use-bundler: true
+          destination: artifact
+          artifact-name: mn
+          cache-site-for-manifest: metanorma.yml
 
-    - uses: metanorma/ci/docker-gem-install@main
-
-    - uses: actions-mn/site-gen@main
-      with:
-        agree-to-terms: true
-
-    - uses: actions/upload-artifact@v4
-      with:
-        name: site
-        path: _site
-
-  deploy-gh-pages:
-    if: ${{ github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main' }} # inputs.deploy-gh-pages == 'true' &&
+  deploy-pages:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-    - uses: actions/checkout@v3
-      with:
-        token: ${{ secrets.pat_token || github.token }}
-    - uses: actions/download-artifact@v4
-      with:
-        name: site
-        path: site
-    - uses: JamesIves/github-pages-deploy-action@v4
-      with:
-        folder: site
-        branch: gh-pages
-        clean-exclude: pr-preview
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
 
-  deploy-gh-pages-preview:
-    if: ${{ github.event_name == 'pull_request' }} # inputs.deploy-gh-pages == 'true' &&
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-    - uses: actions/checkout@v3
-      with:
-        token: ${{ secrets.pat_token || github.token }}
-    - uses: actions/download-artifact@v4
-      with:
-        name: site
-        path: site
-    - uses: rossjrw/pr-preview-action@v1
-      with:
-        source-dir: site
-        preview-branch: gh-pages
-        umbrella-dir: pr-preview
-        action: auto
+      - name: Make dist dir
+        run: mkdir dist
 
-  deploy-gh-pages-cleanup:
-    if: ${{ github.event_name == 'pull_request' && github.event.action == 'closed' }} # inputs.deploy-gh-pages == 'true' &&
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v3
-      with:
-        token: ${{ secrets.pat_token || github.token }}
-    - uses: rossjrw/pr-preview-action@v1
-      with:
-        source-dir: .
-        preview-branch: gh-pages
-        umbrella-dir: pr-preview
-        action: auto
+      - name: Download Metanorma artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: mn
+          path: dist
+
+      - name: Upload pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

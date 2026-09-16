@@ -4,3 +4,12 @@ deploy_key
 _*images
 published/
 /relaton
+
+*.log
+*.asciidoc.log.txt
+*.err.html
+sources/*/document.xml
+sources/*/document.presentation.xml
+sources/*/document.html
+sources/*/document.doc
+sources/*/document.rxl
