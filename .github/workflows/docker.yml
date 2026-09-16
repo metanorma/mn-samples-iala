@@ -18,6 +18,11 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: metanorma/metanorma:latest
+    env:
+      # The container image exports BUNDLE_GEMFILE=/setup/Gemfile (its
+      # released stack); point bundler at this repo's git-pinned Gemfile
+      # so the unreleased IALA flavor is available.
+      BUNDLE_GEMFILE: ${{ github.workspace }}/Gemfile
     steps:
       - name: Checkout
         uses: actions/checkout@v4
