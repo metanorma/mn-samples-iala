@@ -1,0 +1,47 @@
+= Metanorma-IALA sample documents
+
+image:https://github.com/metanorma/mn-samples-iala/workflows/generate/badge.svg["Build Status", link="https://github.com/metanorma/mn-samples-iala/actions?query=workflow%3Agenerate"]
+image:https://github.com/metanorma/mn-samples-iala/workflows/docker/badge.svg["Docker Build Status", link="https://github.com/metanorma/mn-samples-iala/actions?query=workflow%3Adocker"]
+
+== Purpose
+
+This repository provides Metanorma-IALA documents in sample form.
+
+== Access
+
+Documents in this repository are available through the deployed mini-site:
+
+* https://metanorma.github.io/mn-samples-iala/[Metanorma-IALA documents]
+
+== References for authoring Metanorma IALA documents
+
+This repository also contains references relating to authoring IALA
+documents, including at least one document per supported IALA type
+(Standard, Recommendation, Guideline, Model Course):
+
+* G1199 "`VTS Digital Communications`", Edition 1.0
+
+The mapping of reference PDFs to IALA document types is documented in
+link:docs/reference-layouts.adoc[].
+
+NOTE: These documents are publicly available for download from the
+https://www.iala.int[IALA website].
+
+== Importance of samples
+
+As per the Metanorma IALA documentation, the importance of the samples
+are as follows:
+
+* A complete, compiling Metanorma source per IALA document type,
+  exercising the type's template (recitals, fixed sections, back matter)
+* Reference PDFs of each published layout, for PDF rendering development
+
+== Usage
+
+Clone this repository, then:
+
+[source,sh]
+----
+bundle install
+bundle exec metanorma compile -t iala sources/g1199/document.adoc --agree-to-terms
+----

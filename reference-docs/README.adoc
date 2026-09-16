@@ -1,0 +1,49 @@
+= Reference documents — layout mapping for IALA XSLT development
+
+Publicly available IALA publications (downloadable from
+https://www.iala.int[www.iala.int]), organized by document type so the
+XSLT cover families map 1:1 to directories. Transcribing them into
+Metanorma format is this repository's purpose. (The G1199 DOCX working
+copy stays unuploaded per project convention; everything else here
+mirrors the public PDFs.)
+
+[cols="1,1,3"]
+|===
+|Doctype (taste) |Directory |Documents & layout notes
+
+|standard (S)
+|`standards/`
+|S1040 Ed2.0 (VTS, Jun 2023), S1050 Ed2.0 (Training & Certification), S1060 Ed2.0 (Digital Communication Technologies). *"THE GENERAL ASSEMBLY" recital page*; 8 fixed sections; cover + footer MRN (`urn:mrn:iala:pub:s1040:ed2.0`).
+
+|recommendation (R)
+|`recommendations/`
+|R1023–R1027. Cover may carry *"(INFORMATIVE)" qualifier*; *"THE COUNCIL" recitals* (first RECALLING mandatory); Document History table ("Council 03"); optional annex.
+
+|guideline (G)
+|`guidelines/`
+|G1195, G1199 (Ed1.0, Jun 2026 — **docx also available**, newest template), G1201, and the Style Guide itself (G1115, Jan 2021). Contents page + free main body; Document Revision table ("Council 04"); back matter Definitions/Abbreviations/References.
+
+|model-course (C)
+|`model-courses/`
+|C0103-1 Ed3.0 (VTS operator training), C2007-1 Ed3.0 (Racons module). Module/course layout distinct from S/R/G.
+
+|resolution (P / GA)
+|`resolutions/`
+|GA01-Res.01/.02/.12 (GA 1st session series), A12-01, A13-01 (legacy Assembly series). Resolution-statement layout.
+
+|manual / plan
+|`manuals-plans/`
+|MARCOM manual (double-page web PDF), Maritime Radio Communications Plan Ed3 (2017, older layout).
+
+|report (X)
+|`reports/`
+|Cyber-security workshop report.
+
+|brand
+|`brand/`
+|IALA logo use guide. Colours: headings/table text #00558C, covers color-coded per type (palette extract in Style Guide appendix 3), Calibri throughout.
+|===
+
+`misc/` holds auxiliary extracts; `../iala-structure.adoc` documents the
+committee/WG structure. G1199's Metanorma transcription lives in
+`sources/g1199/` (compiles via the iala taste).
