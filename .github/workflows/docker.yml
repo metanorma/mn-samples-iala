@@ -1,8 +1,10 @@
 name: docker
 
+# Gated until the released metanorma toolchain supports the IALA flavor
+# (metanorma-iala gem; until then compilation needs this repo's
+# git-pinned Gemfile, which the released container does not install).
 on:
-  push:
-    branches: [ master, main ]
+  workflow_dispatch:
   pull_request:
     types:
     - opened
