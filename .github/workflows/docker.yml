@@ -35,6 +35,11 @@ jobs:
       # metanorma invocation — the wrapper runs bundler setup.
       - name: Install the repo bundle
         run: bundle install --jobs 4
+        env:
+          # The image forces RUBYOPT=-rbundler/setup, which would load
+          # the (not yet installed) repo bundle inside bundle install
+          # itself ("git source not yet checked out").
+          RUBYOPT: ""
 
       - name: Print Metanorma version
         run: metanorma --version
