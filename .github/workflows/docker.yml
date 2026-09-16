@@ -21,20 +21,23 @@ jobs:
     env:
       # The container image exports BUNDLE_GEMFILE=/setup/Gemfile (its
       # released stack); point bundler at this repo's git-pinned Gemfile
-      # so the unreleased IALA flavor is available.
-      BUNDLE_GEMFILE: ${{ github.workspace }}/Gemfile
+      # so the unreleased IALA flavor is available. Relative on purpose:
+      # the runner-side workspace path does not exist inside the
+      # container.
+      BUNDLE_GEMFILE: Gemfile
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Print Metanorma version
-        run: metanorma --version
-
       # The IALA flavor is not yet released: install the repo's
       # git-pinned stack into the container before building under
-      # bundler (mn-samples-plateau-cg3 pattern).
+      # bundler (mn-samples-plateau-cg3 pattern). Must precede any
+      # metanorma invocation — the wrapper runs bundler setup.
       - name: Install the repo bundle
         run: bundle install --jobs 4
+
+      - name: Print Metanorma version
+        run: metanorma --version
 
       - name: Cache or generate Metanorma XML
         uses: actions-mn/build-and-publish@v2
