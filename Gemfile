@@ -9,8 +9,8 @@ gem "uniword", "~> 1.5"
 gem "pubid", github: "pubid/pubid", branch: "main"
 # relaton v3 monogem (Relaton::Bib consolidated; relaton-bib standalone retired)
 gem "relaton", github: "relaton/relaton", branch: "main"
-# relaton-cli#131 widens relaton >= 2.1.0 so v3 can resolve
-gem "relaton-cli", github: "relaton/relaton-cli", branch: "feat/allow-relaton-v3-v2line"
+# relaton-cli v3 line requires the relaton v3 monogem (PR #133)
+gem "relaton-cli", github: "relaton/relaton-cli", branch: "v3"
 # 0.5.x: document model + removal of the stale Moxml children monkeypatch (metanorma#603)
 gem "metanorma-document", github: "metanorma/metanorma-document", branch: "main"
 # flavor table (metanorma-core#18), merged but unreleased
