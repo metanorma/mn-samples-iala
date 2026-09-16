@@ -33,8 +33,9 @@ jobs:
       # git-pinned stack into the container before building under
       # bundler (mn-samples-plateau-cg3 pattern). Must precede any
       # metanorma invocation — the wrapper runs bundler setup.
-      - name: Install build deps for the openssl gem
-        run: apt-get update && apt-get install -y --no-install-recommends libssl-dev
+      - name: Install build deps for native gem extensions
+        run: apt-get update && apt-get install -y --no-install-recommends
+             build-essential libssl-dev
 
       - name: Install the repo bundle
         run: bundle install --jobs 4
