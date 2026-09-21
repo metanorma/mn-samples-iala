@@ -1,0 +1,14 @@
+[.preface,type=revision]
+== Document revision
+
+Revisions to this document are to be noted in the table prior to the issue of a
+revised document. The latest edition of the Guideline is the only version in
+force unless the Guideline is explicitly revoked by the Council.
+
+[options="header,unnumbered"]
+|===
+|Date |Revision details |Approval
+
+|June 2026 |Edition 1.0 |Council 04
+
+|===
