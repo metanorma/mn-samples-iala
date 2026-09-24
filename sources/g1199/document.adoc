@@ -12,9 +12,6 @@
 :imagesdir: images
 :local-cache-only:
 :data-uri-image:
-:toclevels: 3
-:toc-figures: true
-:toc-tables: true
 :docidentifier-additional: urn:mrn:iala:pub:{docidentifier}:ed{edition}
 
 include::sections/00-document-revision.adoc[]
