@@ -1,4 +1,4 @@
-[bibliography]
+[bibliography,normative=false,keeptitle=true]
 
 == References
 

@@ -12,8 +12,9 @@
 :imagesdir: images
 :local-cache-only:
 :data-uri-image:
-:toclevels: 3
-:urn: urn:mrn:iala:pub:g1199:ed1.0
+:docidentifier-additional: urn:mrn:iala:pub:{docidentifier}:ed{edition}
+
+include::sections/00-document-revision.adoc[]
 
 include::sections/01-introduction.adoc[]
 

@@ -23,6 +23,7 @@ gem "metanorma-standoc", github: "metanorma/metanorma-standoc", branch: "main"
 gem "metanorma-generic", github: "metanorma/metanorma-generic", branch: "feat/move-generic-document"
 # flavor-table compile line (metanorma#591/#602)
 gem "metanorma", github: "metanorma/metanorma", branch: "main"
+gem "metanorma-iho", github: "metanorma/metanorma-iho", branch: "main"
 # -------------------------------------------------------------------------
 
 # iala taste (metanorma-taste#217, merged into feat/flavor-registry-integration)
