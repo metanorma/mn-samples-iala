@@ -24,6 +24,9 @@ gem "metanorma-core", github: "metanorma/metanorma-core", branch: "main"
 # release but ahead of it. metanorma-mirror is its unreleased dependency.
 gem "metanorma-mirror", github: "metanorma/metanorma-mirror", branch: "main"
 gem "metanorma-standoc", github: "metanorma/metanorma-standoc", branch: "main"
+# standoc main calls Metanorma::Utils::GcBudget, unreleased in the
+# rubygems 2.0.7 line
+gem "metanorma-utils", github: "metanorma/metanorma-utils", branch: "main"
 # move-generic-document line (formats-table fix via metanorma-generic#128, merged)
 gem "metanorma-generic", github: "metanorma/metanorma-generic", branch: "feat/move-generic-document"
 # flavor-table compile line (metanorma#591/#602)
