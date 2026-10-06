@@ -132,6 +132,21 @@ GIT
       lutaml-model (>= 0.8)
 
 GIT
+  remote: https://github.com/metanorma/metanorma-utils
+  revision: 57b01769a8b4e385ba238ad7b8a5194ab60547ef
+  branch: main
+  specs:
+    metanorma-utils (2.0.7)
+      asciidoctor (>= 2)
+      concurrent-ruby
+      csv
+      htmlentities (~> 4.3.4)
+      logger
+      nokogiri (>= 1.11)
+      sterile (~> 1.0.14)
+      uuidtools
+
+GIT
   remote: https://github.com/pubid/pubid
   revision: 7f969c4b8bd525150c1c66328b130333fc30bc9f
   branch: main
@@ -666,15 +681,6 @@ GEM
       relaton-cli
     metanorma-plugin-plantuml (1.0.16)
       asciidoctor
-    metanorma-utils (2.0.7)
-      asciidoctor (>= 2)
-      concurrent-ruby
-      csv
-      htmlentities (~> 4.3.4)
-      logger
-      nokogiri (>= 1.11)
-      sterile (~> 1.0.14)
-      uuidtools
     mime-types (3.7.0)
       logger
       mime-types-data (~> 3.2025, >= 3.2025.0507)
@@ -1112,6 +1118,7 @@ DEPENDENCIES
   metanorma-mirror!
   metanorma-standoc!
   metanorma-taste!
+  metanorma-utils!
   pubid!
   relaton-cli (= 3.0.0.pre.alpha.4)
   relaton-render!
