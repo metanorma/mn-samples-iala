@@ -12,10 +12,9 @@ gem "pubid", github: "pubid/pubid", branch: "main"
 # glossarist ~> 2.13 required by metanorma-document; the released
 # 3.0.0.pre.alpha line has no lutaml-store dep (harness resolution)
 # gem "relaton", github: "relaton/relaton", branch: "main"
-# relaton-cli v3 line requires the relaton v3 monogem (PR #133); the v3
-# branch still self-declares 2.1.2, so pin the rubygems pre-release that
-# satisfies standoc's >= 3.0.0.pre.alpha.3, < 3.1.0
-gem "relaton-cli", "3.0.0.pre.alpha.4"
+# relaton-cli v3 requires the relaton v3 monogem (PR #133); the released
+# 3.0.0 satisfies standoc's >= 3.0.0.pre.alpha.3, < 3.1.0 window
+gem "relaton-cli", "3.0.0"
 # 0.5.x: document model + removal of the stale Moxml children monkeypatch (metanorma#603)
 gem "metanorma-document", github: "metanorma/metanorma-document", branch: "main"
 # flavor table (metanorma-core#18), merged but unreleased
