@@ -6,7 +6,7 @@ gem "uniword", "~> 1.5"
 # --- relaton-v3 / pubid-v2 migration set --------------------------------
 # All TEMPORARY git pins; flip each to a rubygems constraint as it releases.
 # pubid#380 restored the 2.0.0.pre.alpha series metanorma-document pins.
-gem "pubid", github: "pubid/pubid", branch: "main"
+gem "pubid", "~> 2.0" # 2.0.0 released; the git source now carries the 2.1 pre line
 # relaton v3 monogem (Relaton::Bib consolidated; relaton-bib standalone retired)
 # git-main relaton adds lutaml-store ~> 0.3, which conflicts with the
 # glossarist ~> 2.13 required by metanorma-document; the released
