@@ -1,0 +1,51 @@
+=== Abbreviations
+
+AIS:: Automatic Identification System(s)
+ALRS:: Admiralty List of Radio Signals
+ARPA:: Automatic Radar Plotting Aid
+AtoN:: Marine Aid to Navigation
+CCTV:: Close circuit television
+COLREGS:: International Regulations for Preventing Collisions at Sea
+COMSAR:: Sub-Committee on Communications and Search and Rescue (IMO – now part of NCSR)
+DF:: Direction Finding (VHF-DF)
+DGNSS:: Differential Global Navigation Satellite System(s)
+DSC:: Digital Selective Calling
+DST:: Decision Support Tool
+ECDIS:: Electronic Chart Display and Information System(s)
+ECS:: Electronic Chart System(s)
+ETA:: Estimated Time of Arrival
+FAL:: Convention on the Facilitation of International Maritime Traffic (IMO)
+GMDSS:: Global Maritime Distress and Safety System
+GNSS:: Global Navigation Satellite System(s)
+GOC:: General Operator Certificate (GMDSS)
+IAMSAR:: International Aeronautical and Maritime Search and Rescue (IMO/ICAO)
+ICAO:: International Civil Aviation Organization
+IEC:: International Electrotechnical Commission
+IELTS:: International English Language Test System
+IMDG:: International Maritime Dangerous Goods (IMO)
+ISPS:: International Ship and Port Facility Security (Code)
+ITU:: International Telecommunication Union
+LLTV:: Low light television
+LOP:: Line(s) of position
+MARPOL:: International Convention for the Prevention of Pollutions from Ships (IMO)
+MASS:: Maritime Autonomous Surface Ships
+MAtoN:: Mobile AtoN
+MSC:: Maritime Safety Committee
+MSI:: Maritime Safety Information
+OJT:: On-the-Job Training
+PIANC:: World Association for Waterborne Transport Infrastructure
+Racon:: Radar beacon(s)
+ROC:: Restricted Operator's Certificate (GMDSS)
+Ro-ro:: Roll on – roll off
+RPL:: Recognition of Prior Learning
+RR:: Radio Regulations
+SAR:: Search and Rescue
+SMCP:: Standard Marine Communication Phrases (IMO)
+SOLAS:: Convention on the Safety of Life at Sea (IMO)
+STCW:: Standards of Training, Certification and Watchkeeping of Seafarers, 1978, as amended
+UN:: United Nations
+UNCLOS:: UN Convention on the Law of the Sea
+VHF:: Very High Frequency (30 MHz to 300 MHz)
+VDES:: VHF Data Exchange System
+VTS:: Vessel Traffic Services
+WMO:: World Meteorological Organization

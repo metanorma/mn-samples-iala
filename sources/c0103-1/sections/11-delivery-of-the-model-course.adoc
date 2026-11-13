@@ -1,0 +1,190 @@
+=== Delivery of the model course
+
+To make effective use of the model course, training staff should review the course outline, including the competence tables for each module, and prepare a detailed teaching syllabus.
+
+The instructor should take into consideration existing knowledge, skills, and attitudes of students to support the assessment and recognition of prior learning. A gap analysis should be carried out to identify any differences between the level of skills and competencies of the student and those identified within the curriculum tables, and teaching strategies to address these gaps should be implemented.
+
+All VTS training should be:
+
+. Structured in accordance with written programmes, including such methods and means of delivery, procedures and course material as are necessary to achieve the prescribed standard of competence; and
+. Conducted, monitored, assessed, and supported by qualified persons.
+
+Teaching programmes should ensure that all listed elements are addressed in some manner, and that this is clearly documented.
+
+If students are required to meet additional requirements, then the module objectives, scope and content for each subject may be adjusted to ensure the additional elements are covered. All changes to the training should be clearly documented.
+
+The presentation of concepts and methodologies may be repeated as necessary in various ways until the instructor is satisfied that the student has attained the required competence in each subject.
+
+Thorough preparation is key to successful implementation of the course.
+
+==== Developing course content
+
+The modular presentation enables the instructor to adjust the course content to suit the student intake and provide any revisions of the subject objectives as required. The instructor should develop lesson plans and detailed learning objectives based on the competence tables, references, and materials as suggested (see Part B).
+
+It is not intended that the modules be presented in the order provided in this model course. It is expected that, to address effective training and learning methodologies, the content of modules will be grouped as appropriate for the learning environment. Presentation of the material should be tailored to reflect specific training objectives and include practical exercises, assessments, etc. When developing lesson plans, the instructor should use a teaching method or combination of methods that will ensure students can achieve the required learning objectives.
+
+Depending on the student intake, the recommended hours may need to be adjusted as necessary. For example, it is normal for different students to require different lengths of time to cover the same content, and minor adjustments may be needed to the course timetable.
+
+==== Competence levels
+
+To assist in the development of lesson plans, five levels of competence are used in the model courses for VTS personnel. Levels 1 to 4 are used in the model course for the training of VTS Operators. High level learning objectives are provided within the model course. Verb taxonomies have been provided to assist with the creation of detailed learning objectives (Table 2 refers).
+
+IALA Guideline G1103 – Train the trainer assists instructors with the preparation and development of training courses and is aimed at courses delivered an accredited training organization.
+
+.Competence Level Taxonomy for VTS Training
+|===
+|Level |Knowledge and/or Attitude |Skill |Verbs (examples)
+
+a|
+--
+Level 1
+
+Work of a routine and predictable nature generally requiring supervision
+--
+a|
+--
+Comprehension
+
+Understands facts and principles; interprets verbal/written material; interprets charts, graphs and illustrations; estimates future consequences implied in data; justifies methods and procedures
+--
+a|
+--
+Guided response
+
+The early stages in learning a complex skill and includes imitation by repeating a demonstrated action using a multi-response approach (trial and error method) to identify an appropriate response
+--
+|Arrange, define, list, locate, label, identify, select
+
+a|
+--
+Level 2
+
+More demanding range of work involving greater individual responsibility. Some complex/non-routine activities
+--
+a|
+--
+Application
+
+Applies concepts and principles to new situations; applies laws and theories to practical situations; demonstrates correct usage of methods or procedures
+--
+a|
+--
+Autonomous response
+
+The learned responses have become habitual, and the movement is performed with confidence and proficiency
+--
+|Comply (with), describe, display, give examples, recognise, operate, perform (an action), participate in
+
+a|
+--
+Level 3
+
+Skilled work involving a broad range of work activities. Mostly complex and non-routine
+--
+a|
+--
+Analysis
+
+Recognises un-stated assumptions; recognises logical inconsistencies in reasoning; distinguishes between facts and inferences; evaluates the relevancy of data; analyses the organizational structure of work
+--
+a|
+--
+Complex observable response
+
+The skilful performance of acts that involve complex movement patterns. Proficiency is demonstrated by quick, smooth, accurate performance. The accomplishment of acts at this level includes a highly co-ordinated automatic performance
+--
+|Analyse, apply, categorise, classify, compare, differentiate, explain, justify, operate, solve
+
+a|
+--
+Level 4
+
+Work that is often complex, technical and professional with a substantial degree of personal responsibility and autonomy
+--
+a|
+--
+Synthesis
+
+Integrates learning from different areas into a plan for solving a problem; formulates a new scheme for classifying objects or events
+--
+a|
+--
+Adaptation
+
+Skills are so well developed that individuals can adapt rapidly to special requirements or problem situations
+--
+|Adapt, construct (build), demonstrate, devise, evaluate, interpret, organize, plan, predict, resolve, respond to
+
+a|
+--
+Level 5
+
+Complex techniques across wide and often unpredicted variety of contexts. Professional/senior managerial work
+--
+a|
+--
+Evaluation
+
+Judges the adequacy with which conclusions are supported by data; judges the value of a work by use of internal criteria; judges the value of a work by use of external standards of excellence
+--
+a|
+--
+Creation
+
+The creation of new practices or procedures to fit a particular situation or specific problem and emphasizes creativity based upon highly developed skills
+--
+|construct, compose, coordinate, create, criticise, draw conclusion, evaluate, formulate, improve, judge, modify, synthesize
+|===
+
+==== Competence tables, teaching aids and references
+
+Detailed competence tables are provided, including competence levels and proposed teaching aids and references.
+
+The training materials prepared (e.g., course notes, course presentations and reference documents etc) should be consistent with IALA standards and up-to-date taking into account recent changes and industry developments. These training materials should be available to the student for their reference.
+
+Where remote learning delivery is proposed, training organizations should consider the necessary adjustments that may be required.
+
+IALA Guideline G1014 – Accreditation of VTS training organizations and approval to deliver IALA model courses provides further detail on remote learning.
+
+==== Training course references
+
+Course development and delivery should take into consideration the following references. Where required, additional references are identified in specific modules:
+
+* United Nations Convention on the Law of the Sea (UNCLOS)
+* International Regulations for Preventing Collisions at Sea, 1972 (COLREGS)
+* International Conventions for the Safety of Life at Sea (SOLAS):
++
+  * SOLAS Chapter V, Regulation 12 - Vessel traffic services
+  * SOLAS, Chapter V, Regulation 7 - Search and Rescue Services
+  * SOLAS Chapter V, Regulation 11 – Aids to Navigation
+* IMO/ICAO Publication - International Aeronautical and Maritime Search and Rescue (IAMSAR) manual, three volumes:
++
+  * Vol 1 – Organization and management (IMO 960)
+  * Vol 2 – Mission co-ordination (IMO 961)
+  * Vol 3 – Mobile facilities (IMO 962)
+* IMO GMDSS Manual
+* IMO Resolution A.1158(32), Guidelines for Vessel Traffic Services
+* IALA Vessel Traffic Services Manual
+* IALA S1040 Vessel Traffic Services
+* IALA S1050 Training and Certification
+* IALA R0103 (V-103) Training and Certification of VTS Personnel
+* IALA G1132 VTS Voice Communications and Phraseology
+* IALA G1141 Operational Procedures for Delivering VTS
+* IALA G1156 Recruitment, Training and Certification of VTS Personnel
+* IALA Model Courses on VTS:
++
+  * C0103-3 (VTS On-the-job Training (OJT))
+  * C0103-2 (VTS Supervisor Training)
+  * C0103-4 (VTS OJT Instructor Training)
+  * C0103-5 (VTS Recurrent, Refresher and Adaptation Training)
+* IALA International Dictionary of Marine Aids to Navigation
+* National, regional, and local legislation and regulations on VTS, ports, harbours, pilotage and
+* Allied services
+* National Notices to Mariners pertaining to VTS
+* National procedures and standards for operation of VTS
+
+==== Course review and updating
+
+The course content should be reviewed on a regular basis to ensure it reflects the current IALA standards, recommendations, guidelines and consider recent changes and industry developments.
+
+On conclusion of the course, a review should be undertaken based on course feedback and observations during course delivery to identify ongoing improvements and training materials that may need updating.

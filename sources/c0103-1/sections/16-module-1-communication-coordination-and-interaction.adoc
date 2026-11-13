@@ -1,0 +1,294 @@
+=== Module 1: Communication Coordination and Interaction
+
+English is the accepted language of international business, trade, and diplomacy. This has led to the establishment of reliable tests to demonstrate that students have attained a sufficient level of the English language. This module assumes the minimum level of English has been obtained as identified in IALA Guideline 1156footnote:[IALA G1156 states 'Every student attending a C0103-1 model course should have achieved the International English Language Testing System (IELTS) level 5, or its equivalent'.] and has appropriate national qualifications to operate the VHF marine radiotelephony equipment.
+
+==== Subject framework
+
+===== Scope
+
+This module covers the communications principles used in VTS operations, focusing on the use of standard phraseology when communicating with vessels and allied services to:
+
+* Facilitate clear, concise, and unambiguous communications in routine and emergency situations as referenced in IMO Resolution A.1158(32).
+* Minimise misunderstanding of the intent of messages and reducing the time required for effective communication.
+
+NOTE: In some instances, training may include the use of an agreed, alternative language. This is not included in the C0103-1 course. The training in this alternative language could be as agreed between the Training Organization and Competent Authority, and consistent with IALA G1132.footnote:[IALA G1132 states 'English language should be used for all VTS communications with ships and allied services unless use of an alternative language has been agreed. If an alternative language be used, VTS personnel should be mindful that not all participants may understand what is being communicated.']
+
+===== Objective of Module 1
+
+On completion of the module the student will communicate using consistent, clear and concise maritime English that reflects standard message structure, including:
+
+* standard phrases for communicating with vessels and allied services using IMO Standard Marine Communication Phrases and IALA G1132 on VTS voice communications and phraseology;
+* concepts of message construction in terms of compiling, delivering and interpret messages;
+* effective communication skills;
+* managing the collection, evaluation, and dissemination of VTS information; and
+* handover procedures.
+
+===== Additional references relevant to this module
+
+The following references are relevant to the planning and delivery of this module:
+
+* IMO Resolution A.918(22), Standard Marine Communication Phrases
+* IMO Resolution A.954(23), Proper use of VHF channels at sea
+* ITU Radio Regulations, including Appendices
+* ITU-R Recommendation M.493, DSC for use in the maritime mobile services
+* IALA R1012 VTS Communications
+
+==== Subject outline of Module 1
+
+.Subject outline – Communication Coordination and Interaction
+|===
+|Element |Recommended Competence Level |Presentations and Lectures |Exercises and Simulations
+
+|General communication skills
+|
+.7+|6 to 9 hrs
+.7+|12 to 18 hrs
+|Clear, concise and consistent communications
+|Level 3
+|Procedures to enhance effective communication
+|Level 3
+|Verbal and non-verbal communications
+|Level 3
+|Options to overcome barriers to communication
+|Level 3
+|Questioning techniques
+|Level 3
+|Eliminate ambiguity
+|Level 3
+
+|VTS Communication Phrases
+|
+.3+|4 to 7 hrs
+.3+|8 to 12 hrs
+|Importance of standard phraseology
+|Level 4
+|Construct VTS phrases
+|Level 4
+
+|Information Management
+|
+.3+|1 to 3 hrs
+.3+|1 to 2 hrs
+|Collection, evaluation and dissemination of data
+|Level 3
+|Log keeping and record keeping
+|Level 2
+
+|Handovers
+|
+.2+|2 to 4 hrs
+.2+|6 to 8 hrs
+|Handovers in VTS
+|Level 4
+
+|Use of VHF radio communication in VTS
+|
+.2+|4 to 6 hrs
+.2+|10 to 12 hrs
+|Demonstrate use of VHF in VTS Communications
+|Level 4
+
+2+|Total time range
+|17 to 29 hrs
+|37 to 52 hrs
+|===
+
+===== Detailed competence table for Module 1 – Communication Coordination and Interaction
+
+.Competence Table – Communication Coordination and Interaction
+[cols="1,3,1,4,1"]
+|===
+|Element |Session Objective |Sub-element |Subject Elements |Level of Competence
+
+|1.1
+|General Communication Skills
+|
+|
+|
+
+.4+|1.1.1
+.4+|Demonstrate clear, concise, and consistent general communication skills.
+|1.1.1.1
+|Active listening skills
+|4
+|1.1.1.2
+|Interpersonal skills
+|4
+|1.1.1.3
+|Effective team communications
+|4
+|1.1.1.4
+|Empathy in communication
+|4
+
+.4+|1.1.2
+.4+|Demonstrate procedures to enhance effective communication
+|1.1.2.1
+|Reading-back received message
+|4
+|1.1.2.2
+|Breaking message into smaller components
+|4
+|1.1.2.3
+|word grouping and pauses
+|4
+|1.1.2.4
+|Rephrasing message
+|4
+
+.4+|1.1.3
+.4+|Demonstrate verbal and nonverbal communications
+|1.1.3.1
+|Voice and digital communications
+|4
+|1.1.3.2
+|Voice inflection, tone and volume
+|4
+|1.1.3.3
+|Speech rate, keyword emphasis, word grouping and pauses
+|4
+|1.1.3.4
+|Non-verbal communication
+|3
+
+.3+|1.1.4
+.3+|Explain options to overcome barriers to communication
+|1.1.4.1
+|Language differences
+|3
+|1.1.4.2
+|Empathy, fatigue, and emotional aspects
+|3
+|1.1.4.3
+|Cultural aspects
+|3
+
+.3+|1.1.5
+.3+|Demonstrate effective questioning techniques
+|1.1.5.1
+|Direct questioning using message markers
+|4
+|1.1.5.2
+|Voice inflection in questioning
+|4
+|1.1.5.3
+|Specific question types (closed, open, funnel)
+|4
+
+.2+|1.1.6
+.2+|Describe the techniques to eliminate ambiguity
+|1.1.6.1
+|'Conditional' words and their elimination in VTS messages
+|2
+|1.1.6.2
+|Consequences of misuse of 'conditional' words
+|2
+
+|1.2
+|VTS Communication Phrases
+|
+|
+|
+
+.2+|1.2.1
+.2+|Explain the importance of using standard phraseology
+|1.2.1.1
+|Introduction to IALA G1132 on VTS voice communications and phraseology
+|3
+|1.2.1.2
+|Introduction to SMCP - Its overall construction and origins
+|3
+
+.6+|1.2.2
+.6+|Construct VTS messages using standard phraseology.
+|1.2.2.1
+|Message structure
+|4
+|1.2.2.2
+|Use of message markers
+|4
+|1.2.2.3
+|Use of standard VTS phraseology consistent with G1132
+|4
+|1.2.2.4
+|Use of the SMCP (focus on Part 3, section 6 of the SMCP).
+|4
+|1.2.2.5
+|Use of standard phrases to elicit predictable actions
+|4
+|1.2.2.6
+|Identifying options for alternative wording to clarify understanding
+|4
+
+|1.3
+|Information Management
+|
+|
+|
+
+.5+|1.3.1
+.5+|Explain collection, evaluation and dissemination of data (information) management in VTS.
+|1.3.1.1
+|Collect data
+|3
+|1.3.1.2
+|Evaluate data – verify, validate
+|3
+|1.3.1.3
+|Evaluate data - prioritise
+|3
+|1.3.1.4
+|Disseminate data – methods
+|3
+|1.3.1.5
+|Disseminate data – phrasing, timing and content
+|3
+
+.4+|1.3.2
+.4+|Describe log keeping and record keeping (recording) in VTS.
+|1.3.2.1
+|Objectives of log keeping and recording
+|2
+|1.3.2.2
+|Principles of log keeping / retention
+|2
+|1.3.2.4
+|Methods of log keeping
+|2
+|1.3.2.5
+|Statement and report writing
+|2
+
+|1.4
+|Handovers
+|
+|
+|
+
+.2+|1.4.1
+.2+|Demonstrate handovers in VTS
+|1.4.1.1
+|Handing over the shift
+|4
+|1.4.1.2
+|Vessel handovers
+|4
+
+|1.5
+|Use VHF Communication
+|
+|
+|
+
+.3+|1.5.1
+.3+|Demonstrate the use of proper VHF Communications in VTS
+|1.5.1.1
+|VHF radio procedures
+|4
+|1.5.1.2
+|VHF use in routine VTS operations
+|4
+|1.5.2.1
+|Distress, Urgency and Safety VHF radio procedures
+|4
+|===

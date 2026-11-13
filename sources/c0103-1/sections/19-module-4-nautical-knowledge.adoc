@@ -1,0 +1,716 @@
+=== Module 4: Nautical Knowledge
+
+==== Subject framework
+
+===== Scope
+
+This module covers nautical knowledge elements required to perform the function of a VTS Operator.
+
+===== Objectives of Module 4
+
+On completion of the module, the student will apply nautical knowledge concepts to maintain situational awareness for the provision of VTS, including:
+
+* navigation theory;
+* collision regulations;
+* voyage (passage planning);
+* the effect of tides, tidal streams and currents;
+* aids to navigation and the maritime buoyage system;
+* knowledge of port operations; and
+* shipboard knowledge such as ship handling, navigational equipment and bridge procedures.
+
+===== Additional references relevant to this module
+
+The following references are relevant to the planning and delivery of this module:
+
+* SOLAS' 74 Regulation V/10 – Ships' routeing
+* SOLAS '74 Regulation V/11 - Ship reporting systems
+* SOLAS '74 Regulation V/27 - Nautical charts and nautical publications
+* SOLAS '74 Regulation V/7 – Search and rescue services
+* International Maritime Dangerous Goods Code (IMDG Code)
+* International Convention on Standards of Training, Certification and Watchkeeping of Seafarers, 1978, as amended in 1995 (STCW Convention)
+* IMO Resolution A.917(22), as amended by Resolution A.956(23) on Guidelines for the onboard operational use of shipborne automatic identification systems (AIS)
+* IMO Resolution A.954(23), Proper use of VHF channels at sea
+* IMO Maritime Safety Committee Resolution MSC.232(82), Revised performance standards for Electronic Chart Display and Information Systems (ECDIS)
+* Joint IMO/IHO/WMO Manual on Maritime Safety Information (MSI)
+* International Code of Signals
+* IHO approved documents of charts and publications
+* ITU Radio Regulations, including Appendices
+
+==== Subject outline of Module 4
+
+.Subject outline – Nautical Knowledge
+|===
+|Subject Area |Recommended Competence Level |Presentations / Lectures |Exercises / Simulation
+
+|Navigation Theory
+|
+.5+|2 to 4 hrs
+.5+|1 to 3 hrs
+|Terms and acronyms related to charts
+|Level 1
+|Positioning of ships on charts
+|Level 1
+|Speed/Distance/Time calculations
+|Level 3
+|Theory and practice of compass corrections
+|Level 1
+
+|Voyage (Passage) Planning
+|
+.2+|1 to 2 hrs
+.2+|1 to 2 hrs
+|Process of voyage planning (passage planning
+|Level 1
+
+|Tides, tidal Streams and Currents
+|
+.4+|2 to 4 hrs
+.4+|1 to 3 hrs
+|Terms related to tides and tidal streams
+|Level 1
+|Tide and current tables
+|Level 2
+|Effect of tides, tidal streams and currents on vessel movements
+|Level 3
+
+|Collision regulations
+|
+.3+|2 to 4 hrs
+.3+|4 to 6 hrs
+|International Regulations for Preventing Collisions at Sea (COLREGS)
+|Level 1
+|COLREGS within a VTS area
+|Level 2
+
+|Aids to Navigation (AtoN)
+|
+.2+|3 to 5 hrs
+.2+|3 to 5 hrs
+|Role of AtoN in safe navigation
+|Level 3
+
+|Position, Navigation and Timing (PNT)
+|
+.2+|1 to 2 hrs
+.2+|---
+|Role of PNT in safe, efficient and pollution free transits
+|Level 1
+
+|Navigational Aids (Shipborne)
+|
+.2+|2 to 4 hrs
+.2+|1 to 2 hrs
+|Navigational equipment used onboard ships
+|Level 2
+
+|Shipboard Knowledge
+|
+.5+|2 to 4 hrs
+.5+|1 to 2 hrs
+|Terms related to ships, shipping and cargo
+|Level 1
+|Types of vessels and cargoes
+|Level 1
+|Types of propulsion systems for ships
+|Level 1
+|Considerations for carriage of dangerous goods
+|Level 1
+
+|Ship Handling
+|
+.4+|4 to 7 hrs
+.4+|1 to 2 hrs
+|Factors that influence ship movement and stability
+|Level 3
+|Factors that affect ship handling
+|Level 2
+|Effect of meteorology and hydrographic factors on vessels
+|Level 2
+
+|Bridge Procedures
+|
+.2+|2 to 4 hrs
+.2+|1 to 2 hrs
+|Vessel bridge procedures
+|Level 2
+
+|Port Operations and other allied services
+|
+.2+|2 to 4 hrs
+.2+|2 to 4 hrs
+|Description of port operations
+|Level 2
+
+2+|Total time range
+|23 to 44 hrs
+|16 to 31 hrs
+|===
+
+===== Detailed competence table of Module 4 – Nautical Knowledge
+
+.Competence Table – Nautical Knowledge
+[cols="1,3,1,4,1"]
+|===
+|Element |Session Objective |Sub-element |Subject Elements |Level of Competence
+
+|4.1
+|Navigation Theory
+|
+|
+|
+
+.6+|4.1.1
+.6+|Define terms and acronyms related to charts.
+|4.1.1.1
+|Chart projections (including Mercator, polyconic, gnomonic)
+|1
+|4.1.1.2
+|Finding positions on the globe – latitude, longitude
+|1
+|4.1.1.3
+|Routes and courses – great circle, rhumb line
+|1
+|4.1.1.4
+|Chart types (paper, raster, vector)
+|1
+|4.1.1.5
+|Electronic Navigation Chart (ENC), Electronic Chart Display and Information Systems (ECDIS)
+|1
+
+|4.1.1.6
+a|
+--
+Updating charts and publications:
+
+* Notices to Mariners
+* Temporary and Preliminary corrections (T & Ps)
+--
+|1
+
+.3+|4.1.2
+.3+|Describe positioning of ships on charts.
+|4.1.2.1
+|Provision and representation of positions on charts (paper, ECDIS)
+|2
+|4.1.2.2
+|Measuring distances on charts
+|2
+|4.1.2.3
+|Lines of position (LOPs) (bearings, ranges)
+|2
+
+.3+|4.1.3
+.3+|Apply speed/distance/time calculations
+|4.1.3.1
+|Overview of speed/distance/time formula (S x T = D)
+|3
+|4.1.3.2
+|Simple scenarios
+|3
+|4.1.3.3
+|Complex scenarios
+|3
+
+.5+|4.1.4
+.5+|Define the theory and practice of compass corrections.
+|4.1.4.1
+|Gyro and magnetic compass
+|1
+|4.1.4.2
+|Compass directions
+|1
+|4.1.4.3
+|Variation, deviation, compass error
+|1
+|4.1.4.4
+|Course made good vs course to steer
+|1
+|4.1.4.5
+|Responding to developing unsafe situations – provision of course to make good (realistic, true)
+|1
+
+|4.2
+|Voyage (Passage) Planning
+|
+|
+|
+
+.4+|4.2.1
+.4+|Identify the process of voyage planning (passage planning)
+|4.2.1.1
+|Requirement for the ship to create a berth to berth voyage plan (IMO A.893(21); A.999(25))
+|1
+|4.2.1.2
+|The four elements of a voyage plan (appraisal, planning, execution, monitoring)
+|1
+|4.2.1.3
+|Information to support passage plan
+|1
+|4.2.1.4
+|Contingency planning (by the ship)
+|1
+
+|4.3
+|Tides, Tidal Streams and Currents
+|
+|
+|
+
+.2+|4.3.1
+.2+|Define terms related to tides and tidal streams
+|4.3.1.1
+|Introduction to tides and tidal stream
+|1
+
+|4.3.1.2
+a|
+--
+terms relating to tides and tidal streams:
+
+* Chart datum
+* Spring/neap tides
+* Ebb/flow/slack/eddies
+* Set/drift/rate
+* Diurnal/semi-diurnal
+--
+|1
+
+.4+|4.3.2
+.4+|Interpret tide and current tables
+|4.3.2.1
+|Information contained in tide tables
+|2
+|4.3.2.2
+|Reading tide tables and current tables
+|2
+|4.3.2.3
+|Intermediate heights and times
+|2
+|4.3.2.4
+|Primary and secondary ports
+|2
+
+.2+|4.3.3
+.2+|Explain the effect of tides, tidal streams and currents on vessel movements in the VTS area.
+|4.3.3.1
+|Estimated position (EP) and Dead Reckoning (DR)
+|3
+|4.3.3.2
+|Effect of tides, tidal streams and ship positions
+|3
+
+|4.4
+|Collision Regulations
+|
+|
+|
+
+.4+|4.4.1
+.4+|Describe the international Regulations for Preventing Collisions as Sea (COLREGS)
+|4.4.1.1
+|Overview of COLREGS (Part A, B, C, D, E, F)
+|1
+|4.4.1.2
+|Part A – General
+|2
+|4.4.1.3
+|International distress signals (annex IV to the COLREGS)
+|2
+|4.4.1.4
+|Enforcement of COLREGS
+|1
+
+.2+|4.4.2
+.2+|Explain the role of COLREGS within a VTS area
+|4.4.2.1
+|Part B – Steering and sailing rules
+|3
+
+|4.4.2.2
+a|
+--
+Conduct of vessel in specific conditions:
+
+* Reduced visibility
+* Narrow channels
+* Traffic separation schemes
+--
+|3
+
+|4.5
+|Marine Aids to Navigation (AtoN)
+|
+|
+|
+
+.6+|4.5.1
+.6+|Explain the role of aids to navigation and the IALA International Maritime Buoyage System (MBS) in safe navigation
+|4.5.1.1
+|Regulations pertaining to buoyage systems
+|3
+
+|4.5.1.2
+a|
+--
+Types of AtoN:
+
+* Physical
+* Virtual
+--
+|3
+
+|4.5.1.3
+a|
+--
+Introduction to the International Maritime Buoyage System:
+
+* Lateral systems (IALA A & B)
+* Cardinal systems
+* Special AtoN
+* Implications of different systems
+* RACONS
+--
+|3
+
+|4.5.1.4
+a|
+--
+Characteristics of floating aids and Mobile AtoN (MAtoN):
+
+* Placement of buoys
+* Fundamental rules for safe navigation
+* Chart symbols and abbreviations
+* Numbering of AtoN
+--
+|3
+
+|4.5.1.5
+a|
+--
+Characteristics of fixed aids:
+
+* Day beacons
+* Light stations
+* Ranges
+* Sector lights
+* Leading lights
+* Fog signals
+--
+|3
+
+|4.5.1.6
+|Characteristics of Virtual AtoN, types and uses
+|3
+
+|4.6
+|Position, Navigation and Timing (PNT)
+|
+|
+|
+
+.2+|4.6.1
+.2+|Describe the role of position, navigation, and timing (PNT) in safe, efficient and pollution free transits.
+|4.6.1.1
+a|
+--
+Introduction to global navigation satellite systems (GNSS):
+
+* Purpose of GNSS
+* Types of GNSS
+--
+|1
+
+|4.6.1.2
+a|
+--
+Implications to VTS:
+
+* Benefits and Limitations
+--
+|1
+
+|4.7
+|Navigational equipment (shipborne)
+|
+|
+|
+
+.2+|4.7.1
+.2+|Describe the use of different navigational equipment used onboard ships.
+|4.7.1.1
+a|
+--
+Navigational equipment, benefits and limitations:
+
+* Radar / ARPA
+* AIS
+* Compass (gyro, magnetic)
+* Echo sounders
+* ECDIS
+--
+|2
+
+|4.7.1.2
+|Regulatory framework for carriage of equipment
+|2
+
+|4.8
+|Shipboard Knowledge
+|
+|
+|
+
+.2+|4.8.1
+.2+|Define terms related to ships, shipping, and cargo
+|4.8.1.1
+a|
+--
+Parts of a ship:
+
+* General (bow, stern, etc.)
+* Dimensions (Length overall, length between perpendiculars, beam, draft)
+* Loadlines and draft marks
+--
+|1
+
+|4.8.1.2
+a|
+--
+Nautical terminology:
+
+* Directions/relative bearings
+* Numbers
+* Mooring / anchoring terms
+* Mooring lines
+--
+|1
+
+.3+|4.8.2
+.3+|Identify types of vessels and cargos
+|4.8.2.1
+a|
+--
+Types of vessels including:
+
+* General cargo ships
+* Tankers
+* Bulk carriers
+* Combination carriers
+* Container ships
+* Passenger ships
+* Ro-ro ships
+* Fishing vessels
+* Offshore vessels
+--
+|1
+
+|4.8.2.2
+a|
+--
+Other vessels including:
+
+* Rigs
+* Offshore supply
+* Offshore tugs
+* Tugs
+* Pilot boats
+* SAR vessels
+* Seaplanes
+* WIG
+* MASS
+* Vessels operated by allied services
+--
+|1
+
+|4.8.2.3
+a|
+--
+Cargo, including:
+
+* General cargo
+* Palletized cargo
+* Container cargo
+* Bulk cargo
+* Bulk cargo – liquid
+--
+|1
+
+.2+|4.8.3
+.2+|Identify different types of propulsion systems for ships
+|4.8.3.1
+a|
+--
+Common systems:
+
+* Fuel Oil, Diesel, diesel electric
+* Gas turbine
+* Steam
+--
+|1
+
+|4.8.3.2
+|Developing systems / Alternative energy
+|1
+
+.2+|4.8.4
+.2+|List considerations for carriage of dangerous goods
+|4.8.4.1
+|International Maritime Dangerous Goods Code (IMDG)
+|1
+|4.8.4.2
+|Implications for movements in the VTS area
+|1
+
+|4.9
+|Ship handling
+|
+|
+|
+
+.2+|4.9.1
+.2+|Explain factors influencing ship movement and stability
+|4.9.1.1
+|Ship movements / six motions
+|3
+
+|4.9.1.2
+a|
+--
+Introduction to ship stability:
+
+* Definitions of heel, list and trim
+* Factors influencing ship stability
+* Dangerous situations regarding ship stability
+--
+|3
+
+.3+|4.9.2
+.3+|Describe factors affecting ship handling
+|4.9.2.1
+a|
+--
+Overview of theory and practice of ship handling:
+
+* Effect of pivot point on ship handling
+* Line of approach
+* Stopping characteristics
+* Turning characteristics
+--
+|2
+
+|4.9.2.2
+a|
+--
+External forces on ship handling:
+
+* Winds
+* Tides
+* Ship-ship interaction
+* Bank suction
+* Squat
+--
+|2
+
+|4.9.2.3
+a|
+--
+Factors affecting manoeuvrability:
+
+* Types of rudders
+* Types of propellers
+* Thrusters
+* Use of tugs
+--
+|2
+
+.2+|4.9.3
+.2+|Describe the effect of meteorology and hydrographic factors on vessels
+|4.9.3.1
+a|
+--
+Meteorological elements – effect of:
+
+* Wind on safety of waterway and ship manoeuvrability
+* Reduced visibility on safety of waterway
+* High and low pressure systems on water height, depth
+* Effect of wind/leeway
+--
+|2
+
+|4.9.3.2
+a|
+--
+Hydrographic factors:
+
+* Effect of tides and current on safety of waterway and ship manoeuvrability
+* Planning waterway movements considering tides and currents
+--
+|2
+
+|4.10
+|Bridge Procedures
+|
+|
+|
+
+.3+|4.10.1
+.3+|Describe vessel bridge procedures
+|4.10.1.1
+a|
+--
+Maintaining a navigational watch:
+
+* Under routine circumstances
+* In pilotage waters
+* In non-pilotage restricted waters
+* Bridge Resource Management
+--
+|2
+
+|4.10.1.2
+a|
+--
+Vessel response to emergencies in a VTS area:
+
+* Regulations governing transit of vessels with regard to special circumstances
+* Expected actions on board vessels during special circumstances
+--
+|2
+
+|4.10.1.3
+a|
+--
+Bridge operations (arrival & departure):
+
+* Berthing and unberthing
+* Anchoring
+--
+|2
+
+|4.11
+|Port Operations and allied services
+|
+|
+|
+
+.4+|4.11.1
+.4+|Describe port operations
+|4.11.1.1
+|Overview of port operations
+|2
+|4.11.1.2
+a|
+--
+Overview of pilotage operations:
+
+* Responsibilities of pilots
+* Master/pilot/VTS relationship
+--
+|2
+|4.11.1.3
+|Overview of allied services in the port
+|2
+|4.11.1.4
+|Overview of ISPS Code and security levels
+|2
+|===

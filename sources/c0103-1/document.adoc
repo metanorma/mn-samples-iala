@@ -1,0 +1,106 @@
+= VTS Operator Training
+:doctype: model-course
+:series: C
+// docnumber carries the part suffix (C0103-1) as a single attribute; the
+// structuredidentifier partnumber variant currently crashes the iho-base
+// cleanup (metanorma-iho hardcodes docidentifier type "IHO" where the iala
+// taste emits type "IALA"), so docnumber + partnumber cannot be used yet.
+:docnumber: 0103-1
+:docidentifier: C0103-1
+:edition: 3.0
+:language: en
+:published-date: 2022-12
+:copyright-year: 2022
+:mn-document-class: iala
+:mn-output-extensions: xml,html,doc,rxl
+:imagesdir: images
+:local-cache-only:
+:data-uri-image:
+:toclevels: 4
+:urn: urn:mrn:iala:pub:c0103-1:ed3.0
+
+// COVER (published PDF page 1): "IALA MODEL COURSE", C0103-1, "VTS OPERATOR
+// TRAINING", Edition 3.0, December 2022, urn:mrn:iala:pub:c0103-1:ed3.0, IALA
+// address block and bilingual organization name.
+//
+// DOCUMENT REVISION PAGE (published PDF page 2, printed before the contents).
+// Captured verbatim below; feeds the missing document-history cover XSL
+// template (I1 catalogue item):
+//
+// DOCUMENT REVISION
+// "Revisions to this IALA document are to be noted in the table prior to the
+// issue of a revised document."
+//
+// |===
+// |Date |Details |Approval
+//
+// |March 1988
+// |1st issue
+// |Council 20
+//
+// |December 2005
+// |Edition 1.1
+// |Council 37
+//
+// |December 2009
+// |Edition 2.0 a|Entire document. Reflecting 10 years' experience and the
+// evolution of technology
+// |Council 46
+//
+// |December 2022
+// |Edition 3.0 a|Entire document. Full review to reflect IMO Resolution
+// A.1158(32), changes in technology and the evolution of VTS Operations.
+// |Council 76
+// |===
+//
+// Encoding note: the published document numbers its model-course modules
+// 1-7 with module-internal clauses 1.1, 1.1.1, ... under unnumbered "PART A"
+// and "PART B" dividers. Metanorma has no part-divider section type, so the
+// dividers are encoded as level-1 clauses and the published hierarchy nests
+// beneath them (Part A clauses at level 2, Part B modules at level 2 with
+// module clauses at levels 3-4). Sub-element numbers inside the competence
+// tables (e.g. 1.1.1.1, 3.5.2.4) are transcribed literally as published.
+
+include::sections/01-part-a-model-course-overview.adoc[]
+
+include::sections/02-introduction.adoc[]
+
+include::sections/03-purpose-of-the-model-course.adoc[]
+
+include::sections/04-course-objective.adoc[]
+
+include::sections/05-course-curriculum-outline.adoc[]
+
+include::sections/06-entry-requirements.adoc[]
+
+include::sections/07-recognition-of-prior-learning.adoc[]
+
+include::sections/08-course-intake-limitations.adoc[]
+
+include::sections/09-training-staff-requirements.adoc[]
+
+include::sections/10-facilities-and-equipment.adoc[]
+
+include::sections/11-delivery-of-the-model-course.adoc[]
+
+include::sections/12-assessment.adoc[]
+
+include::sections/13-course-certificates.adoc[]
+
+include::sections/14-abbreviations.adoc[]
+
+include::sections/15-part-b-modules.adoc[]
+
+include::sections/16-module-1-communication-coordination-and-interaction.adoc[]
+
+include::sections/17-module-2-legal-framework.adoc[]
+
+include::sections/18-module-3-provision-of-vts.adoc[]
+
+include::sections/19-module-4-nautical-knowledge.adoc[]
+
+include::sections/20-module-5-equipment.adoc[]
+
+include::sections/21-module-6-human-factors.adoc[]
+
+include::sections/22-module-7-emergency-situations.adoc[]

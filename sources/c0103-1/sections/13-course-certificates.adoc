@@ -1,0 +1,6 @@
+=== Course certificates
+
+A course certificate should be issued by the training organization where a student:
+
+* demonstrates they have the theoretical and practical knowledge; and
+* has passed the appropriate assessments to ensure the student has met the required competency as outlined in this model course.

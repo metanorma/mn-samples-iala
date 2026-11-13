@@ -1,0 +1,7 @@
+=== Course intake - limitations
+
+The training organization should determine the number of students enrolled on the course and provide information on the student to staff ratio. The class/group size should allow the instructor(s) to give adequate individual attention to students as required to meet the learning objective(s).
+
+In general, it is recommended that 8 - 10 students is the maximum that a single instructor can be expected to train satisfactorily to the level of competence involved. Larger numbers may be admitted depending on the method of delivery.
+
+During practical sessions such as simulations, there may be additional restraints on class/group size. Where the use of a simulator or similar teaching aid is involved, it is recommended that no more than two students be trained simultaneously on any individual piece of equipment.

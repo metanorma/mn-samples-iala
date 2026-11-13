@@ -1,0 +1,23 @@
+== Scope
+
+IALA standards may contain normative and informative provisions.
+
+Normative provisions are those with which it is necessary to conform in order to claim compliance to the Standard.
+
+Informative provisions are those which specify additional desirable practices but with which it is not necessary to conform in order to claim compliance to the Standard.
+
+This Standard references normative and informative provisions, detailed in the listed IALA recommendations, covering the following scope:
+
+S1040.1:: VTS implementation
+
+S1040.2:: VTS operations
+
+S1040.3:: VTS communications
+
+S1040.4:: VTS auditing and assessing
+
+S1040.5:: VTS data and information management
+
+S1040.6:: VTS technologies
+
+S1040.7:: VTS additional services

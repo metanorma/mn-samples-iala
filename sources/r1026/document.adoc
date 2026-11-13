@@ -1,0 +1,48 @@
+= Digitalization of Marine Aids to Navigation and Services for Vessels of Varying Levels of Autonomy
+:doctype: recommendation
+:series: R
+:docnumber: 1026
+:docidentifier: R1026
+:edition: 1.0
+:language: en
+:published-date: 2025-12
+:copyright-year: 2025
+:mn-document-class: iala
+:mn-output-extensions: xml,html,doc,rxl
+:imagesdir: images
+:local-cache-only:
+:data-uri-image:
+:toclevels: 3
+:urn: urn:mrn:iala:pub:r1026:ed1.0
+
+// COVER (published PDF page 1): "IALA RECOMMENDATION" with the "(INFORMATIVE)"
+// qualifier, R1026, "DIGITALIZATION OF MARINE AIDS TO NAVIGATION AND SERVICES
+// FOR VESSELS OF VARYING LEVELS OF AUTONOMY", Edition 1.0, December 2025.
+//
+// URN as printed on the cover: urn:mrn:iala:pub:r1026:ed.1.0; the running
+// footer prints urn:mrn:iala:pub:r1026:Ed1.0. Both spellings deviate from the
+// corpus convention (cf. urn:mrn:iala:pub:s1040:ed2.0); the :urn: attribute
+// above follows the convention. Secretariat confirmation of the registered
+// MRN spelling is outstanding.
+//
+// DOCUMENT HISTORY PAGE (published PDF page 2, printed before the recital
+// page). Captured verbatim below; feeds the missing document-history cover XSL
+// template (I1 catalogue item):
+//
+// DOCUMENT HISTORY
+// "Revisions to this document are to be noted in the table prior to the issue
+// of a revised document."
+//
+// |===
+// |Date |Details |Approval
+//
+// |December 2025
+// |1st issue
+// |Council 03
+// |===
+//
+// The running footer title reads "IALA Recommendation (Informative) R1026
+// Digitalization of Marine AtoN and Services for Vessels of Varying Levels of
+// Autonomy".
+
+include::sections/01-the-council.adoc[]

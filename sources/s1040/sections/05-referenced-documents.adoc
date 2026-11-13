@@ -1,0 +1,41 @@
+== Referenced documents
+
+In this Standard, any reference to a recommendation is to the most recent version approved by the IALA Council.
+
+In this Standard the word 'shall' is used to indicate that a provision is normative and is to be followed in order to comply with the Standard. The word 'should' introduces informative provisions.
+
+The following recommendations are normative provisions, and shall be observed if compliance to this Standard is claimed.
+
+|===
+|Scope |Number |Title
+
+|S1040.1 VTS implementation
+|R0119
+|Establishment of a VTS
+
+|S1040.2 VTS operations
+|R0127
+|VTS Operations
+
+|S1040.3 VTS communications
+|R1012
+|VTS Communications
+
+|S1040.4 VTS auditing and assessing
+|R1013
+|Auditing and Assessing Vessel Traffic Services
+
+|S1040.5 VTS data and information management
+|R0125
+|VTS Portrayal
+
+|
+|R1014
+|Portrayal of VTS Information and Data
+
+|S1040.6 VTS technologies
+|R0128
+|VTS Systems and Equipment
+|===
+
+There are no recommendations with informative provisions.

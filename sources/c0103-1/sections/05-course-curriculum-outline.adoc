@@ -1,0 +1,59 @@
+=== Course curriculum outline
+
+The model course comprises seven modules, each of which deals with a specific subject representing a requirement or function of a VTS Operator. Each module contains a subject framework stating its scope and aims, a subject outline, learning objectives, teaching points and recommended hours.
+
+The recommended hours are indicative and based on the assumption that the students have no or little previous knowledge of the subject. Instructors should revise as required to address the requirements of the students to ensure the learning outcomes are achieved based on the competence levels detailed in each module (Table 1 refers). Time for assessments is in addition to the range of duration included in the model course.
+
+Training activities, simulated exercises and assessments undertaken during the course are intended to represent the role of the VTS Operator and reflect events or incidents that may be experienced at a VTS.
+
+No timetable is included in this model course. Working within the normal practices of the training establishment, instructors should allow time during the course for revision of course content and develop their own timetable depending on the:
+
+* level of skills of students;
+* number of persons to be trained;
+* number of instructors; and
+* simulator facilities and equipment available.
+
+.Summary of C0103-1 Training
+|===
+|Module |Presentations / Lectures |Exercises / Simulation |Overview
+
+|1. Communication Coordination and Interaction
+|17-29
+|37-52
+|This module covers the communications principles used in VTS operations and assumes the minimum level of English has been obtained as identified in IALA Guideline 1156 and has appropriate national qualifications to operate the VHF marine radiotelephony equipment.
+
+|2. Legal Framework
+|7-14
+|6-11
+|This module covers the regulatory and legislative framework of VTS, including the liabilities and the responsibilities of allied services and participating ships in the VTS.
+
+|3. Provision of VTS
+|19-29
+|39-49
+|This module covers the theory and practice associated with the purpose of VTS, including the provision of information, and the issue of advice, warnings, instructions, and traffic clearances.
+
+|4. Nautical Knowledge
+|23-44
+|16-31
+|This module covers nautical knowledge elements required to perform the function of a VTS Operator.
+
+|5. Equipment
+|8-15
+|3-6
+|This module covers the requirement for VTS Operators to be able to understand the operational limitations and benefits of equipment used in VTS.
+
+|6. Human Factors
+|5-10
+|3-6
+|This module addresses the requirement for VTS Operators to perform their duties under all conditions, including emergencies and stressful situations. It is recommended that the contents of this module be presented to the students in the early stages of the course.
+
+|7. Emergency Situations
+|7-12
+|8-13
+|This module covers the response to emergency situations while maintaining safety of the waterway in the VTS area
+
+|Total time range
+|86-153
+|112-168
+|Note: Hours are based on the assumption that the students have no or little previous knowledge of the subject.
+|===
