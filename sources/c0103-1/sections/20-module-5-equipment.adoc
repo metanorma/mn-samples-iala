@@ -1,0 +1,310 @@
+=== Module 5: Equipment
+
+==== Subject framework
+
+===== Scope
+
+This module covers the requirement for VTS Operators to be able to understand the operational limitations and benefits of equipment used in VTS.
+
+===== Objectives of Module 5
+
+On completion of the module the student will use VTS equipment to provide VTS.
+
+===== Additional references relevant to this module
+
+The following references are relevant to the planning and delivery of this module:
+
+* SOLAS regulation V/19 (AIS)
+* IALA R0128 Operational and Technical Performance of VTS Systems (V-128)
+* IALA R0126 The Use of the AIS in Marine Aids to Navigation Services(A-126)
+* IALA G1110 Use of Decision Support Tools for VTS Personnel
+* IALA G1027 Simulation in VTS Training
+* IALA R0128 Operational and Technical Performance of VTS Systems
+* IALA G1111 Establishing Functional & Performance Requirements for VTS Systems
+* IALA G1111-1 Producing Requirements for the Core VTS System
+* IALA G1111-2 Producing Requirements for Voice Communications
+* IALA G1111-3 Producing Requirements for RADAR
+* IALA G1111-4 Producing Requirements for AIS and VDES
+* IALA G1111-5 Producing Requirements for Environment Monitoring Systems
+* IALA G1111-6 Producing Requirements for Electro Optical Systems
+* IALA G1111-7 Producing Requirements for Radio Direction Finders
+* IALA G1111-8 Producing Requirements for Long Range Sensors
+* IALA G1111-9 Framework for Acceptance of VTS Systems
+* Radio Operators Certificate (ROC) and/or General Operators Certificate (GOC)
+
+==== Subject outline of Module 5
+
+.Subject outline - Equipment
+|===
+|Subject Area |Recommended Competence Level |Presentations / Lectures |Exercises / Simulation
+
+|Sensors in VTS
+|
+.7+|4 to 8 hrs
+.7+|1 to 2 hrs
+|Operational benefits and limitations
+|Level 2
+|Fundamentals of radar theory
+|Level 3
+|Operation of VHF radio in VTS
+|Level 2
+|Use of AIS in VTS
+|Level 2
+|Imaging systems in VTS
+|Level 2
+|Environmental sensors in VTS
+|Level 2
+
+|Decision Support Tool
+|
+.3+|2 to 4 hrs
+.3+|1 to 2 hrs
+|Principles of DST
+|Level 3
+|Use of DST
+|Level 4
+
+|Equipment Performance Monitoring
+|
+.2+|0.5 to 1 hrs
+.2+|1 to 2 hrs
+|Importance of equipment performance monitoring
+|Level 1
+
+|Evolving Technologies
+|
+.2+|1.5 to 2 hrs
+.2+|-----
+|Impact of developing and evolving technologies
+|Level 1
+
+2+|Total time range
+|8 to 15 hrs
+|3 to 6 hrs
+|===
+
+===== Detailed competence table of Module 5 – Equipment
+
+.Competence Table – Equipment
+[cols="1,3,1,4,1"]
+|===
+|Element |Session Objective |Sub-element |Subject Elements |Level of Competence
+
+|5.1
+|Sensors in VTS
+|
+|
+|
+
+.3+|5.1.1
+.3+|Describe the operational benefits and limitations of sensors in VTS
+|5.1.1.1
+|Sensors to support monitoring and management of ship traffic - Radar, radio, AIS, CCTV
+|2
+|5.1.1.2
+|Sensors related to the VTS environment – meteorology, hydrographic sensors
+|2
+|5.1.1.3
+|Recording / replay equipment for sensor data
+|1
+
+.5+|5.1.2
+.5+|Explain the fundamentals of radar theory.
+|5.1.2.1
+|Principles of radar theory
+|1
+|5.1.2.2
+|Application of radar for VTS
+|3
+
+|5.1.2.3
+a|
+--
+Features of generic VTS radar display:
+
+* Detection, acquisition and tracking
+* Difference in radar bands (X, S, etc)
+--
+|3
+
+|5.1.2.4
+|Alerts and warnings in radar
+|3
+
+|5.1.2.5
+a|
+--
+Limitations:
+
+* Factors affecting radar detection
+* Factors affecting radar interpretation
+--
+|3
+
+.7+|5.1.3
+.7+|Describe the operation of VHF Radio in VTS.
+|5.1.3.1
+|Frequencies in the international VHF maritime mobile band
+|2
+|5.1.3.2
+|Restrictions on the use of Radio Regulations (RR) Appendix 18 frequencies
+|2
+
+|5.1.3.3
+a|
+--
+Principles of VHF operation:
+
+* Channel spacing
+* channel saturation
+--
+|1
+
+|5.1.3.4
+|VHF benefits / limitations (including interference and range)
+|2
+
+|5.1.3.5
+a|
+--
+Operation of radio equipment:
+
+* General Communications – working frequencies, Simplex, Duplex
+* Safety, Urgency and Distress
+--
+|2
+
+|5.1.3.6
+|Digital Selective Calling (DSC)
+|1
+|5.1.3.7
+|VHF Radio Direction Finder (VHF RDF)
+|1
+
+.3+|5.1.4
+.3+|Describe the use of the Automatic Identification System (AIS) in VTS
+|5.1.4.1
+|Introduction to AIS, including Satellite AIS
+|2
+
+|5.1.4.2
+a|
+--
+Modes of operation of AIS:
+
+* AIS units
+* AIS messages
+--
+|2
+
+|5.1.4.3
+|Benefits and limitations of AIS
+|2
+
+|5.1.5
+|Describe the use of imaging systems in VTS
+|5.1.5.1
+a|
+--
+Overview of:
+
+* Close circuit TV (CCTV)
+* Low Light TV (LLTV)
+* Infra-red CCTV
+--
+|2
+
+.2+|5.1.6
+.2+|Describe the use of environmental sensors in VTS
+|5.1.6.1
+a|
+--
+Hydrographic sensors:
+
+* Tide gauges / remote height of tide indicators
+* Tidal stream indicator – remote indications
+* Data from wave monitoring sites
+--
+|2
+
+|5.1.6.2
+a|
+--
+Meteorological sensors:
+
+* Barometer
+* Temperature/humidity indicators
+* Anemometers (wind measurement)
+* Visibility sensors
+--
+|2
+
+|5.2
+|Decision Support Tool
+|
+|
+|
+
+.5+|5.2.1
+.5+|Explain the principles of DST in VTS
+|5.2.1.1
+|General Principles of DST
+|3
+|5.2.1.2
+|Types of DST (long-term (planning); near real-time; real-time)
+|3
+|5.2.1.3
+|Integration of data from different sources (data fusion)
+|3
+|5.2.1.4
+|Alerts and alarms
+|3
+|5.2.1.5
+|Benefits / limitations
+|3
+
+.3+|5.2.2
+.3+|Use Decision Support Tools (DST) in VTS.
+|5.2.2.1
+|Providing relevant and timely information
+|4
+|5.2.2.2
+|Monitoring and managing vessel traffic
+|4
+|5.2.2.3
+|Responding to developing unsafe situations
+|4
+
+|5.3
+|Equipment Performance Monitoring
+|
+|
+|
+
+.2+|5.3.1
+.2+|Identify the importance of equipment performance monitoring
+|5.3.1.1
+|Expected normal operating parameters
+|1
+|5.3.1.3
+|Reporting outages
+|1
+
+|5.4
+|Evolving Technologies
+|
+|
+|
+
+.3+|5.4.1
+.3+|Describe the impact of developing and evolving technologies on VTS
+|5.4.1.1
+|Digital developments
+|1
+|5.4.1.2
+|Operational developments
+|1
+|5.4.1.3
+|Other developments
+|1
+|===

@@ -1,0 +1,30 @@
+// The published recommendation carries no numbered clauses: its entire text is
+// the Council recital page, transcribed below as a single section.
+== The Council
+
+RECALLING:
+
+. The aim and objectives of the International Organization for Marine Aids to Navigation (the Organization hereafter) with respect to the improvement and harmonization of Marine Aids to Navigation worldwide for the benefit of the maritime community and the protection of the marine environment.
+. Article 8 of the Convention of the Organization regarding the responsibilities of the Council.
+
+RECOGNIZING that there is a need to support the development of e-Navigation services to include Human Interface, Machine to Machine interface, etc. and provide enhanced navigation services to conventional vessels as well as vessels with varying levels of automation.
+
+NOTING:
+
+. That SOLAS regulations V/12 and V/13 recognize the establishment of vessel traffic services and aids to navigation, respectively.
+. That the evolving technological developments associated with digitalization of Marine Aids to Navigation including the expected adoption of:
++
+  * The non-mandatory IMO Code for MASS;
+  * The mandatory IMO Code for MASS;
+  * Implementation of IHO e-Navigation Services (Phase 1); and
+  * Implementation of IHO e-Navigation Services (Phase 2).
+. The content and purpose of document The Future of Maritime Autonomous Surface Ships (MASS) – Future Scenarios Regarding the Development and Evolution of MASS, IALA, 2024.
+. The content of R1019 The Provision of Maritime Services in the Context of e-Navigation in the domain of IALA.
+
+RECOMMENDS that Member States, competent authorities for Marine Aids to Navigation (AtoN), as well as VTS providers and AtoN providers:
+
+* Proactively review the requirements of digitization as it relates to digital navigation and information exchange (e.g. S-100/200) including different levels of automation.
+* Review their aids to navigation and VTS service provisions to ensure that identified existing and future digital services can operate safely and efficiently, as the volume and nature of traffic justifies and the degree of risk requires.
+* In addition to the digitalization of Marine Aids to Navigation and services for vessels of varying levels of autonomy, IALA members are encouraged to actively collaborate with neighbouring authorities and IALA to ensure regional and worldwide consistency of services as outlined in R1019.
+
+REQUESTS the IALA Committees to keep this Recommendation under review and to propose amendments, as necessary.

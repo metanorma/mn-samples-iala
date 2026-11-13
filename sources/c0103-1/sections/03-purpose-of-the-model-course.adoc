@@ -1,0 +1,5 @@
+=== Purpose of the model course
+
+The purpose of the model course is to assist training organizations and their teaching staff in the preparation and provision of new training courses for VTS Operators, or in enhancing, updating, or supplementing existing training material. It provides guidance on the level of training and knowledge needed to reach levels of competence defined by IALA to obtaining a C0103-1 certificate.
+
+It is not the intention of the model course to present instructors with a rigid 'teaching package'. Rather, this model course provides the curriculum content for the training for VTS Operators. It intended to be used by accredited training organizations in preparing their C0103-1 training programs.

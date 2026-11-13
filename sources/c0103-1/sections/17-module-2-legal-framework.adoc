@@ -1,0 +1,214 @@
+=== Module 2: Legal Framework
+
+==== Subject framework
+
+===== Scope
+
+This module covers the regulatory and legislative framework of VTS, including the liabilities and the responsibilities of allied services and participating ships in the VTS.
+
+===== Objective of Module 2
+
+On completion of the module the student will explain the role of legal and regulatory framework in VTS, including:
+
+* national and international regulations;
+* legal liabilities and their implications to VTS;
+* the roles, responsibilities of and relationships between ship masters, marine pilots, VTS and allied services; and
+* importance of record and log keeping.
+
+===== Additional references relevant to this module
+
+The following references are relevant to the planning and delivery of this module:
+
+* Regional / national / local legislations and regulations relevant to VTS, ports, harbours, pilotage, and allied services
+
+==== Subject outline of Module 2
+
+.Subject outline – Legal Framework
+|===
+|Subject Area |Recommended Competence Level |Presentations and Lectures |Exercises and Simulations
+
+|Regulatory requirements
+|
+.6+|2 to 4 hrs
+.6+|1 to 2 hrs
+|Maritime organizations
+|Level 2
+|Legislative requirements related to VTS
+|Level 3
+|Regulatory and legal framework
+|Level 3
+|Legislative requirements related to the marine environment
+|Level 1
+|Promulgation of maritime information
+|Level 1
+
+|Legal liabilities
+|
+.2+|2 to 4 hrs
+.2+|1 to 2 hrs
+|Related to VTS functions
+|Level 3
+
+|Roles and responsibilities
+|
+.3+|2 to 4 hrs
+.3+|2 to 3 hrs
+|Ship masters, marine pilots, VTS and allied services
+|Level 1
+|Responsibilities of VTS personnel
+|Level 3
+
+|Log keeping and record keeping
+|
+.2+|1 to 2 hrs
+.2+|2 to 4 hrs
+|Objectives and Requirements of log keeping and record keeping
+|Level 1
+
+2+|Total time range
+|7 to 14 hrs
+|6 to 11 hrs
+|===
+
+===== Detailed competence table of Module 2 – Legal Framework
+
+.Competence Table – Legal Framework
+[cols="1,3,1,4,1"]
+|===
+|Element |Session Objective |Sub-element |Subject Elements |Level of Competence
+
+|2.1
+|Regulatory Framework
+|
+|
+|
+
+.3+|2.1.1
+.3+|List the maritime organizations related to VTS, maritime operations and protection of the environment.
+|2.1.1.1
+|UN Organizations (IMO, ITU)
+|1
+|2.1.1.2
+|Intergovernmental Organizations (IGOs), Non-Governmental Organizations (NGOs) including IALA, IHO, ISO and IEC
+|1
+|2.1.1.3
+|IALA Standards, recommendations, and guidelines
+|1
+
+.2+|2.1.2
+.2+|Explain the legislative requirements relating to VTS.
+|2.1.2.1
+|IMO Conventions, Resolutions and Circulars related to VTS (including SOLAS Chapter V, Reg. 12, IMO Res A1158(32))
+|3
+|2.1.2.2
+|IALA Standards, recommendations and guidelines
+|3
+
+.2+|2.1.3
+.2+|Explain the regulatory and legal framework relating to operations in the VTS area.
+|2.1.3.1
+|National regulations related to VTS
+|3
+|2.1.3.2
+|Local regulations and byelaws related to VTS
+|3
+
+.3+|2.1.4
+.3+|Identify legislative requirements relating to maritime operations and protection of the environment.
+|2.1.4.1
+|United Nations / UNCLOS (innocent passage, areas and zones)
+|1
+|2.1.4.2
+|IMO Conventions, Resolutions and Circulars (other – including SOLAS V-10, 11, 13; MARPOL, SAR, FAL, IMDG)
+|1
+|2.1.4.3
+|Recommendations and standards (ITU, IEC)
+|1
+
+.2+|2.1.5
+.2+|Identify how maritime information may be promulgated.
+|2.1.5.1
+|Notices to mariners, Admiralty List of Radio Signals (ALRS)
+|1
+|2.1.5.2
+|Other means (websites, etc.)
+|1
+
+|2.2
+|Legal Liabilities
+|
+|
+|
+
+.3+|2.2.1
+.3+|Explain the legal liabilities related to VTS functions.
+|2.2.1.1
+|Extent of authority and responsibility for Competent Authority, VTS Provider
+|3
+
+|2.2.1.2
+a|
+--
+Extent of authority and responsibility for VTS Personnel:
+
+* Routine operations
+* Incidents / emergency response
+* Accuracy of information promulgated
+* Requirements and limitations of authority
+--
+|3
+
+|2.2.1.2
+|Concept of civil, administrative, and criminal aspects.
+|2
+
+|2.3
+|Roles and Responsibilities
+|
+|
+|
+
+.3+|2.3.1
+.3+|Identify the roles, responsibilities of and relationships between ship masters, marine pilots, VTS and allied services.
+|2.3.1.1
+|Roles and responsibilities of VTS, master and pilot
+|1
+|2.3.1.2
+|Relationship between VTS, master and pilot
+|1
+|2.3.1.3
+|Interactions with Allied services
+|1
+
+.2+|2.3.2
+.2+|Explain the responsibilities of VTS personnel
+|2.3.2.1
+|Role and responsibility of VTS personnel in the provision of VTS
+|3
+|2.3.2.2
+|Monitoring compliance and enforcement of regulatory provisions for which they are empowered
+|3
+
+|2.4
+|Log Keeping and Record Keeping
+|
+|
+|
+
+.2+|2.4.1
+.2+|Identify the objectives and requirements for log keeping and recording in VTS
+|2.4.1.1
+|Methods and principles of log keeping; retention of logs
+|1
+
+|2.4.1.2
+a|
+--
+Reporting of incidents, casualty and near miss including:
+
+* the role of VTS:
+* collection of data,
+* statement and report writing.
+--
+|1
+|===

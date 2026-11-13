@@ -1,0 +1,249 @@
+=== Module 7: Emergency Situations
+
+==== Subject framework
+
+===== Scope
+
+This module covers the response to emergency situations while maintaining safety of the waterway in the VTS area.
+
+===== Objective of Module 7
+
+On completion of the course, the student will:
+
+* identify the actions required when responding to internal and external emergencies to ensure the protection of the VTS area and, as far as practicable, maintain a safe and efficient flow of traffic;
+* learn to apply contingency plans;
+* co-ordinate effectively with and provide support to agencies responsible for emergency response and search and rescue activities; and
+* understand the importance of reporting incidents and near-miss situations.
+
+===== Additional references relevant to this module
+
+The following references are relevant to the planning and delivery of this module:
+
+* IMO Resolution MSC.255(84) Casualty Investigation Code
+* IMO MSC-MEPC.7/Circ.7 Guidance on near-miss reporting
+* International Ship and Port Facility Security (ISPS) Code
+* International Safety Management (ISM) Code
+* IALA G1118 Marine Casualty/Incident Reporting and Recording, Including Near-Miss Situations as it Relates to VTS
+* IALA G1141 Operational Procedures for Delivering VTS
+* IALA G1110 Use of Decision Support Tools for VTS Personnel
+
+==== Subject outline of Module 7
+
+.Subject outline – Emergency Situations
+|===
+|Subject Area |Recommended Competence Level |Presentations and Lectures |Exercises and Simulations
+
+|Contingency plans
+|
+.2+|2 to 3 hrs
+.2+|1 to 2 hrs
+|Role of Contingency plans
+|Level 2
+
+|Emergency Response
+|
+.3+|4 to 6 hrs
+.3+|6 to 8 hrs
+|Internal / External emergencies
+|Level 1
+|Responding to emergencies
+|Level 4
+
+|Reporting incidents and near miss situations
+|
+.3+|0.5 to 1.5 hrs
+.3+|0.5 to 1.5 hrs
+|Terms related to emergency response
+|Level 1
+|Procedures for recording
+|Level 2
+
+|Ship and Port Security
+|
+.2+|0.5 to 1.5 hrs
+.2+|0.5 to 1.5 hrs
+|Obligations and requirements related to ship and port security
+|Level 2
+
+2+|Total time range
+|7 to 12 hrs
+|8 to 13 hrs
+|===
+
+===== Detailed competence table of Module 7 – Emergency Situations
+
+.Competence Table – Emergency Situations
+[cols="1,3,1,4,1"]
+|===
+|Element |Session Objective |Sub-element |Subject Elements |Level of Competence
+
+|7.1
+|Contingency Plans
+|
+|
+|
+
+.2+|7.1.1
+.2+|Describe the role of contingency plans in VTS operations.
+|7.1.1.1
+|Overview of Contingency Planning
+|2
+
+|7.1.1.2
+a|
+--
+Implementation of contingency plans for emergency scenarios such as:
+
+* Collisions
+* Grounding
+* Marine pollution
+* Fire
+* Hazardous cargo
+* Search and Rescue (SAR) incidents
+--
+|2
+
+|7.2
+|Emergency response
+|
+|
+|
+
+.2+|7.2.1
+.2+|Identify response actions for internal and external emergencies
+|7.2.1.1
+a|
+--
+Internal emergencies (internal to the VTS centre), such as:
+
+* System failure
+* Fire/flood
+* Evacuation of VTS centre
+--
+|1
+
+|7.2.1.2
+a|
+--
+External emergencies (external to the VTS centre), such as:
+
+* Collisions
+* Allisions
+* Groundings
+* Marine Pollution
+* Fire
+* Hazardous cargoes
+* SAR incidents
+* Severe weather events
+* Other special circumstances
+--
+|1
+
+.4+|7.2.2
+.4+|Respond to emergency situations while ensuring the protection of the VTS area and, as far as practicable, maintaining a safe and efficient flow of traffic.
+|7.2.2.1
+a|
+--
+Initial response to emergency situation:
+
+* Data collection
+* Evaluate and prioritise the situation
+* Inform relevant emergency response agencies
+--
+|4
+
+|7.2.2.2
+a|
+--
+Monitoring and managing ship traffic during emergencies:
+
+* Alternative routing arrangements
+* Water space management (spatial separation / temporal separation)
+* Emergency alteration to route plans, speed restrictions
+--
+|4
+
+|7.2.2.3
+a|
+--
+Maintain communications:
+
+* Alerting procedures
+* Co-ordination with, and support to relevant emergency response agencies
+* Situation reports
+* Navigational warnings (when required)
+--
+|4
+
+|7.2.2.4
+a|
+--
+Role of:
+
+* Checklists
+* Standard operating procedures
+--
+|3
+
+|7.3
+|Reporting incidents and near miss situations
+|
+|
+|
+
+|7.3.1
+|Define terms related to emergency response.
+|7.3.1.1
+a|
+--
+Definitions and differences between:
+
+* emergency
+* accident
+* near miss
+* incident
+* casualty
+* serious casualty
+--
+|1
+
+.4+|7.3.2
+.4+|Describe procedures for recording activities during incidents and emergency situations.
+|7.3.2.1
+|Importance of recording activities during incidents and emergencies
+|2
+|7.3.2.2
+|Methods of recording
+|2
+|7.3.2.3
+|Security of information
+|2
+
+|7.3.2.4
+a|
+--
+Developing incident reports:
+
+* content
+* process
+--
+|1
+
+|7.4
+|Ship and Port Security
+|
+|
+|
+
+.3+|7.4.1
+.3+|Describe reporting obligations and requirements related to ship and port security
+|7.4.1.1
+|Introduction to International Ship and Port Security (ISPS) Code
+|2
+|7.4.1.2
+|Overview of ISPS code and security levels
+|2
+|7.4.1.3
+|Introduction to International Ship Management (ISM) Code
+|1
+|===

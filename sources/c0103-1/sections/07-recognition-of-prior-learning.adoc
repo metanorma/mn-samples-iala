@@ -1,0 +1,7 @@
+=== Recognition of prior learning
+
+It is recognized that some students may have experience, knowledge, skills, attitudes, and competencies acquired through formal or informal learning in some modules or subject elements associated with the VTS model course.
+
+In such cases, consideration should also be given to the recognition of prior learning (RPL), which may reduce the time requirement to meet the level required for certification.
+
+IALA Guideline G1017 Assessment for recognition of prior learning in VTS training provides further guidance assessing and recognizing the prior learning of students.

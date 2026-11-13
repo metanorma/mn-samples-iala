@@ -1,0 +1,27 @@
+=== Introduction
+
+IALA model courses have been developed to provide guidance on the level of training and knowledge needed to reach levels of competence defined by IALA. They provide IALA national members and other appropriate authorities with guidance on the training of VTS Personnel.
+
+IALA's contribution to the development of internationally harmonized guidance for vessel traffic services is recognized in IMO Resolution A.1158(32) Guidelines on Vessel Traffic Services and the Annex to the resolution states:
+
+* Contracting Governments are encouraged to take into account IALA standards and associated recommendations, guidelines and model courses. (Section 9.2)
+* VTS personnel should only be considered competent when appropriately trained and qualified for their VTS duties. This includes, inter alia:
++
+  * satisfactorily completing generic VTS training approved by a competent authority;
+  * satisfactorily completing on-the-job training at the VTS where the personnel are employed;
+  * undergoing periodic assessments and revalidation training to ensure competence is maintained; and
+  * being in possession of appropriate certification.
+
+IALA recommendations, guidelines and model courses specifically related to the establishment and operation of VTS include:
+
+* Recommendation R0103 Training and certification of VTS personnel specifies the practices associated with the training and certification of VTS personnel to assist authorities when recruiting, training and assessing VTS personnel to ensure the harmonized delivery of vessel traffic services world-wide.
+* Guideline G1156 Recruitment, training and certification of VTS personnel states that "Model courses provided by accredited training organizations should be approved by the competent authority."
+* Guideline G1014 Accreditation of VTS training organizations and approval to deliver IALA model courses sets out the process by which a training organization can be accredited to deliver approved VTS training courses.
+
+IALA model courses include:
+
+* Model Course C0103-1 VTS Operator Training
+* Model Course C0103-2 VTS Supervisor Training
+* Model Course C0103-3 VTS On-the-Job Training
+* Model Course C0103-4 VTS On-the-Job Training Instructor
+* Model Course C0103-5 VTS Revalidation Process for VTS Qualification and Certification

@@ -1,11 +1,14 @@
 metanorma:
   source:
     files:
+      - sources/s1040/document.adoc
+      - sources/r1026/document.adoc
+      - sources/g1199/document.adoc
+      - sources/c0103-1/document.adoc
       - sources/s1050/document.adoc
       - sources/s1060/document.adoc
       - sources/r1023/document.adoc
       - sources/r1024/document.adoc
-      - sources/g1199/document.adoc
 
   collection:
     organization: "IALA: International Organization for Marine Aids to Navigation"
