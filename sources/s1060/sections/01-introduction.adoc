@@ -1,0 +1,21 @@
+[heading=introduction-s1060]
+== Introduction
+
+The International Association of Marine Aids to Navigation and Lighthouse Authorities (IALA) is a specialized organization for world-wide improvement and harmonization of Marine Aids to Navigation.
+
+The term "Marine Aid to Navigation" referred to in the Constitution of IALA, should be understood to be device, system or service, external to vessels, designed and operated to enhance safe and efficient navigation of individual vessels and/or vessel traffic. For the purposes of IALA this definition includes vessel traffic services.
+
+IALA publishes non-mandatory standards, recommendations, and guidelines, defined as follows.
+
+|===
+|Document |Definition
+
+|IALA standard
+|An IALA standard is a part of a framework, the implementation of which by all coastal States will harmonize Marine Aids to Navigation world-wide. IALA standards cover technology and services and are non-mandatory.
+
+|IALA recommendation
+|An IALA recommendation specifies what practices shall be carried out in order to comply with that recommendation, and may be referenced, in full or in part, in an IALA standard.
+
+|IALA guideline
+|An IALA guideline describes how to implement practices normally specified in a recommendation.
+|===

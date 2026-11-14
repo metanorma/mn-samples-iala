@@ -1,0 +1,6 @@
+// The published contents page lists this clause as "ADOPTION OF AND AMENDMENT
+// OF STANDARDS"; the body heading (transcribed here) reads "APPROVAL AND
+// AMENDMENT OF STANDARDS".
+== Approval and amendment of standards
+
+IALA standards may be approved or amended at a General Assembly.

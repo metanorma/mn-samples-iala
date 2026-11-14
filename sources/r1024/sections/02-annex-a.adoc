@@ -1,0 +1,31 @@
+[appendix]
+== Suggestions for appropriate standards and best practices
+
+=== Introduction
+
+Cyber security is a relevant topic for all uses of digital technology, not only within IALA but everywhere around us. It is not an add-on technology, nor can it be handled separately from any work on digital technologies; it should be incorporated in all technology, process, and human behaviour.
+
+Because of the broad spectrum of cyber security, many industry standards and best practices are available to address technical weaknesses, processes, and awareness in the IALA domains Maritime Services in the context of e-Navigation and AtoN, including VTS.
+
+=== Available standards and best practices
+
+The IALA workshop on cyber security, held virtually in November 2021, produced a list of available standards for adoption by IALA members. The workshop report elaborates on these standards, and they are summarized below.
+
+==== Generic / IT
+
+* ISO/IEC 27001 series: IT Information Security and Privacy Management, providing requirements for an information security management system (ISMS)
+* NIST Cybersecurity Framework: guidance, based on existing standards, guidelines, and practices for organizations to better manage and reduce cybersecurity risk
+* NIST SP800-53: Security and Privacy Controls for Information Systems and Organizations
+
+==== Operational technology (OT)
+
+* IEC 62443: Cyber security for Industrial Automation and Control Systems
+
+==== for the maritime domain
+
+* IMO MSC-FAL.1/Circ.3: Guidelines on Maritime Cyber Risk Management
+* ISO/IEC 63173: Maritime navigation and radiocommunication equipment and systems
+* Resolution MSC.428(98): MSC Maritime Cyber Risk Management in Safety Management Systems
+* NISTIR 8323: Foundational PNT Profile: Applying the Cybersecurity Framework for the Responsible Use of Positioning, Navigation, and Timing (PNT) Services
+* ISO 23806: Maritime Cyber safety standard
+* BIMCO et al.: The Guidelines on Cyber Security Onboard Ships

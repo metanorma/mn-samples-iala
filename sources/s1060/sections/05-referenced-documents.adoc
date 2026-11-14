@@ -1,0 +1,37 @@
+== Referenced documents
+
+In this Standard, any reference to a recommendation is to the most recent version approved by the IALA Council.
+
+In this Standard the word 'shall' is used to indicate that a provision is normative and is to be followed in order to comply with the Standard. The word 'should' introduces informative provisions.
+
+The following recommendations are normative provisions, and shall be observed if compliance with this Standard is claimed.
+
+|===
+|Scope |Number |Title
+
+|S1060.1 Wide and medium bandwidth systems
+|R1007
+|The VHF Data Exchange System (VDES) for Shore Infrastructure
+
+|
+|R0123
+|The Provision of Shore Based Automatic Identification System (AIS)
+
+|
+|R0124
+|The AIS Service
+|===
+
+The following recommendations are informative provisions and should be observed if compliance with this Standard is claimed.
+
+|===
+|Scope |Number |Title
+
+|S1060.3 Harmonized maritime connectivity
+|R0140
+|The Architecture for Shore-based Infrastructure 'fit for e-Navigation'
+
+|
+|R0148
+|The Need to Implement Regional e-Navigation Solutions Based on International Standards
+|===
