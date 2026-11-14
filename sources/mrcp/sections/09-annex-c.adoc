@@ -1,0 +1,602 @@
+[appendix]
+== Current and Evolving Wireless Telecommunications Technologies in the Maritime Environment
+
+There is an ever increasing number of wireless technologies that aim to deliver voice and data connectivity to mobile users and which may be of use in the maritime environment.  Aside from their technical capabilities, there may be regulatory issues and associated technical restrictions which prevent them being fully exploited.  Such issues may include:
+
+* the ITU Radio Regulations do not permit maritime mobile operation in the frequency bands concerned;
+* frequencies are licensed on a national basis, such that there is no continuity of operation from country to country (this may even require equipment to be switched off when entering certain jurisdictions);
+* the system parameters may have the potential to cause interference to ship-borne equipment;
+* planning parameters may make use at sea (or even in ports) complex or difficult.
+
+The following terrestrial technologies are currently in the process of either being rolled-out or standardized on an international basis and thus may be candidates for use in the maritime environment, particularly for commercial port services:
+
+* digital PMR (to replace analogue PMR for on-board communications): TETRA, TETRAPOL, P25, dPMR, DMR, TDMA;
+* 3G Mobile: UMTS (TDD & FDD), cdma2000, TD-SCDMA, IEEE802.20 (including iBurst), HSDPA;
+* 3.5G Mobile: WiMax;
+* 4G Mobile: LTE, UMB.
+
+In addition to these commercial service technologies, there are various technologies which may offer potential solutions under the banner of ‘license exempt’ or ‘low-power’ technologies such as Wi-Fi, Bluetooth, ZigBee and UWB.  The range of such services, however, is exceptionally limited (normally to 100 meters or much less) and the frequencies employed are globally allocated for the purpose (e.g. the 2.4 GHz ISMfootnote:[Industrial, Scientific and Medical.  These bands are used by devices such as industrial heaters and driers and domestic equipment such as microwave ovens.] band) such that there is no need for a specific consideration of the impact on spectrum of their usage in a maritime environment.
+
+Table 8 details, for each of the commercial technologies, the frequency band(s) in which they ‘prefer’ to operate, i.e. those for which there are known services, as well as the general range of frequencies over which they are specified to operate.
+
+.Table 8 - Summary of Spectrum Requirements of New Commercial Data Links
+[cols="1,2,2",options="header"]
+|===
+^|Technology |^Frequency Range |^Notes
+
+a| TETRAfootnote:[This technology is widely used for government agencies and may not be available to commercial enterprise.]
+a| 380 – 400 MHz +
+410 – 430 MHz +
+450 – 470 MHz +
+806 – 821 // 851 – 866 MHz
+a| EN 300 392 +
+TETRA 2 (TEDS) +
+EN 302 561
+|TETRAPOL
+|70 – 933 MHz |
+|P25
+|136 – 870 MHz |
+|DMR
+|30 – 900 MHz
+|TS 102 361
+|dPMR
+|30 – 900 MHz
+|EN 301 166
+|GSM (incl EDGE)footnote:[According to 3GPP TS 45.005]
+a| 380 – 400 MHz +
+410 – 430 MHz +
+450 – 470 MHz +
+478 – 496 MHz +
+698 – 746 MHz +
+747 – 792 MHz +
+806 – 866 MHz +
+824 – 894 MHz +
+870 – 921 MHz +
+876 – 925 MHz +
+880 – 960 MHz +
+1710 – 1880 MHz +
+1850 – 1990 MHz
+|
+|CDMA2000
+a| 450 – 470 MHz +
+790 – 862 MHz +
+824 – 894 MHz +
+880 – 960 MHz +
+1710 – 1880 MHz +
+1850 – 1990 MHz +
+1820 – 2170 MHz +
+2300 – 2400 MHz +
+2500 – 2690 MHz
+|
+|W-CDMA (UMTS)
+|
+|
+|TD-CDMA
+a| 1900 – 1920 MHz +
+2010 – 2025 MHz +
+(2570 – 2620 MHz)
+a| ‘TDtv’ applications have been trialed in some EU countries
+|TD-SCDMA
+|
+|
+|WiMax
+a| 2 – 11 GHz +
+10 – 66 GHz
+a| 3400 – 3600 MHz is being seen as a potential target following WRC-07 and EU WAPECS moves
+|802.20 (MBWA)
+|Below 3.5 GHz |
+|WiBro
+|2.3 – 2.4 GHz
+|Currently Korea only
+|iBurst (HC-SDMA)
+|Below 3.5 GHz
+|Often uses 1785 – 1805 MHz or 1900 – 1920 MHz
+|===
+
+LTE and UMB are 4G extensions to UMTS and CDMA2000 respectively.  At present, it is envisaged that existing spectrum assignments will be re-farmed such that no new spectrum will be necessary.
+
+From the above, the bands of particular interest, and where there are most likely to be mobile communication systems providing value in maritime applications are:
+
+* 380 to 400 MHz;
+* 410 to 430 MHz;
+* 450 to 470 MHz;
+* 790 to 862 MHz (the ‘Digital Dividend’);
+* 824 to 849 // 869 to 894 MHz (US ‘800 MHz’ cellular band);
+* 880 to 915 // 925 to 960 MHz (EU ‘900 MHz’ cellular band);
+* 1710 to 1785 // 1815 to 1880 MHz (EU ‘1800 MHz’ cellular band);
+* 1850 to 1910 // 1930 to 1990 MHz (US ‘1900 MHz’ cellular band);
+* 1880 to 1920 MHz (EU ‘3G TDD’ band);
+* 1920 to 1980 // 2110 to 2170 MHz (EU ‘3G’ band);
+* 2010 to 2015 MHz (EU ‘3G TDD’ band);
+* 2400 to 2483.5 MHz (‘2.4 GHz’ license exempt, low-power band);
+* 2500 to 2690 MHz (‘3G expansion’ band);
+* 3400 to 3600 MHz
+
+Table 9 shows, based on the latest version of the ITU Radio Regulations, the allocations in those bands (including any footnotes), highlighting the position of maritime services in those bands.
+
+// Table 9 spans printed PDF pages 48-53. Rows printed across a page break
+// are merged into a single row here.
+.Table 9 - Summary of Maritime Radio Spectrum
+[cols="1,2,2,2,1",options="header"]
+|===
+^|Frequency (MHz) |^Region 1 Allocation |^Region 2 Allocation |^Region 3 Allocation |^Status of Maritime Use
+
+|380 – 387
+a| FIXED +
+MOBILE 5.254
+|
+|
+|No constraints
+|387 – 390
+a| FIXED +
+MOBILE +
+Mobile-satellite (space-to-Earth)  5.208A 5.208B 5.254 5.255
+|
+|
+|No constraints
+|390 – 399.9
+a| FIXED +
+MOBILE 5.254
+|
+|
+|No constraints
+|410 – 420
+a| FIXED +
+MOBILE except aeronautical mobile +
+SPACE RESEARCH (space-to-space) 5.268
+|
+|
+|No constraints
+|420 – 430
+a| FIXED +
+MOBILE except aeronautical mobile +
+Radiolocation +
+5.269 5.270 5.271
+|
+|
+|No constraints
+|450 – 455
+a| FIXED +
+MOBILE  5.286  AA +
+5.209 5.271 5.286 5.286A 5.286B 5.286C 5.286D 5.286 E
+|
+|
+|No constraints
+|455 – 456
+a| FIXED +
+MOBILE  5.286AA +
+5.209 5.271  5.286A +
+5.286B 5.286C  5.286 E
+a| FIXED +
+MOBILE  5.286AA +
+MOBILE-SATELLITE (Earth-to-space)  5.286A +
+5.286B 5.286C +
+5.209
+a| FIXED +
+MOBILE  5.286AA +
+5.209 5.271  5.286A +
+5.286B 5.286C  5.286 E
+|No constraints
+|456 – 459
+a| FIXED +
+MOBILE  5.286AA +
+5.271  5.287  5.288
+|
+|
+|No constraints
+|459 – 460
+a| FIXED +
+MOBILE  5.286AA +
+5.209 5.271  5.286A +
+5.286B 5.286C  5.286 E
+a| FIXED +
+MOBILE  5.286AA +
+MOBILE-SATELLITE (Earth-to-space)  5.286A +
+5.286B 5.286C +
+5.209
+a| FIXED +
+MOBILE  5.286AA +
+5.209 5.271  5.286A +
+5.286B 5.286C  5.286 E
+|No constraints
+|460 – 470
+a| FIXED +
+MOBILE  5.286AA +
+Meteorological-satellite (space-to-Earth) +
+5.287  5.288  5.289  5.290
+|
+|
+|No constraints
+|790 – 806
+a| FIXED +
+BROADCASTING +
+MOBILE except aeronautical mobile  +
+5.316B  5.317A +
+5.312  5.314  5.315  +
+5.316 5.316A  5.319
+a| BROADCASTING +
+Fixed +
+MOBILE  5.313B  5.317A +
+5.293 5.309 5.311A
+a| FIXED +
+MOBILE  5.313A  5.317A +
+BROADCASTING +
+5.149  5.305  5.306  +
+5.307 5.311A  5.320
+|No constraints
+|806 – 862
+a| FIXED +
+BROADCASTING +
+MOBILE except aeronautical mobile  +
+5.316B  5.317A +
+5.312  5.314  5.315  +
+5.316 5.316A  5.319
+a| FIXED +
+MOBILE  5.317A +
+BROADCASTING  +
+5.317  5.318
+a| FIXED +
+MOBILE  5.313A  5.317A +
+BROADCASTING +
+5.149  5.305  5.306  +
+5.307 5.311A  5.320
+|No constraints
+|862 – 890
+a| FIXED +
+MOBILE except aeronautical mobile  +
+5.317A +
+BROADCASTING  5.322 +
+5.319  5.323
+a| FIXED +
+MOBILE  5.317A +
+BROADCASTING  +
+5.317  5.318
+a| FIXED +
+MOBILE  5.313A  5.317A +
+BROADCASTING +
+5.149  5.305  5.306  +
+5.307 5.311A  5.320
+|No constraints
+|890 – 902
+a| FIXED +
+MOBILE except aeronautical mobile  +
+5.317A +
+BROADCASTING  5.322 +
+Radiolocation +
+5.323
+a| FIXED +
+MOBILE except aeronautical mobile  +
+5.317A +
+Radiolocation +
+5.318  5.325
+a| FIXED +
+MOBILE  5.317A +
+BROADCASTING +
+Radiolocation +
+5.327
+|No constraints
+|902 – 928
+a| FIXED +
+MOBILE except aeronautical mobile  +
+5.317A +
+BROADCASTING  5.322 +
+Radiolocation +
+5.323
+a| FIXED +
+Amateur +
+MOBILE except aeronautical mobile  +
+5.325A +
+Radiolocation +
+5.150  5.325  5.326
+a| FIXED +
+MOBILE  5.317A +
+BROADCASTING +
+Radiolocation +
+5.327
+|No constraints
+|928 – 942
+a| FIXED +
+MOBILE except aeronautical mobile  +
+5.317A +
+BROADCASTING  5.322 +
+Radiolocation +
+5.323
+a| FIXED +
+MOBILE except aeronautical mobile  +
+5.317A +
+Radiolocation +
+5.325
+a| FIXED +
+MOBILE  5.317A +
+BROADCASTING +
+Radiolocation +
+5.327
+|No constraints
+|942 – 960
+a| FIXED +
+MOBILE except aeronautical mobile  +
+5.317A +
+BROADCASTING  5.322 +
+5.323
+a| FIXED +
+MOBILE  5.317A
+a| FIXED +
+MOBILE  5.317A +
+BROADCASTING  +
+5.320
+|No constraints
+|1710 – 1930
+a| FIXED +
+MOBILE  5.384A  5.388A  5.388B  +
+5.149  5.341  5.385  5.386  5.387  5.388
+|
+|
+|No constraints
+|1930 – 1970
+a| FIXED +
+MOBILE  5.388A  5.388B  +
+5.388
+a| FIXED +
+MOBILE  5.388A  5.388B  +
+Mobile-satellite (Earth-to-space)  +
+5.388
+a| FIXED +
+MOBILE  5.388A  5.388B  +
+5.388
+|No constraints
+|1970 – 1980
+a| FIXED +
+MOBILE  5.388A  5.388B  +
+5.388
+|
+|
+|No constraints
+|1980 – 2010
+a| FIXED +
+MOBILE +
+MOBILE-SATELLITE (Earth-to-space)  5.351A  +
+5.388  5.389A  5.389B  5.389F
+|
+|
+|No constraints
+|2010 – 2015
+a| FIXED +
+MOBILE  5.388A  5.388B  +
+5.388
+a| FIXED +
+MOBILE  5.388A  5.388B  +
+MOBILE-SATELLITE  +
+(Earth-to-space)  +
+5.388  5.389C  5.389E
+a| FIXED +
+MOBILE  5.388A  5.388B  +
+5.388
+|No constraints
+|2110 – 2120
+a| FIXED +
+MOBILE  5.388A  5.388B  +
+SPACE RESEARCH (deep space) (Earth-to-space)  +
+5.388
+|
+|
+|No constraints
+|2120 – 2160
+a| FIXED +
+MOBILE  5.388A  5.388B  +
+5.388
+a| FIXED +
+MOBILE  5.388A  5.388B  +
+Mobile-satellite (space-to-Earth)  +
+5.388
+a| FIXED +
+MOBILE  5.388A  5.388B  +
+5.388
+|No constraints
+|2160 – 2170
+a| FIXED +
+MOBILE  5.388A  5.388B  +
+5.388
+a| FIXED +
+MOBILE  5.388A  5.388B  +
+MOBILE-SATELLITE  +
+(space-to-Earth)  +
+5.388  5.389C  5.389E
+a| FIXED +
+MOBILE  5.388A  5.388B  +
+5.388
+|No constraints
+|2400 – 2450
+a| FIXED +
+MOBILE  5.384A  +
+Amateur +
+Radiolocation +
+5.150  5.282  5.395
+a| FIXED +
+MOBILE  5.384A  +
+RADIOLOCATION +
+Amateur  +
+5.150  5.282  5.393  5.394  5.396
+|
+|No constraints
+|2450 – 2483.5
+a| FIXED +
+MOBILE +
+Radiolocation +
+5.150
+a| FIXED +
+MOBILE +
+RADIOLOCATION  +
+5.150
+|
+|No constraints
+|2500 – 2520
+a| FIXED  5.410 +
+MOBILE except aeronautical mobile  +
+5.384A +
+5.412
+a| FIXED  5.410 +
+FIXED-SATELLITE (space-to-Earth)  5.415  +
+MOBILE except aeronautical mobile  +
+5.384A  +
+5.404
+a| FIXED  5.410  +
+FIXED-SATELLITE (space-to-Earth)  5.415 +
+MOBILE except aeronautical mobile   +
+5.384A +
+MOBILE-SATELLITE  +
+(space-to-Earth)  5.351A   +
+5.407  5.414 5.414A  +
+5.404 5.415A
+|No constraints
+|2520 – 2535
+a| FIXED  5.410 +
+MOBILE except aeronautical mobile  +
+5.384A +
+BROADCASTING-SATELLITE 5.413  5.416  +
+5.339  5.405  5.412  +
+5.417C  5.417D  5.418B  +
+5.418C
+a| FIXED  5.410  +
+FIXED-SATELLITE (space-to-Earth)  5.415 +
+MOBILE except aeronautical mobile  +
+5.384A +
+BROADCASTING- +
+SATELLITE 5.413  5.416  +
+5.339  5.417C  5.417D  +
+5.418B  5.418C
+a| FIXED  5.410  +
+FIXED-SATELLITE (space-to-Earth)  5.415 +
+MOBILE except aeronautical mobile  +
+5.384A +
+BROADCASTING- +
+SATELLITE 5.413  5.416  +
+5.403  5.414A  5.415A
+|No constraints
+|2535 – 2655
+a| FIXED  5.410 +
+MOBILE except aeronautical mobile  +
+5.384A +
+BROADCASTING- +
+SATELLITE 5.413  5.416  +
+5.339    5.412  5.417C  +
+5.417D  5.418B  5.418C
+a| FIXED  5.410 +
+FIXED-SATELLITE (space-to-Earth)  5.415 +
+MOBILE except aeronautical mobile  +
+5.384A +
+BROADCASTING- +
+SATELLITE 5.413  5.416  +
+5.339  5.417C  5.417D  +
+5.418B  5.418C
+a| FIXED  5.410 +
+MOBILE except aeronautical mobile   +
+5.384A +
+BROADCASTING- +
+SATELLITE 5.413  5.416  +
+5.339  5.417A  5.417B  +
+5.417C  5.417D  5.418  +
+5.418A  5.418B  5.418C
+|No constraints
+|2655 – 2670
+a| FIXED  5.410 +
+MOBILE except aeronautical mobile  +
+5.384A +
+BROADCASTING- +
+SATELLITE 5.208B  5.413  +
+5.416 +
+Earth exploration-satellite (passive) +
+Radio astronomy +
+Space research (passive)  +
+5.149 5.412
+a| FIXED  5.410  +
+FIXED-SATELLITE (Earth-to-space) (space-to-Earth)  5.415 +
+MOBILE except aeronautical mobile  +
+5.384A +
+BROADCASTING- +
+SATELLITE 5.413  5.416  +
+Earth exploration-satellite (passive) +
+Radio astronomy +
+Space research (passive)  +
+5.149  5.208B
+a| FIXED  5.410  +
+FIXED-SATELLITE (Earth-to-space)  5.415 +
+MOBILE except aeronautical mobile  +
+5.384A +
+BROADCASTING- +
+SATELLITE 5.413  5.416  +
+Earth exploration-satellite (passive) +
+Radio astronomy +
+Space research (passive)  +
+5.149  5.208B  5.420
+|No constraints
+|2670 – 2690
+a| FIXED  5.410 +
+MOBILE except aeronautical mobile  +
+5.384A +
+Earth exploration-satellite (passive) +
+Radio astronomy +
+Space research (passive)  +
+5.149   5.412
+a| FIXED  5.410  +
+FIXED-SATELLITE (Earth-to-space) (space-to-Earth)  5.208B  5.415 +
+MOBILE except aeronautical mobile  +
+5.384A +
+Earth exploration-satellite (passive) +
+Radio astronomy +
+Space research (passive)  +
+5.149
+a| FIXED  5.410  +
+FIXED-SATELLITE (Earth-to-space)  5.415 +
+MOBILE except aeronautical mobile  +
+5.384A +
+MOBILE-SATELLITE  +
+(Earth-to-space)  5.351A  +
+5.419 +
+Earth exploration-satellite (passive) +
+Radio astronomy +
+Space research (passive)  +
+5.149
+|No constraints
+|3400 – 3500
+a| FIXED +
+FIXED-SATELLITE (space-to-Earth)  +
+Mobile  5.430A  +
+Radiolocation +
+5.431
+a| FIXED +
+FIXED-SATELLITE (space-to-Earth)  +
+Amateur +
+Mobile  5.431A +
+Radiolocation  5.433  +
+5.282
+a| FIXED +
+FIXED-SATELLITE (space-to-Earth)  +
+Amateur +
+Mobile  5.432B +
+Radiolocation  5.433  +
+5.282  5.432  5.432A
+a| Secondary
+|3500 – 3600
+a| FIXED +
+FIXED-SATELLITE (space-to-Earth)  +
+Mobile  5.430A  +
+Radiolocation +
+5.431
+a| FIXED +
+FIXED-SATELLITE (space-to-Earth)  +
+MOBILE except aeronautical mobile +
+Radiolocation  5.433
+a| FIXED +
+FIXED-SATELLITE (space-to-Earth)  +
+MOBILE except aeronautical mobile   +
+5.433A  +
+Radiolocation  5.433
+a| Secondary in Region 1
+|===
+
+None of the footnotes relating to the use of these bands specifically preclude any use for maritime services.
+With the exception of the band 3400 – 3600 MHz, the mobile service (which includes, unless explicitly stated, the maritime mobile service) has a primary allocation meaning that the use of these bands for maritime applications will pose no regulatory issues at the ITU.  In the band 3400 – 3600 MHz, many of the footnotes relate to the upgrading of the mobile service from secondary to primary status, however it is known that in some parts of the world (especially in high rainfall areas such as around the equator) this band is still heavily used for satellite downlinks and as such its development for mobile services is likely to remain constrained.
+
+=== Conclusions
+
+There does not appear to be any necessity to expend significant effort on the standardization or regulation of these mobile communication technologies to make them suitable for the maritime community.

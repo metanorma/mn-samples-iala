@@ -1,0 +1,747 @@
+[appendix]
+== Development of New Characteristics
+
+The following tables summarizes the status of the various ITU technical characteristics relating to maritime communication applications both for those already existing as well as for those foreseen in e-Navigation.  They outline where existing characteristics are likely to need updating or elsewhere new characteristics need to be developed.  If changes are required they will take place through the appropriate ITU Study Groups.
+
+ITU Study Groups (SG) are responsible for developing and maintaining Recommendations, some of which are used as technical background for amending the frequency allocations at the periodic World Radiocommunications Conferences (WRC).  Study groups are established and assigned study questions by a Radiocommunication Assembly (RA) to prepare Recommendations for approval by ITU Member States.  In the case of e-Navigation two SG’s are likely to be involved in the development of material to be agreed at WRC, namely SG4 and SG5.
+
+SG4 relates to satellite services, covering systems and networks for the following service:
+
+* Fixed-satellite service;
+* Mobile-satellite service;
+* Broadcasting-satellite service; and
+* Radiodetermination-satellite service.
+
+SG5 relates to terrestrial services, covering systems and networks for the following services:
+
+* Fixed service;
+* Mobile service;
+* Radiodetermination service;
+* Amateur service; and
+* Amateur-satellite service.
+
+Below the SG’s there are subgroups, such as Working Parties (WP) and Task Groups (TG) that are established to study the questions assigned to the different Study Groups. For example, SG4 has the following WP’s:
+
+* Working Party 4A  - Efficient orbit/spectrum utilization for Fixed Satellite Service (FSS) and Broadcasting Satellite Service (BSS);
+* Working Party 4B - Systems, air interfaces, performance and availability objectives for FSS, BSS and Mobile Satellite Service (MSS), including IP-based applications and satellite news gathering;
+* Working Party 4C  - Efficient orbit/spectrum utilization for MSS and Radiodetermination Satellite Service (RDSS);
+
+SG5 has the following WP’s:
+
+* Working Party 5A - Land mobile service above 30 MHz excluding IMT; wireless access in the fixed service; amateur and amateur-satellite services;
+* Working Party 5B - Maritime mobile service including Global Maritime Distress and Safety System (GMDSS); aeronautical mobile service and radiodetermination service;
+* Working Party 5C - Fixed wireless systems; HF and other systems below 30 MHz in the Fixed and Land Mobile Services;
+* Working Party 5D - IMT Systems;
+* Task Group 5/1 (TG 5/1) - WRC-19 agenda item 1.13
+
+For maritime GMDSS and e-Navigation applications any necessary revision to, or creation of, technical characteristics will take place in one of two WP’s – SG4 WP4C and SG5 WP5B.
+
+// Table 10 spans printed PDF pages 55-63 (landscape).
+.Table 10 - ITU Recommendations and Reports for Maritime Radio Applications
+[cols=",,,,,",options="header"]
+|===
+2+^|Application 2+^|Current characteristics ^|Amendments ^|Mechanism
+
+| DSC
+| VHF
+a| Recommendation +
+ITU-R M.493-14
+a| Digital selective-calling system for +
+use in the maritime mobile service.
+a| The revision work on +
+Recommendation ITU-R M.493-13 is +
+on going at WP 5B in cooperation with +
+IMO, IALA, IEC and CIRM
+| N/A
+
+|
+|
+a| Recommendation +
+ITU-R M.541-10
+a| Operational Procedures for the Use +
+of Digital Selective-Calling Equipment +
+in the Maritime Mobile Service
+|
+|
+
+|
+|
+a| Recommendation +
+ITU-R M.693-1
+a| Technical characteristics of VHF +
+emergency position-indicating radio +
+beacons using digital selective calling +
+(DSC VHF EPIRB)
+|
+|
+
+|
+|
+a| Recommendation +
+ITU-R M.689-3
+a| International Maritime VHF +
+Radiotelephone Systems with +
+Automatic Facilities Based on DSC +
+Signaling Format
+|
+|
+
+|
+|
+a| Recommendation +
+ITU-R M.821-1
+a| Optional Expansion of the Digital +
+Selective-Calling System for Use in +
+the Maritime Mobile Service
+|
+|
+
+|
+| MF/HF
+a| Recommendation +
+ITU-R M.493-14
+a| Digital selective-calling system for +
+use in the maritime mobile service.
+a| The revision work on +
+Recommendation ITU-R M.493-13 is +
+on going at WP 5B in cooperation with +
+IMO, IALA, IEC and CIRM
+| N/A
+
+|
+|
+a| Recommendation +
+ITU-R M.541-10
+a| Operational Procedures for the Use +
+of Digital Selective-Calling Equipment +
+in the Maritime Mobile Service
+|
+|
+
+|
+|
+a| Recommendation +
+ITU-R M.1173-1
+a| Technical characteristics of single- +
+sideband transmitters used in the +
+maritime mobile service for +
+radiotelephony in the bands between +
+1 606.5 kHz (1 605 kHz Region 2) and +
+4 000 kHz and between 4 000 kHz +
+and 27 500 kHz
+|
+|
+
+|
+|
+a| Recommendation +
+ITU-R M.1082-1
+a| International maritime MF/HF +
+radiotelephone system with +
+automatic facilities based on DSC +
+signaling format
+|
+|
+
+|
+|
+a| Recommendation +
+ITU-R M.476-5
+a| Direct-Printing Telegraph Equipment +
+in the Maritime Mobile Service
+|
+|
+
+|
+| Satellite
+a| Recommendation +
+ITU-R M.541-10
+a| Operational Procedures for the Use +
+of Digital Selective-Calling Equipment +
+in the Maritime Mobile Service
+a| DSC over satellite is not currently +
+defined explicitly through a technical +
+characteristic. However, it could be +
+appropriate to develop a +
+complementary characteristic to those +
+available for VHF and HF.
+a| This task should be +
+coordinated through +
+WP4C/SG4 under existing +
+question 227/4.
+
+| LRIT
+| HF
+|
+|
+a| The use of HF and Satellite data links +
+to support the LRIT application should +
+not need a new technical +
+characteristic, as they are simply +
+applications supported by existing +
+data links. However, there may be +
+merit in amending the existing +
+recommendations in relation to HF +
+and satellite communications to +
+explicitly recognize the use of LRIT.
+a| The work would have to +
+be addressed through +
+WP4C/SG4 Questions 84- +
+4/4 (Iridium), 87-4/4 +
+(satellite) coordinating +
+with WP5B/SG5 for HF.
+
+|
+| Satellite
+|
+|
+|
+|
+
+| AIS
+|
+a| Recommendation +
+ITU-R M.1371-5
+a| Technical characteristics for an +
+automatic identification system using +
+time division multiple access in the +
+VHF maritime mobile band
+a| WRC-12 allocated two channels for +
+satellite detection of AIS, six channels +
+for possible testing of future AIS +
+applications and one channel for +
+experimental use for future +
+applications. +
+WRC-15 agreed that VHF +
+channels 27 and 28 are +
+each split into two simplex +
+channels from 1 January +
+2019. The channels 2027 +
+and 2028 designated as +
+ASM 1 and ASM 2 are +
+used for application +
+specific messages (ASM) +
+as described in the most +
+recent version of +
+Recommendation ITU-R +
+M.2092. +
+.
+|
+
+| VHF Comms
+| Voice
+a| Recommendation +
+ITU-R M.1084-5
+a| Interim solutions for improved +
+efficiency in the use of the band 156- +
+174 MHz by stations in the maritime +
+mobile service
+a| Under e-Navigation, a general push to +
+make more efficient use of the +
+spectrum available for maritime voice +
+communications may take place as +
+existing channels are increasingly +
+allocated to digital services. +
+The existing characteristics (e.g. +
+M.1084) propose possible interim +
+solutions such as the use of 12.5 kHz +
+channel spacing. It may be desirable to +
+develop a new technical characteristic +
+to describe a permanent solutions for +
+e.g. 12.5 kHz or 8.33 kHz voice +
+channels in the future communication +
+environment.
+a| This task should be +
+coordinated through +
+WP5B/SG5.
+
+|
+|
+a| Recommendation +
+ITU-R M.489-2
+a| Technical characteristics of VHF +
+radiotelephone equipment operating +
+in the maritime mobile service in +
+channels spaced by 25 kHz
+|
+|
+
+|
+| Data
+a| Recommendation +
+ITU-R M.1842-1
+a| Characteristics of VHF radio system +
+and equipment for the exchange of +
+data and electronic mail in the +
+maritime mobile service RR Appendix +
+18 channels
+a| A new technical characteristic will be +
+required to support the use of VHF +
+channels for digital data transmission +
+– assuming that AIS is not selected as +
+the maritime domain datalink of +
+choice. +
+The current characteristic for VHF data +
+exchange refers to the specific +
+solution implemented by Telenor in +
+Norway. If this solution is accepted by +
+the maritime community, this +
+characteristic could be amended. +
+However, in the more likely scenario +
+of a new datalink technology being +
+proposed a new characteristic will be +
+required. +
+WP 5B is working on the +
+standardization of communication +
+protocols for full implementation of +
+standardized VHF data +
+communications.
+a| This task should be +
+coordinated through +
+WP5B/SG5.
+
+|
+|
+a| Recommendation +
+ITU-R M.2092-0
+a| Technical characteristics for a VHF +
+data exchange system in the VHF +
+maritime mobile band
+a| VHF data exchange system (VDES) +
+integrates the components of VHF +
+data exchange (VDE), application +
+specific messages (ASM) and the +
+automatic identification system (AIS) +
+in the VHF maritime mobile band. +
+This recommendation provides the +
+technical characteristics of ASM and +
+VDE.
+|
+
+|
+| SAR
+a| Recommendation +
+ITU-R M.489-2
+a| Technical characteristics of VHF +
+radiotelephone equipment operating +
+in the maritime mobile service in +
+channels spaced by 25 kHz
+a| No e-Nav related comms change is +
+anticipated for the use of 121.5 MHz +
+for short range SAR purposes. +
+However, were the VHF channels to +
+be revised the SAR associated +
+characteristic (M.489) would in any +
+event be updated.
+| N/A
+
+| HF Comms
+| Voice
+a| Recommendation +
+ITU-R M.1173-1
+a| Technical characteristics of single- +
+sideband transmitters used in the +
+maritime mobile service for +
+radiotelephony in the bands between +
+1 606.5 kHz (1 605 kHz Region 2) and +
+4 000 kHz and between 4 000 kHz +
+and 27 500 kHz
+a| No e-Nav related comms change is +
+envisaged for HF voice services. +
+However, if there is a broad +
+encroachment of digital techniques +
+into the band there may be a need to +
+revise existing voice characteristics to +
+accommodate data.
+| N/A
+
+|
+|
+a| Recommendation +
+ITU-R M.1082-1
+a| International maritime MF/HF +
+radiotelephone system with +
+automatic facilities based on DSC +
+signalling format
+|
+|
+
+|
+| Data
+a| Recommendation +
+ITU-R M.1081-1
+a| Automatic HF facsimile and data +
+system for maritime mobile users
+a| There are a number of existing +
+technical characteristics relating to +
+data exchange in the HF band that +
+include both outmoded legacy +
+technologies as well as candidate +
+future technologies. +
+There needs to be either an update to +
+M.1798, or else a new characteristic to +
+describe the selected HF digital data +
+scheme to be used under e- +
+Navigation. Currently M.1798 and +
+F.1821 describes multi-channel HF +
+data links such as the system currently +
+deployed by Globe Wireless for +
+commercial services (email, etc.).
+a| WRC-12 decided +
+channelling arrangements +
+in AP17, effecting on 1 +
+January 2017 for the +
+implementation of HF +
+data communications.
+
+|
+|
+a| Recommendation +
+ITU-R M.1798-1
+a| Characteristics of HF radio equipment +
+for the exchange of digital data and +
+electronic mail in the maritime +
+mobile service
+|
+|
+
+|
+|
+a| Recommendation +
+ITU-R M.627-1
+a| Technical characteristics for HF +
+maritime radio equipment using +
+narrow-band phase-shift keying +
+(NBPSK) telegraphy
+|
+|
+
+|
+|
+a| Recommendation +
+ITU-R F.1821-0
+a| Characteristics of advanced digital +
+high frequency (HF) +
+radiocommunication systems
+|
+|
+
+| NAVTEX / NBDP
+| MSI
+a| Recommendation +
+ITU-R M.625-4
+a| Direct-Printing Telegraph Equipment +
+Employing Automatic Identification in +
+the Maritime Mobile Service
+a| If under e-Navigation the NAVTEX data +
+is carried across different +
+communication links there may be a +
+need to provide a new characteristic +
+to accommodate it. For this purpose, +
+WP 5B developed Recommendation +
+M.2010. Also, WRC-12 exclusively +
+allocated 495-505 kHz to MMS for +
+digital broadcasting of maritime safety +
+and security related information using +
+M.2010.
+|
+
+|
+|
+a| Recommendation +
+ITU-R M.540-2
+a| Operational and Technical +
+Characteristics for an Automated +
+Direct- Printing Telegraph System for +
+Promulgation of Navigational and +
+Meteorological Warnings and Urgent +
+Information to Ships ‐ Section 8B ‐ +
+Maritime Mobile Service; Telegraphy +
+and Related Subjects.
+|
+|
+
+|
+|
+a| Recommendation +
+ITU-R M.688-0
+a| Technical characteristics for a high +
+frequency direct-printing telegraph +
+system for promulgation of high seas +
+and NAVTEX-type maritime safety +
+information
+|
+|
+
+|
+|
+a| Recommendation +
+ITU-R M.492-6
+a| Operational procedures for the use +
+of direct-printing telegraph +
+equipment in the maritime mobile +
+service
+|
+|
+
+|
+|
+a| Recommendation +
+ITU-R M.476-5
+a| Direct-Printing Telegraph Equipment +
+in the Maritime Mobile Service
+|
+|
+
+| NAVDATA
+| Data
+a| Recommendation +
+ITU-R M.2010-0
+a| Characteristics of a digital system, +
+named Navigational Data for +
+broadcasting maritime safety and +
+security related information from +
+shore-to-ship in the 500 kHz band
+a| This technical characteristic may be +
+used for e-Navigation for digital +
+broadcasting maritime safety and +
+security related information from +
+shore to ship on 495-505 kHz with +
+high data rate.
+a| WRC-12 allocated 495-505 +
+kHz to the MMS +
+exclusively for the high +
+speed digital broadcasting, +
+effective on 1 January +
+2013.
+
+|
+|
+a| Recommendation +
+ITU-R M.2058-0
+a| Characteristics of a digital system, +
+named navigational data for +
+broadcasting maritime safety and +
+security related information from +
+shore-to-ship in the maritime HF +
+frequency band
+a| This technical characteristic may be +
+used for e-Navigation for digital +
+broadcasting maritime safety and +
+security related information from +
+shore to ship on 4, 6, 8, 12, 16 and 22 +
+MHz bands with high data rate.
+|
+
+| On board Comms
+| UHF
+a| Recommendation +
+ITU-R M.1174-3
+a| Technical characteristics of +
+equipment used for on-board vessel +
+communications in the bands +
+between 450 and 470 MHz
+a| WRC-15 Agenda Item 1.15 will +
+consider spectrum demands for on- +
+board communication and there may +
+be a need to update the existing +
+characteristics to support the +
+implementation of digital PMR.
+a| This task should be +
+coordinated through +
+WP5B/SG5 most likely +
+under a new question.
+
+|
+| Wi-Fi
+a| Report +
+ITU-R F.2086-1
+a| Technical and operational +
+characteristics and applications of +
+broadband wireless access in the +
+fixed service
+a| If Wi-Fi stations are to be adopted for +
+on-board data communications there +
+may be a need for a new characteristic +
+associated with is use in the maritime +
+mobile domain.
+a| This task should be +
+coordinated through +
+WP5B/SG5 most likely +
+under a new question.
+
+| Satellite Comms
+| Broadband
+a| Recommendation +
+ITU-R S.1709-1
+a| Technical characteristics of air +
+interfaces for global broadband +
+satellite systems
+a| Broadband over satellite is an existing +
+application of current satellite systems +
+and does not warrant a specific +
+characteristic for the maritime domain
+| N/A
+
+|
+| MSI
+a| Recommendation +
+ITU-R S.1709-1
+a| Technical characteristics of air +
+interfaces for global broadband +
+satellite systems
+a| The transmission of MSI over +
+broadband may warrant a +
+characteristic to define the data +
+layers.
+a| This task should be +
+coordinated through +
+WP4C/SG4 under existing +
+question 87-4/4.
+
+| DGNSS
+|
+a| Recommendation +
+ITU-R M.823-3
+a| Technical characteristics of +
+differential transmissions for global +
+navigation satellite systems from +
+maritime radio beacons in the +
+frequency band 283.5-315 kHz in +
+Region 1 and 285-325 kHz in Regions +
+2 and 3
+a| The current characteristic M.823-3 will +
+ultimately need to be updated to +
+accommodate new developments in +
+GNSS such as Galileo and COMPASS.
+a| This task should be +
+coordinated through +
+WP5B/SG5.
+
+| Port Services
+a| WiMax / 2G / 3G / +
+4G
+|
+|
+a| The maritime community will make +
+use of technologies developed and +
+standardized for other applications in +
+port.  No maritime specific +
+characteristics are required.
+| N/A
+
+a| Inter-Ship +
+Broadband
+| WiMax
+a| Recommendation +
+ITU-R M.1801-2
+a| Radio interface standards for +
+broadband wireless access systems, +
+including mobile and nomadic +
+applications, in the mobile service +
+operating below 6 GHz
+a| Under e-Navigation, ad-hoc mesh +
+WiMax networks could be deployed to +
+provide broadband coastal networks. +
+This would require a specific form of +
+implementation of WiMax that would +
+necessitate a specific technical +
+characteristic.
+a| This task should be +
+coordinated through +
+WP5B/SG5 possibly under +
+existing questions 212/8 +
+and 238/8.
+
+| Loran
+a| eLoran data +
+channel
+a| Recommendation +
+ITU-R M.589-3
+a| Technical characteristics of methods +
+of data transmission and interference +
+protection for radionavigation +
+services in the frequency bands +
+between 70 and 130 kHz
+a| The existing technical characteristic +
+will need to be revised to +
+accommodate the definitive 9th pulse, +
+Eurofix and/or new modulation +
+schemes selected for the eLoran data +
+channel.
+a| This task should be +
+coordinated through +
+WP5B/SG5 under a new +
+question.
+
+| Radar
+| SART
+a| Recommendation +
+ITU-R M.628-5
+a| Technical Characteristics for Search +
+and Rescue Radar Transponders
+a| Relates to 9 GHz SART, so no change +
+required.
+| N/A
+
+|
+| Racon
+a| Recommendation +
+ITU-R M.824-4
+a| Technical parameters of radar +
+beacons (Racons)
+| No e-Nav related comms change.
+| N/A
+
+|
+a| Radio +
+determination
+a| Recommendation +
+ITU-R M.1460-2
+a| Technical and operational +
+characteristics and protection criteria +
+of radiodetermination radars in the 2 +
+900-3 100 MHz band
+| No e-Nav related comms change.
+| N/A
+
+| EPIRB
+| VHF
+a| Recommendation +
+ITU-R M.690-3
+a| Technical characteristics of +
+emergency position-indicating radio +
+beacons (EPIRBs) operating on the +
+carrier frequencies of 121.5 MHz and +
+243 MHz
+| No e-Nav related comms change.
+| N/A
+
+|
+a| Satellite (COSPAS / +
+SARSAT)
+a| Recommendation +
+ITU-R M.633-4
+a| Transmission characteristics of a +
+satellite emergency position- +
+indicating radio beacon (satellite +
+EPIRB) system operating through a +
+satellite system in the 406 MHz band
+| No e-Nav related comms change.
+| N/A
+
+|
+| Satellite
+a| Recommendation +
+ITU-R M.632-3
+a| Transmission Characteristics of a +
+Satellite Emergency Position +
+Indicating Radio Beacon (Satellite +
+EPIRB) System Operating Through +
+Geostationary Satellites in the 1.6 +
+GHz Band
+a| No e-Navigation related +
+communications change.
+| N/A
+
+|===

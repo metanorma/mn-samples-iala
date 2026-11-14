@@ -1,0 +1,26 @@
+== Summary
+
+The IALA Maritime Radio Communications Plan identifies current and future technologies used for maritime communication and addresses the IALA position regarding maritime related agenda items for WRC-15 and WRC-19, and also looks ahead to WRC-23.
+
+e-Navigation is a driving factor for a digital concept for the maritime sector. Developments in digital communications have a profound and long-term impact on the way the maritime sector operates.  It is foreseen that e-navigation will be supported by many current and future technologies identified in this plan.   The communications infrastructure should be designed to enable authorized seamless information transfer on board ship, between ships, between ship and shore and between shore authorities and other parties.  This infrastructure will have to be capable of not only supporting future e-Navigation applications, but will also have to support legacy applications.  It will therefore be bandwidth intensive and possibly rely upon a range of technologies.
+
+Securing spectrum, or changing the use of spectrum within existing allocations, is important for e-Navigation and other developments due to the planning timescales required to protect or extend the use of the radio spectrum through the ITU WRC.
+
+Modern services on land request a ubiquitous connectivity on the vessel which is not addressed by current maritime networks.   Dedicated service connectivity to improve services (for example logistic chain or port arrival and clearance) would benefit from the concept of a network at sea. The network at sea defines a fully meshed connectivity between all vessels and land stations which covers direct and multi-hop connections. The network comprises of a terrestrial and a satellite component and both components are currently developed with a long-range connectivity through the new VDES system for terrestrial and satellite connectivity. In the near future increasing demands, such as the maritime connectivity platform, require a broadband connectivity that requires to being developed. In the future, it is envisioned that there will be a network on the sea connecting the shore and vessels, and between vessels themselves, using digital technologies such as VDES, broadband maritime and satellite communications.
+
+In general, there are ongoing concerns relating to spectrum allocation and management for e-Navigation.  Protection of the maritime mobile service spectrum allocation needs to continue.  Particular emphasis should be given to following items:
+
+* development of frequency plans for the 450 to 470 MHz band so as to protect on-board use; and
+* the use of PLT/PLB at a national level as and when the possibility or necessity arises;
+
+In relation to the forthcoming WRC meeting, spectrum requirements to support e-Navigation should be addressed.  In particular:
+
+* on board communications needs;
+* the requirements for VDES, including VDE-SAT;
+* protection of HF RT/WT allocations.
+
+Finally, the plan recognises the need for maritime communications to develop automated processes for selecting the best communications technology, channel, and characteristics in accordance with the ship’s location, and the type of data to be exchanged.
+
+The plan also suggests modernization of GMDSS could include the modern digital technologies such as VHF Data exchange System (VDES), AIS, and data and voice communications in MF/HF and VHF bands.
+
+The e-Navigation concept and future user requirements are rapidly being developed but it is difficult to speculate what specific systems and spectrum will be required to achieve e-Navigation.  As e-Navigation develops the IALA Maritime Radio Communication Plan, as a living document, needs to be reviewed and updated.
