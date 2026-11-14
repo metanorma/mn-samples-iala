@@ -2,6 +2,13 @@ metanorma:
   source:
     files:
       - sources/g1199/document.adoc
+      - sources/mrcp/document.adoc
+      - sources/ga01-res01/document.adoc
+      - sources/ga01-res02/document.adoc
+      - sources/ga01-res12/document.adoc
+      - sources/a12-01/document.adoc
+      - sources/a13-01/document.adoc
+      - sources/cyber-workshop-report/document.adoc
 
   collection:
     organization: "IALA: International Organization for Marine Aids to Navigation"

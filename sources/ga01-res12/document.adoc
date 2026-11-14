@@ -1,0 +1,88 @@
+= Resolution on the Declaration of the International Organization for Marine Aids to Navigation
+:doctype: general-assembly
+:series: GA01
+:docnumber: 12
+:docidentifier: GA01.12
+:language: en
+:published-date: 2025-02-18
+:copyright-year: 2025
+:mn-document-class: iala
+:mn-output-extensions: xml,html,doc,rxl
+:local-cache-only:
+:data-uri-image:
+:urn: urn:mrn:iala:pub:ga01.12
+
+// SOURCE: reference-docs/resolutions/GA01-Res.12-EN-Resolution-on-the-declaration-on-IALA.pdf
+// (3 pages; file name "GA01-Res.12"; the running header prints "GA01/Res.12"
+// and the document body titles the resolution "Resolution GA01.12").
+//
+// COVER / DOCUMENT BLOCK (printed in the footer block of page 1):
+// "1st General Assembly / International Organization for Marine Aids to
+// Navigation"; "GA01/Res.12"; "06 March 2025"; "Original: English".
+// The :published-date: above is the adoption date ("Adopted on 18 February
+// 2025"); the printed document date is 06 March 2025.
+//
+// APPROVAL: "Adopted on 18 February 2025 (Agenda items l)" — the agenda
+// reference is printed in the singular-plural form "Agenda items l"; kept
+// verbatim.
+//
+// Pages 2-3 carry the annex to the resolution (printed page headers
+// "GA01/Res.12 / Annex, page 1" and "Annex, page 2"): the Declaration of the
+// International Organization for Marine Aids to Navigation, titled the
+// "Singapore Declaration". The ADOPTS recital prints "as included to the
+// Annex" (not "included in"); kept verbatim. The Declaration's own recitals
+// and the DECLARE intention items are transcribed inside the annex section.
+//
+// The resolution carries no edition; the :urn: follows the Pubid::Iala
+// canonical form urn:mrn:iala:pub:ga01.12 (no edition segment).
+
+THE ASSEMBLY,
+
+RECALLING the entry into force of the Convention and the establishment of the International Organization for Marine Aids to Navigation on 22 August 2024;
+
+NOTING the rich history of the International Association of Marine Aids to Navigation and Lighthouse Authorities;
+
+CONSIDERING the aims and objectives of the Organization;
+
+ADOPTS the Declaration on the International Organization for Marine Aids to Navigation, the Singapore Declaration as included to the Annex to this Resolution.
+
+[appendix]
+== Annex
+
+=== Declaration of the International Organization for Marine Aids to Navigation
+
+"SINGAPORE DECLARATION"
+
+At the first General Assembly of the International Organization for Marine Aids to Navigation (hereinafter referred to as “IALA”), held in the Republic of Singapore, from 18 to 21 February 2025;
+
+NOTING the history of IALA, from its establishment in 1957 as the International Association of Lighthouse Authorities to its evolution as the International Organization for Marine Aids to Navigation;
+
+RECALLING the IALA General Assembly Resolution A.01 adopted on 27 May 2014 in La Coruña, Spain regarding the Association’s change of status to that of an international intergovernmental organization and the adoption of the Kuala Lumpur Convention at the Diplomatic Conference on 28 February 2020;
+
+FURTHER RECALLING the Incheon Declaration adopted by the 19th IALA Conference in the Republic of Korea that recognises the important role of IALA members as custodians of a unique lighthouse heritage;
+
+RECOGNIZING IALA’s support of the United Nations Sustainable Development Goals by emphasizing the importance of systems to protect the marine environment and promote sustainability to minimize impact on the world’s resources;
+
+CONSIDERING IALA’s mission to foster the safe and efficient movement of vessels through the improvement and harmonization of Marine Aids to Navigation worldwide for the benefit of the maritime community and the protection of the marine environment;
+
+ACKNOWLEDGING the efforts of IALA and its members through collaboration, innovation, and the development of global standards on Marine Aids to Navigation;
+
+CONSCIOUS of the importance of expanding IALA membership to all States.
+
+IALA Member States DECLARE their intention to:
+
+UPHOLD the Core Values of the International Association of Marine Aids to Navigation and Lighthouse Authorities: being credible, dynamic, results-oriented, and connecting;
+
+ASPIRE to behave always in an impartial, transparent, evidence based, purposeful, and efficient manner when participating in IALA’s works;
+
+FOSTER IALA’s pivotal role in the maritime domain by contributing to a forward looking global maritime digital vision that embraces diversified Marine Aids to Navigation provision, and transformation, including autonomous technologies;
+
+COLLABORATE with relevant stakeholders to protect and share the rich natural and built heritage associated with lighthouses for future generations and deliver economic, social, and environmental benefits to coastal communities now and into the future;
+
+DEMONSTRATE a commitment to work together for the improvement of maritime safety through the continued development and harmonization of Marine Aids to Navigation by enhancing international cooperation with other organizations towards shared objectives;
+
+ADVANCE the development, decarbonization, and adoption of updated management practices for maintaining a global network of sustainable and efficient Marine Aids to Navigation, to contribute towards achieving internationally agreed emission control targets;
+
+SUPPORT States to play their part in facilitating the safe and efficient movement of vessels through their waters by the delivery of training and capacity building.
+
+ADOPTED on this 18th Day of February in the Year Two Thousand and Twenty-Five.

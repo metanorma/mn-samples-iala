@@ -1,0 +1,49 @@
+[appendix]
+== Abbreviations
+
+ADS-B :: Automatic Dependent Surveillance Broadcast
+AI :: Artificial Intelligence
+AIS :: Automatic Identification System
+ANN :: Artificial Neural Network
+AtoN :: Aids to Navigation
+ATC :: Air Traffic Control
+ATTOL :: Autonomous Taxiing, Take-Off and Landing
+CPDLC :: Controller Pilot Datalink
+COLREG :: Convention on the International Regulations for Preventing Collisions at Sea
+DME :: Distance Measuring Equipment
+DP :: Dynamic positioning
+EGNOS :: European Geostationary Navigation Overlay Service
+EICAS :: Engine Instrument and Crew Alerting
+GMDSS :: Global Maritime Distress and Safety System
+GNSS :: Global Navigation Satellite System
+IACS :: International Association of Classification Societies
+IALA :: International Association of marine Aids to Navigation and Lighthouse Authorities
+IEC :: International Electrotechnical Commission
+IFP :: Instrument Flight Procedures
+IGO :: Intergovernmental Organization
+IHO :: International Hydrographic Organization
+ILS :: Instrument Landing System
+IMO :: International Maritime Organization
+INAS :: International Network for Autonomous Ships
+IoT :: Internet of Things
+ITS :: Intelligent Transport Systems
+ITU :: International Telecommunication Union
+ISO :: International Organization for Standardisation
+MASS :: Maritime Autonomous Surface Ship
+ML :: Machine Learning
+MSC :: Maritime Safety Committee
+ODD :: Operational Design Domain
+OEM :: Original Equipment Manufacturers
+OEP :: Original Equipment Parts
+PAP :: Policy Advisory Panel
+PBN :: Performance Based Navigation
+PNT :: Positioning, Navigation and Timing
+NFAS :: Norwegian Forum for Autonomous Ships
+NGO :: Non-governmental organisation
+RCC :: Remote Control Centre (in MASS context) / Rescue Control Centre (in maritime context)
+RSE :: Regulatory Scoping Exercise
+SESAR :: Single European Sky ATM Research
+VDES :: VHF Data Exchange System
+VDL :: VHF Data/Digital Link
+VTS :: Vessel Traffic Services
+VTSO :: Vessel Traffic Services Operator

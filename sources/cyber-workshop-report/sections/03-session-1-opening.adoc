@@ -1,0 +1,136 @@
+== SESSION 1 - OPENING OF THE WORKSHOP
+
+Phil Day, Chair of the ARM Committee and chairing the workshop, opened the first session introducing briefly the programme, logistics and the number of experts that will be setting the scene for the upcoming working sessions.
+
+=== Welcome from IALA, Francis Zachariae - IALA Secretary-General
+
+Francis Zachariae welcomed participants to the workshop on cyber security highlighting that even if the virtual event is not the preferred option, the cyber security matters needed to be covered before the end of the work plan. Secretary General and the Secretariat really hope that the events planned for next year can be in person in Saint-Germain-en-Laye or elsewhere in the world as the members are used to. It is really needed.
+
+First, Francis Zachariae thanked the Canadian Coast Guard for hosting the workshop which was supposed to take in place in Quebec. Also, a big thanks to all the people involved in this workshop. The Chair Phil Day and all the working group chairs, speakers, and participants. An amazing group of specialists and experts contributed to the work during the week.
+
+IALA and its members have always tried to identify threats impacting the maritime services. This is not new. It could be weather, climate, visibility etc, but in an increasingly connected and technologically dependent world, new areas of vulnerability are emerging. Cyber security is a difficult subject and very difficult to understand and more importantly to do something efficient about. A bit like global warming. Lots concern and many words, but unfortunately fewer concrete actions. Francis Zachariae looked forward to being a bit more specific when it comes to the cyber threat related specifically to IALA business – AtoN – after this workshop, so that all members can benefit from future guidance and best practice. IALA members have the great advantage that in IALA is not political and is focused on technology and solutions in the best interest of safety. A cyber or cybersecurity threat is a malicious act that seeks to damage data, steal data, or disrupt digital life in general. So, a very serious threat specially when the trend is to become more digitalized in VTS, MASS, e-Navigation, virtual AtoNs etc. The matter should be considered very seriously, but also listen to all the guidance from other sectors who are much more targeted than IALA. The financial sector, aviation, the military, and the public sector. After all, the threat to AtoN is probably not as high, but the members need to understand how high and what to do.
+
+Francis Zachariae looks forward to the outcome of the workshop. Specially to understanding the threats and the level of threats better and how the committees can better take this into account in the future work. Francis Zachariae thanked again for the continued dedication of those who host, have planned, and attend this coming week for the time you give to ensure that the committees can work more efficiently with cyber security.
+
+Looking ahead, the Workshop on Enhanced Radar Positioning System (ERPS) will start at the end of November 2021. A subject that could also be of interest for this group.
+
+=== Welcome from Canadian Coast Guard, André Chateauvert – Canadian Coast Guard (CCG)
+
+André Chateauvert welcomed all participants to the virtual meeting. He raised the point to develop process and procedures to report, face and recover from cyber incidents inside the maritime organisations and administrations. A lesson learnt process should also be implemented in order to hardening organisations again future attacks. CCG considers cyber security as a key element due to the increase of infrastructure and system supporting marine navigation through a digital perspective within the AtoN programme, marine traffic and communications system providing VTS and eNavigation services. André finally recalled the importance of the workshop outcomes, not only for the participants and IALA members but also for the mariners.
+
+=== Cyber Security in the maritime domain, Jose Fernandez - Bastionnage
+
+Jose provided insights on the various cyber threats that could affect the maritime domain, actors and vulnerabilities as well as scenarios and finally inherent challenges for the maritime user. José started the presentation defining some terms need to know before starting the discussions: qualitative and quantitative risk, targets of attacks being the information assets and other terms related with undesired outcomes. It was identified the scope of cyber security in organisations: external actor and internal threats. The scenario of an outside threat follows typically the procedure of identification of the server (application, server among others) → penetration → exploitation of such lack of knowledge from the user and other take advantage of the different vulnerabilities. Cyber security also defines the threats into these technological domains including hardware (laptops, servers, net equipment, and cloud) and software (Windows/Linux). Mass market cybercrime remains a challenge for the individuals’ users. The computer operator/owner feels the consequences, the incentive to mitigate the ransomware is higher than other modes of cybercrime. Cyber sabotage made by subversive groups and targets organisations. Finally, the third kind of cyber threat to traditional IT includes the cyber supply chain since the hardware is asymmetry manufactured over the world but also software threats in supply chain also occurred. The question raised on the supply chain risk in the maritime domain. José also spoke about the physical cyber domain or CPS (Cyber Physical System) and its different elements. It was highlighted that there is a limited number of companies manufacturing both hardware and software of generic ICS / OT. The supply chain for those systems is therefore easier to define and secure than generic IT. IoT and IIoT (Industrial IoT) is a current trend and subject to cyber threat to generic CPS. Looking specifically to the IT and OT applying to the maritime domain, the following table was presented:
+
+// Printed as an embedded image in the published PDF; transcribed as a table.
+// The "Traditional IT" row is a single merged cell spanning the four
+// domain columns in the printed table.
+.Table 1 - IT & OT in the maritime domain
+[cols="^,<,<,<,<"]
+|===
+| | *Shipping* | *Ports* | *Aids to navigation* | *Ships*
+
+| *Traditional IT*
+4+a| * Computer networks (IP, wired/Wifi)
+* E-mail
+* Document management & DB
+* Web applications
+* Electronic payments
+
+| *Domain-specific IT*
+a| * Ship tracking
+* Shipment tracking
+** Manifests
+** RFID
+** _Blockchain_
+a| * Scheduling
+* Truck control
+a| * Vessel Traffic Services (VTS)
+a| * Chart updates
+* Pax/Crew Internet
+
+| *CPS*
+a| * RFID
+* AIS
+a| * RFID
+* Physical access control
+* Surveillance
+a| * Marks & lights
+* Buoys
+* Radar beacon
+* AIS AtoN
+* Surveillance Radar
+* …
+a| * IPMS
+* ECDIS
+* AIS
+* Radar
+* Sonar
+* …
+|===
+
+A view of the potential actors in maritime was also proposed:
+
+// Printed as an embedded image in the published PDF; transcribed as a table.
+.Table 2 - Potential actors in maritime cybersecurity
+[cols="<,^"]
+|===
+| *Potential impact* | *_Cui bono_*
+
+a| * Disruption of maritime shipping (long term) w/ severe economical impact
+a| * State-level actors
+* Subversive groups
+
+a| * Catastrophic destruction (shipping incidents)
+a| * Terrorist groups
+* State-level actors
+
+a| * Disruption of maritime surveillance operations (short term)
+a| Organized crime
+* Smuggling/drug trafficking
+* Illegal migration
+* Cybercriminals (extortion)
+|===
+
+Some vulnerabilities are recognised in the AtoN including VTS management and operations: AIS, Racons among others could be spoofed (signal and information). Therefore, this is a possible scenario of cyberattack. The hacking of AtoN equipment is also considered a plausible scenario. Jose identified the challenges of maritime cybersecurity based on the lack of common language and understanding of the work and priorities across these three groups: IT/Cyber security personnel – AtoN / VTS operators or experts – Maritime operators. Another challenge is that the solutions have permitted to avoid or mitigate attacks in the past and the methodology to recover is well know as well as the risk. Thus, the cyber security professional is placed in a comfort zone. However, the countermeasures do not cover targeted domain specific attacks, more sophisticated, non-money motivated etc. Also, a challenged to Jose, is the fact that AtoN / VTS have no suffered major attacks, the possible implication when attacking these assets are unknown etc.
+
+Finally, Jose concluded that most important cyber risks are placed on Ransomware (targeting critical infrastructure IT (non-maritime-specific)); AIS/Radar spoofing (on a State-level or subversive actors causing short to mid-term disruption to shipping); Hacking of AtoN systems. He also provided a prioritisation:
+
+. Rapid adoption and introduction of secure technologies (→AIS)
+. Cybersecurity standards for AtoN and VTS products
+. Human factors (vector for ransomware; how to handle events and recover)
+. Achieve generic IT cybersecurity maturity in the organization
+. Domain specific cybersecurity solutions
+
+=== Cyber Security in other bodies, Jakob P. Larsen – BIMCO
+
+Jakob provided a presentation on Maritime Cyber Risk Management and the recent publication from BIMCO et al on such matter. It is important to highlight that according to IMO resolution MSC.428(98) Maritime cyber risk management in safety management systems, shipping companies should include cyber risk management in the safety management system and not in the ship security plan. By the time of the DOC audit in 2021, all companies / administrations should have put in place the procedures to ensure that cyber risks are appropriately addressed in safety management systems. The risk assessment procedures were stressed, and the principles are described in the ISM Code 1.2.2. Jakob presented an example of an approach from a shipping company addressing the managing of cyber risk with all the specific procedures, forms and list to complete.
+
+.Figure 1 - Structure of the approach from a shipping company on cyber risk managing
+image::figure-1-shipping-company-cyber-risk-approach.png["Structure of the approach from a shipping company on cyber risk managing"]
+
+As part of BIMCO recommendations included in their guideline, the development of a logical map of networks on board and inventories of all different types of IT and OT equipment (permitting controlling operational systems) should be considered. Based on these two inputs, a risk assessment is established. Jakob put the heads on the necessity to investigate the concept of risk to develop the risk assessment. The breakdown of the different elements of risk are presented in the formulae below:
+
+.Figure 2 - Risk calculation and breakdown of elements of risks (BIMCO)
+image::figure-2-risk-calculation-bimco.png["Risk calculation and breakdown of elements of risks (BIMCO)"]
+
+Some examples were provided on capability, opportunity, and intent. In this specific maritime case: ships could take advantage in the intent because of the more limited access of a hacker to the ship. A risk matrix was also presented as an example in conjunction with the use of bridge equipment as ECDIS. The following recommendations on immediate steps were addressed:
+
+* Map remote accesses and data flows
+* Segregate networks: critical systems, admin, crew, passenger
+* Protect access to shipboard computers and systems (firewall, password management, removable media ports, physical access control)
+* Protect email and other internet facing systems and software (antivirus)
+* Initiate awareness training of all staff
+
+Jakob finally provided the status of cyber risk management: No major ship cyber-related incidents with severe impact to humans, ships, or environment, a rapidly changing situation and the consequent need for continual improvement.
+
+=== Cyber Security in other bodies, Jonathan Pritchard – IHO
+
+Jonathan Pritchard provided a presentation covering the matter of standard evolution for data protection and data integrity and how they are recast into the IHO S-100 framework as well as  how cybersecurity is impacting on that implementation. It was recalled that the history of IHO Standards has considered the data protection and authentication in the ECDIS (IHO S-63) as part of the data protection scheme permitting to be authenticated and even encrypted by an accredited data server (ECDIS digital chart provider). Using digital signatures and 40bit blowfish encryption among other capabilities aims at avoiding data corruption and reflects the cyber security matters when implementing digital data on ECDIS and such data in transit.
+
+Jonathan also referred to the latest updates on S-100 IHO’s Universal Hydrographic Data Model which is being implemented as part of the new generation of electronic charts (more products, enhanced interoperability…). S-100 Part 15 is included specifically for data protection of S-100 (data encryption and digital signatures for authenticax²tion). S-100 will also be interoperable with various technical standards for data security / integrity used in mainstream internet technologies (X509). A revised type-approved S-100 ECDIS will be available for such purpose.
+
+A diagram presented in slide 6 showed how IMO and IEC standards fit together and are inputs to the S-100 with the goal that all data imported into the ECDIS will digitalised signed (the origin for it can be checked on the ECDIS) and optionally some of them could be encrypted for copy protection. For instance, related to the data coming from the AtoN network, the AtoN service provider would be authenticated by IALA who is internally authenticated by IHO. Thus, the IHO data protection scheme will provide the identity certification to the data available in the bridge. In consultation with different maritime stakeholders setting the different use cases for S-100, interoperability of data is also sought with a view on future uses as well. The latest revision of S-100 Ed.5 will come out in 2022 and will be the basis for the revision of IMO performance standards for ECDIS to include S-100. An overview and roadmap of IHO standards and its implementation on the ECDIS was provided:
+
+.Figure 3 - Roadmap of IHO standards and its implementation on the ECDIS
+image::figure-3-iho-standards-roadmap.png["Roadmap of IHO standards and its implementation on the ECDIS"]

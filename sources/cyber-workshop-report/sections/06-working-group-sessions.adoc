@@ -1,0 +1,634 @@
+== WORKING GROUP SESSIONS - IALA GUIDANCE AND ROADMAP
+
+=== Working group 1 - Preventative procedural measures and behaviours
+
+==== Executive summary
+
+In considering preventative procedural measures and behaviour for cyber security, Working Group 1 (WG1) considered the human factors in cybersecurity for AtoN and VTS.
+
+WG1 identified gaps in current procedures and training, proposed mitigations for those gaps, identified threats and measures to prevent operational disruptions. Finally, WG1 considered how to create and foster a cyber-security culture, where cyber security is acknowledged and integrated into the day-to-day business.
+
+The group recommended the following
+
+* Recommendation 1: It is essential to raise awareness, implement procedures related to cyber security, encourage good cyber-security behaviour and provide regular training;
+* Recommendation 2: Cyber security roles/profiles and associated responsibilities should be assigned throughout the organization;
+* Recommendation 3: Cyber security should be part of the management culture throughout the whole organisation, and become a standing agenda item as an element of maintaining a safe and healthy work environment;
+* Recommendation 4: Cyber security must be embedded into the life cycle management of systems.
+
+==== Introduction
+
+Working group 1 on Human Factors and Cyber Security met on 16, 17 and 18 November 2021. The Group was chaired by René Hogendoorn and vice-chairs were Jillian Carson-Jackson (Nov 16) and Stefaan Priem (Nov 17 and 18).
+
+Based on the presentations, comments and questions made at the plenary, WG1 was instructed to:
+
+* Consider the current level of maturity of cyber security processes and user education in AtoN and VTS operators;
+* Identify important industry-wide gaps in organisational security policies and cyber security awareness and priorities for addressing these gaps;
+* Identify cyber security management standards that could be adapted and adopted to ensure proper cyber security governance in AtoN and VTS operations;
+* Identify which preventive and detection measures should be prioritised;
+* Identify desired behaviours, including safety and security culture;
+* If possible, propose topics that may be considered in future IALA work programme for IALA Committees regarding the preventive technical measures; and
+* Submit a report to plenary by 18 of November 2021.
+
+==== Discussions
+
+===== Current level of maturity of cyber security system processes
+
+After reviewing the topic, the group concluded that there was too little common ground among the diverse systems to be able to establish a “current situation”. For that reason, the group did not pursue this topic any further.
+
+===== Industry-wide gaps in organizational security policies and awareness
+
+The group identified the gaps.  These are provided in Table 3. The gaps are identified based on the priority assigned to the gap during the discussion of WG1.
+
+The table identifies
+
+* The gap;
+* The (high-level) options to mitigate the gap;
+* The dependencies that need to be addressed before the mitigation option can be exercised; and
+* The perceived priority of addressing the gap (high – medium – low).
+
+===== Cyber security management standards
+
+Based on the opening presentations it was noted that there are many different cyber security management standards.  To assist with the focus of the discussion, WG1 invited Jose Fernandez to provide additional information on this matter.
+
+Following discussion, it was noted that cyber security is an organisation-wide concern and applies to people of different domains (both OT and IT). All people within an organisation need to understand and use a common cyber security language.  The cyber security terminology and processes must be accessible to all people, regardless of their background.
+
+The NIST framework provides a reasonable approach to providing this commonality of terminology and is an existing standard.  This standard appears to be a suitable starting point for further IALA work. In this context, the work of ENISA may also be relevant.
+
+===== Preventative and detection measures
+
+WG1 considered cyber security threads related to malware, ransom ware, unauthorised access to data, unauthorised access to physical locations, phishing, failure to keep systems up to data, unintended consequences form system updates, incorrect configurations, conversion processes to new platforms, receiving unreliable data from external systems, system vulnerabilities and system overload.
+
+The results of the review are provided in Table 4. The table includes:
+
+* The identified threat;
+* The possible impact if the thread results in a breach;
+* Measures that can be taken to counter the threat or identify a breach, resulting from the threat;
+* The domain of the measures in NIST terminology.
+
+Note that the identified measures relate to the human factor. No technical measures were considered as they are in the domain of WG2.
+
+===== Fostering a cyber security culture
+
+For the human factor in Cyber Security, WG1 noted that the most important issues are
+
+* Raising awareness, encouraging good cyber-security behavior and (regular) training;
+* Assign cyber security roles/profiles and associated responsibilities throughout the organization;
+* Cyber security should be part of any meeting agenda and part of maintaining a safe and healthy work environment;
+* Consider what’s in it for the individual and how to make this part of the daily routine/contribution (initial training to bring everyone at the same level followed by moving to business as usual);
+* Cyber security must be embedded into the life cycle management of systems.
+
+===== Topics for future IALA Guidance
+
+WG1 recognised the work already underway with regards to cyber security, human factors and ergonomics.
+
+The group proposed the following topics for future development within IALA:
+
+* Review IALA toolbox of risk assessment to include cyber security issues;
+* Consider the human factor aspects of cyber security in the development of the draft IALA Guideline on Human Factors and Ergonomics in VTS;
+* Include cyber security in IALA documents such as training model courses for AtoN and VTS and operational and technical guidelines;
+* Identify appropriate cyber security guiding principles, measures and behaviours for AtoN and VTS.
+
+.Table 3 – Gap Analysis, priority, and options to address
+[cols=",,2,,",options="header"]
+|===
+|Gap |Explanation of Gap |Options to address |Priority |Dependency
+
+|Insufficient awareness
+a| * operational persons not aware of how cybersecurity affects 'me' (for others, not me)
+* understanding / realization of the consequences
+* Difference between home systems / work systems
+a| Training +
+Develop procedures
+|High
+a| * Management engagement
+* Policy
+* Inventory and risk assessment
+
+|How we think of data
+a| * Think of data differently / understand more about how data can be used effectively (protection of data)
+* change mindset to support data, benefit for all - so no single point of knowledge / single point of failure.
+* Awareness of individual roles with engaging with cybersecurity aspects
+|
+|High
+a| * Management engagement
+* Policy
+* Inventory and risk assessment
+
+|Procedural
+a| * requirements for physical access to the system (user controls, common access card, …)
+* desired behaviors to physically protect the system and related infrastructure
+* prevention of unauthorized remote access to the system and related infrastructure
+* procedures during and post incident (e.g. system shut down)
+* distinction between home systems and work systems (mixture of both)
+* work from home, access to the systems
+a| Develop relevant procedures +
+Create/promote a cyber security culture +
+Training +
+Engineering controls (design of systems to minimize human error) +
+Built-in processes +
+Implement a system for quality assurance
+|High
+a| * Management commitment
+* Cross-organizational and seamless collaboration
+* Clear distinction of roles
+
+|Different age of systems
+a| Older systems (existing systems without cyber security) and newer systems +
+* i.e. S-100 Part 15 will have security included
+* retrofitting existing technologies for cybersecurity / working with new systems that have security built in
+* dealing with legacy systems and newer systems.
+a| Identify previously unknown risks that were not addressed earlier in the systems (risk assessment) +
+Implement controls for systems that were not designed with cyber security in mind
+|High
+|
+
+|Knowledge Transfer
+a| * When people leave the organization, how to address the access?
+* The concept of 'corporate knowledge' when people leave / the cybersecurity knowledge
+* physically removing access to the system, but how to address the 'knowledge' that someone takes with them.
+a| Awareness +
+Training on procedures +
+Ensuring critical information is maintained within the organization on how to update/maintain the systems +
+Identify undocumented workarounds that should be documented as procedures
+|Medium
+|
+
+|Financing data to protect database
+a| How to ensuring funding / financial support for cybersecurity? +
+* need to evaluate the data you have / look at how to highlight the value of addressing cybersecurity
+* value of the information / value of protecting the information
+* separating the database from the infrastructure that houses the database
+a| Monetize data value and identify and inform on the cost of the consequences (data loss/theft, disruption of services) +
+Include data value in the risk assessment +
+IALA toolbox for risk assessment
+|Medium
+a| * Awareness
+* Management commitment
+
+|Language related to cybersecurity
+a| * providing cybersecurity in a common language, removing the 'jargon' and making the language more accessible (regardless of the background)
+* NIST terminology, BIMCO, etc.  (Rene put a document on the file share - members to look this).  (note - general thought - why develop anything new when there are other standards that exist - i.e. NIST which appears to be complete).
+* Conclusion (17/11): use the common language of NIST as a starting point/outline which may lead to an IALA guideline
+a| Raise awareness +
+Training
+|Medium
+|
+
+|Generational Differences
+a| * Comfort level with technology, awareness of cyber security aspects (different risk thresholds), different levels of trust in the tools
+a| Address training for different generations +
+* methods to use
+* level to 'pitch' this
+* provide a spectrum of approaches
+|Low
+|Part of training
+
+|Transferring data from legacy to new platforms
+a| In the transfer to S-100 / vulnerabilities +
+* moving from what we know to what is coming
+* need to address these vulnerabilities / developing the transition.
+* humans looking at how the work with the data base
+* transferring existing data to a new standard
+* procedures, training, attitude on attention to detail
+a| Awareness +
+Establish realistic time-frames for transition
+|Low
+|
+
+|Different guidelines
+a| looking at different guidelines, IAPH, BIMCO, IALA +
+* Helping the human navigate the landscape of existing and developing guidelines with regards to cybersecurity, training, cyber hygiene, etc.
+* Which guideline for a base (discussion on NIST / ISO / etc) and importance of the selection of the framework (NIST or ISO or other) and promote training of this framework to create a common language.
+a| Harmonization through development of IALA guidelines for ATON and VTS
+|Low
+|
+|===
+
+.Table 4 – Preventative / detection measures and procedures
+[cols=",,,",options="header"]
+|===
+|Threat (malicious or unintentional) |Impact |Preventive/detection measures |Purpose (NIST framework)
+
+|Malware
+|Virus, unauthorized access, system lockdown, data theft, loss of confidential information
+|Create awareness through (regular) training, virus protection, procedures (limit to software that can be installed and by whom)
+a| Identify +
+Detection +
+Protection (through software)
+
+|Ransom ware
+|System lockdown (no access for the organization unless ransom is paid) and financial damage
+|Create awareness through (regular) training on organizational level, procedures for recovery,
+a| Protection +
+Recovery
+
+|Unauthorized access to (confidential, sensitive or protected) data
+|Data theft, corrupt/amended or loss of data
+|Define access profiles, define the ownership of the information
+|Protection
+
+|Unauthorized physical access by employees or visitors (server rooms, equipment rooms, standalone network devices, operational rooms, remote locations)
+|(Un)intentional system disruption, data theft, unauthorized remote access,
+|Procedures for access, access restrictions, locked and monitored rooms and locations, procedures for visitors
+a| Identify +
+Detection +
+Protection
+
+|Phishing (more focused on the human element, targeting individuals (one or in mass))
+|Virus, unauthorized access, system lockdown, data theft. (on both the individual level and the organizational level)
+|Awareness and training (test emails) on what it is and its possible impact, procedure for follow-up
+a| Detection +
+Protection
+
+|Failure to keep systems up to date (not installing patches/updates)
+|Virus, unauthorized access, system lockdown, data theft, system disruption
+|Procedures to keep the systems up-to-date and a policy/culture on that (e.g. inventory)
+a| Detection +
+Protection
+
+|Unintended consequences from system updates (patch that may hinder/break down the system)
+|Workarounds, system break-down, system disruption
+|Procedures (testing patches in a separate system), policy of risk matrix
+a| Identification +
+Detection +
+Protection
+
+|Incorrect configuration
+|Virus, unauthorized access, system lockdown, data theft, system disruption
+|Training, regular tests, procedures for development and deployment process
+a| Detection +
+Protection
+
+|Conversion process to new technology/software/platforms/…
+|System not accessible, unintentional access, system failure
+|Training, regular tests, procedures for development and deployment process
+a| Detection +
+Protection
+
+|Receiving unreliable data from external systems (e.g. AIS, Bluetooth)
+|Integrity of the system
+|Awareness, procedures and training how to deal with the data and to correlate data, procedures to detect incorrect data, identify authorized sources
+a| Identification +
+Detection +
+Protection
+
+|System vulnerabilities through design and standard that are easy to spoof or jam (e.g. AIS)
+|Integrity of the system, system disruption
+|Awareness and understanding of the full-spectrum of the implications, training, procedures to adapt to the situation, back-up of the system
+a| Identification +
+Detection +
+Protection
+
+|System overload (e.g. botnet attack)
+|System disruption (affecting the system in a negative way)
+|Awareness and understanding of the full-spectrum of the implications, awareness of the roles, training, procedures to adapt to the situation, back-up of the system
+a| Identification +
+Detection +
+Protection
+|===
+
+=== Working group 2 – Preventative technical measures
+
+==== Executive summary
+
+In considering preventative technical measures for cyber security, Working Group 2 (WG2) identified vulnerable systems, proposed mitigations and protective measures, and proposed further work to address cyber security within IALA’s scope of work.
+
+While platforms and equipment within the scope of IALA are subject to the same threats and vulnerabilities as systems in the wider world, WG2 identified positioning, navigation and timing (PNT) systems and the automatic identification system (AIS) as particular systems where IALA could have a key role to play in implementing protection and mitigation measures.
+
+A major vulnerability identified by the Group was the lack of authentication, authorization and encryption in many of the systems within the scope of IALA. While the Group noted that it might not be appropriate to apply all three of these measures to all systems within the scope of IALA, the Group took the view that there is a pressing need to ensure that authentication is built in to new systems and products.
+
+The Group recommended the following corrective technical measures:
+
+* Recommendation 1: Regarding GNSS reliability, continue to support the work of ENG WG3 and ENAV WG2, while informing their work in the context of the wider cyberattack threat.
+* Recommendation 2: That IALA underlines (e.g. through a cyber security guideline document) the importance of securing IT against traditional threats as a priority goal (organisational goal), ahead of finding and deploying solutions for AIS security (which needs an industry-wide effort).
+* Recommendation 3: That IALA underlines and recommends to its members that they make themselves aware of existing AIS and GNSS spoofing and jamming detection and mitigation capabilities in COTS VTS, employ them in the most efficacious manner in their operations and provide a guideline on how to protect against other similar threats, e.g. camera signal spoofing, etc.
+* Recommendation 4: That the need for an industry-wide effort, possibly initiated by IALA, be discussed at the highest decisional level of the IALA organization.
+* Recommendation 5: That IALA set up a task force to define a path towards finding, adopting and deploying a long-term robust solution to AIS message authentication.
+* Recommendation 6: Inform and adjust objectives of ENAV WG 1 (Digital Information Systems) to include the exploration of cryptographic solutions that would support the use of PKI in low bandwidth applications.
+* Recommendation 6.1: Suggest to ENAV WG1 that it should look at IEC to update IEC 63173-2 SECOM (S-100) (supporting IP-based communication) to support other non-IP data exchange technology, e.g. AIS, VDES, etc., by liaising with the IEC Work Group working on this (IEC TC80 WG17).
+
+==== Introduction
+
+Working group 2 on Preventative Technical Measures met on 16, 17 and 18 November 2021. The Group was Chaired by Philip Lane and the Vice-Chair was Jin Hyoung Park. A Subgroup on Priorities for Corrective Technical Measures was Chaired by Jose Fernandes.
+
+Based on the presentations, comments and questions made at the plenary, WG2 was instructed to;
+
+* Consider technologies in operating Marine AtoN, including VTS;
+* Identify the most vulnerable systems whose security should be addressed in priority;
+* Identify cyberattack scenarios against AtoN, VTS or related systems that would adversely impact maritime operations;
+* Identify priority corrective measures on known vulnerable technologies based on risk;
+* Identify “security by design” approaches that could be adopted in the context of Marine AtoN provision;
+* Identify detection technologies and procedures;
+* identify organisations that are dealing with cyber security in the critical infrastructure and/or maritime context; existing standards covering cybersecurity and carry out a gap analysis in the scope of IALA;
+* if possible, propose topics that may be considered in future IALA work programme for IALA Committees regarding the preventive technical measures; and
+* submit a report to plenary by 18 of November 2021.
+
+To help guide their work, the Group received presentations on paper ENAV28-5.1.1.4 (The analysis of general cybersecurity requirements applicable to ship’s e-Nav service display device based on international standards) and the key points from the plenary presentations on technical countermeasures and cyber security frameworks such as that set out by the United States National Institute of Standards and Technology (NIST).
+
+During their work, the Group also considered the Guidelines on Cyber Security Onboard Ships, Version 4 (BIMCO et. al.), the USCG Cyber Strategic Outlook and IAPH Cybersecurity Guidelines for Ports and Port Facilities.
+
+==== Discussions
+
+===== Relevant Platforms and Related Technologies
+
+The group identified the following marine AtoN platforms and related sub-systems and technologies as within the scope of IALA’s work on this topic:
+
+* Physical AtoN (buoys, beacons, lighthouses)
+** Hardware – signaling equipment; specifically light & sound.
+** Physical access
+** Monitoring, control & telemetry (including communications protocols, networks and channels)
+** Telematics and remote administration (including software updates and device configuration)
+** AIS & GNSS
+* VTS: The Group noted that VTS consists of a wide range of technologies to deliver its tactical  and strategic functions. The following list was derived from IALA Guideline G.1111 (Preparation of Operational and Technical Performance Requirements for VTS Systems):
+** Radar
+*** Radar with IP interfaces
+** AIS-networks
+*** Terrestrial AIS moving to VDES
+*** Virtual AtoN ?
+** Environmental monitoring
+*** hydro-meteo sensors
+** Electro-optical systems
+*** IP-based CCTV with integrated AI
+** Radio Direction Finders (RDF)
+*** VHF Direction Finder
+** Long range sensors
+*** Satellite AIS
+** Radio Communications
+*** VHF radio
+*** IMT2020
+** Data processing
+** VTS Human / Machine Interface
+** Decision Support
+*** AI enabled Decision Support Tools
+** External Information Exchange
+*** Inter VTS Exchange Format (IVEF) => S-210
+*** Web enabled APIs
+*** Integrated S-211 services
+*** Integrated S-421 services
+* Electronic AtoN:
+** AIS
+** GNSS and augmentation systems
+
+===== Priority/vulnerable systems
+
+In considering which were the most vulnerable systems whose security should be addressed as a priority, the group identified the following:
+
+* Radio AtoN: there is no authentication for AIS message 21 (Aids-to-navigation report),
+* Electronic AtoNs: public GNSS and GNSS augmentation systems have no authentication; e.g. AIS message 17 (DGNSS correction data),
+* For all platforms that include telemetry, remote administration, edge devices or Supervisory control and data acquisition (SCADA) systems which include interfaces to other networks, particularly public networks present an attack surface; for the platforms identified in section 5.2.3.1, they are often unprotected and have no authentication.
+
+The Group noted that E-Racons are currently under development; this presents opportunity to apply security measures into the design of the system.
+
+===== Cyberattack scenarios
+
+The group identified the following cyberattack scenarios against AtoN, VTS and related systems that could adversely impact maritime operations:
+
+* The Group recalled spoofing and jamming incidents that have already happened throughout the world, which point to the potential for attacks to positioning, navigation and timing (PNT) systems. Such actions can lead to piracy, theft, fraud, collisions, accidents, loss of property and life. PNT vulnerabilities would have an impact on all of the identified priority systems.
+* A physical or virtual AtoN could be used for spoofing or DoS attacks against both physical and electronic AtoNs; causing disruption to safe navigation or VTS operations
+* Interfaces to external systems for telemetry, remote administration, SCADA and data processing of VTS systems via edge devices or VTS backbone, makes them vulnerable to untargeted cyberattacks. Note: compliance with S-100 provides some mitigation for this.
+* AIS used for ground surveillance could be attacked (e.g. by generating a large volume of false data representing spoofed ships). The Group noted that although radar is still a key approach for vessel detection, AIS is required for vessel identification. Also, AIS plays a different role depending on the location for example, in areas where there is no radar available it is the only option.
+
+===== Priorities for Corrective Measures
+
+A subgroup of WG2 was formed to discuss priorities for corrective measures. The following is a report from that group.
+
+Participants: Jose M. Fernandez (Bastionnage), Jean-François Coutu (Canadian Coast Guard), Ernie Batty (IMIS Global) and Jin Hyoung PARK (KRISO).
+
+The subgroup agreed three most important corrective measures, in order of priority due to the associated risk are:
+
+. Countermeasures to address GNSS signal spoofing and jamming
+. AIS message authentication
+. Deployment of Public Key Infrastructure (PKI) -
+
+For each of these the discussion and recommendations were as follows:
+
+. GNSS reliability
++
+--
+The ongoing work of ENG Working Group 3 (PNT Resilience) and ENAV Working Group 2 (New Technologies) are already addressing this issue.
+
+Recommendation 1: Continue to support the work of ENG WG3 and ENAV WG2, while informing their work in the context of the wider cyberattack threat.
+--
+
+. AIS security
++
+--
+* The deployment of new standards in the VHF Data Exchange System (VDES) will not address message authentication and will not solve the AIS spoofing problem.
+* There already exist several proposals by national authorities and academia to implement authentication in AIS that should be considered.  This includes similar proposal to secure the "cousin" protocol in aviation ADS-B.
+* It is recognized that there exist capabilities at the software level in existing COTS VTS that can detect several types of AIS spoofing.  However, such methods cannot prevent AIS channels, receiving hardware or data streams being flooded with spoofed messages.
+* There seems to be a gap in efficient and commercially available spoofing detection and prevention capabilities at the hardware level and in AIS data integration platforms (e.g. signal processing level, multilateration).
+* It is recognized that while AIS spoofing is a serious and hard to solve problem, there are other cyber threats to VTS that are equally important in terms of risks and that more easily addressable, in particular traditional cyberattack by hacking IT components of VTS.
+* Finding a solution to implement message authentication in AIS requires an industry-wide effort that will take time, but that is nonetheless crucial, and that IALA has a key role to play in "getting the ball rolling".
+
+Recommendation 2: That IALA underlines (e.g. through a cyber security guidelines document) the importance of securing IT against traditional threats as a priority goal (organisational goal), even ahead of finding and deploying solutions for AIS security (which needs an industry-wide effort).
+
+Recommendation 3: That IALA underlines and recommends to its members that they make themselves aware of existing AIS and GNSS spoofing and jamming detection and mitigation capabilities in COTS VTS,  employ them in the most efficacious manner in their operations and provide a guideline on how to protect against other similar threats, e.g. camera signal spoofing, etc.
+
+Recommendation 4: That the need for an industry-wide effort, possibly initiated by IALA, be discussed at the highest decisional level of the IALA organization.
+
+Recommendation 5: That IALA set up a task force to define a path towards finding, adopting and deploying a long-term robust solution to AIS message authentication.
+--
+
+. PKI
++
+--
+* ENAV Working Group 1 on Digital Information Systems is already working on the establishment of PKI to support exchange of information through Web applications.
+* There is a technical difficulty in using such a PKI for message authentication in low bandwidth applications such as AIS or VDES, for which several solutions have been proposed in other domains (e.g. aviation) and that should be considered.
+
+Recommendation 6: Inform and adjust objectives of ENAV WG 1 to include the exploration of cryptographic solutions that would support the use of PKI in low bandwidth applications.
+
+Recommendation 6.1: Suggest to ENAV WG1 that it should look at IEC to update 63173-2 SECOM (S-100) (supporting IP-based communication) to support other non-IP data exchange technology, e.g. AIS, VDES, etc., by liaising with the IEC Work Group working on this (IEC TC80 WG17).
+--
+
+===== Security by Design
+
+The Group suggested that the following “security by design” approaches could be adopted in the context of marine AtoN provision:
+
+* AtoN and VTS operators should implement security by design concepts such as defence in depth.
+* Vendors of AtoN and VTS products should:
+** implement concepts such as a secure development lifecycle (IEC 62443-4-1), secure hardware architecture during the design, development and manufacture of products,
+** consider the security of their supply chain, e.g. requiring proof of origin of components, and
+** use the principles of vendor risk management (VRM), as well as industry and national guidelines to identify high risk vendors which represent a high risk of information loss.
+
+===== Supplier-specific vulnerabilities
+
+The group noted the following regarding supplier-specific vulnerabilities:
+
+* The increased role of software and services provided by third party suppliers to a greater exposure to a number of vulnerabilities that may derive from the risk profile of individual suppliers.
+* The risk profiles of individual suppliers can be assessed on the basis of several factors, notably:
+** The likelihood of the supplier being subject to interference from a country. This is one of the key aspects in the assessment of non-technical vulnerabilities. Such interference may be facilitated by, but not limited to, the presence of the following factors:
+*** a strong link between the supplier and a government of a given third country;
+*** the third country’s legislation, especially where there are no legislative or checks and balances in place, or in the absence of security or data protection agreements;
+*** the characteristics of the supplier’s corporate ownership;
+*** the ability for the third country to exercise any form of pressure, including in relation to the place of manufacturing of the equipment.
+** The supplier’s ability to assure supply.
+** The overall quality of products and cybersecurity practices of the supplier, including the degree of control over its own supply chain and whether adequate prioritisation is given to security practices.
+* The assessment of a supplier’s risk profile may also take into account notices issued by national authorities.
+
+===== Detection technologies and procedures
+
+The Group noted that a new task proposed to the ENAV committee at ENAV27 to develop a Guideline for AIS/VDES VDL integrity monitoring (ENAV28-12.3.1 WG3 New work items proposal 20211015) would be a valuable contribution to address a key vulnerability of the AIS/VDES VDL.
+
+The Group recalled the presentation at ENAV 28 by Mr. John Fischer of Orolia on Maritime Interference Detection and Mitigation (IDM) for GNSS. Mr. Fischer introduced multiple measure that could be used to detect and mitigate jamming and spoofing GNSS signals:
+
+* Using passive upward facing GNSS antennas to mitigate against spoofing and jamming signal from low angle (from the horizon) and below the GNSS antenna (i.e. vehicles on ferries),
+* Using active GNSS antennas to reject interfering GNSS signals,
+* Using processing techniques to detect that a GNSS spoofing and / or jamming signal is present and warn the users of this status,
+* Use of alternative PNT sources, and
+* Use of multiple GNSS sources.
+
+In summary, using suitable passive and active GNSS antennas along with PNT data processing or other intelligent means may be used to monitor sensors and data sources to provide a consistent and resilient data set. This supports measures against jamming and spoofing of data.
+
+===== Related standards and organisations
+
+The group identified the following organisations that are dealing with cyber security in the critical infrastructure and/or maritime context:
+
+* IMO: In June 2017, at its 98th session the Maritime Safety Committee (MSC) of the International Maritime Organization (IMO) completed the approval of MSC-FAL.1/Circ.3 (Guidelines on Maritime Cyber Risk Management). At the same session, MSC also adopted Resolution MSC.428(98) (Maritime Cyber Risk Management in Safety Management Systems), in June 2017. This resolution required cyber risks to be addressed in safety management systems by 1 January 2021.
++
+An update to MSC-FAL.1/Circ.3, (Revision 1) was approved in 2021. The IMO Guidelines on Maritime Cyber Risk Management are set out in the annex of MSC-FAL.1/Circ.3/Rev.1. The Guidelines provide high-level recommendations on maritime cyber risk management to safeguard shipping from current and emerging cyber threats and vulnerabilities.
+* IEC: The International Electrotechnical Commission (IEC) prepares and publishes international standards for all electrical, electronic and related technologies.
++
+The international industrial security standard IEC 62443 covers both organizational and technical aspects of security. The primary goal of the IEC 62443 series is to provide a flexible framework that facilitates addressing current and future vulnerabilities in IACS (industrial automation and control systems) and to apply necessary mitigations in a systematic, defensible manner. The IEC 62443-4 series specifies the process requirements for the secure development of products used in industrial automation and control systems. Within this series, IEC 62443-4-1 sets out secure product development lifecycle requirements and IEC 62443-4-2 specifies technical security requirements for IACS components.
++
+Work is in progress at IEC on a new standard for secure communication between ship and shore (SECOM). Publication of IEC 63173-2 (Maritime Navigation and Radiocommunication Equipment and Systems-Data Interface – Part 2: Secure communication between ship and shore (SECOM)) is expected to be in June 2022. IEC 63173-2 will specify service interfaces (APIs) for data exchange and data protection measures to enable secure communication; it will be applicable to products that use the IHO (International Hydrographic Organization) S-100 Universal Hydrographic Data Model; other data formats will also be supported.
+* ISO: The International Organization for Standardization (ISO) is developing a new Maritime Cyber safety standard (ISO 23806) which will provide requirements for designing, implementing, maintaining and ensuring the safety of ships operations by managing the cyber risk of operational technical systems. ISO 23806 is intended to help shipowners to update their ship safety management systems (SMS) to meet the ISM-code as instructed by the IMO resolution MSC.428(98).
+* NIST: The United States National Institute of Standards and Technology's Framework for Improving Critical Infrastructure Cybersecurity (the NIST Cybersecurity Framework) can be used to help identify and prioritise actions for reducing cyber security risks. It is intended as a tool for aligning policy, business and technological approaches to managing cyber risks.
++
+In February 2021, NIST released NISTIR 8323: Foundational PNT Profile: Applying the Cybersecurity Framework for the Responsible Use of Positioning, Navigation, and Timing (PNT) Services. More information here: https://www.nist.gov/pnt.
+* Shipowners and Operators Associations: The Guidelines on Cyber Security Onboard Ships (BIMCO et al.) provide guidance on cyber security and compliance with IMO MSC.428(98). Version 4 of the Guidelines was published in December 2020, and endorsed by the IMO’s Maritime Safety Committee at MSC 103 in May 2021 by means of MSC.1/Circ.1639.
+* IALA: Recommendation R1017 (Resilient Position, Navigation And Timing (PNT) sets out recommendations on PNT resilience for IALA members and other authorities providing marine aids to navigation services.
+
+===== Gap analysis
+
+Noting the findings of their discussion, the group carried out a gap analysis within the scope of IALA, with the following findings:
+
+// The printed table carries no table number.
+[cols=",,"]
+|===
+|Gap |Current situation |Options to address
+
+|AIS false reporting detection
+|Some detection systems are available, but they are proprietary, protected or commercially sensitive.
+|IALA has a role to play in shaping policy on the recording of vulnerabilities and their detection.
+
+|Authentication, authorization and encryption
+|Authentication, authorization and encryption are lacking in many of the systems within the scope of IALA
+|Analyse how authentication, authorization & encryption can applied to the systems within the scope of IALA and what are the priorities.
+|===
+
+The Group recalled that there was a patent related issue related to IALA’s work on AIS  base station detection this could be a useful reference for IALA’s work on AIS false reporting detection.
+
+===== Suggested topics for the IALA work programme
+
+The Group propose the following topics that may be considered in the future IALA work programme for IALA Committees regarding the preventive technical measures:
+
+* a Recommendation for IALA members on how to apply the concepts of security by design, considering the following:
+** For AtoN and VTS operators this should include security by design concepts such as defence in depth.
+** For AtoN and VTS product vendors this should include concepts such as secure development lifecycle (IEC 62443-4-1), secure hardware architecture during the design, development, and manufacture of products. Noting the supplier-specific vulnerabilities set out in section 5.3.2.5.
+* how can the Confidentiality, Integrity and Availability (CIA) triad be integrated into the systems within the scope of IALA?
+* how can authentication, authorization & encryption can applied to the systems within the scope of IALA and what are the priorities for these? (e.g. for GNSS, authentication may be a priority as these are free and open services, which could make the implementation of authorization & encryption impractical),
+* how can new resources such as the Maritime Connectivity Platform (MCP) and the VHF data exchange system (VDES) be used in IALA’s work on this issue? e.g:
+** the use of the MCP for authentication in general, and
+** the use of VDES for authentication of AIS.
+* a wider gap analysis between the existing IALA instruments and standard requirements, considering the vulnerabilities, detection methods and mitigations identified in this report.
+
+The WG noted the ongoing work at IALA on the integrity of the VDL, and considered this an essential element of IALA’s work on this subject.
+
+=== Working group 3 – Incident response and recovery (post operational)
+
+==== Executive summary
+
+The workshop was held from 15 to 19 November 2021 with the working group session conducted 16 – 18 November, chaired by Martijn Ebben and vice chaired by Hideki Noguchi.
+
+The focus of working group 3 was a post-incident response and recovery. The issues in accordance with the Terms of Reference (see ANNEX C) were also considered by the working group.
+
+The group identified the following key points:
+
+. Business continuity approach and scenarios
++
+--
+* Cyber security risks should be incorporated in existing business continuity plans
+* Scenarios for cyber incidents should be developed, in particular for AtoN and OT systems
+* Legacy systems, especially in AtoN operations, should be considered, both as a risk and as fall-back for automated (computer) systems
+--
+
+. Existing business continuity best practices
++
+--
+* Business continuity should be organised organisation-wide
+* Important to have backups, which may also be installation media and/or configuration backups
+--
+
+. Incident response best practices
++
+--
+* A clear policy and incident response plan should be established
+* Scenario playbooks should be created and practiced
+* First response is the organisation’s own responsibility, for further analysis, forensics and assistance in recovery, a specialised 3rd party is recommended. Cooperation may be needed as a 3rd party may not have in-depth knowledge of AtoN systems.
+* It is acknowledged that actions to perform incident response may impact AtoN operation and trigger business continuity actions, and thus should be well thought about in advance.
+* A cyber incident should be evaluated by means of a lesson learned exercise, to improve plans and playbooks
+--
+
+. The prioritised actions within the continuity plan and for cyber incident response
++
+--
+* Risk and impact analysis
+* Planning and preparation
+* Decide on contracting an MSP (Managed Service Provider) / CERT (Computer Emergency Response Team
+--
+
+. Means of the reporting and sharing cyber incidents information
++
+--
+* It is suggested by the working group that IALA may be facilitator for an ISAC (Information Sharing and Analysis Centre)
+--
+
+Based on the above key points, the group proposed the following topics for future IALA work programme.
+
+* Amend existing IALA recommendation R1009 on Disaster Recovery to include cyber security aspects
+* Amend existing IALA guideline G1120 on Disaster Recovery to include cyber security aspects
+* Develop a new guideline or recommendation for specifics in cyber incident response and recovery, possibly including crisis management and business continuity management, for AtoN operators and VTS authorities, as operations deviate from generic industry best practices
+
+In addition to these topics, the group developed an informational paper “Inventory of best practices on incident response and recovery and business continuity” (ANNEX E) to all IALA Committees as useful reference for the future work of the Committees and invited the workshop to approve the paper to submit it with the report of the workshop.
+
+The working group discussed that crisis management, especially within a logistics chain, is an important part of cyber incident response, but within the time available, this has not been discussed any further. Training on both incident response and crisis coordinators may be required. This topic has not been discussed any further within the working group.
+
+It is recommended to address crisis management and training in further committee work.
+
+==== Introduction
+
+Martijn Ebben opened the working group session by welcoming participants, noting:
+
+* Proposed agenda of the group
+* Request to the members to bring the business continuity best practices
+
+The groups was tasked by the following terms of reference from the plenary:
+
+Based on the presentations, comments and questions made at the plenary, WG3 is instructed to;
+
+* Consider the response and guidance during and after a cyberattack event for the different operations and systems impacted;
+* Identify business continuity approach and scenarios during and recovering from a cyberattack;
+* Identify existing business continuity best practices to be considered within the marine AtoN and VTS operation;
+* Identify the prioritised actions within the continuity plan;
+* Identify means of the reporting and sharing cyber incidents information for learning;
+* If possible, propose topics that may be considered in the future IALA work programme; and
+* Submit a report to the plenary by 18 of November 2021.
+
+==== Discussions
+
+Before discussing each items defined by the terms of reference, the group discussed general matters such as relation and demarcation with other working groups and expectations. Many members expressed their expectations of continuation of aids to navigation service during and after cyber incidents.
+
+Regarding the demarcation with other working groups, some members pointed out that although back up of system or operation such as sending a ship when malfunction of aids to navigation was preventative measures, such measures should be included in the business continuity plan. The members also recognised that detection was between prevention and response and some members pointed out automatic detection/response by system was useful tool for cyber incident. The chair informed that EU laws on cyber security (NIS directive) for important infrastructure, but these did not specify how to detect or response. Some members mentioned that insurance on cyber incident for ransomware attack of shipping was existed but not covered for aids to navigation service. The chair informed that the US had a policy to minimise ransom payments by government agencies as well as corporations and so gave weight to back up.
+
+The group recognised the importance and usefulness of sharing cyber incident by IALA members but also admitted that such sharing was sometimes difficult and sensitive issue due to secrecy and confidentiality of cyber incident by authorities or organizations.
+
+Then the group discussed the items defined by the terms of reference using a paper submitted by the member as the business continuity best practice and further developed the paper to become an informational document (ANNEX E) from this workshop for the future Committee work.
+
+Some topics were identified that should be part of incident response and recovery but were not discussed in detail. These items are reported for further discussion within the IALA technical committees.
+
+After the discussion, the group agreed the draft working group report with the draft informational document (ANNEX E) and to invite the workshop to;
+
+. agree the working group report in general and;
+. approve the draft input paper to all IALA Committees.
+
+ The Chair thanked all participants for their contribution to the work and closed the working group session.

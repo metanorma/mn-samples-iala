@@ -1,0 +1,103 @@
+[appendix]
+== Programme for the week
+
+=== Kick-off – Friday, 12th November 2021
+
+[cols=",,",options="header"]
+|===
+^|Time (UTC) |Activity |
+
+|1000 – 1100 a| *Session 0 – Workshop kick-off* a| *Chair: Phil Day*
+|5 min |Welcome |Phil Day
+|15 min |Working programme of the week and expectations |Phil Day
+|15 min |Presentation of input papers |Phil Day
+|15 min |Working arrangements for the week |Jaime Alvarez / Minsu Jeon
+|10 min |Q&A |
+|===
+
+=== Day 1 – Monday, 15th November 2021
+
+[cols=",,",options="header"]
+|===
+^|Time (UTC) |Activity |
+
+|1000 – 1130 a| *Session 1 – Opening of the Workshop* a| *Chair: Phil Day*
+|5 min |Welcome from IALA |SG / DSG
+|10 min |Welcome from Canadian Coast Guard |Canadian Coast Guard
+|5 min |Recalling working programme of the week & expectations |Phil Day, Northern Lighthouse Board
+|40 min |Presentation 1: Cyber Security in the maritime domain |Jose Fernandez, Bastionnage
+|15 min |Presentation 2: Cyber Security in other bodies |Jakob P. Larsen, BIMCO
+|15 min |Presentation 3: Cyber Security in other bodies |Jonathan Pritchard, IHO
+|10 min |Q&A |
+|1140 – 1155 |Break |
+|1155 – 1255 a| *Session 2 - Presentations and discussion with expert speakers* a| *Chair: Dirk Eckhoff*
+|15 min |Presentation 1 Cyber security for e-Navigation platforms |Axel Hahn, OFFIS
+|15 min |Presentation 2 Cyber security for  AtoN |Jens Ohle, Sealite
+|15 min |Presentation 3 Cyber security for VTS |Ernie Batty, IMIS Global Limited
+|15 min |Q&A |
+|===
+
+=== Day 2 – Tuesday, 16th November 2021
+
+[cols=",,",options="header"]
+|===
+^|Time (UTC) |Activity |
+
+|1000 – 1115 a| *Session 3 - Presentations and discussion with expert speakers* a| *Chair: Monica Sundklev*
+|20 min |Preventive measures to ensure Cyber Resilience |Alan Jacobsen, Waterways and Shipping Agency, Germany
+|20 min |Incident Response and Recovery |Martijn Ebben, Port of Rotterdam
+|30 min |Cyber Security Risk Management in the maritime domain including the human element |Jose Fernandez, Bastionnage
+|15 min |Q&A |
+|1115 – 1130 |Break |
+|1130 – 1300 a| *Session 4 WG Sessions – IALA Guidance and roadmap* a| *Chair: Phil Day*
+|10 min |Establishment of WG |
+|80 min a| Split into working groups:
+* WG1 Preventative procedural measures and behaviours
+* WG2 Preventative Technical Measures
+* WG3 Incident response and recovery - post operational
+a| WG1 chair René Hogendoorn, WG1 vice chairs Stefaan Priem / Jillian Carson-Jackson +
+WG2 chair Philip Lane, WG2 vice chair Jin Hyoung Park  +
+WG3 chair Martijn Ebben, WG3 vice chair Hideki Noguchi
+|===
+
+=== Day 3 – Wednesday, 17th November 2021
+
+[cols=",,",options="header"]
+|===
+^|Time (UTC) |Activity |
+
+|1000 – 1055 |Session 5 WG sessions |
+|1055 – 1105 |Break |
+|1105 – 1200 |Session 6 WG sessions |
+|1200 – 1210 |Break |
+|1210 – 1300 |Session 7 WG sessions |
+|===
+
+=== Day 4 – Thursday, 18th November 2021
+
+[cols=",,",options="header"]
+|===
+^|Time (UTC) |Topics |
+
+|1000 - 1130 |Session 8 WG sessions |
+|1130 – 1145 |Break |
+|1145 - 1215 a| *Session 9 – Report of WG* a| *Chair: Phil Day*
+|10 min |WG1 summary |WG 1 Chair
+|10 min |WG2 summary |WG 2 Chair
+|10 min  |WG3 summary |WG 3 Chair
+|1215 – 1300 a| *Steering committee meeting (including WG (vice) chairs and rapporteurs)* a| *Chair: Phil Day*
+|45 min |Develop draft report with findings |IALA Secretariat
+|===
+
+=== Day 5 – Friday, 19th November 2021
+
+[cols=",,",options="header"]
+|===
+^|Time (UTC) |Activity |
+
+|1100 – 1200 a| *Session 10 – Documentation review and closing* a| *Chair:  Phil Day*
+|45 min |Review findings and draft report |Phil Day
+|5 min |Closing remarks |SG/DSG
+|5 min |Closing remarks |Canadian Coast Guard
+|5 min |Closing of the workshop |Phil Day
+|===

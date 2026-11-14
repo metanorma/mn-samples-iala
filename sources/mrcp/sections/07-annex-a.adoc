@@ -1,0 +1,929 @@
+[appendix]
+== System Description
+
+// Table 6 spans printed PDF pages 31-38 (landscape); the category band rows
+// (Distress and safety communication within GMDSS / Maritime safety
+// information promulgation / Safety of navigation / General communication /
+// Future development) span the full table width in the printed table.
+.Table 6 - System Description Table
+|===
+^|System |^Band ^|Frequency Channel ^|Bandwidth Data rate |^Status |^Life Span |^Ownership |^Mode |^Service |^Purposes |^Notes
+
+2+|*Distress and safety communication within GMDSS* 2+| 2+| 2+| 2+| |
+|MF/HF Voice
+| MF/HF
+a| 2182 kHz +
+4125 kHz +
+6215 kHz +
+8291 kHz +
+12290 kHz +
+16420 kHz
+| 3 kHz
+| Current
+| Long
+a| Regional and +
+International
+a| Analogue +
+voice.
+a| Mobile to mobile +
+Fixed to mobile +
+Mobile to fixed
+a| Distress +
+communication
+a| Long +
+distance, +
+> 250 nm
+
+|MF/HF DSC
+| MF/HF
+a| 2187.5 kHz +
+4207.5 kHz +
+6312.0 kHz +
+8414.5 kHz +
+12577 kHz +
+16804.5 kHz
+a| 0.5 kHz +
+100 bps
+| Current
+| Long
+| International
+a| Data +
+(Digital)
+a| Mobile to mobile +
+Fixed to mobile +
+Mobile to fixed.
+| Distress alerting
+a| Long +
+distance +
+> 250 nm
+
+|121.5 DF
+| VHF
+| 121.5 MHz
+|
+| Current
+| Short
+| International
+a| Carrier +
+(Analogue)
+| Mobile to mobile
+| Location.
+| Line of sight
+
+|VHF DSC
+| VHF
+a| 156.525 MHz +
+(Ch 70)
+a| 25 kHz +
+1200 bps
+| Current
+| Long
+| International
+a| Data +
+(Digital)
+a| Mobile to mobile +
+Fixed to mobile +
+Mobile to fixed
+| Distress alerting
+a| approx +
+15NM-65NM
+
+|VHF voice
+| VHF
+a| 156.300 MHz +
+(Ch 06) +
+156.650 MHz +
+(Ch 13) +
+156.800 MHz +
+(Ch 16)
+| 25 kHz
+| Current
+| Long
+| International
+| Voice
+a| Mobile to mobile +
+Fixed to mobile +
+Mobile to fixed
+a| Distress +
+communication
+| Line of sight
+
+|Two way VHF +
+voice
+| VHF
+a| 156.025 - +
+161.950 MHz
+| 25 kHz
+| Current
+| Long
+| International
+| Voice
+| Mobile to mobile
+a| On scene +
+communication
+| Line of sight
+
+|AIS-SART
+| VHF
+a| 161.975 MHz, +
+162.025 MHz
+a| 25 kHz +
+9600 bps/ +
+TDMA
+| Current
+| Long
+| International
+| digital
+| Mobile to mobile
+| Location
+a| approx +
+15NM-65NM
+
+|EPIRB
+| UHF
+| 406 MHz
+|
+| Current
+| Long
+| International
+| Digital
+| Mobile to satellite
+a| Distress alerting +
+/ Location / +
+Homing
+a| COSPAS- +
+SARSAT +
+Satellite; +
+Global +
+coverage
+
+|Satellite +
+INMARSAT C, B, +
+F
+| UHF
+a| Tx 1626.5 to +
+1646.5 MHz +
+Rx 1525.0 to +
+1545.0 MHz
+|
+| Current
+| Long
+| 3rd party
+a| Digital. +
+Voice and +
+data.
+a| Satellite to earth +
+Earth to satellite
+a| Distress alerting, +
+distress +
+communication.
+a| Global +
+coverage
+
+|RADAR SART, +
+X-Band
+| SHF
+| 9.2 – 9.5 GHz
+|
+| Current
+| Medium
+| International
+| analogue
+| Mobile to mobile
+| Homing
+| Line of sight
+
+|EPIRB-AIS
+a| UHF / +
+VHF
+a| 406 MHz +
+161.975 MHz +
+(AIS 1) +
+162.025 MHz +
+(AIS 2)
+|
+| Current
+| Long
+| International
+| Digital
+a| Mobile to satellite +
+Mobile to mobile
+a| Distress alerting +
+/ Location / +
+Homing
+a| COSPAS- +
+SARSAT +
+Satellite; +
+Global +
+coverage
+
+2+|*Maritime safety information promulgation* 2+| 2+| 2+| 2+| |
+|NAVTEX
+| MF/HF
+a| 518 kHz +
+490 kHz and +
+4209.5 kHz (for +
+local language)
+| 0.5 kHz
+| Current
+| Medium
+| International
+| Text
+| Fixed to mobile
+a| Reception of +
+maritime safety +
+information.
+a| Long +
+distance, +
+> 250 nm +
+Broadcast to +
+mobile only.
+
+|Narrow band +
+direct printing. +
+(NBDP)
+| HF
+a| 4210 kHz +
+6314 kHz +
+8416.5 kHz +
+12509 kHz +
+16806.5 kHz +
+19680.5 kHz +
+22376.0 kHz +
+26100.5 kHz
+| 0.5 kHz
+| Current
+| Medium
+| International.
+| Text
+a| Mobile to mobile +
+Fixed to mobile +
+Mobile to fixed
+a| Reception of +
+maritime safety +
+information
+a| Long +
+distance, +
+> 250 nm
+
+|EGC
+| UHF
+a| Tx 1626.5 - +
+1646.5 MHz +
+Rx 1525.0 - +
+1545.0 MHz
+|
+| Current
+| Long
+| International
+| Digital data.
+| Satellite to mobile
+a| Reception of +
+maritime safety +
+information +
+(Safety Net)
+a| Global +
+coverage
+
+2+|*Safety of navigation* 2+| 2+| 2+| 2+| |
+|Loran and +
+eLoran
+| LF
+| 90-110 KHz
+|
+| Current
+| Very Long
+| Regional
+a| Carrier +
+(Analogue)
+| Fixed to mobile
+| Positioning
+a| Long +
+distance
+
+|DGNSS
+| MF
+| 283.5 to 325 kHz
+| 50/100 bps
+| Current
+| Medium.
+| Regional.
+| Digital
+| Fixed to mobile
+a| Augmentation of +
+positioning
+a| Medium +
+distance
+
+|AIS
+| VHF
+a| 161.975 MHz +
+(AIS 1) +
+162.025 MHz +
+(AIS 2)
+a| 25 kHz +
+9600 bps/ +
+TDMA
+| Current
+| Long
+| International
+a| Data +
+(Digital)
+a| Mobile to mobile +
+Fixed to mobile +
+Mobile to fixed
+a| Collision +
+avoidance, +
+Environmental +
+protection, +
+Security, VTS +
+Augmentation of +
+positioning, +
+communication +
+for navigational +
+and safety +
+related +
+purposes.
+a| approx +
+15NM-65NM +
+LEO Satellite +
+detection +
+for tracking +
+Part of VDES
+
+|Satellite AIS
+| VHF
+a| Channels 75 & 76 +
+within RR App 18
+a| 25 kHz +
+9600 bps +
+TDMA
+| Current
+| Long term
+| International
+a| Data +
+(Digital)
+| Mobile to satellite.
+a| Security. +
+Environmental +
+protection. +
+Vessel tracking.
+a| Closely +
+related to +
+current AIS. +
+Global +
+Same +
+transponder +
+on ship +
+Part of VDES
+
+|AIS MMS +
+channel +
+management
+| VHF
+a| Channel 70 +
+(AIS 1 and AIS 2)
+a| 25kHz +
+9600bps +
+TDMA
+| Current
+| Long term
+| International
+a| Data +
+(Digital)
+a| Mobile to mobile. +
+Fixed to mobile.
+a| To manage data +
+transfer over +
+channels in the +
+MMS.
+a| E.g. “go to +
+channel XX +
+to get chart +
+update for +
+Tokyo Bay.
+
+|AIS AtoN
+| VHF
+a| 161.975MHz (AIS +
+1) +
+162.025MHz (AIS +
+2)
+a| 25 kHz +
+9600 bps/ +
+TDMA
+| Current
+| Long
+| International
+a| Data +
+(Digital)
+a| AtoN +
+(fixed/floating) to +
+mobile/shore
+| Navigational aid
+a| approx +
+15NM-65NM
+
+|VHF voice
+a| VHF +
+Mobile
+a| 156.025 to +
+161.950 MHz
+| 25 kHz
+| Current
+| Long
+| International
+| Voice
+a| Mobile to mobile. +
+Fixed to mobile. +
+Mobile to fixed.
+a| communication +
+for navigational +
+and safety +
+related purposes
+| Line of sight
+
+|GNSS
+| UHF
+a| GPS: +
+1227.6 MHz +
+1575.42 MHz +
+GLONASS: +
+1559-1610 MHz +
+1240-1260 MHz +
+BeiDou +
+1.561098 GHz +
+1.589742 GHz +
+1.20714 GHz +
+1.26852 GHz +
+Galileo +
+1.164-1.215 GHz +
+1.260-1.300 GHz +
+1.559-1.592 GHz
+|
+a| Current +
+Current +
+Current +
+Future
+a| Long +
+Long +
+Long +
+Long
+a| International +
+International +
+Regional +
+International
+| Digital
+| Satellite to earth
+| Positioning
+a| Global +
+coverage
+
+|LRIT
+| Satellite
+a| Tx 1626.5 to +
+1646.5 MHz +
+Rx 1525.0 to +
+1545.0 Mhz
+|
+| Current
+| Short
+| 3rd party
+a| Data +
+(Digital)
+| Inmarsat
+a| Security. Vessel +
+tracking. +
+Environmental +
+protection.
+a| Global +
+coverage
+
+|Radar +
+S Band
+|
+| 2.9 to 3.1 GHz
+|
+| Current
+| Long
+| International
+|
+| Mobile and fixed
+a| Collision +
+avoidance, +
+Navigational aid.
+| Line of sight
+
+|Radar +
+X Band
+|
+| 9.2 to 9.5 GHz
+|
+| Current
+| Long
+| International
+|
+| Mobile and fixed.
+a| Collision +
+avoidance, +
+Navigational aid
+| Line of sight
+
+|racon
+|
+a| 2.9 to 3.1 GHz +
+and +
+9.2 to 9.5 GHz
+|
+| Current
+| Long
+| International
+|
+| Fixed.
+| Navigational aid
+| Line of sight
+
+2+|*General communication* 2+| 2+| 2+| 2+| |
+|HF Voice
+| MF/HF
+| 1.6 to 26.5 MHz
+| 3 kHz
+| Current
+| Long
+a| Regional and +
+International
+a| Analogue +
+voice. +
+(ALE)
+a| Mobile to mobile +
+Fixed to mobile +
+Mobile to fixed
+a| General voice +
+communication
+a| Long +
+distance, +
+> 250 nm
+
+|Narrow band +
+direct printing +
+(NBDP)
+a| MF & +
+HF.
+| 1.6 to 26.5 MHz
+| 0.5 kHz
+| Current
+a| Long for +
+GMDSS +
+Short for +
+general +
+commun- +
+ication
+| International
+| Text
+a| Mobile to mobile. +
+Fixed to mobile. +
+Mobile to fixed.
+a| General text +
+communication
+a| Long +
+distance, +
+> 250 nm
+
+|HF Data
+| MF/HF
+| 1.6 to 26.5 MHz
+| 0.5 – 3 kHz
+| Current
+| Long
+a| Regional and +
+International
+| Digital data
+a| Fixed to mobile +
+Mobile to fixed
+a| General data +
+communication
+a| Long +
+distance, +
+> 250 nm
+
+|VHF voice
+| VHF
+a| 156.025 to +
+161.950 MHz
+| 25 kHz
+| Current
+| Long
+| international
+| Voice
+a| Mobile to mobile +
+Fixed to mobile +
+Mobile to fixed
+a| General voice +
+communication
+| Line of sight
+
+|VHF data
+| VHF
+a| 156.025 - +
+161.950 MHz
+| 25 kHz
+| Current
+| Long
+| regional
+| data
+a| Mobile to mobile +
+Fixed to mobile +
+Mobile to fixed
+a| General data +
+communication
+a| approx +
+15NM-65NM
+
+|UHF +
+on-board
+| UHF
+a| 457.5125- +
+457.5875/ +
+467.5125- +
+467.5875 MHz
+a| 6.25/12.5/25 +
+kHz
+| Current
+| Long
+| International
+a| Analogue +
+voice/ +
+Digital +
+voice/ +
+data
+a| Mobile to mobile. +
+Internal comms.
+a| On-board +
+communication
+| Line of sight
+
+|Satellite
+| UHF
+a| Tx 1626.5 - +
+1646.5 MHz +
+Rx 1525.0 - +
+1545.0 MHz
+|
+| Current
+| Long
+a| global +
+3rd party
+a| Digital. +
+Voice and +
+data.
+a| Satellite to earth +
+Earth to satellite
+a| General voice +
+and data +
+communication
+a| Global +
+coverage
+
+|GSM
+| UHF
+|
+|
+| Current
+| Long
+a| regional +
+3rd party
+a| Digital. +
+Voice and +
+data.
+a| Cellular +
+Mobile-fixed- +
+mobile.
+a| General voice +
+and data +
+communication
+a| Medium +
+range in +
+locality
+
+|GPRS
+| UHF
+|
+|
+| Current
+| Long
+a| regional +
+3rd party
+a| Digital +
+Voice and +
+data
+a| Cellular +
+Mobile-fixed- +
+mobile.
+a| General voice +
+and data +
+communication
+a| Short range +
+in locality
+
+|UMTS/3G
+| UHF
+|
+|
+| Current
+| Long
+a| regional +
+3rd party
+a| Digital. +
+Voice and +
+data.
+a| Cellular. +
+Mobile-fixed- +
+mobile.
+a| General voice +
+and data +
+communication
+a| Short range +
+in locality
+
+|IEEE 802.11 +
+(Wi-Fi)
+a| UHF/ +
+SHF
+a| 2.4 – 2.5 GHz +
+5.17 – 5.33 GHz +
+4.9 GHz
+a| 11 Mbps +
+54 - 300 Mbps +
+54 Mbps
+| Current
+| Long
+a| local +
+3rd party
+| Digital data
+a| LAN +
+Peer-to peer
+| Internet access
+a| Sort in +
+locality +
+< 100m +
+<10 km
+
+|IEEE 802.16 +
+(WiMax)
+a| UHF/ +
+SHF
+a| 2.5 GHz +
+3.3 GHz
+| 75 Mbps
+| Current
+| Long
+a| local +
+3rd party
+| Digital data
+a| LAN +
+Peer-to peer
+| Internet access
+a| Short range +
+in locality +
+< 50 km
+
+|IEEE 802.15.4 +
+(ZigBee)
+| UHF
+a| 868-870 MHz +
+902 – 928 MHz +
+2.4 GHz
+a| 20 kbps +
+40 kbps +
+250 kbps
+| Current
+| Long
+a| local +
+3rd party
+| Digital data
+|
+|
+a| Short range +
+in locality +
+< 30 km
+
+2+|*Future development* 2+| 2+| 2+| 2+| |
+|HF Digital data
+| HF
+| 4 to 26 MHz
+| 10 to 20 kHz.
+a| On and +
+after 1 +
+Jan +
+2017
+| Long term
+| International
+a| Data +
+(Digital)
+a| Mobile to mobile +
+Fixed to mobile +
+Mobile to fixed
+a| Binary data +
+communication +
+for navigational +
+and safety +
+related +
+purposes.
+a| KENTA +
+(France) +
+Has range +
+advantage +
+over VHF +
+40 to 250 +
+NM (>250 +
+sky wave)
+
+|ASM
+| VHF
+a| 161.950 MHz +
+(ASM 1) +
+162.000 MHz +
+(ASM 2)
+a| 25 kHz +
+Min 9600 bps +
+TDMA
+a| On and +
+after 1 +
+Jan +
+2019
+| Long term
+| International
+a| Data +
+(Digital)
+a| Mobile to mobile +
+Fixed to mobile +
+Mobile to fixed +
+Mobile to satellite
+a| Binary data +
+communication +
+for navigational +
+and safety +
+related +
+purposes. +
+Security and +
+tracking.
+a| Closely +
+related to +
+current AIS. +
+Same +
+transponder +
+on ship +
+Part of VDES
+
+|VHF Digital +
+data. +
+ECDIS chart +
+data +
+Digital voice +
+Virtual +
+channels +
+UMDM +
+support +
+Internet +
+access
+a| VHF +
+Mobile
+a| 156.025 to +
+161.950 MHz
+a| 257 to 100 +
+kHz.footnote:[Note, there may be benefit in using less than 25kHz, however this is not yet identified in ITU-R M.1842.]
+a| On and +
+after 1 +
+January +
+2013 in +
+Region +
+2, +
+1 +
+January +
+2017 in +
+Regions +
+1 & 3
+| Long term
+| International
+a| Data +
+(Digital)
+a| Mobile to mobile +
+Fixed to mobile +
+Mobile to fixed
+a| Binary data +
+communication +
+for navigational +
+and safety +
+related +
+purposes.
+a| Rec. ITU-R +
+M.1842-1 +
+Rec. ITU-R +
+M.2092- +
+Managed or +
+autonomous +
+systems. +
+Relates to +
+VDES
+
+|===

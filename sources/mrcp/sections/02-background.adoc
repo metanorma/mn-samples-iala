@@ -1,0 +1,81 @@
+== Background
+
+Digital communications permeate our daily lives – both for work and for recreation.  The introduction of ‘any-time, any-where’ access to information through the internet (IoT); text based or image based communications; geospatial locating and more is driving demand for faster, more robust, and more integrated, communication solutions.
+
+Almost every e-Navigation solution currently foreseen depends upon efficient and robust ship-ship, ship-shore or shore-ship electronic data transfer. Existing communications systems may, in many places, be adequate to serve these needs, but it may be necessary to develop new methods to realise the full potential of e-Navigation. The performance requirements, in particular data capacity, for communications systems to support e-Navigation are, in many cases, unknown and are likely to change over time. However, studies and user requirement workshops have been carried out to better determine the data transfer requirements to address e-navigation elements and facilitate development of digital communications solutions for the maritime environment.  This work provides a basis for analysis of candidate technologies and the opportunity to provide strategic guidance on implementation of the technologies in a rapidly changing maritime environment.
+
+A strategy for the implementation of digital communications technologies, and the provision of effective equipment and infrastructure is that the user will not be required to choose a candidate digital communications technology when transferring information; the system will choose the most appropriate means to transfer the data based on the technologies available and the parameters required for the data transmission.
+
+=== General
+
+The challenge facing radio communication in the maritime sector is the need to relay more information, more often, on a global basis, which puts pressure on the availability of spectrum.
+
+Spectrum, as a finite resource, is under increasing demand from all users globally.  Recent trends from national licensing / regulatory authorities have been to use pricing / cost to drive efficiency improvements.
+
+The move from analogue to digital; and from voice to data; show the way forward for future radio communications.
+
+Experience with AIS has shown that TDMA techniques can enable hundreds of users to effectively and efficiently share vast amounts of data using only four channels – AIS 1, AIS 2 for safety of navigation purposes and AIS channels 75 and 76 for satellite detection of AIS.
+
+Selection of appropriate bandwidth given the constraints of required range, data rates and channel availability means that narrow band techniques should be considered.
+
+// The printed section is numbered "2.1" a second time (duplicate of the
+// "2.1 General" above); Metanorma renumbers this heading 2.2 and the
+// subsequent headings shift accordingly (printed 2.2-2.5 -> 2.3-2.6).
+=== International Organizations
+
+Co-operation and coordination between International, Intergovernmental and other organizations including IMO, ITU, ICAO, WMO, IHO, IALA, IEC, IMEA, CIRM, and RTCM is necessary to ensure an effective approach to maritime communications to support e-Navgation and other developments.
+
+Co-ordination with ITU is required to secure access to radio spectrum to support e-Navigation communications technology.
+
+IALA national administrations are encouraged to ask their national representatives at ITU to support the MRCP.
+
+=== Regulatory Developments
+
+The carriage requirement for radio communications equipment on SOLAS convention vessels is identified by the IMO.  This includes AIS,  DSC, voice communications and radar equipment as well as communications equipment to support GMDSS and LRIT.
+
+In the provision of aids to navigation, IALA has highlighted the requirement to provide an optimum mix of aids to navigation  for the users, which can include SOLAS convention vessels; domestic commercial vessels; and recreational craft.
+
+Radio spectrum is regulated by the ITU, which includes not only the frequencies but the technologies and standards for the systems employed.
+
+This MRCP reflects the requirements for communications identified by IMO, in addressing the needs of the maritime industry.  This MRCP also takes into account the maritime communications requirements of other users, including domestic commercial vessels and recreational craft.
+
+The IMO’s Maritime Safety Committee (MSC) agreed on the need to address different levels of automation, including semi-automatic and unmanned ships.  (MSC98).  Effective, secure communications will be essential for the safe operation of these vessels.
+
+With a critical focus on safety of navigation and protection of the maritime environment, previous agreements have identified that GMDSS and other safety of navigation related communications, such as AIS, shall be free of charge.
+
+=== Commercial
+
+Growth of the world fleet places greater stress on the ability of the existing radio communications systems to cope with the traffic.  The commercial aspect includes both commerce and public correspondence.
+
+Voice systems that occupy a channel for the duration of the call can be viewed as an inefficient means of relaying information.  As the number of vessels increases, a saturation point on VHF may be reached.  There could be a point reached where it may be difficult to make a VHF voice call, specifically if analogue systems are used.  To avoid the inherent problems with VHF, AIS transfers packets of digital data using TDMA, which can cope with multiple simultaneous users and is more resistant to overloading due to growth in the number of participants.
+
+AIS is now well recognized in maritime society and widely used as several systems, including class A for SOLAS vessels, class B for non-SOLAS vessels, Aids to Navigation (AtoN), Search and Rescue Transmitter (AIS-SART), and Application Specific Messages (ASM). This wide usage of AIS has caused an increase in the load put on the VHF data link (VDL).  The VDL load in some areas has already exceeded 50%. According to IALA Recommendation A-124 Appendix 18 "VDL Loading Management", if the VDL loading exceeds 50%, it may have an impact on smooth transmission of AIS station. It therefore may be necessary to develop a method to mitigate the overload of the VDL.
+
+In addition, increasing demand of digital radiocommunication in all areas, such as land, air, maritime and space, requires more effective use of limited radio resources. The option of more spectrum in the maritime mobile service is not readily available, so alternatives have to be found to support future growth.  Existing spectrum allocated to maritime use will need to be fully utilized.
+
+=== Operational
+
+There are many changes taking place in the operational environment that present new challenges including:
+
+* the development and implementation of e-Navigation;
+* the widespread reliance on  GNSS and its role underpinning position, navigation and timing required for situational awareness and communications for e-Navigation;
+* growing deployment of local and specific traffic monitoring schemes and Vessel Traffic Services to meet ever more stringent requirements at higher capacity levels;  and
+* the balance between traditional navigation skills and the role of technological advances such as ECDIS and IBS.
+
+The introduction of GNSS has enabled mariners to navigate more safely.  As part of the introduction of e-Navigation, it is essential to understand the consequences when key e-Navigation components fail or are denied (e.g. GNSS or communications capabilities).
+
+Before adopting any technology human factors must be addressed (safety, liability, on-board training and duty of care).
+
+e-Navigation implementation requires the active participation of international bodies such as IMO, ITU, IHO, IALA,, PIANC, IEC, WMO, RTCM, ETSI and CIRM.
+
+=== Technical
+
+To ensure networks and technologies seamlessly interconnect, significant changes to underpinning services and systems are expected over the next two decades:
+
+* development of data communication systems;
+* development of satellite systems and services (e.g. VDES (including AIS), MeoSAR, broadband);
+* development of terrestrial systems and services (e.g. VDES (including AIS), wireless broadband
+* spectrum sharing and efficiency;
+* compatibility with existing systems and services;
+* adding data services to current voice channels;
+* change from analogue to digital communications.

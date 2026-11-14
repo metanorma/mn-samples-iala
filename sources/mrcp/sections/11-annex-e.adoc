@@ -1,0 +1,416 @@
+[appendix]
+== VHF Data Exchange System VDES
+
+AIS is well recognized and accepted as an important tool for safety of navigation and is a carriage requirement for SOLAS vessels (Class-A).  With increasing demand for maritime VHF data communications, AIS has become heavily used for maritime safety, maritime situational awareness and port security.  As a result, overloading of AIS 1 and AIS 2 created a need for additional AIS channels.  Using the VHF marine band (International Radio Regulations Appendix 18) AIS can transmit data to vessels in the vicinity of the AIS unit as well as to vessels in an addressed group.
+
+International Telecommunications Union (ITU) has recognised the efficiency and the necessity for digital communications, has produced technical standards and has revised the VHF marine band (Radio Regulations Appendix 18) to designate channels for data transmission.   It is recognized that both analogue voice communications and digital communications will share the band.  The VDES, as envisioned by IALA and presented to ITU, addresses the identified need to protect AIS along with essential digital communications contributions for e-Navigation and GMDSS Modernization.
+
+The VHF marine band (Radio Regulations Appendix 18) was initially used for transmission of voice communications on 25 kHz channels.  The ITU introduced the first marine data transmission system, DSC (Digital Selective Calling)footnote:[Recommendation ITU-R M.493] to help ensure that calling and distress communications attempts were successful. VHF DSC transmits data at 1.2 kbps, slow by modern data standards, but very robust.  At the request of the IMO to improve safety of navigation, ITU introduced another VHF data transmission system, AISfootnote:[Recommendation ITU-R M.1371], which provides navigation and identification data for ships, shore stations, aids to navigation and search and rescue devices at 9.6 kbps.
+
+ITU introduced a standardfootnote:[Recommendation ITU-R M.1842], with options for 25 kHz, 50 kHz and 100 kHz channels at data rates up to 307.2 kbps in order to improve spectrum efficiency in 2012.  Both voice and data communications coexist in the VHF marine band.
+
+The developments in maritime radio technology, including the introduction of software defined radios (SDR) coupled with enhanced capabilities for digital data exchange over existing VHF marine band spectrum resulted in the development of the VHF Data Exchange System (VDES).  VDES builds on the experience gained through the development of AIS, and also provides the capability to transmit to a specific vessel (addressed); to all units in the vicinity (broadcast); to a group of vessels (addressed); or to a fleet of vessels (addressed).
+
+Consequential to WRC-15, the ITU standard for VDES, Recommendation ITU-R M.2092-0, was approved.   A remaining outstanding issue is the approval of the satellite component for the VDE channels which is targeted for approval at WRC-19.
+
+The system concept, including VDES functions and frequency usage are illustrated pictorially in (full system).
+
+.Figure 1- VDES functions and frequency use – full system
+image::figure-1-vdes-functions.png["VDES functions and frequency use – full system"]
+
+=== E1 VHF Data Exchange System channel usage (Radio Regulations Appendix 18)
+
+==== E1.1 VHF data exchange system: data exchange between terrestrial stations
+
+- AIS 1 (channel 2087) and AIS 2 (channel 2088) are AIS channels, in accordance with Recommendation ITU-R M.1371
+- ASM 1 (channel 2027) and ASM 2 (channel 2028) are the channels used for application specific messages (ASM)
+- VDE1-A lower legs (channels 1024, 1084, 1025, 1085) are ship-to-shore VDE
+- VDE1-B upper legs (channels 2024, 2084, 2025, 2085) are shore-to-ship and ship-to-ship VDE.
+
+==== E1.2 VHF data exchange system: data exchange between satellites and terrestrial stations
+
+- AIS 1 (channel 2087) and AIS 2 (channel 2088) are terrestrial AIS channels that are also used as uplinks for receiving AIS messages by satellite
+- Long Range AIS using channel 75 and channel 76 are specified channels to be used as uplinks for receiving AIS messages by satellite. SAT Up1 (channel 2027) and SAT Up 2 (channel 2028) are used for receiving ASM by satellite
+
+=== E2 AIS for e-Navigation
+
+AIS is a proven technology suitable for playing a significant role in data communications for e-Navigation.  However:
+
+[lowerroman]
+. by design AIS is not an ideal candidate for high speed and/or high volume data communications;
+. high speed digital data communications for e-Navigation is better handled by using multiple 25 kHz channels;
+. the IMO/ITU Joint Experts Group has recognized that more than 200 kbps will be necessary for e-Navigation.
+
+This document proposes a vision for technology to efficiently handle new applications as well as low volume data communications for e-Navigation.
+
+=== E3 AIS Today
+
+AIS is technically defined by Recommendation ITU-R M.1371, mandatory for SOLAS vessels and for other vessels on a regional basis, and used voluntarily;
+
+AIS has proved to be a powerful tool for various applications in the field of navigation, and distribution of safety related information, however these applications have not yet fully been exploited;
+
+Radio Regulations Appendix 15 (WRC-07) defines the frequencies used for GMDSS, and this includes the frequencies AIS1 and AIS 2 used by AIS-SART stations.
+
+=== E4 Increasing Use of AIS
+
+The use of AIS is increasing rapidly, threatening to degrade the performance or to overload the current AIS frequencies AIS 1 and AIS 2.
+
+==== E4.1 Number of ships
+
+Full implementation of SOLAS requirement for AIS is completed. Increased use of mandatory AIS on non-SOLAS vessels is evident:
+
+[lowerroman]
+. USA (USA commercial vessels);
+. Europe (EU Directive for fishing vessels requiring Class-A AIS);
+. Europe (EU Directive for inland vessels requiring Inland AIS (Class-A derivative));
+. Korea;
+. India;
+. Mexico;
+. Australia.
+
+Increased voluntary use of AIS:
+
+[lowerroman]
+. both Class-A and Class-B units used on smaller vessels including rapidly increasing numbers of pleasure vessels.
+
+Class-B increasing use:
+
+[lowerroman]
+. Class-B (CSTDMA) visibility will eventually be reduced due to polite behaviour;
+. Class-B (SOTDMA) has been introduced.
+
+==== E4.2 AIS Base Stations
+
+Coastal and inland AIS infrastructure continues to grow.  This growth is driven by safety, security and environmental protection considerations.  The use of AIS data gathered over time is now integrated into many analysis systems both for trend analysis and to determine possible anomalous vessel behaviours.
+
+In addition, within Europe, EU Directive 59 requires that all EU member countries maintain coastal AIS coverage.
+
+==== E4.3 Airborne AIS
+
+More SAR aircraft are being fitted with AIS stations.
+
+==== E4.4 AIS AtoN, Real or Virtual, and AtoN Monitoring
+
+AIS AtoN – real and virtual – are being used or approved by competent authorities.
+
+A separate message for AtoN monitoring (often Message 6) is being used in most cases where an AIS AtoN station is deployed.
+
+In addition, AIS AtoN stations are being deployed by commercial organizations to mark offshore platforms, wind farms, etc.
+
+==== E4.5 AIS-SART
+
+IMO carriage option for the AIS-SART started in January 2010.  AIS-SART broadcasts eight times per minute on AIS 1 and AIS 2. :
+
+==== E4.6 SAR Related Equipment Using AIS-SART Technology
+
+Several kinds of AIS-MOB using AIS-SART technology have been deployed on the market and this device is identified to use unique IDs as defined in Recommendation ITU-R M.585-6.
+
+EPIRB-AIS, AIS-MOB and Diver device using AIS-SART technology are being introduced on the market.  IMO NAV58 considered the issue relating to these devices and decided that diver locating devices should not operate on the frequencies AIS 1 and AIS 2 for routine diver locating.  It was further considered that the frequencies AIS 1 and AIS 2 should only be used when a diver was in a non-routine situation, that in these cases the device was similar to a MOB device and, therefore, the parameter and appropriate message for MOB should apply.
+
+==== E4.7 Application-Specific Messages
+
+Application specific messages are being used more on AIS1 and 2; this leads to future developments under a combined application.
+
+WRC-15 agreed that VHF channels (duplex) 27 and 28 are to be split into two simplex channels from 1 January 2019.
+The channels 2027 and 2028 have been designated as ASM 1 and ASM 2, and are to be used for application specific messages (ASM) as described in the most recent version of Recommendation ITU-R M.2092.
+
+===== E4.7.1 International
+
+IMO SN/Circ.289 provides guidance on the use of international application specific messages. This circular retains  most of the  international application-specific  messages that were developed  for trial and  the addition of  new messages were created such as;
+
+[lowerroman]
+. a new meteorological-hydrographic message with a dynamic length of 2 to 5 slots;
+. an area message for navigational warnings.
+
+===== E4.7.2 Regional
+
+There is extensive use of safety-related ASM regionally, including the use of AMSs for the monitoring of Aids to Navigation (AtoN).  In addition, there are uses of ASM within certain waterways such as the St. Lawrence Seaway and the River Thames.
+
+IALA maintains a registry of these regional application specific messages.
+
+===== E4.7.3 Mandatory Application Specific Messaging in Certain Regions
+
+Additional application specific messages are being used for inland AIS in Europe.  These include the development of dedicated ship stations, which have been type approved.
+
+==== E4.8 AIS Messages (23, 24, 25, 26 and 27)
+
+Messages 23, 24, 25, 26 and 27 were added in recent editions of Recommendation ITU R M.1371;
+
+Additional frequencies were approved at WRC12 for receiving Message 27 by Satellites (Channels 75 and 76).
+
+==== E4.9 GNSS Differential Corrections
+
+Use of Message 17 for GNSS correction data dissemination is increasing.  Message 17 is already being broadcast in the Gulf of Finland and Tokyo Bay.  Germany, the Netherlands and England are planning the introduction of message 17.
+
+==== E4.10 FATDMA Usage
+
+Competent authorities are increasingly using FATDMA slot allocations for various uses:
+
+[lowerroman]
+. AIS AtoN;
+. base station slot reservation broadcasts (Message 20);
+. base station regular broadcasts (Message 17);
+. reserved slots for ship replies;
+. safety text messages;
+. meteorological and hydrographic messages (Message 8).
+
+There is an indication that the VHF Data Link will become more crowded and competent authorities resort to FATDMA reservations to ensure that their services are protected.
+
+=== E5 Additional Future Use of AIS / VDES
+
+==== E5.1 Increased Use of AIS Shore to Ship Data Transmissions
+
+In a future e-Navigation scenario, the transmission of data from shore-to-ship is expected to increase significantly with  the advent  of mandatory  ECDIS, which  provides a  graphical display  of information.   There could be opportunities for transmission of this data by AIS or by VDE, as part of VDES.
+
+Examples:
+
+[lowerroman]
+. Ship off track warning;
+. Territorial water advice;
+. Environmental area warning;
+. Navigational hazards;
+. Weather warnings;
+. Military test ranges and submarine exercises.
+
+It is anticipated that some of the present voice communications between shore and ship will move to data messaging:
+
+[lowerroman]
+. ship reporting;
+. routing information.
+
+==== E5.2 Increased Use of Ship-to-Shore Data Transfer
+
+- Ship reporting (by AIS or VDE):
+- Requesting data:
+
+[lowerroman]
+. weather data;
+. docking data;
+. routing information.
+
+==== E5.3 Increased Use of Ship-to-Ship Data Transmissions
+
+- Reduced use of voice communications in favour of data messages.
+
+==== E5.4 Base Stations
+
+- There will be more fixed stations, some of these being private;
+- Development of limited base stations will be driven by:
+
+[lowerroman]
+. private ports;
+. bridges and locks;
+. canals;
+. offshore commercial facilities.
+
+==== E5.5 Repeater Stations
+
+- Repeaters will be used to extend coverage of shore AIS base station networks, ship-ship AIS communications, and AIS AtoN range:
+
+[lowerroman]
+. requiring double the VDL slot count to transfer data;
+. and are deployed to extend base station coverage when the usual base station-to- base station data links are unavailable.
+
+VDE may assist with mitigating the impact on the VDL.
+
+==== E5.6 Future Messaging
+
+- Will be required as the suite of Recommendation ITU-R M.1371 messages increases:
+
+[lowerroman]
+. Originally 22 message types, now 27 have been defined.
+
+- Improved set of messages are expected:
+
+[lowerroman]
+. replacement for some old messages, when they have proved not to support proper data modelling (e.g. static ship data);
+. reduction of “tailored messages” to “essentially needed messages”;
+. new flexibility for applications.
+
+==== E5.7 Satellite Detection of AIS
+
+- Satellite detection of AIS messages is now an accepted capability.
+- Separate frequencies for satellite detection of AIS were requested from within Appendix 18 because the tuning range of the shipborne AIS Class A is limited to these frequencies. Report ITU-R M.2084 indicated that the interference environment resulting from the existing services in those bands must be taken into account in determining the feasibility of accommodating satellite AIS, due to the large satellite antenna footprint that overlaps both land and sea. Separate operating frequencies in addition to AIS 1 and AIS 2 are needed that are not subject to terrestrial use.
+- Appendix 18 contains only 4 frequencies (channels 16, 70, 75 and 76) that are exclusively dedicated to maritime use (channels 75 and 76 have been approved to be shared with this service).  This proposal meets the intent of footnote n) to Appendix 18 for interference mitigation.
+- Based on the above situation, WRC-12 approved the use of channels 75 and 76 for this purpose (long range AIS) and assigned these channels to the maritime mobile satellite service.
+
+==== E5.8 Future GMDSS Platform
+
+- IMO modified the performance standard for the 406 MHz EPIRB to include use of AIS. This suggests the use of AIS, when combined with another technology, may be useful as a GMDSS locating / homing device.
+- IMO has recognized AIS-SART as part of GMDSS.  The potential for additional use of AIS and VDE as a SAR tool is being considered as part of GMDSS modernization review being carried out by the IMO.
+
+==== E5.9 PLB (Personal Locating Beacon)
+
+- There are initiatives to develop a PLB / MOB / Diver applications based on the AIS-SART technology.  These may be considered as part of the development of AMRDs.
+
+==== E5.10 Use of AIS for PNT (Position, Navigation and Timing) and Ranging
+
+- Improved time transfer capabilities shore to ship by using high precision time bases has been proposed.
+- The e-Navigation Committee envisages a “Ranging” mode for AIS and trials were undertaken in Northern Europe as part of ACCSEAS project
+
+[lowerroman]
+. where the timing of AIS messages are used for position determination;
+. by ship and shore.
+
+==== E5.11 Coordinated Channel Management for Future e-Navigation VHF Digital Data Communications
+
+- Channel management should be relocated to other channels such as 28B (2028) and 27B (2027) protecting distress and safety messaging on channel 70 and avoiding interference from other services.
+- Designation of additional AIS frequencies may enhance the coordination of regional channel management.
+- Using TDMA protocol to coordinate the usage of the VHF data link will enable channel management for other e-Navigation data services as well as AIS.
+- Any additional protocols on Channel 70 are required to co-exist and not interfere with current DSC requirements and operation.
+
+=== E6 Strategy for Future AIS and VDE
+
+==== E6.1 General Thoughts
+
+- AIS is a proven maritime data system, with ships equipped and shore infrastructure established, the full potential of AIS is yet to be achieved.
+- AIS is the quickest path for handling the increasing low volume data exchange needs described above. Therefore, in order to meet the data communications needs set out above, IALA envisages that the present AIS system will need to be supplemented with VDE.
+
+==== E6.2  “VHF Data Exchange” (VDE) Plan
+
+Six VHF data channels 24, 84, 25, 85, 26, and 86, plus channels 27 and 28 (which have been identified globally for “data communications” and “possible testing of future AIS applications”), have been agreed for an international scheme known as “VHF Data Exchange System” (VDES).
+
+=== E7 Description of VHF Data Communications Requirements
+
+==== E7.1 Background
+
+Prior to WRC-12, IALA created ITU document 5B/801 “Three essential elements of e-Navigation communications”, which originated in IALA as output document e-Nav10-output-18.
+
+Two of these essential elements were concerned with AIS and with VHF channels for data exchange. The third of these essential elements is MF radio communications, near 500 kHz. It is not considered in this ANNEX, which is restricted to VHF matters.
+
+The objective of this document 5B/801 was to secure at WRC-12 additional AIS channels for satellite detection, and additional VHF channels to relieve the loading on AIS1 and AIS2 with the objective of optimizing the use of AIS1 and AIS2 for their original purpose. The result of WRC-12 was in accordance with these objectives.
+
+==== E7.2 VHF Data Communications
+
+VHF data communications will provide robust high-speed/large volume data exchange between ships and between ship and shore. The AIS system is not capable of handling, nor is intended for, this high-speed/large volume data exchange.
+
+Taking into account the channels identified by WRC-12 as described above, channels channels 80, 21, 81, 22, 82, 23, 83, 24, 84, 25, 85, 26, and 86 will use the modulation technique described in ITU-R M.1842-1, and WRC-19 agreed channels 24, 84, 25, 85, 26, and 86 will use the modulation technique described in Recommendation ITU-R M.2092-0 rather than Recommendation ITU-R M.1842-1..
+
+These may be used as discrete data communications channels, or a number may be combined into a single wide-bandwidth channel.
+
+* From 1 January 2019, the channels 24, 84, 25 and 85 may be merged in order to form a unique duplex channel with a bandwidth of 100 kHz in order to operate the VDES terrestrial component described in the most recent version of Recommendation ITU R M.2092.
+
+All VHF data communication channels are illustrated in the Figure 2.
+
+.Figure 2 – VHF Data Communications Channel
+image::figure-2-vhf-data-communications-channel.png["VHF Data Communications Channel"]
+
+==== E7.3 AIS and VDE Channel Plan
+
+- Safety of Navigation purposes
+
+[lowerroman]
+. The AIS 1 and AIS2 are internationally allocated on a sharing basis. However, WRC-12 allocated these frequencies  exclusive  to  maritime  mobile  service  in  both  Region  2  effective  in  2025  and  Region  3 effective in 2013, but not in Region 1 (sharing basis continues).
+
+- Satellite detection of AIS and future GMDSS
+
+[lowerroman]
+. VHF Channels 75 and 76, dedicated maritime frequencies, have been approved for monitoring from space of Message 27, sharing with low power devices for navigational related communications only.
+. in the future GMDSS could include AIS technologies. The distress alerting, urgency and safety communications may be by both terrestrial and satellite communications; therefore exclusive maritime mobile service frequencies are needed. The satellite detection of AIS is a one way system (Earth-to-space) and could be considered as an additional alerting means. Methods of acknowledgement via alternative return links may also be considered but will require RR modifications by future WRC.
+
+- Data communication purposes.
+
+In considering the future AIS system for terrestrial (non-satellite) low volume data communication purposes, an additional two frequencies will be needed.  These frequencies have already been selected within the Appendix 18.  These are shown in Table 10.
+
+Also, the Appendix 18 covers 156-162.025 MHz; however the current channeling arrangements only apply to limited parts of the band.  As shown in the figure below, the  blue bands (sharing basis) and red bands (maritime exclusive) are channelized. The yellow bands (sharing basis) are not channelized.  The yellow bands are available for maritime mobile as well as terrestrial services and candidate frequencies may be selected on a sharing basis.
+
+.Figure 3 - Appendix 18 to the ITU Radio Regulations
+image::figure-3-appendix-18-itu-radio-regulations.png["Appendix 18 to the ITU Radio Regulations"]
+
+.Table 11 - VHF Data Exchange System (VDES)
+[cols="1,2,2,2,2"]
+|===
+.2+^|
+2+^a| *VHF Data Exchange System* +
+*(Recommendation ITU-R M.2092-0)*
+2+^a| *VHF Data Exchange System* +
+*(Recommendation ITU-R M.1371-5)*
+
+^|Application Specific Message (ASM) ^|VHF Data Exchange (VDE) ^|AIS for safety of navigation ^|AIS long range
+
+^|Radio channels
+a| * Channels ASM 1 and ASM 2
+* World-wide dedicated channels (WRC-15 agreed, including Sat uplink)
+a| * Channels 24,84, 25, 85, 26, 86 (WRC-15 agreed VDE-TER; target VDE-SAT WRC-19)
+a| * AIS-1 & AIS-2 (simplex)
+a| * Channels 75 and 76 (simplex) +
+* WRC-12
+^|Functionality
+a| * Marine safety information
+* Marine security information
+* SSRMs
+* General purpose information communication
+a| * General purpose data exchange
+* Robust high speed data exchange
+a| * Safety of navigation
+* Maritime and inland distress and safety communications (Subject to inclusion in GMDSS Modernization by IMO)
+a| * Space detection of AIS
+* Future SAR
+^|Message types for AIS protocol
+a| * IMO SN.1/ Circ.289 international application specific  messages
+* Regional application specific messages
+* Base Station
+|
+a| * Vessel identification
+* Vessel dynamic data
+* Vessel static data
+* Voyage related data
+* Aids to Navigation
+* Base Station
+a| * Space detection of AIS
+* Other messages for support of future SAR
+^|Sub functionality
+a| * Area warnings and advice
+* Meteorological and hydrological data
+* Traffic management
+* Ship-shore data exchange
+* Channel management
+a| * High message payload
+a| * Ship to ship collision avoidance
+* VTS
+* Tracking of ships
+* Locating in SAR
+* VDL control (by Base Station)
+a| * Detection of vessels by coastal states beyond range of coastal AIS base stations
+* Future distress alerting (Subject to inclusion in GMDSS Modernization by IMO)
+|===
+
+‘VDES provides a summary of the technical assignment of various VHF channels for communication including protocol and types of messages to meet the functionality required by user needs.
+
+==== E7.4 VDE, ASM and their Relationship with AIS
+
+To summarize the VDE plan and its relationship with AIS:
+
+* VHF Data Exchange (VDE)
++
+--
+** The four contiguous channels 25, 85, 26, 86 will be used for data exchange using the modulation technique described in ITU-R M.1842-1 Annex 4:
+– These may be used as separate channels or combined into a single 100 KHz broadband channel.
+** The two contiguous channels 24 and 84 may also be used for data exchange along the coastlines and waterways using the modulation techniques described in ITU-R M.1842-1 Annex 1 or Annex 3.
+--
+* Application Specific Message (ASM)
++
+--
+** The duplex channels 27 and 28 are each split into two simplex channels from 1 January 2019.  The channels 2027 and 2028 designated as ASM 1 and ASM 2 are used for application specific messages (ASM) as described in the most recent version of Recommendation ITU-R M.2092.
+--
+* AIS
++
+--
+** The existing AIS frequencies AIS-1 and AIS-2 (both are simplex channels) will be used exclusively for safety of navigation, primarily position reporting and identification, ship to ship and ship to shore;
+** the simplex channels 75 and 76 will be used for satellite detection of AIS using AIS Message 27, long range AIS broadcast message.
+--
+
+==== E7.5 Legacy Strategy
+
+- Future advances in AIS will require updates to legacy systems.
+- Legacy AIS functionality will be maintained.
+- AIS channel management, using Channel 70, already available internationally, should be maintained until it is replaced by another internationally agreed method of channel management.
+
+==== E7.6 Benefits of Future AIS / VDE for the Users
+
+- Dedicated frequencies will provide for greater safety and integrity of data link, providing better protection for the transfer of safety related messages.
+- Use of AIS for maritime information dissemination will mean that NAVTEX / NAVDAT could be supplemented and enhanced by VDE
+- The possibility will be created to support the future function of AIS in GMDSS, with the benefit of making distressed vessels visible to all resources (land, sea and air) in the vicinity.
+- Future shipboard  AIS  /  VDE  installations  could  provide  seamless  communication  means,  supporting  a modular concept for communication needs in the VHF band, and enabling scalability and inter-operability of communication solutions intended for SOLAS and well as Non-SOLAS vessels while remaining backward compatible with existing AIS equipment.
+- Satellite detection of AIS will be facilitated.
+- The rapidly increasing use of data transfer for the efficiency of navigation will be facilitated.

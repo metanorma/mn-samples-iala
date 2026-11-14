@@ -1,0 +1,117 @@
+== Glossary of Terms
+
+[cols="1,3",options="header"]
+|===
+|Abbreviation |Expansion
+
+|AIS |Automatic Identification System
+|AMRD |Autonomous Maritime Radio Devices
+|ARPA |Automatic Radar Plotting Aid
+|AtoN(s) |Aid(s) to Navigation
+|BeiDou |China Navigation Satellite System
+|BPL |Broadband over Power Line
+|CDMA |Code Division Multiple Access
+|CS |Coastal Surveillance (Radar)
+|DGNSS |Differential Global Navigation Satellite System
+|DGPS |Differential Global Positioning System
+|DRM |Digital Radio Mondiale
+|eANSI |Electronic Aids to Navigation System Information
+|ECDIS |Electronic Chart Display Information System
+|EGC |Enhanced Group Call
+|EGNOS |European Geostationary Navigation Overlay System
+|eLoran |Enhanced Loran
+|ELT |Emergency Locator Transmitters
+|ENC |Electronic Navigation Chart
+|EPIRB |Emergency Position-Indicating Radio Beacon
+|EPIRB AIS |Emergency Position-Indicating Radio Beacon with AIS
+|ESIM(s) |Earth Stations in Motion
+|ESOPMP(s) |Earth Stations on Mobile Platform
+|ESV(s) |Earth Stations on board vessels
+|ETSI |European Telecommunications Standards Institute
+|FAA |(US) Federal Aviation Authority
+|FDD |Frequency Division Duplex
+|GAGAN |GPS-Aided Geo Augmented Navigation (System) (India)
+|GALILEO |European GNSS (not an acronym)
+|GBAS |Ground Based Augmentation System
+|GEO |Geostationary Orbit
+|GMDSS |Global Maritime Distress and Safety System
+|GLN |Global Link Network
+|GLONASS |Global Navigation Satellite System (Russian Federation)
+|GNSS |Global Navigation Satellite System
+|GPRS |General Packet Radio Service
+|GPS |Global Positioning System (US)
+|GSM |Global System for Mobile Communications
+|HF |High Frequency (3 – 30 MHz)
+|HSDPA |High Speed Downlink Packet Access
+|IALA |International Association of Marine Aids to Navigation and Lighthouse Authorities
+|IBS |Integrated Bridge System
+|ICAO |International Civil Aviation Organization
+|IEC |International Electrotechnical Commission
+|IGSO |Inclined Geosynchronous Orbit
+|IHO |International Hydrographic Organization
+|IMO |International Maritime Organization
+|IMEA |International Maritime Electronics Alliance
+|INS |Integrated Navigation System
+|IP |Internet Protocol
+|IPBC |Internet Protocol for Boat Communications
+|IRNSS |Indian Regional Navigational Satellite System
+|ITU |International Telecommunication Union
+|ITU-R |ITU Radiocommunication Sector
+|LEO |Low Earth Orbit
+|LF |Low Frequency (30 – 300 kHz)
+|LORAN |Long Range Navigation system
+|LRIT |Long Range Identification and Tracking
+|LTE |Long Term Evolution
+|MASS |Maritime Autonomous Systems (Surface)
+|MBOC |Multiplex Binary Offset Carrier
+|MEO |Medium Earth Orbit
+|MF |Medium Frequency (300 – 3 000 kHz)
+|MMS |Maritime Mobile Service
+|MMSS |Maritime Mobile Satellite Service
+|MRCP |Maritime Radio Communications Plan
+|MSAS |Multi-Satellite Augmentation System (Japan)
+|NBDP |Narrow Band Direct Printing
+|NAVDAT |Navigational Data (the system name)
+|NAVTEX |Navigational Telex (the system name)
+|OFDM |Orthogonal Frequency Division Multiplexing
+|PIANC |Permanent International Association of Navigation Congresses
+|PLB |Personal Locator Beacon
+|PLT |Power Line Transmission
+|PMR |Private Mobile Radio
+|PNT |Position, Navigation and Timing
+|QAM |Quadrature Amplitude Modulation
+|QPSK |Quadrature Phase Shift Keying
+|QZSS |Quasi-Zenith Satellite System
+|RACON |RAdar BeaCON
+|RCC |Rescue Coordination Center
+|RAIM |Receiver Autonomous Integrity Monitoring
+|RNAV |Radionavigation
+|RR |Radio Regulations
+|SBAS |Satellite Based Augmentation System
+|SDCM |System for Differential Corrections and Monitoring (Russian Federation)
+|SHF |Super High Frequency (3 – 30 GHz)
+|SMS |Short Message Service
+|SOLAS |Safety of Life at Sea (IMO Convention)
+|TDD |Time Division Duplex
+|TDMA |Time Division Multiple Access
+|TETRA |Terrestrial Trunked Radio
+|UHF |Ultra High Frequency (300 – 3 000 MHz)
+|UMB |Ultra Mobile Broadband
+|UMDM |Universal Maritime Data Model
+|UMTS |Universal Mobile Telecommunications System
+|UWB |Ultra Wideband
+|VDE |VHF Data Exchange
+|VDE-ASM |VHF Data Exchange System – Application Specific Messages
+|VDES |VHF Data Exchange System
+|VDE-SAT |VHF Data Exchange System – Satellite
+|VDE-TER |VHF Data Exchange System - Terrestrial
+|VDL |VHF Data Link
+|VDR |Voyage Data Recorder
+|VHF |Very High Frequency (30 – 300 MHz)
+|VTS |Vessel Traffic Service
+|WAAS |Wide Area Augmentation System (US)
+|Wi-Fi |Wireless Fidelity
+|WiMax |Worldwide Interoperability for Microwave Access
+|WWRNP |World Wide Radio Navigation Plan
+|WWRNS |World Wide Radio Navigation System
+|===

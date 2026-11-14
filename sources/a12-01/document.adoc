@@ -1,0 +1,68 @@
+= IALA Change of Status to that of an International Intergovernmental Organization
+:doctype: general-assembly
+:series: A12
+:docnumber: 01
+:docidentifier: A12-01
+:language: en
+:published-date: 2014-05-27
+:copyright-year: 2014
+:mn-document-class: iala
+:mn-output-extensions: xml,html,doc,rxl
+:local-cache-only:
+:data-uri-image:
+:urn: urn:mrn:iala:pub:a12-01
+
+// SOURCE: reference-docs/resolutions/Resolution-A12-01_EN.pdf (2 pages).
+//
+// IDENTIFIER MAPPING: the printed document titles the resolution "IALA
+// General Assembly Resolution A.01, Adopted on 27 May 2014". "A.01" is the
+// resolution index of the 12th IALA General Assembly (La Coruña, Spain,
+// May 2014); the IALA publication catalogue and relaton-data-iala list it as
+// "GA Resolution A12-01" (docidentifier "IALA A12-01 (E)", urn
+// urn:mrn:iala:pub:a12-01:e). The session-scoped form A12-01 is used here;
+// the printed session-less form "A.01" is cross-referenced by GA01-Res.12
+// (Singapore Declaration). Pubid::Iala currently parses the string "A12-01"
+// as an Advice identifier (the "A" type letter); the GeneralAssembly class
+// covers the GA01 series only — see the secretariat question in the PR.
+//
+// PAGE FURNITURE: both pages carry the IALA-AISM letterhead ("IALA-AISM /
+// 10, rue des Gaudines – 78100 Saint-Germain-en-Laye – France / Tel.: +33 1
+// 34 51 70 01 – Fax: +33 1 34 51 82 05 / e-mail: contact@iala-aism.org –
+// web: www.iala-aism.org" and the bilingual organization name "IALA – AISM
+// (International Association of Marine Aids to Navigation and Lighthouse
+// Authorities / Association Internationale de Signalisation Maritime)");
+// not transcribed as content.
+//
+// The resolution carries no edition. The printed text is set solid (no
+// numbered sections); the six operative clauses are transcribed as the
+// numbered list below, with the recital verbs kept in the printed
+// capitalization.
+
+THE GENERAL ASSEMBLY,
+
+PROUD of IALA’s role in guiding and assisting the maritime community from the time of its establishment in 1957 as an international association of marine aids to navigation authorities;
+
+RECALLING Article 2 of the Constitution of IALA which states that the aim of IALA is to foster the safe, economic and efficient movement of vessels, through improvement and harmonisation of aids to navigation worldwide,
+
+RECOGNIZING the rights of those National Members party to the United Nation Convention on the Law of the Sea (UNCLOS), done at Montego Bay on 10 December 1982, as amended, in particular under Article 21 regarding the adoption of laws relating to the safety of navigation and the protection of navigational aids and facilities,
+
+FURTHER RECOGNISING the obligations of those National Members party to the International Convention for the Safety of Life at Sea (SOLAS), done at London on 1 November 1974, as amended, in particular Regulations 12 and 13 of Chapter 5 regarding the establishment and operation of vessel traffic services and other aids to navigation,
+
+NOTING the requirement of Article 266 of the UNCLOS Convention requiring National Members party to that Convention to co-operate to promote the development of marine technology, through competent international organizations,
+
+MINDFUL of the provisions of the Vienna Convention on the Law of Treaties, done at Vienna on 23 May 1969, in particular Article 5 confirming that that Convention will apply to intergovernmental organizations created by treaty,
+
+TAKING INTO ACCOUNT the Sustainable Development Goals of the United Nations, including its focus on ‘Delivering as One’ through coordinated global responses,
+
+CONSIDERING that IALA works in close partnership with other international bodies that are international intergovernmental organizations,
+
+DESIRING to benefit its National Members and the international maritime community, by enhancing the safety of navigation and protection of the marine environment and contributing to the work on international legislation in the area, strengthening the existing cooperation between IALA and other intergovernmental organizations and allowing for a broader participation in IALA by States,
+
+BELIEVING that international intergovernmental organization status will best facilitate IALA’s aims into the future,
+
+. DETERMINES that IALA should strive to achieve such status as soon as is possible by supporting the development of an international convention open for entry by all members of the United Nations;
+. DECIDES that through all available means IALA will support its National Members and their Governments in the pursuit of international intergovernmental status for IALA;
+. ENCOURAGES the IALA Host and other Governments to conduct the necessary diplomatic activities;
+. FURTHER ENCOURAGES each National Member to support its Government to actively engage in such diplomatic activities;
+. DIRECTS the IALA Council with the assistance of the IALA Secretary-General to further consider the preparation of IALA for a change of status, including the development and adoption of modern, flexible and efficient administrative practices;
+. AUTHORISES the IALA Council to act in fulfilment of this Resolution.

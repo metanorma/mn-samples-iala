@@ -1,0 +1,45 @@
+== SESSION 3 - PRESENTATIONS AND DISCUSSION WITH EXPERT SPEAKERS
+
+Monica Sundklev Chair of the VTS Committee, moderated session three of the workshop.
+
+=== Preventive measures to ensure Cyber Resilience, Alan Jacobsen - German Waterways and Shipping Agency
+
+Alan provided guidance on preventive measures to ensure cyber resilience inside the German WSV but with a view on being used by other organisations anywhere. He first informed about the security organisation, roles, and responsibilities, therefore, how the staff is structured and what their tasks are in relation to security. The process approach was then addressed focusing not only on IT security but also on a holistic approach (from business processes and including IT, assets, organisation, and staff). It is required to define the protection levels of applications and the implication on business processes. The implication of the Information Security Management (ISM) is also needed and addresses again some roles and responsibilities to the staff organisation when dealing with a new application. In parallel, different operational procedures should be followed to prove the adequate implementation of such new application and keeping in mind the security requirements. Alan also informed about the role of the ISM on already in use applications and systems. In both cases (new and in use app/syst.), a catalogue of security requirements for buildings, servers, clients, change management should be produced and maintained. At this point, two types of requirements are set up: main requirements (compulsory to be implemented) and other requirements (risk is acceptable – not compulsory to implement). Addressing the human element, a few points were suggested to raise the employee awareness on the cyber security topic. Finally, the question on handling security incidents was stressed considering procedures, security staff availability, reporting channels, action timing and final responsibilities and decision-making within an organisation. The first response to an incident will then conduct to: crisis management / business continuity / recovery.
+
+=== Incident Response and Recovery, Martijn Ebben - Port of Rotterdam
+
+Martijn provided insights on cyber incident response and stressing the fact that the probability for an organisation of being impacted by a cyber incident is very likely as ransomware. The correct human behaviour could help to avoid these incidents but zero risk would never happens. A good preparation would then been needed to effectively recover from a cyber incident. Martijn presented a methodology to face a cyberattack with different steps that should be well known by the staff and prepared to be applied immediately. Noting and reporting the actions conducted to mitigate the risk is also important, the number of people involved in this event response should then be enough to act and take notes to later investigate. Some preferred actions were exposed as well, and the crisis management team should be also established on beforehand. A good business continuity plan is required since part of the business network will be switched off or no longer useful. The incident recovery which will provide the ability to get back to the business requires several technical solutions and checking to make sure that the incident is still not located in the system. Most organisations choose to hire this as a service. The reporting at this stage is vital to avoid coming across the same mistakes in the future. Then, Martijn tailored this general view on cyber incident response and recovery to the AtoN, including VTS, and maritime services in the context of eNavigation. A few questions were raised looking at the impact of cyberattacks to the AtoN and maritime services operations. An example of AIS spoofing o Gulf of Corsica confirming the high vulnerability of AtoN and maritime services. Alternatives to normal technologies used could be put in place as for AIS → Radar and CCTV ; VHF → Telephone and audio visuals signs ; GNSS → bearing and distance positioning and time synchronisation via LTE
+
+=== Cyber Security Risk Management in the maritime domain including the human element, Jose Fernandez – Bastionnage
+
+Jose started the lecture briefing about risk management, strategies to address risk and risk managementwhat the countermeasures or controls should be deployed. High level approach.
+
+As part of the managing of risk, the analyse of risk before considering any countermeasures should be put in place for each potential threat. Thus, dealing with the determination of the scenario and actors but also calculating quantitatively the risk. Risk reduction can be due to the reduction of probability (i.e., protection or detection countermeasures) or the reduction of impact (i.e., backups). Another parameter to ponder when choosing and introducing countermeasures is the cost of ownership (acquisition and operation) and to calculate the return of investment (ROI). Part of the risk management activities is to apply the management principles, that is, to prioritise countermeasures either risk-based (those with highest risk reduction) or protection-based (those with best/shortest ROI). Selection between these two options are very much related to company policy. Jose introduced the standards or frameworks on cyber security applying to risk management:
+
+* ISO/IEC 27001 with the oldest and most common IT security management standard. Describes “process” to become more mature in terms of cyber risk management. However, does not describe what the countermeasures or controls should be deployed. High level approach.
+* NIST Cybersecurity Framework, which has become very popular, is aimed at critical infrastructure providers (more detailed descriptions and activities / comprehensive language for non-cyber experts) and identifies five main security functions:
+** Identify
+** Protect
+** Detect
+** Respond
+** Recover
+
+Considering specific maritime domain standards, the following ones could be consulted:
+
+* Generic: IMO – Guidelines on Maritime Cyber Risk Management (April 2017)
+* Ports: IAPH - Cybersecurity Guidelines for Ports and Port Facilities (Version 1.0) – July 2021
+* Ships:
+** Various org. (BIMCO, ICS, WCS, etc.) – The Guidelines on Cyber Security Onboard Ships - 2021
+** ABS – Cybersecurity Implementation for the Marine and Offshore Industries (Feb 2021)
+** ABS – Cybersafety and Cybersecurity certifications
+
+On the AtoN/VTS side, no guidance has been produced yet.
+
+Jose recalled the structure within an organisation in the scope of cyber security which will be in coordination or even merge to security on a whole (personal + physical + cyber).
+
+=== Question and answer session
+
+* It was recalled during the discussions that the CIA requirements also apply to non-IT components, including AtoN. Integrity and Availability of AtoN are key elements to ensure navigation safety.
+* A concern related to the issue of merging of business system with operating system was raised. The trend is to combine both and converge in the same network as this is cheapest and could be beneficiary for cyber security to trace the operator/user who has access to the operating area physically and by the computer.
+* Comments were made on the document from ISO/IEC 27001 which helps with establishment of an ISMS (Information Security Management System) and ISO/IEC 27005 which specifies the standard for Security techniques and for Information security risk management.
+* A question was asked to Martijn’s presentation regarding why procedures should be printed in paper although most quality systems today are being only kept in electronic format (online). Documents such as emergency procedures for cyber security should be on paper as well as something that is very sensitive for the organisation as the procedures may not be accessible in case of a cyberattack.

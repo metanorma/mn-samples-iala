@@ -1,0 +1,48 @@
+== Securing the Spectrum
+
+=== Situation with Respect to Existing Spectrum Usage
+
+Section 3.3 described the existing maritime technologies, which use the radio spectrum and indicated the bands in which they operate.  Whilst there is consideration of variations to the technologies which may be used, all such variations take, as their base assumption, the ongoing use of existing spectrum allocations.  These variations may give rise to a need to change the channelization within certain bands.
+
+Please refer to the table in Annex A for system details, Annex B for maritime spectrum allocations and Annex D for specific ITU technical characteristics associated with the systems described in section 3.3 and 3.4.
+
+=== WRC-19 Agenda Items
+
+A number of the agenda items for the 2019 World Radiocommunications Conference (WRC-19) may affect the maritime use of the spectrum, namely:
+
+==== Agenda Item 1.5
+
+Agenda item 1.5 is to consider the use of the frequency bands 17.7-19.7 GHz (space-to-Earth) and 27.5 29.5 GHz (Earth-to-space) by earth stations in motion communicating with geostationary space stations in the fixed-satellite service and take appropriate action, in accordance with Resolution 158 (WRC 15);
+
+. that, taking into account the results of ITU-R studies, WRC-15 consider the possible extension of the current worldwide allocation to the EESS (active) in the frequency band 9 300-9 900 MHz by up to 600 MHz on a primary and/or secondary basis, as appropriate, within the frequency range 8 700-9 300 MHz and/or 9 900-10 500 MHz while ensuring protection of existing services and taking due account of the safety services allocated in the frequency band 9 000 to 9 300 MHz
+
+1. to study the technical and operational characteristics and user requirements of different types of earth stations in motion that operate or plan to operate within geostationary FSS allocations in the frequency bands 17.7-19.7 GHz and 27.5-29.5 GHz, including the use of spectrum to provide the envisioned services to various types of earth station in motion and the degree to which flexible access to spectrum can facilitate sharing with services identified in recognizing further a) to n);
+. to study sharing and compatibility between earth stations in motion operating with geostationary FSS networks and current and planned stations of existing services allocated in the frequency bands 17.7-19.7 GHz and 27.5-29.5 GHz to ensure protection of, and not impose undue constraints on, services allocated in those frequency bands, and taking into account recognizing further a) to n);
+. to develop, for different types of earth stations in motion and different portions of the frequency bands studied, technical conditions and regulatory provisions for their operation, taking into account the results of the studies above,
+
+// The printed list numbering restarts after the first item; the numbering
+// above follows the printed sequence (1; 1, 2, 3).
+==== Agenda Item 1.8
+
+Agenda item 1.8 is to consider possible regulatory actions to support Global Maritime Distress Safety Systems (GMDSS) modernization and to support the introduction of additional satellite systems into the GMDSS, in accordance with Resolution 359 (Rev.WRC 15);
+
+. to conduct studies, taking into consideration the activities of IMO, as well as information and requirements provided by IMO, in order to determine the regulatory provisions to support GMDSS modernization;
+. to conduct studies, taking into consideration the activities of IMO and the recognition of additional satellite systems for use in the GMDSS, including consideration of the mobile-satellite service (MSS) allocations used and the potential impact of possible modifications to the provisions of the Radio Regulations on sharing and compatibility with other services and systems in the frequency band and adjacent frequency bands,
+
+==== Agenda Item 1.9
+
+Agenda item 1.9 is to consider, based on the results of ITU-R studies:
+
+1.9.1 regulatory actions within the frequency band 156-162.05 MHz for autonomous maritime radio devices to protect the GMDSS and automatic identifications system (AIS), in accordance with Resolution 362 (WRC 15);
+
+- to consider the results of ITU-R studies and take appropriate actions,
+
+1.9.2 modifications of the Radio Regulations, including new spectrum allocations to the maritime mobile-satellite service (Earth to space and space-to-Earth), preferably within the frequency bands 156.0125-157.4375 MHz and 160.6125-162.0375 MHz of Appendix 18, to enable a new VHF data exchange system (VDES) satellite component, while ensuring that this component will not degrade the current terrestrial VDES components, applications specific messages (ASM) and AIS operations and not impose any additional constraints on existing services in these and adjacent frequency bands as stated in recognizing d) and e) of Resolution 360 (Rev.WRC 15);
+
+- to consider, based on the results of ITU-R studies, modifications of the Radio Regulations, including new spectrum allocations to the maritime mobile-satellite service (MMSS) (Earth-to-space and space-to-Earth), preferably within the frequency bands 156.0125-157.4375 MHz and 160.6125 162.0375 MHz of Appendix 18, to enable a new VDES satellite component, while ensuring that this component will not degrade the current terrestrial VDES components, ASM and AIS operations and not impose any additional constraints on existing services in these and adjacent frequency bands as stated in recognizing d) and e),
+
+=== Preliminary Agenda for WRC-23
+
+Resolution 810 (WRC-15 )has a direct affect for maritime spectrum use:
+
+- to consider possible spectrum needs and regulatory actions to support Global Maritime Distress and Safety System (GMDSS) modernization and the implementation of e navigation, in accordance with Resolution 361 (WRC 15)

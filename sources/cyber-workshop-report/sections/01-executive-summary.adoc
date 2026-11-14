@@ -1,0 +1,32 @@
+// Printed as an unnumbered front-matter section; the numbered sections of
+// the report begin at "1. INTRODUCTION".
+[unnumbered]
+== Executive Summary
+
+The workshop on Cyber security was held on 12 November 2021 and from 15 to 19 November 2021 as a virtual IALA workshop. The workshop was attended by 64 participants plus three members of the IALA secretariat. The list of participants is attached as Erreur ! Source du renvoi introuvable.. The Chair of the workshop was Phil Day and the hosting country was Canada.
+
+The working group 1 considered the human factors in cyber security for AtoN and VTS.
+
+The group identified organisational gaps and cyber security threats and proposed high-level mitigations. It was recommended that cyber security should become an integral part of the day-to-day business.
+
+The Working Group recommended the following key items of further work for IALA:
+
+* Identify appropriate cyber security guiding principles and apply these in IALA guidance documents and courses
+* Review IALA toolbox of risk assessment to include cyber security risk
+
+Working Group 2 considered the platforms and subsystems within the scope of IALA and identified areas where IALA could have a key role to play in implementing protection and mitigation measures.
+
+Key vulnerabilities were identified as positioning, navigation and timing (PNT) systems and the automatic identification system (AIS).
+
+The Working Group recommended the following key items of further work for IALA:
+
+* A Recommendation for IALA members on how to apply the concepts of security by design to both radio and electronic AtoNs and all platforms that include telemetry, remote administration, edge devices or Supervisory control and data acquisition (SCADA) systems, and
+* To consider how authentication, authorization & encryption can be applied to the systems within the scope of IALA and what the priorities are for these.
+
+The working group 2 proposed mitigations and protective measures and proposed further work for IALA to address these and other cyber security issues within its scope of work.
+
+The working group 3 discussed post-operational cyber incident response and business continuity. Most important conclusions regarding business continuity are that cyber security risks should be incorporated in existing business continuity plans.
+
+With regards to planning for cyber incident response the working group determined that scenarios for cyber incidents should be developed, in particular for AtoN and OT systems. Furthermore, a clear policy and incident response plan should be established.
+
+In handling cyber incidents, first response is the organisation’s own responsibility, for further analysis, forensics and assistance in recovery, a specialised 3rd party is recommended. For information sharing, the working group suggested that IALA may be facilitator for an ISAC (Information Sharing and Analysis Centre).

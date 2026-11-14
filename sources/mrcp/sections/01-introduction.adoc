@@ -1,0 +1,61 @@
+== Introduction
+
+=== General
+
+The International Association of Marine Aids to Navigation and Lighthouse Authorities (IALA) was formed in 1957 as a non-government, non-profit making, technical association that provides a framework for aids to navigation authorities, manufacturers and consultants from all parts of the world to work with a common effort to:
+
+* harmonize standards for aids to navigation systems worldwide;
+* facilitate the safe and efficient movement of shipping; and
+* enhance the protection of the marine environment.
+
+The functions of IALA include:
+
+* developing international cooperation by promoting close working relationships and assistance between members;
+* collecting and circulating information on recent developments and matters of common interest;
+* liaison with relevant inter-governmental, international and other organizations.  For example, the International Maritime Organization (IMO), the International Hydrographic Organization (IHO), the International Electrotechnical Commission (IEC), and the International Telecommunication Union (ITU);
+* liaison with organizations representing the aids to navigation users;
+* addressing emerging navigational technologies, hydrographic matters and vessel traffic management.
+
+==== e-Navigation
+
+e-Navigation is an International Maritime Organization (IMO) led concept based on the harmonisation of marine navigation systems and supporting shore services driven by user needs.
+
+The working definition of e-Navigation as adopted by IMO is:
+
+____
+e-Navigation is the harmonised collection, integration, exchange, presentation and analysis of maritime information onboard and ashore by electronic means to enhance berth to berth navigation and related services, for safety and security at sea and protection of the marine environment.
+____
+
+There are 3 key elements or strands that must first be in place before e-Navigation can be realized:
+
+* Electronic Navigation Chart (ENC) coverage of navigational areas;
+* a robust electronic position, navigation and timing system (with redundancy); and
+* an agreed infrastructure of communications to link ship and shore.
+
+==== Aim and Vision of IALA
+
+The aim of IALA is:
+
+Fostering the safe, economic and efficient movement of vessels by improvements and harmonisation of aids to navigation worldwide.
+
+while the Vision of IALA is:
+
+Safe marine navigation in a world of:
+
+* Larger and faster ships;
+* Changing economy & technology;
+* Stringent standards;
+* Holistic approach (e-Navigation);
+* Changing waterway use.
+
+With this in mind, IALA has taken an initiative, as part of the strategy for the future of e-Navigation, by developing a World Wide Radio Navigation Plan (WWRNP).  To support the WWRNP IALA developed and is maintaining focus work on maritime radiocommunications to support both the vision of IALA and e-Navigation.
+
+=== Scope and Objectives
+
+The core objective of the Maritime Radio Communications Plan (MRCP) is to state the IALA vision for the efficient use of Radio Spectrum in the Maritime Mobile Service.  Edition 3 of the MRCP reflects the outcomes of developments in maritime radio communication spectrum.
+
+This document focuses on the need for an agreed infrastructure of communications between ships and ashore. It presents IALA’s view on current, developing and future Radio Communication Systems for the maritime sector.
+
+e-Navigation requires appropriately designed radio communication systems for robust and reliable services.  This document is aimed at assisting in the formulation of policy for National and International spectrum allocation and usage.
+
+This document is also provided for IALA members and other administrations to assist them in offering their proposed use of radio spectrum as part of the on-going studies at ITU.

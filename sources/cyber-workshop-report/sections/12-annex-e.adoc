@@ -1,0 +1,238 @@
+[appendix]
+== Inventory of best practices on incident response and recovery and business continuity
+
+=== Summary
+
+Working group 3 of the IALA workshop on Cyber Security, held virtually on November 15 – 19, 2021,  inventoried best practices on business continuity, incident response and incident recovery, which were discussed and edited to be suitable for the domains of AtoN and VTS.
+
+==== Purpose of the document
+
+This document summarizes the working group’s insights and may be used as a starting point for further work in the IALA technical committees.
+
+==== Related documents
+
+Since the recovery work from cyber incident is similar with other recovery work from natural and other disaster in some degree, the following IALA documents should be referred.
+
+* IALA Recommendation R1009 on Disaster Recovery
+* IALA Guideline G1120 on Disaster Recovery
+
+=== Background
+
+The working group was instructed to;
+
+* Consider the response and guidance during and after a cyberattack event for the different operations and systems impacted;
+* Identify business continuity approach and scenarios during and recovering from a cyberattack;
+* Identify existing business continuity best practices to be considered within the marine AtoN and VTS operation;
+* Identify the prioritised actions within the continuity plan;
+* Identify means of the reporting and sharing cyber incidents information for learning; and
+* If possible, propose topics that may be considered in the future IALA work programme.
+
+==== Discussion
+
+The following was discussed during the working group sessions. This text could be used as raw input for further work in the technical committees; it is not to be considered a guideline or recommendation.
+
+===== Preparation
+
+To prepare for a cyber security incident, it is good to differentiate between.
+
+* Preparations for handling the actual incident; and
+* Preparations for handling the consequences of a cyber incident.
+
+Preparations for incident handling should include a risk or impact assessment, which include;
+
+a. Description of risk/incident or potential incident (potential scenarios);
+b. Type of data/system involved or at risk
+c. Is it sensitive or personal data?
+d. Any protections or mitigations already in place?
+e. How many systems may be affected?
+f. Who is involved (staff, customers, clients, suppliers, general public etc)
+g. Extent of risk (physical, safety, reputational, electronic)
+h. Impact rating
+i. Probability rating
+j. Overall risk index (impact x probability)
+k. Trigger points on which to escalate to alternative responses in terms of business continuity
+
+Impact assessment should be carried out throughout the process, especially to note if the risk changes as time elapses
+
+It was noted that in assessing risk, the possibility should be considered that malicious activity (a virus, ransomware or hacker) could “hop” through the network. For instance, it may start in an office network via a phishing email, and from there reach the AtoN - or VTS systems.
+
+To continuously perform risk and impact analyses, penetration tests and vulnerability scans of possibly impacted systems may be performed.
+
+* (Automated) vulnerability scanning encompasses a tool that searches for known vulnerabilities or systems
+* A penetration test is an audit performed by an ethical hacker that may or may not have additional information, like login credentials, to search for weaknesses.
+
+Additionally, many (national) governmental agencies send regular messages (emails) on newly discovered vulnerabilities, which may be good to subscribe to.
+
+It is important that the plans have full management buy-in and are authorised, sufficiently supported and financed.
+
+In preparation, an organisation may decide to get insurance. The working group noted that an insurance may be;
+
+* An actual insurance for e.g., ransom payment in case of a ransomware incident
+* A contract with a managed service provider, including an SLA (Service Level Agreement, ie. Response time etcetera), for assistance in crisis management and incident response and recovery
+
+===== Incident response best practices
+
+For response to an incident (not business continuity), the following best practices were identified:
+
+* Have a clear policy and incident response plan and ensure that it is accessible without a computer (with contact details, USB thumb drive with plans, forensic tools if required etc). The plan should include required funding for resources and components.
+* Test/exercise/practice/simulate and tweak the plan regularly. It is up to the organisation to determine an appropriate interval, so experience and actuality is kept optimal.
+* What is defined as an incident – and who categorises it as such? In terms of AtoN it would make sense to define the state as unavailable or unreliable as an incident eligible for the regime described in the plan.
+* Classify (potential) incidents – critical, significant, minor, negligible. The classification determines the appropriate action to take. In the context of AtoN, as specified in the previous line, there may be little differentiation. Examples of classification may be found at governmental bodies like the UK National Cyber Security Centre (NCSC).
++
+--
+o It was noted that a cyber security incident is something that potentially goes wrong as opposed to the ITIL (Information Technology Infrastructure Library) definition of an incident, which states that an incident is something that’s gone wrong
+--
+* Procedure when there is a breach of Personal Identifying information (GDPR – General Data Protection Regulation - or equivalent) that has mandatory reporting requirements. Names of inland ships are covered under the GDPR as they are usually people’s homes.
+* Defined incident roles and responsibilities in the response plan – who is responsible for managing the incident, keeping the documentation up to date, making decisions, escalation management, assessing the impact, technical responses, business continuity activities, forensic analysis, communications and so on.
+* Clearly defined communications pathway & escalation as part of the response plan
+* Scenario playbooks – not only for incident response, also for Business Continuity (see the differentiation between the two)
+
+====== Documentation
+
+One should document all steps as you go along. Most important is to make accurate notes during an incident. A form could be provided as a starting point. Such a form should at least include:
+
+a. Date/time reported
+b. Description of the incident
+c. How it was discovered/reported and who detected and reported it
+d. Status e.g. on-going, recurring, closed
+e. Seriousness/severity rating – IALA specific
+f. Assessment of affected systems/data
+g. Who has been notified of any actions taken
+h. Checklist of necessary actions to take/taken, measures, communication and informed people
+i. Evaluation and lessons learned
+
+===== Containment
+
+In containment of a cyber incident, there should be 2 distinct phases;
+
+. First response – immediate interventive action that can only be performed by the organisation itself
+. Forensic research and thorough investigation and eradication of malicious code, is suggested to be performed by a contracted specialised 3rd party.
+
+Usual steps and considerations in containment include;
+
+* Identify affected systems and what data is compromised
+* Collect all information for forensic examination – will probably need expert assistance. Ensure chain of custody is adhered to.
++
+--
+o In the preparation and planning phase, it is good to ensure that system logging is performed and saved in an orderly manner, to ensure forensics on these can be performed.
+--
+* Consider whether the incident response will impact business continuity. An action performed to countermeasure a breach may have more impact on AtoN operations than the actual incident/breach. A decision may be made to leave systems at risk, but operational, for continuity reasons. In technical terms the policy should be defined as “fail open” or “fail close”.
+* Have a plan relating to scenarios – and decisions regarding disconnecting versus staying online when doing incident response:
++
+--
+* Disconnecting: does not allow you to do a thorough investigation as the problem may disappear/reappear, or be triggered when you disconnect, will alert attacker that you have discovered the breach, shutting down will clear memory which may be needed for forensics, disconnecting from network may not allow you to find the extent of the compromise. However, a quick response might reduce window of time the attacker or malware has to spread.
+* A watch and learn approach may be more likely to tackle the root cause and eradicate, and evidence gathering done properly may allow prosecution. However, this takes time and it will take longer to get back to business as usual.
+--
+* In preparation, redundancy should be considered. Not only on a system level, but maybe even on the level of having two completely separated VTS centres (for instance). This may be considered Business Continuity.
+
+Questions to ask:
+
+* What could happen if the breach is not contained as soon as possible?
++
+--
+o For AtoN operations, this comes down to; are the AtoN operational and reliable or not?
+--
+* Is the attack doing severe or immediate damage?
+* Is there potential damage and or theft of assets?
+* Is it necessary to preserve evidence – and if so, what evidence is needed?
+* Is it necessary to avoid alerting attacker?
+* Is it necessary to ensure service availability – do we need to invoke Disaster Recovery (DR)?
+
+===== Incident recovery
+
+Recovery requires eradication of any malicious code and possible backdoors and leftovers.
+
+Take steps to stop breach & start recovering while taking notes simultaneously– steps might include removing malware, changing passwords, identifying gaps and fixing them, adjusting firewall policies, or in the event of major damage, rebuilding servers and restoring from a good backup, The decision to clean up versus rebuild may depend on the severity of the attack and how realistic it is that it can be fully cleaned.
+
+Before systems go back online they should be validated from both security and business operations perspective.
+
+Assess if Remote equipment has been affected – might need to get to remote location – ships/helicopters
+
+Root cause of incident leads to information about how best to recover.
+
+In extreme cases, hardware may have been damaged and must be repaired or replaced.
+
+Eradication and recovery is usually a task for experts. Hopefully, no organisation can build the experience to do so by themselves. In AtoN operations however, the used technology may be too specific to handle for (external) experts and a cooperation should be established.
+
+===== Evaluation
+
+Following an incident, it is important to carry out a Lessons Learned exercise, to be able to learn and improve the plans. Questions to ask during evaluation, and even when drafting the initial response plan include:
+
+. Was the cyber incident management plan followed?
+. Was the plan adequate? Please give details
+. Should the plan be adapted? Please give details
+. Were there any steps or actions you have taken that might have inhibited the recovery?
+. Could communications have been improved?
++
+--
+a. In communication, it should be noted that (national) laws may require AtoN organisations to report on cyber incidents if the organisation or its activities are considered vital infrastructure.
+--
+. What corrective actions can be taken to prevent similar incidents in the future?
+. Are there indicators that can be monitored to detect similar incidents more easily in the future
+. What tools or resources were needed to identify/handle the incident?
+. Following from the incident, what tools, training or resources would be recommended to mitigate  future cyber security incidents
+. Did the cyber security team have everything they needed to respond to the incident? Were there any hierarchical barriers to taking action?
+===== Best practices on Business Continuity
+
+Business Continuity is an organisation-wide process and includes far more than just cyber security. It should be, however, included in (existing?) business continuity and disaster recovery plans.
+
+Best practices for business continuity after cyber incidents and preparation for them include:
+
+* Ensure that a plan is in place and is tested regularly, i.e. once every year, alternating table top exercises and simulations.
+* In AtoN organisations, it is not unusual to have legacy systems in operation. These can both be a high risk and a fall back when computers or automated systems fail.
+* Ensure backups and/or virtual machine snapshots are taken regularly and are accessible and tested regularly –depending on system/organisation. Not less than once every 2 years
+* Have installation media available and make sure they are useable; for example, to use a CD, a CD-ROM drive is necessary and to program a PLC in a buoy, a laptop with a serial port may be required.
+* Immutable (unchangeable) backups/cloud backups and regular validation that they can actually be restored
+* Backup schedules and retention – 1 year, monthly, weekly, daily etc. Scale of impact gets greater as you go back. On the other hand, dormant malicious code may have been present for a long time, forcing you to use a very old backup
+* Agreed Recovery Point Objective / Recovery Time Objective
++
+--
+o Recovery point objective (RPO) is defined as the maximum amount of data – as measured by time – that can be lost after a recovery from a disaster, failure, or comparable event before data loss will exceed what is acceptable to an organization
+o The recovery time objective (RTO) is the amount of real time a business has to restore its processes at an acceptable service level after a disaster to avoid intolerable consequences associated with the disruption.
+--
+* Services in place we can fail over to/who can assist for business continuity
+
+The working group would like to point out that Disaster Recovery differs from Business Continuity. Disaster Recovery is considered to be the IT part of AtoN operations within the overall Business Continuity process.
+
+===== Priorities in incident response and business continuity
+
+To address incident response and business continuity, the working group identified the following priorities, as a starting point:
+
+. Risk/impact assessment
++
+--
+a. Where are the greatest risks
+b. What systems may be most impacted by a cyber incident?
++
+--
+i. Component level
+ii. (Inter)connected systems
+iii. Consider the human element (carried by a human on a laptop or USB thumb drive
+--
+--
+
+. Planning / Preparation
++
+--
+a. Organisational
+b. Continuity plan
+c. Material / contracts / backup systems
+d. Policy: shut down or leave running while at risk
+--
+
+. Decide on contracting a managed service provider (CERT: Computer Emergency Response Team)
++
+--
+a. What will you need to do yourself and what can be outsourced?
+b. CERT = Computer – would that be applicable for AtoN? Find the right 3rd party
+--
+
+===== Means of reporting and sharing cyber incidents
+
+A usual means of sharing information on cyber risk and incidents is to establish an ISAC (Information Sharing and Analysis Centre). This usually is a group of representatives of various companies and organisations that have gained mutual trust and have signed an agreement how to handle sensitive information. They come together, either physically or virtually on a regular basis to discuss actual events, best practices, threats and incidents. Information is not shared outside the ISAC, but may be used, in an anonymised way, to improve the cyber resilience of the participants’ organisations.
+
+It is suggested by the working group that IALA may be a facilitator for such an ISAC for IALA members.
+
+There is also technical cooperation. Basically, security systems from different organisations can be interconnected in such a way that if a breach is detected in one organisation, digital signatures may be shared for detection or blocking by the firewall or intrusion prevention system of another organisation.
+
+In sharing sensitive or confidential information, either electronically or verbally, a common practice is to use the Traffic Light Protocol (TLP) for an indication on how to handle the shared information. For information on the TLP, look at https://www.cisa.gov/tlp
