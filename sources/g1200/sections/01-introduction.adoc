@@ -1,0 +1,22 @@
+== Introduction
+
+IMO Resolution A.1158(32) Guidelines for Vessel Traffic Services [1] emphasizes that:
+
+____
+“A major factor in the operation of VTS is the competence of their personnel.”
+____
+
+Similarly, IALA G1156 Recruitment, Training and Certification of VTS Personal [2] highlights the importance of having policies and processes for the selection and recruitment of VTS personnel. This may include minimum entry requirements such as:
+
+* prior skills and knowledge
+* maritime experience and education
+* personal suitability characteristics
+* medical fitness requirements
+
+These documents recognize that personal attributes are as important as technical skills and experience for VTS personnel.
+
+This guideline was developed with input from multiple respondent groups, including VTS operators, VTS supervisors, VTS managers, competent authorities, Training Organizations and recruiters. Based on the responses the highest-ranked aptitudes and behaviours remained largely consistent across the groups, which indicates broad agreement on the core competencies necessary for VTS operators.
+
+Assessing a candidate’s personal attributes and overall suitability should be incorporated into the selection process. This ensures that candidates bring not only the right knowledge but also the aptitudes and behaviours needed to succeed in the VTS role.
+
+Assessing of personal attributes is one step in the recruitment process designed to determine the suitability of a candidate.

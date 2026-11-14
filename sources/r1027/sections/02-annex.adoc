@@ -1,0 +1,6 @@
+[appendix]
+== VDE payload format identifiers
+
+. The VDE Payload Format Identifiers (VPFI) have the purpose to allow VDE applications to uniquely identify how to interpret the digital content of VDE messages.
+. To ensure global interoperability, the Organization maintains a harmonized registry of VPFI numbers and their associated data formats. This registry serves as the definitive technical reference for VDE application developers and system integrators.
+. Members of the Organization and AtoN authorities and other appropriate stakeholders should comply with the requirements for the VPFI allocation requirements and technical specifications as set out in the Appendix.

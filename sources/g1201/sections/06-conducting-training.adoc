@@ -1,0 +1,118 @@
+== Conducting training
+
+Instructional techniques or strategies refer to the methods, techniques or tools that can be used to assist the learning to understand and interact with the content being presentedfootnote:[The Simulation Instructor's Handbook, Second Edition, 2024, The Nautical Institute]. There are many different approaches that can be taken. Some of the most common approaches to training are presented in Table 5.
+
+.Synchronous and asynchronous delivery
+|===
+h|Training activity h|Synchronous h|Asynchronous h|Comments
+
+| Lecture | Yes | Possible | Lecture could be pre-recorded for review in asynchronous manner.
+| Developmental Method | Yes | No | More interactive than lecturing, using questioning techniques.
+| Brainstorming | Yes | No | Relies on real time interaction to build on ideas within the brainstorm activity.
+| Case Study | Yes | Yes | Case study reviews include individual reading of the case, with response to structured questions to meet learning objectives.
+| Games (learning games) | Yes | Possible | Games, with a focus on learning, may lose some impact when done in an asynchronous manner.
+| Demonstration | Yes | Yes | Demonstration may be both, noting the opportunity to record a demonstration for individual replay.
+| Role Play | Yes | No | Role play requires interaction within the context of the experience being provided.
+| Flipped Learning | Yes | Yes | Flipped learning, or the flipped classroom, focuses on self-directed learning where the students take the lead role in the learning process and can be suitable for both.
+| Structure experience (simulation) | Yes | Possible | While not suitable for asynchronous learning, the asynchronous review of simulations can be effective. In addition, part task simulation may be suitable for asynchronous learning.
+|===
+
+=== Consideration of teaching methods
+
+Different approaches to teaching and use of various methods should be considered for synchronous and asynchronous training delivery. As technology develops, the opportunity to implement innovative and effective solutions will continue to evolve.
+
+Relevant factors that may be considered for the selection of teaching method include:
+
+. Network Connectivity
++
+--
+* Applies to both instructors and students;
+* Identify minimum bandwidth – usually between 5 and 10 Mbps, depending on the tools being used;
+* Identify opportunities to address variability in bandwidth during the training session;
+* If both parties have sound network conditions, live-streaming would be selected
+* If limitations in bandwidth arise, options for sharing of weblinks in lieu of live streamlining content could be considered
+* If a student has poor internet, offline resources might be provided, or video recorded courses arranged
+* Advise technical requirements well in advance of the training session; and
+* Provide a pre-course session to better prepare students for the training, including confirming access to the tools.
+--
+
+. Course Content
++
+--
+* Course content should reflect the IALA Model Courses and comply with any additional requirements identified by the competent authority; and
+* Course design should focus on interactive learning using, for example, case study analysis and pre-prepared activities to address specific learning objectives.
+--
+
+. Skillsets of online Instructors
++
+--
+* Instructors should have skillsets required for online and remote training (see section 4).
+--
+
+. Time Zones and Schedules
++
+--
+* Applies to both instructors and students;
+* It may be possible to align the instructors and students in the same, or similar, time zones when providing synchronous training; and
+* If the time zone is significantly different, a ‘shift work’ approach to training can be applied (supporting the shift environment of VTS) or pre-recorded training (asynchronous) may be used.
+--
+
+. Use of Artificial Intelligence (AI) in VTS training
++
+--
+* As experience in the use of AI in training is gained, consider options to integrate AI, Chat bot or similar tools in the training; and
+* IALA has developed an overview guideline on AI, G1178 – An introduction to AI from an IALA Perspective).
+--
+
+=== Preparing for remote synchronous training
+
+Once the program has been developed, to prepare for remote synchronous training in VTS the following steps should be considered:
+
+. Develop course timetable
++
+--
+When developing the timetable for synchronous online sessions, consider the needs of the learner, including possible screen fatigue. Using the ultradian rhythms (roughly 90 minutes) with scheduled breaks that are long enough (e.g., 30 minutes) to enable participants to leave the learning space, change their focal length and refresh for the next session can support synchronous remote training that may be delivered over a number of days or weeks. For shorter training sessions, breaks may be identified after 50-60 minutes, with each break being no less than 15 minutes.
+
+Key points to consider include:
+
+* Prepare the timetable to address work/break structure (e.g. 90 min session / 30 min break structure)
+* Consider, where possible and practical, different time zones for learners and instructors
+* Include sufficient time for peer-to-peer interaction in breakout rooms, or activities
+* Schedule in time for reflection on the content presented, work on activities and assignments, or for general questions
+--
+
+. Schedule the instructors
++
+--
+Noting the instructor skill sets (see section 4) schedule instructors in a way that supports their strengths and enables best understanding of the content.
+
+Key points to consider include:
+
+* Identify and confirm the instructors for the different topics
+* Ensure instructors are comfortable with online training technologies and technique
+* Provide training sessions for instructors on remote training techniques, if required
+--
+
+. Confirm teaching methodologies
++
+--
+* Review the course design, ensuring training methodologies are suitable to the content
+* Provide alternative approaches to address challenges and ensure deeper engagement with the content
+* Vary the delivery with interaction planned every 2-4 minutes and formal break out group work or reflection activities every 40-45 minutes
+--
+
+. Ensure technology is current, available and functioning
++
+--
+* Review and confirm technology is functioning
+* Provide students with detailed instructions regarding the technology requirements
+* Verify any passwords or links to confirm they are working
+--
+
+. Implement a response process to address technical challenges
++
+--
+* Implement an alternative contact method for students and instructors (e.g. a training messaging group)
+* Create ‘trouble shooting’ guides for key technologies
+* Identify a point of contact for dealing with technical challenges
+--

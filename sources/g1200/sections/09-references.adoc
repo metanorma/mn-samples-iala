@@ -1,0 +1,11 @@
+[bibliography]
+
+== References
+
+* [[[imo-resolution-a-1158-32,IMO. Resolution A.1158(32)]], on Guidelines for Vessel Traffic Services
+
+* [[[iala-guideline-g1156,IALA. Guideline G1156]]], Recruitment, Training and Certification of VTS Personnel
+
+* [[[iala-recommendation-r0103,IALA. Recommendation R0103]]], Training and Certification of VTS personnel
+
+* [[[iala-guideline-g1027,IALA. Guideline G1027]]], Simulation in VTS Training

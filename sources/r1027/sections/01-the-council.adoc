@@ -1,0 +1,24 @@
+== The Council
+
+RECALLING
+
+. The aim and objectives of the International Organization for Marine Aids to Navigation (the Organization) with respect to the improvement and harmonization of Marine Aids to Navigation (AtoN) worldwide for the benefit of the maritime community and the protection of the marine environment;
+. Article 8 of the Convention of the Organization regarding the responsibilities of the Council;
+
+RECALLING FURTHER
+
+. The work of the Organization in defining and implementing the Automatic Identification System (AIS);
+. That the VHF Data Exchange System (VDES) includes functions for AIS, Application Specific Messages (ASM), and VHF Data Exchange (VDE-TER and VDE-SAT);
+. That the VDES is coordinated by the Organization in consultation with the International Telecommunication Union (ITU), the International Maritime Organization (IMO), and the International Electrotechnical Commission (IEC);
+
+RECOGNIZING the need of a harmonized way to indicate to the maritime applications the data format used inside VDE data packets to enable applications to use the data;
+
+INVITING Members of the Organization and sister organizations that are involved in VDE application design to engage further in developing guidance on the subject;
+
+HAVING CONSIDERED the proposals made by the Digital Technologies Committee;
+
+APPROVES Recommendation R1027 on VDE Payload Format Identifiers, set out in the Annex;
+
+INVITES Members of the Organization and AtoN authorities and other appropriate stakeholders worldwide to implement the provisions of this Recommendation;
+
+REQUESTS the Digital Technologies Committee or other Committees as the Council may direct, to keep this Recommendation under review and to propose amendments as necessary.

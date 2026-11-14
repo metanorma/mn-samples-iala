@@ -1,0 +1,111 @@
+[appendix]
+== Checklists for effective remote training in VTS
+
+=== Approaches to implement effective remote training
+
+. Establish clear guidelines
++
+--
+Set ground rules as a group, ensuring active listening and questioning are included (e.g. ’Cameras on‘, ’We listen to each other‘ and ’Questions are always welcome.’).
+
+Example: Make these guidelines visible to everyone, include in material and ‘check in’ to be sure they are being followed on a regular basis.
+--
+
+. Lead by example
++
+--
+Be on time, show respect, listen actively and communicate openly.
+
+Example: Address inappropriate behaviour calmly, respectfully and directly.
+--
+
+. Encourage collaboration
++
+--
+Use break-out rooms for group assignments and rotate group members.
+
+Example: Monitor activities and ensure all are interacting.
+--
+
+. Create a comfortable and inclusive learning space
++
+--
+Make sure everyone has what they need to participate.
+
+Example: Pay attention to group dynamics to prevent anyone from feeling excluded.
+--
+
+. Promote questions and learning from mistakes
++
+--
+Emphasize that making mistakes is part of the learning process.
+
+Example: Acknowledge and appreciate when someone asks a question or tries something new.
+--
+
+. Encourage an ergonomic workspace
++
+--
+Advise participants to use a good chair, desk and lighting
+
+Example: Send a checklist for a healthy home workspace beforehand
+--
+
+. Identify procedures to address technical challenges
++
+--
+Agree on what to do in case of technical issues or emergencies
+
+Example: Share a phone number or alternative login link in advance
+--
+
+. Design in time for breaks and movement
++
+--
+Schedule regular short breaks to move around
+
+Example: 90 minute sessions, 30 minute breaks
+--
+
+. Confirm accessibility of materials
++
+--
+Ensure all documents are digitally available and easy to open
+
+Example: Share all presentations and handouts in advance via email or a shared folder
+--
+
+=== Technical checklist
+
+. Digital Safety
++
+--
+* Use strong, unique passwords for all accounts
+* Keep software and antivirus programs up to date
+* Share meeting links only with participants
+--
+
+. Privacy Protection
++
+--
+* Check privacy settings before starting sessions
+* Do not share personal information in public chats
+* Use secure platforms that comply with privacy regulations
+* For any recordings or images, confirm privacy settings
+--
+
+. Clear Communication
++
+--
+* Set clear rules for online behaviour (netiquette)
+* Encourage respectful and inclusive language
+* Provide clear instructions for assignments and participation
+--
+
+. Accessible Materials
++
+--
+* Offer materials in multiple formats (PDF, video, audio, text)
+* Use captions or transcripts for videos
+* Ensure platforms are accessible for people with disabilities
+--
