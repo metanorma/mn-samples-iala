@@ -1,0 +1,41 @@
+[appendix]
+== Terms of Reference of the working groups
+
+=== WG1 - Preventative procedural measures and behaviours
+
+Based on the presentations, comments and questions made at the plenary, WG1 is instructed to;
+
+* Consider that cyberattacks against critical infrastructure are very often mediated through human behaviours or deficiencies in operational or security processes;
+* Consider the current level of maturity of cyber security processes and user education in AtoN and VTS operators;
+* Identify important industry-wide gaps in organisational security policies and cyber security awareness and priorities for addressing these gaps;
+* Identify cyber security management standards that could be adapted and adopted to ensure proper cyber security governance in AtoN and VTS operations;
+* Identify which preventive and detection measures should be prioritised;
+* Identify desired behaviours, including safety and security culture;
+* If possible, propose topics that may be considered in the future IALA work programme; and
+* Submit a report to the plenary by 18 of November 2021.
+
+=== WG 2 – Preventative Technical Measures
+
+Based on the presentations, comments and questions made at the plenary, WG2 is instructed to;
+
+* Consider relevant technologies in operating Marine AtoN, including VTS;
+* Identify the most vulnerable systems whose security should be addressed in priority;
+* Identify cyberattack scenarios against AtoN, VTS or related systems that would adversely impact maritime operations;
+* Identify priority corrective measures on known vulnerable technologies based on risk
+* Identify “security by design” approaches that could be adopted in the context of Marine AtoN provision;
+* Identify detection technologies and procedures;
+* Identify organisations that are dealing with cyber security in the critical infrastructure and/or maritime context; existing standards covering cybersecurity and carry out a gap analysis in the scope of IALA;
+* If possible, propose topics that may be considered in the future IALA work programme; and
+* Submit a report to the plenary by 18 of November 2021.
+
+=== WG 3 – Incident response and recovery
+
+Based on the presentations, comments and questions made at the plenary, WG3 is instructed to;
+
+* Consider the response and guidance during and after a cyberattack event for the different operations and systems impacted;
+* Identify business continuity approach and scenarios during and recovering from a cyberattack;
+* Identify existing business continuity best practices to be considered within the marine AtoN and VTS operation;
+* Identify the prioritised actions within the continuity plan;
+* Identify means of the reporting and sharing cyber incidents information for learning;
+* If possible, propose topics that may be considered in the future IALA work programme; and
+* Submit a report to the plenary by 18 of November 2021.

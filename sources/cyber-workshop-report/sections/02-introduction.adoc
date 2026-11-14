@@ -1,0 +1,23 @@
+== INTRODUCTION
+
+The workshop on Cyber security was held on 12 November 2021 and from 15 to 19 November 2021 as a virtual IALA workshop. The workshop was attended by 64 participants plus three members of the IALA secretariat. The list of participants is attached as Erreur ! Source du renvoi introuvable.. The Chair of the workshop was Phil Day and the hosting country was Canada.
+
+Workshop participants were provided with the working arrangements and tools available for the exchange of documents, communications between participants, conduction of presentations and discussions.
+The dedicated website for the workshop is https://events.iala-aism.org/iala-events/workshop-cybersecurity/
+
+=== Working program of the week and expectations
+
+The Chair introduced the programme for the week (ANNEX B) which also can be found on the workshop website. The workshop was divided into three main blocks:
+
+* the kick-off session informed all participants about the aims and goals of the event and how the workshop was structured. The kick-off session provided guidance information for participants on the tools which would be used during the workshop.
+* presentations and discussions from a range of expert speakers covering topics related to cyber security, including terminology, technologies and status in other organisations and the general sharing of views and opinions; and
+* the working group sessions where the participants were split into three working groups:
+** WG1 chaired by Rene Hogendoorn, Stefaan Priem and Jillian Carson-Jackson and instructed to consider that cyberattacks against critical infrastructure are very often mediated through human behaviours or deficiencies in operational or security processes; current level of maturity of cyber security processes and user education in AtoN and VTS operators; Identify important industry-wide gaps in organisational security policies and cyber security awareness and priorities for addressing these gaps; among others
+** the WG2 chaired by Philip Lane and Jin Hyoung Park are instructed to consider relevant technologies in operating Marine AtoN, including VTS; Identify the most vulnerable systems whose security should be addressed in priority; cyberattack scenarios against AtoN, VTS or related systems that would adversely impact maritime operations; Identify priority corrective measures on known vulnerable technologies based on risk; Identify “security by design” approaches that could be adopted in the context of Marine AtoN provision; among others
+** the WG3 chaired by Martijn Ebben and Hideki Noguchi is instructed to consider the response and guidance during and after a cyberattack event for the different operations and systems impacted; Identify business continuity approach and scenarios during and recovering from a cyberattack; Identify existing business continuity best practices to be considered within the marine AtoN and VTS operation;
+
+Further information is detailed in the terms of reference (ToR) document available in the programme section of the website.
+
+=== Presentation of input papers
+
+Under this agenda item, the documents were presented which were proposed to be read by the participants to start the discussions with the latest updates, and useful information produced by the IMO, BIMCO, other organisations and IALA Committees. Other useful links to guidance documents on cyber security were published in the pre-reading section of the website.

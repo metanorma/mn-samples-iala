@@ -1,0 +1,630 @@
+== The IALA Maritime Communications Plan
+
+=== Overview
+
+The maritime domain uses a wide range of communications technologies across the radio spectrum in order to support  safe navigation, efficient operations and commercial aspects (commerce and public correspondence.  However, many of these technologies have been developed with a single application in mind.  As a result, a vessel needs to carry many different types of communications equipment, in order to be able to receive relevant data.
+
+In the e-Navigation environment there is the opportunity to plan the maritime communications system architecture afresh.  This requires an assessment of the likely communications needs as well as an understanding of the radio spectrum  available to the community.   This section gives a brief summary of the existing and future radio communication systems.
+
+=== Maritime Communication Requirements
+
+The maritime domain uses communication links for essential safety of life applications, routine operational activities to commercial applications (commerce and general correspondence).
+
+When establishing the communication requirements under e-Navigation it is essential to consider safety of life, operational,  and commercial applications.   In order to achieve the benefits of e-Navigation the design of the communications architecture needs to focus on a small set of known applications with the flexibility to grow and encompass other applications in the future as necessary.
+
+// Printed as "Figure 1 / Overview of maritime communication applications by
+// type": a three-panel text layout, not a graphic. Encoded as a table; the
+// printed caption is kept in the table title below.
+.Figure 1 - Overview of maritime communication applications by type
+[cols="1,1,1",options="header"]
+|===
+^|Safety ^|Operational ^|Commercial
+
+a| * AIS position reports
+* AIS AtoN
+* Digital Selective Calling
+* Long Range Identification and Tracking
+* Differential GNSS
+* NAVTEX/SafetyNET
+* VTS coordination
+* SAR
+* Distress and Urgency alerting/calling
+a| * Weather data
+* Ship reporting
+* Notifications to coastal States
+* Port arrival notification
+* Maritime Information Overlays
+* Port & VTS surveillance feeds
+* Electronic chart updates
+* Access to vessel and equipment manuals
+* Remote maintenance and service
+* Infotainment
+* Telemedicine
+a| * Voyage orders
+* Commercial port services
+* Operational reports
+* Cargo telemetry
+* Point of Sale
+* Crew personal communications
+* Passenger Internet access
+* Crew training
+|===
+
+Figure 1 shows some example applications broken down between the categories of essential communication application to ensure safety, important communication application for efficient operations and possible commercial communication applications.
+
+=== General Overview of Existing Communication System Technologies
+
+This section details the current technologies used for maritime communications by frequency band. Please refer to the table in Annex A for system details, Annex B for maritime spectrum allocations and Annex D for specific ITU technical characteristics associated with the systems described in section 3.3 and 3.4.
+
+==== Propagation
+
+Both analogue and digital communications will suffer from propagation effects.  It should be noted that propagation can limit or inhibit the transmission of digital communications.  This means that measures may be required to mitigate adverse effects of propagation.  Such measures could include automatic carrier selection; or use of ‘smart’ protocol to send only the unsent information.
+
+==== Low Frequency Band (LF)
+
+There is some use of the LF radio spectrum by the maritime community.  While Loran C is now obsolete, other systems such as eLoran and research projects are underway to evaluate the usage, if any, of this spectrum.
+
+==== Medium Frequency / High Frequency Band (MF/HF)
+
+Various uses are made of the MF/HF radio spectrum by the maritime community for communication of voice and data,  in ship-ship, shore-ship and ship-shore modes of operation. MF/HF transmissions support both general, Maritime Safety Information (MSI) and distress related communications using DSC, NBDP, voice and data.  These communications take place across the maritime mobile service bands within 1.6-26.5 MHz as defined in Appendix 17 to the ITU Radio Regulations, whilst distress related communications are consigned to a small set of specific channels as indicated in Appendix 15 to the ITU Radio Regulations.  Channel bandwidths are typically 0.5 kHz (DSC and NBDP) and 3 kHz (voice and data).
+
+===== Digital Selective Calling (DSC)
+
+DSC is a technique using digital codes which enables a radio station to establish contact with, and transfer information to, another station or group of stations, for distress or general communications over medium to long range distances.  DSC is primarily used for distress alerting, urgency and safety calling within ship-to-ship, ship-to-shore and shore-to-ship prior to initiating distress, urgency and safety communications using radiotelephone or MF/HF radiotelex.   DSC distress alerts, which consist of a preformatted distress message, are used to initiate emergency communications with ships and rescue co-ordination centres.  DSC is intended to eliminate the need for manual watch keeping on a ship's bridge or on shore to monitor continuously radio receivers on the distress and safety frequencies. Six specific MF/HF frequencies are also set aside for Digital Selective Calling (DSC) distress and safety communications, one in each communication sub-band up to 16 MHz band.  DSC is an element of the Global Maritime Distress and Safety System (GMDSS).  DSC can also be used to call individual stations, groups of stations, or all stations in radio range.  Each DSC-equipped ship, shore station and group is assigned a unique 9-digit Maritime Mobile Service Identity (MMSI) as defined in the Recommendation ITU-R M.585.
+
+===== Voice Communication
+
+Various uses are made of the MF/HF radio spectrum by the maritime community for communication of voice in ship-ship, shore-ship and ship-shore modes of operation.  General voice communication takes place across the band 1.6-26.5 MHz Channel bandwidths are typically 3 kHz.  Digital communication within the MF/HF bands is a relatively new technology with high potential.
+
+===== Data Communication
+
+Current and emerging HF digital modulation schemes provide new opportunities utilizing data transmission in this frequency band (1.6-26.5 MHz).  The relevant technologies are described in the Recommendation ITU-R M.1798.
+
+The Recommendation ITU-R M.1798-1, published on April 2010, includes three systems.
+
+System 1 is an HF data services modem protocol using orthogonal frequency division multiplexing (OFDM) and uses 4/8-PSK modulation to 32 sub-carriers.
+
+System 2 is an Electronic mail system using the Pactor-III protocol with QPSK modulation to 18 sub-carriers.
+
+Note ‐ System 1 and System 2 use 3 kHz channels for the data rate of 3 kbps or below.
+
+System 3 is a 10-20 kHz wideband HF data system for internet access and Electronic mail services using OFDM.  This system uses QAM modulation to 228 sub-carriers at 10 kHz bandwidth or 460 sub-carriers at 20 kHz bandwidth for the data rate up to 51 kbps.  All three systems are IP level-compatible making interoperability possible.
+
+===== Narrowband Direct Printing (NBDP)
+
+NBDP is a technique which automates radio signals to telegraphy.   NBDP (also known as radio telex) is FSK modulated onto HF channels of 0.5 kHz and supports low speed data transmissions (100 bps) in the maritime mobile service bands within 1.6-26.5 MHz.  NBDP is an element of GMDSS and can be used as the text based distress follow-up communications and general communications between ship-to-ship, ship-to-shore and shore-to-ship to overcome the language difficulties.  The use of NBDP for general communication is declining and is now used for position reporting from ships and promulgation of meteorological warnings and forecasts from coast stations. IMO has indicated that NBDP could be removed as a required system under the GMDSSfootnote:[NCSR 4 / 29 (Report of NCSR 4 to the MSC)].
+
+===== Navigational Telex (NAVTEX)
+
+NAVTEX is an international, automated system for instantly distributing Maritime Safety Information (MSI) such as maritime navigational warnings, weather forecasts and warnings, search and rescue notices and similar information to ships.  A small, low-cost and self-contained smart printingfootnote:[The self-contained printer requirement was removed from IMO performance standards (MSC.148 (77)) subject to provision of a dedicated display device and a printer port for the installations on or after 1 July 2005.] radio receiver (NAVTEX receiver) is an element of GMDSS and installed on the ship’s bridge.  Messages are broadcasted in English on 518 kHz, while 490 kHz and 4209.5 kHz are used to broadcast in English and/or local language.  The messages are coded with a header code identified by using alphabets to represent broadcasting stations, type of messages, and followed by two figures indicating the serial number of the message.  The time of broadcasting is internationally co-ordinated by areas (NAVAREA) to share the same frequency.
+
+===== Differential Global Navigational Satellite System (DGNSS)
+
+The IALA Differential GNSS coastal radio beacon network broadcasts corrections and integrity information to maritime users in the LF/MF bands (between 283.5 and 325 kHz).  Data rates can be 50, 100 or 200 bps.  This is a data broadcast system from shore-to-ship.
+
+==== Very High Frequency Band (VHF)
+
+Voice communication using the maritime VHF band (156.025-162.025 MHz) is prevalent and the primary means of ship-shore, shore-ship and ship-ship communication in the domain.  It is used for distress, safety information and general communications.   Channel spacing is currently 25 kHz although the use of 12.5 kHz channels on an interleaved basis is allowed within Appendix 18 of the Radio Regulations as described in accordance with Recommendation ITU-R M.1084 to improve spectrum efficiency.
+
+===== Digital Selective Calling (DSC)
+
+DSC is a technique using digital codes which enables a radio station to establish contact with, and transfer information to,another station or group of stations, for distress or general communications using channel 70 (156.525 MHz).  DSC is an element of the GMDSS, and is used for distress alerting; urgency and safety calling within ship-to-ship;  ship-to-shore  and shore-to-ship  prior to initiating distress, urgency and safety communications.  Additionally, DSC may be used for AIS channel management in specific geographic areas.  DSC distress alerts, which consist of a preformatted distress message, are used to initiate emergency communications with ships and rescue coordination centres.
+
+ DSC can also be used to call individual stations, groups of stations, or "all stations" in radio range.  Each DSC-equipped ship, shore station and group is assigned a unique 9-digit Maritime Mobile Service Identity (MMSI) as defined in the Recommendation ITU-R M.585.
+
+===== Voice Communication
+
+Voice communication using the maritime VHF band (156.025 to 162.025 MHz) is prevalent and the primary means of ship to shore, shore to ship and ship-to-ship communication in the domain.  It is used for distress, safety and general communications.  Hand-held units are generally utilized for on-board communications.  Primary channels used for distress and safety communications by voice are Ch 6, Ch 13 and Ch 16.  The use of other channels is designated in Appendix 18 to the ITU Radio Regulations.  Channel spacing is currently 25 kHz although there is provision in Appendix 18 to use 12.5 kHz interleaved channels as described in Recommendation ITU-R M.1084.
+
+===== 121.5 MHz Locating Beacon
+
+The frequency 121.5 MHz is an aeronautical emergency frequency.  121.5 MHz radiobeacons were developed in the mid-seventies for installation on aircraft, as Emergency Locator Transmitters (ELTs).  However, they can also be used on board ship as part of Emergency Position-Indicating Radio Beacons (EPIRBs) or in Personal Locator Beacons (PLBs).
+
+===== Automatic Identification System (AIS)
+
+====== Primary Purpose of Automatic Identification System
+
+AIS is a TDMA-based data exchange system used by ships and shore authorities.  The main purpose of AIS is to improve the safety of navigation by assisting in the efficient navigation of ships, protection of the environment, and operation of Vessel Traffic Services (VTS), by satisfying the following functional requirements:
+
+. in a ship-to-ship mode for collision avoidance;
+. as a means for littoral States to obtain information about a ship and its cargo; and
+. as a VTS tool, i.e. ship-to-shore (traffic management).
+
+ AIS provides a means for ships to electronically exchange ship data including identification, position, course, and speed with other nearby ships and shore stations.  This information can be displayed on a screen display.  AIS is intended to assist the vessel's watch keeping officers and allow maritime authorities to track and monitor vessel movements.  AIS uses VHF Channels AIS 1 (161.975 MHz) and AIS 2 (162.025 MHz) or regional channels in defined geographical areas. Additionally, AIS has the capability for data exchange by application specific messages for navigation and safety related purposes.   The VHF Data link (VDL) loading should be considered when using application specific messages.
+
+====== Automatic Identification System Aids to Navigation (AIS AtoN)
+
+AIS is also used on Aids to Navigation, which can include the incorporation in a physical aid to navigation, or the transmission from an AIS base station.
+
+====== Automatic Identification System Application Specific Messages
+
+AIS can also be used for the broadcast of navigation information, meteorological and hydrographic data and other application specific messages.
+
+AIS Application Specific Messages (AIS ASMs) are identified in IMO SN.1/Circ. 289, with examples of use of AIS ASM provided in IMO SN.1/Circ. 290.  Regionally, ASMs are managed by IALA, through the IALA e-Navigation Portalfootnote:[http://www.iala-aism.org/asm/]
+
+====== Automatic Identification System Search and Rescue Transmitter (AIS-SART)
+
+AIS-SART is a locating device (alternative to radar SART).  As an element of GMDSS, AIS-SART is used to locate survival craft and distressed vessels.  The AIS-SART has no receiver and operates up to 96 hours on a primary battery.  The position and time synchronization of the AIS-SART is derived from a built-in GNSS receiver.
+
+===== Man Overboard Device (MOB)
+
+There are various systems available that operate on either DSC based or AIS based technology as well as others that utilize Bluetooth or other technologies.  The MOB devices must be regarded as location aids in emergency situations and not as distress alert systems.
+
+===== Two-way VHF Radiotelephone Apparatus
+
+Two-way VHF radiotelephone apparatus is defined in SOLAS Chapter III.  In practice, this apparatus is used as an element of GMDSS.  The apparatus is either a portable or fixed transceiver for use in survival craft.  It is used for on scene communications between survival craft, to other vessels and rescue units.  Communication is on Ch16 (156.8 MHz) and at least one other simplex channel.  The transceiver can be used for on board communications using a secondary battery; however, the primary battery must be used for GMDSS purposes.
+
+===== Regional Data Communication Systems
+
+In various regions, VHF data communication systems exist for data exchange between shore to ship and ship to shore.  Those systems are commercial and used primarily for vessel tracking, search areas in SAR operation, etc.  An example of this technology is the Blue Box used in Italy for vessel monitoring.  A further example is a Norwegian system that deploys a network of radio modems capable of switching between nine narrowband duplex VHF channels and is used for general data communication.
+
+===== Satellite Data Communication
+
+Satellite communications in the VHF band are commercially available.
+
+Ship to satellite communications occurs in the maritime VHF band, providing tracking and data messages (AIS, ASM).
+
+There is currently no satellite to ship communications in the maritime VHF band, however services are available for SMS, weather and tracking, and these can be used for maritime purposes. VDES satellite component is in development (Refer to Annex E for further information on VDES).
+
+==== Ultra High Frequency Band / Super High Frequency Band (UHF/SHF)
+
+===== Emergency Position Indicating Radio Beacon (EPIRB)
+
+Emergency radio beacons are alerting and tracking transmitters which aid in the detection and location of ships, aircraft, and people in distress.  They are radio beacons that interface with COSPAS/SARSAT, the international satellite system for search and rescue (SAR).  When activated, such beacons send out a distress alert signal that, when detected by non-geostationary satellites, can be located by the combination of Doppler shift measurement and triangulation.
+
+An Emergency Position-Indicating Radio Beacon (EPIRB) is an element of GMDSS and used to send a distress alert signal to the COSPAS/SARSAT satellite system for the purposes of notifying Search and Rescue (SAR) organizations.  EPIRBs transmit a 144-bit message including 49 bits of identification plus optionally, GNSS position information originated from a built-in GNSS receiver. Information is retransmitted, at approximately 50 seconds intervals, to the satellites in the frequency band 406.0 to 406.1 MHz.   The EPIRB is also equipped with a 121.5 MHz beacon transmitter for homing by SAR aircraft, modulated with a swept audio tone and may also have an incorporated AIS-SART based transmitter (EPIRB AIS).
+
+===== On-board Communication
+
+UHF hand-held and fixed radios are commonly used on vessels for on-board communications including communications with workers on the dock or berth when alongside.  These radios are typically constrained to radiating less than 2 W in the band 450-470 MHz and are used for voice and data communication. .
+
+===== Satellite Voice and Data Communication
+
+Satellite communications in the UHF band is commonly deployed on vessels to fulfil a number of distress, safety and general communications purposes.
+
+Satellite communication links are capable of supporting analogue and digital voice, broadband connectivity, e-mail, SMS, crew calling, telex, facsimile, remote monitoring, tracking (position reporting), chart and weather updates and Inmarsat FleetNET services.
+
+ Satellite systems are commercially provided services, which may have global or regional coverage.  These systems may be geostationary or non-geostationary.
+
+Inmarsatfootnote:[Inmarsat B, C and Fleet 77 are elements of GMDSS], a geostationary satellite system, is an element of GMDSS for distress alerting, urgency and safety calling.  Other Geostationary systems include Thuraya.  Non-geostationary satellite systems include Iridium, Globalstar, and Orbcomm.
+
+===== Enhanced Group Call (EGC)
+
+The Inmarsat-C maritime mobile-satellite system is an element of GMDSS and has an inherent capability, known as SafetyNET, via Enhanced Group Calling (EGC), which allows broadcast messages to be made to selected groups of ship stations located anywhere within satellite coverage.  Four geostationary satellites provide near worldwide coverage for SafetyNET except for the polar regions. SafetyNET and NAVTEX are recognized by the GMDSS as the primary means for disseminating maritime safety information.  Ships subject to the Safety of Life at Sea Convention (SOLAS) operating outside areas covered by NAVTEX must carry an Inmarsat-C SafetyNET receiver.
+
+===== Long Range Identification and Tracking (LRIT)
+
+LRIT is an IMO-mandated scheme through which all passenger ships, cargo ships and mobile offshore drilling units engaged on international voyages must report their position on a regular basis (at least 4 times a day) to their flag administration.  In general satellite communications is used as the method for transmission of these reports, which are received and authenticated by an authorized service provider before being passed to the data centre.  The data from the vessel can be augmented with additional information by the shore-based authorities.  Other States may be entitled to request this information from the flag administration.
+
+===== Global Navigation Satellite System (GNSS)
+
+Global Navigation Satellite Systems (GNSS) are used for positioning, navigation and timing (PNT) and as an essential input into other ship systems.  Current signals are in the frequency-band around 1 GHz to 2.5 GHz.
+
+===== X-Band and S-Band Radar, Radar Beacon (RACON) and Radar SART
+
+Radar systems are commonly deployed and typically operate in two bands: X-band from 9.2 to 9.5 GHz and S-band from 2.9 to 3.1 GHz.  The radars are used for target detection and to support identification and for coastal and port navigation.  These bands are also used by radar transponders, namely the racon and radar Search and Rescue Radar Transponder (SART) both create identifiable patterns when interrogated by vessel radars.  Racons are used to highlight the location of a visual Aid to Navigation (AtoN) or hazards on a ship’s radar screen and a radar SART is used to aid in locating a survival craft in a SAR operation.  Racons operate in S- and X-band and SARTs are X-band only.
+
+The radar SART is a locating device in the GMDSS and used to locate a survival craft or distressed vessel by creating a series of dots on a rescuing ship's radar display.   A radar-SART will only respond to a 9 GHz X-band (3 cm wavelength) radar.
+
+The adoption of new technology radar within the maritime community introduces improvements in radar performance.  In addition, the reduced peak transmission power associated with these radars can reduce the triggering range of racons and SARTs.
+
+===== Other Communication Technologies Using the UHF/SHF Band
+
+Various other communication technologies in the UHF to SHF bands are being used (or considered) for general maritime communications, namely GSM/GPRS, 3G, 4G, Wi-Fi,  WiMax, and short-range devices like ZigBee and Bluetooth links.  These offer the possibility of high speed data transfer.  However, it should be noted that the coverage of most of these systems is limited in range and they would therefore be confined to supporting data transfer within a port or harbour environment.
+
+=== Future Development of Maritime Radio Communications
+
+This section details future technologies or technologies not widely used for maritime radio communications by frequency band.  Please refer to the table in Annex 3 for technical details.
+
+==== Low Frequency Band (LF)
+
+===== Enhanced Long Range Navigation (eLORAN)
+
+The enhanced Loran (eLoran) system is an experimental system to provide data channel modulated onto the approximately 100 kHz signals.  Two formats for this data channel are currently available, known as Eurofix and 9th pulse respectively.  Both techniques offer data rates below 100  bps although higher rate concepts have been proposed.
+
+==== Medium Frequency / High Frequency Band (MF/HF)
+
+===== Digital Data Communication Using MF/HF Band
+
+The likely increase in ship traffic in Polar regions, as a result of receding ice fields, may increase the requirements for HF communications, since geostationary satellites do not cover these areas. Various system operators are studying increased data rates using 3 kHz channels, which may produce data rates of 19.2 kbps, and other solutions to likewise increase data speeds.
+
+Furthermore, a new data communication system using 10-20 kHz bandwidth for data rates up to 51 kbps, has been incorporated in the Recommendation ITU-R M.1798-1.  Appendix 17 to the Radio Regulations was revised at the World Radiocommunication Conference 2012 (WRC-12).  The revision of AP17 will implement new digital bands for 3 kHz systems as well as wideband systems. WRC-12 has also approved use of band 495-505 kHz for use of high-speed Navigational Data service (NAVDAT).
+
+===== NAVDAT (Navigational Data)
+
+The NAVDAT is an MF radio system, used in the maritime mobile service, operating in the 500 kHz band for digital broadcasting of maritime safety and security related information from shore-to-ship.
+
+WRC-12 approved the worldwide exclusive usage of the frequency band 495 - 505 kHz for the maritime mobile service.  The NAVDAT system utilizes an OFDM modulation in this 10 kHz bandwidth which provides a flow rate of about 15/25 Kbit/s (more than 300 times the NAVTEX transmission), featuring:
+
+* Possibility to transmit any type of text, graphs, pictures, data etc with encryption if required;
+* Automatic reception;
+* Possibility to use Single Frequency Network (SFN) technology, with no need for time slot allocation on the same frequency.
+
+The MF NAVDAT system is described in the Recommendation ITU-R M.2010-0: Characteristics of a digital system, named Navigational Data for broadcasting maritime safety and security related information from shore-to-ship in the 500 kHz band, published by ITU on Mar 2012.
+
+The HF NAVDAT system is described in the Recommendation ITU-R M.2058-0: Characteristics of a digital system, named navigational data for broadcasting maritime safety and security related information from shore-to-ship in the maritime HF frequency band, published by ITU on Feb 2014.
+
+==== Very High Frequency Band (VHF)
+
+===== Automatic Identification System (AIS)
+
+It is recognized that by design AIS is not an ideal candidate for high speed and/or high volume data communications.  However, AIS is a proven maritime data system, with ships equipped and shore infrastructure established.  The future AIS channel plan should consider at least the following:
+
+* Channels for Safety of Navigation purposes:
+** AIS 1 and AIS 2 are exclusively allocated to AIS usage in both Region 2 (Americas, effective 2025) and Region 3 (Asian/Pacific, effective 2013), but not in Region 1 (Europe/Africa) where they are still shared with land mobile and fixed services (WRC-12);
+** Taking account of the future agenda item for the modernization of the GMDSS at WRC-18, and if IMO includes AIS as a component of the GMDSS our goal is to apply for exclusive world-wide allocation for AIS 1 and 2 frequencies in the maritime mobile service.
+* Channels for satellite detection of AIS.
+** Since the satellites have very wide footprint, the frequencies for satellite detection of AIS are exclusive for maritime mobile service.  Appendix 18 of Radio Regulation assigned the CH75 and CH76 for satellite detection of AIS.  These channels are guard band channels of CH16 and are the only maritime dedicated channels except CH16 and CH70 within Appendix 18.
+** AIS satellite long range messaging on channels 75 and 76 was approved worldwide effective 1 January 2013 with a primary allocation in Region 2 (Americas), secondary elsewhere (WRC-12)
+** Non-AIS operations on channels 75 and 76 were limited to 1watt on 1 January 2013 (WRC-12).
+** AIS SARTs are recognised in GMDSS.  In the future, other aspects of AIS may be part of GMDSS.  The distress alerting, urgency and safety communications should be by both terrestrial and satellite communications; therefore, dedicated maritime frequencies are needed.  The satellite detection of AIS is a one-way system (from earth to satellite); however, in the GMDSS, the acknowledgement (from satellite to earth) is essential (a two way system).  The CH75 and CH76 could be used for this purpose; however, WRC-12 approved these channels in the Earth-to-space direction. At WRC-12 channels 27, 87, 28 and 88 have been identified for possible testing of AIS, under Note YYY in Appendix 18.
+* Channels for ASM purposes:
+** In considering the future AIS system for terrestrial (non-satellite) data communication purposes, an additional two frequencies will be needed.  These frequencies would be used to support the transmission of area warnings and advice, meteorological and hydrographical data, traffic management information and general ship-to-shore data exchanges.
+** At WRC-15 VHF channels 27 and 28 are each split into two simplex channels. The channels 2027 and 2028 designated as ASM 1 and ASM 2 are used for application specific messages (ASM) as described in the most recent version of Recommendation ITU-R M.2092. These channels are envisaged to be part of the VHF Data Exchange System (VDES) (see Annex E).
+* Channel for channel management purposes:
+** In order to fully use available VHF spectrum, channel 70 was agreed to manage and co-ordinate usage of the VHF Data Link.
+
+Further details are explained in ANNEX E.
+
+===== Digital Data Communication
+
+The use of VHF for digital data transfer has yet to be broadly implemented by the maritime community.  To this end, ITU-R has developed and published Recommendation ITU-R M.1842 – “Characteristics of VHF radio systems and equipment for the exchange of data and electronic mail in the maritime mobile service RR Appendix 18 channels”.  Also, WRC-12 identified digital bands within the Appendix 18 band.
+
+Development of the Recommendation ITU-R M.1842 was originally proposed based on the shore based network system trialled in Norway.  This system deploys a network of radio modems capable of switching between nine narrowband duplex VHF channels in the maritime mobile band. These nine channels can be combined into one 225 kHz wideband channel.   The wideband radio was proven to have insufficient EMC characteristics, indicated instability and the throughput slowed down when the signal strength was low.  This system is described in the Report ITU-R M.2127, but not incorporated in the Recommendation ITU-R M.1842.
+
+Narrowband radio 25 kHz duplex on the other hand has been proven in Norway to be very robust and stable and can perform a variety of services giving good throughput of data.  This system is incorporated in Recommendation ITU-R M.1842 together with other techniques to be applied more widely - from 25 kHz bandwidth systems providing 43 kbps data rates through to 100 kHz systems offering 307 kbps.  The Recommendation ITU-R M.1842 currently specifies four systems for the modulation schemes and general characteristics for the transceivers.   The consideration of the standardized communication protocols is on-going at ITU-R.
+
+ITU has issued new Recommendation ITU-R M.2092-0 - Technical characteristics for a VHF data exchange system in the VHF maritime mobile band.  VHF data exchange system (VDES) integrates the components of VHF data exchange (VDE), application specific messages (ASM) and the automatic identification system (AIS) in the VHF maritime mobile band.  This recommendation provides the technical characteristics of ASM and VDE.
+
+IALA is aware that further consideration of how best to achieve spectral efficiency in this band is worthwhile.  This consideration needs to address coverage range, robustness, channel spacing, and modulation schemes.
+
+The data speed/coverage trade off in the coastal range must be considered to achieve a cost effective service.
+
+WRC-12 VHF Data Results:
+
+* VHF Appendix 18 was modified to permit digital systems on channels: 24, 84, 25, 85, 26 and 86 for Region 2 from 1st Jan 2013 and 80, 21, 81, 22, 82, 23, 83, 24, 84, 25, 85, 26, 86 worldwide except Region 2 and specific countries (footnote D1)) from 1 Jan 2017;
+* Testing of future AIS applications on channels 27, 28, 87 and 88 is permitted from 1 January 2013;
+* 160.9 MHz (channel 2006) is reserved for experimental use for future applications or systems, e.g. MOB and AIS from 1 January 2013.
+
+WRC-15 VHF Data Results:
+
+* VHF Appendix 18 was modified to permit digital systems on channels: 24, 84, 25, 85, 26 and 86 for Region 2
++
+WRC-15 agreed on regulatory provisions and frequency allocations to enable new Automatic Identification System (AIS) applications and other possible new applications to improve maritime radiocommunication.  These new applications for data exchange are intended to improve the safety of navigation;
+* WRC-15 made new allocations in the bands 161.9375-161.9625 MHz and 161.9875-162.0125 MHz for the maritime mobile-satellite service in the uplink and amended the channelling arrangement for VHF maritime frequencies contained in ITU RR Appendix 18;
+* While the proposed allocation for the maritime mobile-satellite service (MMSS) in the downlink in the requested frequency band (161.7875-161.9375 MHz) was not agreed at WRC-15, the use of satellite communications for VHF data exchange was agreed.  WRC-15 agreed to further studies of compatibility between MMSS and incumbent services in the same and adjacent frequency bands, for consideration by WRC-19.
+
+Further details are explained in Annex E – VHF Data Exchange System VDES.
+
+===== Digital Voice Communication
+
+Digital voice communication may, in the long term, replace the present analogue VHF voice communication service, i.e. ship-to-ship/ship-to-shore/shore-to-ship. As this develops, the introduction of mixed digital / analogue equipment should be encouraged. It is recognized that global digitization will make spectrum use more efficient, but this will take some time to complete.
+
+==== Ultra High Frequency Band / Super High Frequency Band (UHF/SHF)
+
+===== Satellite Communication Using the UHF/SHF Band
+
+In the future, navigational satellite payloads may include transponders connected with GMDSS and may function as additional SAR resources. (i.e. return link capability is possible functionality within Galileo).
+
+===== Public Mobile Wireless Communications
+
+Public mobile wireless communications (public correspondence) such as GPRS, CDMA, 3G, 4G, LTE and LTE-A are being used by mariners in coastal waters and could be further developed to support evolving maritime communication needs. In addition, 5G is expected to be available from 2020.
+
+Recognizing their constraints in open water situations, this type of communications should not be used for regulated maritime services.
+
+===== On-board Communications
+
+Limited availability of spectrum for on-board communications gives rise to congestion and interference. Consideration of this issue at ITU is of utmost importance as well as developing new techniques for communication in this band.
+
+=== Overview of the Current and Future Voice and Data Communication Technologies
+
+As explained above, radio communication technologies are characterized by performance parameters. These include range, bandwidth, latency, and the need for shore facilities.
+
+The tables below list, in the column headings, the communications techniques that are presently available for maritime voice and data communications.  It also includes some techniques which may become available in the short to medium term.  Separate tables are provided for ship-to-shore and for ship-to-ship communications.
+
+Six geographical regions are listed at the left column, defined by the ranges of a selection from the available communications technologies.   The GMDSS sea areas, which approximately correspond, are also noted in the second column.
+
+The suggested most likely candidates for voice and data communications, for e-Navigation, in each of the six geographical areas are indicated by yellow colour, with ‘E’ for existing technologies, and ‘F’ for future technologies or technologies currently not widely used in the maritime domain.
+
+// Tables 1 and 2 (printed landscape). Cells shaded yellow in the printed
+// tables (the "possible preferred technology") are set in bold here.
+.Table 1 - Geographical Classification of e-Navigation Data and Voice Communication Techniques Ship-Shore
+|===
+|e-NAV Area definitions |GMDSS Sea Area (approx) |Broadband phone line or cable. (When ship at berth) |Wi-Fi |WiMax |Mobile phone technology |AIS |VDE |Digital VHF voice and data |Data by modulated RADAR |Geostationary Satellite |Commercial MEO/LEO satellite comms |MF & HF (including Navtex / MSI) |DGPS beacon data broadcast service |Current MF & HF NBDP |HF digital data service |MF/HF digital data service for MSI (incl NAVDAT)
+
+|1 - Inside port |A1 |*E* |*F* |*F* |E |*E* |*F* |*F* | |E |E |E |F | | |*F*
+|2 - Approaching port area |A1 | | |*F* |E |*E* |*F* |*F* |F |E |E |E |F | | |*F*
+|3A - Coastal navigation out to cell phone coverage (approx. 5nm) |A1 | | |*F* |E |*E* |*F* |*F* |F |E |E |E |F | |*E* |*F*
+|3B - Coastal navigation VHF coverage range (approx 25nm) |A1 | | |*F* | |*E* |*F* |*F* |F |E |E |E |F | |*E* |*F*
+|4 - Coastal approach (approx. 100nm) |A2 | | | | | | | | |*E* |*E* |E |F |*E* |*E* |*F*
+|5 - High seas |A3 | | | | | | | | |*E* |*E* |E | |*E* |*E* |*F*
+|6 - Polar regions |A4 | | | | | | | | | |E |E | |*E* |*E* |*F*
+|===
+
+Legend:-
+
+|===
+|Existing technology |E
+|Future: Not existing or not widely used |F
+|Possible preferred technology (Existing, Future) |*E* *F*
+|===
+
+.Table 2 - Geographical Classification of e-Navigation Data and Voice Communication Techniques Ship-Ship
+|===
+|e-NAV Area definitions |GMDSS Sea Area (approx) |Broadband phone line or cable. (When ship at berth) |Wi-Fi |WiMax |Mobile phone technology |AIS |VDE |Digital VHF voice and data |Data by modulated RADAR |Geostationary Satellite |Commercial MEO/LEO satellite comms |MF & HF (including Navtex / MSI) |DGPS beacon data broadcast service |Current MF & HF NBDP |HF digital data service |MF/HF digital data service for MSI (incl NAVDAT)
+
+|1 - Inside port |A1 | |*F* |*F* |E |*E* |*F* |*F* |*F* |E |E |E | | | |*F*
+|2 - Approaching port area |A1 | | |*F* |E |*E* |*F* |*F* |*F* |E |E |E | | | |*F*
+|3A - Coastal navigation out to cell phone coverage (approx. 5nm) |A1 | | | |E |*E* |*F* |*F* |*F* |E |E |E | | |*E* |*F*
+|3B - Coastal navigation VHF coverage range (approx 25nm) |A1 | | | | |*E* |*F* |*F* |*F* |E |E |E | | |*E* |*F*
+|4 - Coastal approach (approx. 100nm) |A2 | | | | |*E* |*F* |*F* |*F* |E |E |E | | |*E* |*F*
+|5 - High seas |A3 | | | | |*E* |*F* |*F* |*F* |E |E |E | | |*E* |*F*
+|6 - Polar regions |A4 | | | | |*E* |*F* |*F* |*F* | |E |E | | |*E* |*F*
+|===
+
+Technologies for data transfer ship <-> ship, listed generally in order of geographical range
+
+Legend:-
+
+|===
+|Existing technology |E
+|Future: Not existing or not widely used |F
+|Possible preferred technology (Existing, Future) |*E* *F*
+|===
+
+.Table 3 - Comparison of Communications Technologies
+|===
+2+^|Communication Technology 2+^|Data rate 2+^|Infrastructure 2+^|Coverage 2+^|Transmission 2+^|Maritime / public
+
+2+|NAVDAT
+2+a| 12-18 kbps
+2+a| Based on NAVTEX
+2+a| 250/300NM
+2+a| Broadcast
+2+a| Maritime
+2+|VDES VDE
+2+a| 307 kbps
+2+a| VHF Data link, RR Appendix 18 channels
+2+a| 15NM-65NM Satellite component provides further coverage
+2+a| Addressed / broadcast
+2+a| Maritime
+2+|VDES ASM
+2+a| 19.2 kbps
+2+a| VHF Data link, RR Appendix 18 channels
+2+a| approx 15NM-65NM
+2+a| Addressed / broadcast
+2+a| Maritime
+2+|Wi-Fi (IEEE 802.11ac)
+2+a| 1,300 kbps
+2+a| Routers/Access points
+2+a| 50m
+2+a| Addressed
+2+a| Public
+2+|WiMax
+2+a| 75 Mbps
+2+a| Routers/Access points
+2+a| 2-5 km
+2+a| Addressed
+2+a| Public
+2+|Digital VHF
+2+a| 9.6 – 19.2 kbps
+2+a| Base station/mobile radios
+2+a| approx 15NM-65NM
+2+a| Addressed
+2+a| Maritime
+2+|Digital HF
+2+a| 19.2 kbps
+2+a| Base station/mobile radios
+2+a| Global
+2+a| Addressed
+2+a| Maritime
+2+|4G (including LTE)
+2+a| 600 Mbps
+2+a| 4G Base stations
+2+a| 5-30km (3-6 NM)
+2+a| Addressed
+2+a| Public
+2+|5G
+2+a| 1,200 Mbps
+2+a| 5G base stations
+2+a| 5-30km (3-6 NM)
+2+a| Addressed
+2+a| Public
+2+|*GEO Satellite* 2+| 2+| 2+| 2+| 2+|
+2+|Inmarsat C
+2+a| 600 bps
+2+a| Satellite service
+2+a| Global, spot beams
+2+a| Addressed / broadcast
+2+a| Maritime
+2+|Inmarsat GX
+2+a| 50 Mbps
+2+a| Satellite functioning on Ka band
+2+a| Global, spot beams
+2+a| Addressed / broadcast
+2+a| Cross Industry
+2+|*LEO Satellite* 2+| 2+| 2+| 2+| 2+|
+2+|Iridium
+2+a| Up to 134 kbps
+2+a| Satellite functioning on L band
+2+a| Global, dependent on constellation size
+2+a| Addressed / broadcast
+2+a| Cross Industry (Iridium Pilot Maritime)
+|===
+
+=== Vision: Automated Selection Process of Available Communication Technologies
+
+Table 1 and Table 2 identify distinct communication technologies but do not consider the optimization that could be achieved through a system that automatically selects the most appropriate technology for the area of operation and the type of data to be exchanged.
+
+Some existing marine communication technologies, such as AIS, automatically carry out data communications without any need for the ship’s crew to intervene in the communications process.  In the specific case of AIS, while the crew sets certain voyage parameters at the start of each voyage, and can change the navigational status at any time, the communications process is automatic.)  Other existing marine communications technologies, such as VHF voice communications, require the ship’s crew to adjust the communications apparatus. In the case of VHF voice this involves deciding on and selecting the appropriate communications channel.
+
+An ideal e-Navigation communications system would operate automatically, selecting the best communications technology, channel, and characteristics in accordance with the ship’s location, and the type of data to be exchanged.  This automatic process would be managed in accordance with rules and the needs of the mariner that might include the following:
+
+* Need to avoid latency – such as when exchanging safety and navigation data with other vessels or receiving it from electronic systems ashore or on the water surface;
+* Ability to delay the sending or receipt of data – such as the sending of non-urgent administrative data, or the receipt of chart corrections for the current voyage, a subsequent voyage or for a port to be visited later in the present voyage;
+* Value / Cost of communications;
+* Importance of the data for commercial services on board;
+* Rate of data transfer (capacity of transmission).
+
+Some of the rules managing seamless data communications would be programmed into the system, for example those concerned with safety of navigation.  Other rules might be set by the ship’s operator in accordance with their procedures and the operator’s commercial model.  Further rules might be adjusted, from time to time, by the ship’s crew.
+
+=== Modernisation of GMDSS
+
+The current GMDSS system was designed over 25 years ago and is currently being reviewed by IMO.  This is the first full review since its implementation in 1999, and recognises that technology has developed significantly in that time.  Existing technology elements within the GMDSS have also evolved, although the functions have not been altered.  The current system remains sound, however there are GMDSS elements where improvement could be made, e.g. managing the cessation of international telex, and reviewing the continued use of narrow-band direct-printing in certain sea areas.
+
+The elements that will be identified may need to be examined and reviewed as a matter of some urgency.  The 14th session of IMO Sub-Committee on Radiocommunications and Search and Rescue (COMSAR 14, held on March 2010) initiated a Scoping Exercise and a Work Plan to define the requirements for the GMDSS Review and Modernization.  The Scoping Exercise was finalized at COMSAR16 (March 2012) and the Review will be take place over a three-year period (2013-2015).
+
+A further two-year period is envisaged (2015-2017) for the GMDSS modernization plan.  This will be followed by development of legal instruments, revision/development of relevant performance standards and an implementation period.
+
+While supporting the IMO’s systematic approach, IALA should also be active in the review, push forward initiatives to ITU with a view to the fact that items for consideration at WRC-19 need to be produced as agenda items at WRC-
+
+==== Current GMDSS System Components
+
+The GMDSS functions are classified into alerting (distress/urgency/safety); communications (distress/urgency/safety), locating in SAR, homing on location in SAR; on scene communications; promulgation of maritime safety information (MSI); and general communications.  There are 4 sea areas identified in GMDSS – Sea Area A1; Sea Area A2; Sea Area A3 and Sea Area A4.  To achieve the functions of GMDSS, the equipment listed in Table 4 - Current GMDSS System Components is used according to the GMDSS sea areas.
+
+.Table 4 - Current GMDSS System Components
+|===
+^|Sea area ^|Distress/Urgency Safety Alerting ^|Distress/urgency Safety Comms ^|Locating ^|Homing ^|On scene Comms ^|MSI Promulgation ^|General Comms
+
+|A1
+a| VHF DSC +
+EPIRB
+|VHF R/T
+a| Radar SART +
+AIS-SART
+a| EPIRB (121.5 MHz)
+|VHF Rx/Tx
+a| NAVTEX +
+SafetyNET
+|VHF R/T
+|A2
+a| VHF DSC +
+MF DSC +
+EPIRB
+a| VHF R/T +
+MF R/T
+|
+|
+|
+|
+a| VHF R/T +
+MF R/T, NBDP
+|A3
+a| VHF DSC +
+MF DSC +
+HF DSC +
+Inmarsat +
+EPIRB
+a| VHF R/T +
+MF R/T +
+HF R/T, NBDP +
+Inmarsat
+|
+|
+|
+a| NAVTEX +
+SafetyNET +
+HF MSI
+a| VHF R/T +
+HF/MF R/T, NBDP +
+Inmarsat
+|A4
+a| VHF DSC +
+MF DSC +
+HF DSC +
+EPIRB
+a| VHF R/T +
+MF R/T +
+HF R/T, NBDP
+|
+|
+|
+a| HF MSI
+a| VHF R/T +
+HF/MF R/T, NBDP
+|===
+
+R/T – Radio Telephony
+
+GMDSS is under review at the IMO.  The problems in the current GMDSS include the following:
+
+* Perceived high rate of false distress alerting by DSC and EPIRB;
+* complicated operation of DSC; and
+* decline in use of the NBDP
+
+Efforts have been made to address these issues, such as updating ITU-R Recommendations and IEC standards.  The AIS-SART was introduced in January 2010 as an alternative to the radar SART.  The AIS-SART is defined as a locating device.  Field trials have proved that the AIS-SART is detectable by SAR aircraft at a much greater range than 121.5 MHz beacons in 406 MHz EPIRBs and can also be detected by low earth orbit AIS satellites.
+
+==== Possible System Components for the Modernisation of GMDSS
+
+IMO COMSAR sub-committee finalized the draft work plan on ‘Review and modernization of the Global Maritime Distress and Safety System’ at its 16th session in March 2012, and this was approved by Maritime Safety Committee at its 90 session in May 2012.  The work is continuing and includes a detailed review on a number of items, including: the possible inclusion of AIS functions, LRIT functions and SSAS functions; the role of Narrow Band Direct Printing (NBDP) and MF/HF DSC; expected evolution of satellite EPIRB systems; and the further evolution of Maritime Safety Information broadcast systems.
+
+While AIS (AIS-SART) is currently included in the GMDSS as a locating devicefootnote:[Locating is defined as ‘to find a mobile unit in distress or the location of survivors’.], the review of possible inclusions of AIS functions in the GMDSS modernization work plan could see additional uses for AIS, which may include homingfootnote:[Homing is defined to determine the bearing to the transmitting station.].
+
+Other digital data technologies, such as VDES, may be used to address GMDSS functions.
+
+Distress devices, using AIS or AIS like technology, continue to evolve and are being assessed in the review process of GMDSS.  The development of alternative uses of AIS or AIS like technology are being reviewed within ITU under the heading of Autonomous Maritime Radio Devices (AMRD)
+
+WRC-12 allocated 495-505 kHz (plus 505-510 kHz in Region 2) to the maritime mobile service on an exclusive primary basis, this band could be used for promulgation of maritime safety and security related information in accordance with the Recommendation ITU-R M.2010. This could deliver relatively large volumes of information with a high data rate and may be a supplementary system to the current NAVTEX.
+
+The VHF Data Exchange System (VDES) may also be a candidate for promulgation of Maritime Safety Information (shore-ship) and emerging ship-ship / ship-shore applications.
+
+The MF/HF data communications and VHF Data Exchange System (VDES) may be candidates for general communications in addition to the existing radiotelephone and satellite communications.
+
+The above ideas are summarized in Table 5
+
+.Table 5 - Potential System Components for Modernisation of GMDSS
+|===
+^|Sea area ^|Distress/Urgency Safety Alerting ^|Distress/urgency Safety Comms ^|Locating/Homing ^|On scene Comms ^|MSI Promulgation ^|General Comms
+
+|A1
+a| AIS *1 +
+EPIRB-AIS *2
+a| VHF R/T, Data
+.4+a| AIS-SART +
+EPIRB-AIS *2
+.4+a| VHF R/T
+.2+a| AIS *4 +
+VDE +
+NAVDAT +
+SafetyNet
+.2+a| VHF R/T, Data +
+MF/HF R/T, Data +
+Satellite *3
+
+.2+a|A2 +
+A3
+.2+a| AIS *1 +
+EPIRB-AIS *2 +
+MF/HF Data +
+Satellite *4
+.2+a| VHF R/T, Data +
+MF/HF R/T, Data +
+Satellite *2
+
+|
+|
+
+|A4
+a| AIS *1 +
+EPIRB-AIS *2 +
+MF/HF Data
+a| VHF R/T, Data +
+MF/HF R/T, Data
+a| AIS *4 +
+HF Data
+a| VHF R/T, Data +
+MF/HF R/T, Data
+|===
+
+|===
+|*1
+|using terrestrial and satellite messages
+|*2
+|EPIRB with built-in AIS-SART function
+|*3
+|global or regional satellite services
+|*4
+|using application specific messages
+|R/T
+|Radio Telephony
+|===

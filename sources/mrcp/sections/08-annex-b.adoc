@@ -1,0 +1,544 @@
+[appendix]
+== Maritime Frequency Allocations
+
+The table below sets out the various current maritime frequency allocations as allocated by ITU Radio Regulations.  Due to the size, footnotes to the allocation in the ITU Radio Regulation are not included.  Please refer to Article 5 in the ITU Radio Regulation, Edition of 2016.
+
+// Table 7 spans printed PDF pages 39-45 (landscape). Rows printed across a
+// page break (the frequency cell carrying over) are merged into a single
+// row here. Printed irregularities ("MOBILE=SATELLITE", "MOBILE-SATELITE",
+// "aeronauticalmobile", "1616 – 1610.6 MHz") are kept verbatim.
+.Table 7 - Maritime Frequency Allocations
+[cols="1,2,2,2,1",options="header"]
+|===
+^|Frequency |^Region 1 Allocation |^Region 2 Allocation |^Region 3 Allocation |^Status of Maritime Use
+
+|90 – 110 kHz
+a| RADIONAVIGATION 5.62 +
+Fixed +
+5.64
+|
+|
+|No constraints
+|285 – 315 kHz
+a| AERONAUTICAL RADIONAVIGATION +
+MARITIME RADIONAVIGATION (radiobeacons) +
+5.73  5.74
+a| AERONAUTICAL RADIONAVIGATION +
+MARITIME RADIONAVIGATION (radiobeacons)  5.73
+|
+|No constraints
+|315 – 325 kHz
+a| AERONAUTICAL RADIONAVIGATION +
+Maritime radionavigation (radiobeacons)  5.73 +
+5.75
+a| MARITIME RADIONAVIGATION (radiobeacons)  5.73 +
+Aeronautical radionavigation
+a| AERONAUTICAL RADIONAVIGATION +
+MARITIME RADIONAVIGATION (radiobeacons)  5.73
+a| Secondary in Region 1
+|415 – 435 kHz
+a| MARITIME MOBILE 5.79 +
+AERONAUTICAL RADIONAVIGATION
+a| MARITIME MOBILE  5.79 +
+Aeronautical radionavigation  5.80 +
+5.77  5.78  5.82
+|
+|No constraints
+|435 - 472
+a| MARITIME MOBILE 5.79 +
+Aeronautical radionavigation 5.77 +
+5.82
+|
+|
+|No constraints
+|472 - 479
+a| MARITIME MOBILE  5.79 +
+Amateur  5.A123 +
+Aeronautical radionavigation  5.77  5.80 +
+5.82  5.B123
+|
+|
+|
+|479 – 495 kHz
+a| MARITIME MOBILE 5.79 +
+5.79A +
+Aeronautical radionavigation  5.77 +
+5.82
+a| MARITIME MOBILE  5.79  5.79A +
+Aeronautical radionavigation  5.80 +
+5.77  5.82
+|
+|No constraints
+|495 – 505 kHz
+a| MARITIME MOBILE
+|
+|
+|No constraints
+|505 – 510 kHz
+a| MARITIME MOBILE  5.79 +
+5.79A  5.84 +
+AERONAUTICAL RADIONAVIGATION
+a| MARITIME MOBILE 5.79
+a| MARITIME MOBILE 5.79 +
+5.79A  5.84 +
+AERONAUTICAL RADIONAVIGATION +
+Aeronautical mobile +
+Land mobile
+|No constraints
+|510 – 526.5 kHz
+a| MARITIME MOBILE  5.79 +
+5.79A  5.84 +
+AERONAUTICAL RADIONAVIGATION
+a| 510 – 525 KHz +
+MARITIME MOBILE  +
+5.79A  5.84 +
+AERONAUTICAL RADIONAVIGATION
+a| MARITIME MOBILE 5.79 +
+5.79A  5.84 +
+AERONAUTICAL RADIONAVIGATION +
+Aeronautical mobile +
+Land mobile
+|No constraints
+|1606.5 – 1625 kHz
+a| FIXED +
+MARITIME MOBILE  5.90 +
+LAND MOBILE +
+5.92
+a| 1605 – 1625 kHz +
+BROADCASTING  5.89 +
+5.90
+a| FIXED +
+MOBILE +
+RADIOLOCATION +
+RADIONAVIGATION +
+5.91
+a| Region 1 only and subject to restrictions on permitted coverage area
+|1635 – 1705 kHz
+a| FIXED +
+MARITIME MOBILE  5.90 +
+LAND MOBILE +
+5.92  5.96
+a| FIXED +
+MOBILE +
+BROADCASTING  5.89 +
+Radiolocation  +
+5.90
+a| FIXED +
+MOBILE +
+RADIOLOCATION +
+RADIONAVIGATION +
+5.91
+a| Region 1 only and subject to restrictions on permitted coverage area
+|1705 – 1800 kHz
+a| FIXED +
+MARITIME MOBILE  5.90 +
+LAND MOBILE +
+5.92  5.96
+a| FIXED +
+MOBILE +
+RADIOLOCATION +
+AERONAUTICAL RADIONAVIGATION
+a| FIXED +
+MOBILE +
+RADIOLOCATION +
+RADIONAVIGATION +
+5.91
+a| Region 1 only and subject to restrictions on permitted coverage area
+|2045 – 2065 kHz
+a| FIXED +
+MARITIME MOBILE +
+LAND MOBILE +
+5.92
+a| FIXED +
+MOBILE
+|
+a| Region 1 only
+|2065 – 2107 kHz
+a| FIXED +
+MARITIME MOBILE +
+LAND MOBILE +
+5.92
+a| MARITIME MOBILE  5.105 +
+5.106
+|
+|No constraints
+|2107 – 2160 kHz
+a| FIXED +
+MARITIME MOBILE +
+LAND MOBILE +
+5.92
+a| FIXED +
+MOBILE
+|
+a| Region 1 only
+|2170 – 2173.5 kHz
+a| MARITIME MOBILE
+|
+|
+|No constraints
+|2173.5 – 2190.5 kHz
+a| MOBILE (distress and calling) 5.108  5.109  5.110  5.111
+|
+|
+a| Distress and calling
+|2190.5 – 2194 kHz
+a| MARITIME MOBILE
+|
+|
+|No constraints
+|2625 – 2650 kHz
+a| MARITIME MOBILE +
+MARITIME RADIONAVIGATION  +
+5.92
+a| FIXED +
+MOBILE
+|
+a| Region 1 only
+|4000 – 4063 kHz
+a| FIXED +
+MARITIME MOBILE  5.127 +
+5.126
+|
+|
+|No constraints
+|4063 – 4438 kHz
+a| MARITIME MOBILE  5.79A  5.109  5.110  5.130  5.131  5.132 +
+5.128
+|
+|
+|No constraints
+|6200 – 6525 kHz
+a| MARITIME MOBILE  5.109  5.110  5.130  5.132 +
+5.137
+|
+|
+|No constraints
+|8100 – 8195 kHz
+a| FIXED +
+MARITIME MOBILE
+|
+|
+|No constraints
+|8195 – 8815 kHz
+a| MARITIME MOBILE  5.109  5.110  5.132  5.145 +
+5.111
+|
+|
+|No constraints
+|12230 – 13200 kHz
+a| MARITIME MOBILE  5.109  5.110  5.132  5.145
+|
+|
+|No constraints
+|16360 – 17410 kHz
+a| MARITIME MOBILE  5.109  5.110  5.132  5.145
+|
+|
+|No constraints
+|18780 – 18900 kHz
+a| MARITIME MOBILE
+|
+|
+|No constraints
+|19680 – 19800 kHz
+a| MARITIME MOBILE  5.132
+|
+|
+|No constraints
+|22000 – 22855 kHz
+a| MARITIME MOBILE  5.132 +
+5.156
+|
+|
+|No constraints
+|25070 – 25210 kHz
+a| MARITIME MOBILE
+|
+|
+|No constraints
+|26100 – 26175 kHz
+a| MARITIME MOBILE  5.132
+|
+|
+|No constraints
+|154 – 156.4875 MHz
+a| FIXED +
+MOBILE except aeronautical mobile (R) +
+5.226  5.A114
+a| FIXED +
+MOBILE +
+5.226
+a| FIXED +
+MOBILE +
+5.226  5.A114
+a| Operation protected by footnote 5.226
+|156.4875 – 156.5625 MHz (CH10, 70, 11)
+a| MARITIME MOBILE (distress and calling via DSC) 5.111  5.226  5.227
+|
+|
+a| No constraints for CH70 +
+CH10 and CH11 are protected by footnote 5.227
+|156.5625 – 156.7625 MHz
+a| FIXED +
+MOBILE except aeronautical mobile (R) +
+5.226
+a| FIXED +
+MOBILE 5.225  5.226
+|
+a| Operation protected by footnote 5.226
+|156.7625 – 156.7875 MHz (CH75)
+a| MARITIME MOBILE +
+Mobile-satellite (Earth-to-space) +
+5.111  5.226  5.G110 (Ch 75)
+a| MARITIME MOBILE +
+MOBILE-SATELLITE (Earth-to-space) +
+5.111  5.226  5.G110 (Ch 75)
+a| MARITIME MOBILE +
+Mobile-satellite (Earth-to-space) +
+5.111  5.226  5.G110 (Ch 75)
+a| Operation protected by footnote 5.226
+|156.7875 – 156.8125 MHz (CH16)
+a| MARITIME MOBILE (distress and calling) +
+5.111  5.226
+|
+|
+|No constraints
+|156.8125 – 156.8375 MHz (CH76)
+a| MARITIME MOBILE +
+Mobile-satellite (Earth-to-space) +
+5.111  5.226  5.G110  (Ch 76)
+a| MARITIME MOBILE +
+MOBILE-SATELLITE (Earth-to-space) +
+5.111  5.226  5.G110
+a| MARITIME MOBILE +
+Mobile-satellite (Earth-to-space) +
+5.111  5.226  5.G110
+a| Operation protected by footnote 5.226
+|156.8375 - 161.9625 MHz
+a| FIXED +
+MOBILE except  aeronauticalmobile  +
+5.226
+a| FIXED +
+MOBILE 5.226
+|
+a| Operation protected by footnote 5.226
+|161.9375-161.9625 MHz
+a| FIXED +
+MOBILE except aeronautical mobile  +
+Maritime mobile-satellite (Earth-to-space) 5.228AA 5.226
+a| FIXED +
+MOBILE +
+Maritime mobile-satellite (Earth-to-space) 5.228AA  5.226
+|
+a| Operation protected by footnote 5.226
+|161.9625 - 161.9875 MHz (AIS 1)
+a| FIXED +
+AERONAUTICAL MOBILE (OR) +
+MARITIME MOBILE +
+MOBILE except aeronautical mobile +
+Mobile-satellite (Earth-to-space)  5.F110 +
+5.226  5.A110 5.B110
+a| MARITIME MOBILE +
+MOBILE-SATELITE (Earth-to-space) +
+5.C110  5.D110
+a| Aeronautical mobile (OR) 5.E110 +
+Mobile-satellite (Earth-to-space)  5.F110  5.226
+a| No constraints in Region 2. +
+Operation protected by footnote 5.226 in Regions 1 and 3
+|161.9875 - 162.0125 MHz
+a| FIXED +
+MOBILE except aeronautical  mobile +
+Maritime mobile-satellite (Earth-to-space) 5.228AA +
+5.226  5.229
+a| FIXED +
+MOBILE +
+Maritime mobile-satellite (Earth-to-space) 5.228AA  5.226
+|
+a| Operation protected by footnote 5.226
+|162.0125 - 162.0375  MHz  (AIS 2)
+a| FIXED +
+MOBILE except aeronautical mobile +
+Mobile-satellite (Earth-to-space)  5.F110  +
+5.226  5.229  5.A110  5.B110
+a| AERONAUTICAL MOBILE (OR) +
+MARITIME MOBILE +
+MOBILE-SATELITE (Earth-to-space) +
+5.C110  5.D110
+a| MARITIME MOBILE +
+Aeronautical mobile (OR) 5.E110 +
+Mobile-satellite (Earth-to-space)  5.F110 +
+5.226
+a| No constraints in Region 2. +
+Operation protected by footnote 5.226 in Regions 1 and 3
+|162.0375 - 174 MHz
+a| FIXED +
+MOBILE except aeronautical mobile +
+5.226  5.229
+a| FIXED +
+MOBILE +
+5.226  5.230  5.231  5.232
+|
+a| Operation protected by footnote 5.226
+|406 – 406.1 MHz
+a| MOBILE-SATELLITE (Earth-to-space) 5.265  5.266  5.267
+|
+|
+|No constraints
+|456 – 459 MHz
+a| FIXED +
+MOBILE  5.286AA +
+5.271  5.287  5.288
+|
+|
+a| Footnote 5.287 specifies maritime mobile use
+|460 – 470 MHz
+a| FIXED +
+MOBILE  5.286AA +
+Meteorological-satellite (space-to-Earth) +
+5.287  5.288  5.289  5.290
+|
+|
+a| Footnote 5.287 specifies maritime mobile use
+|1525 – 1530 MHz
+a| SPACE OPERATION (space-to-Earth) +
+FIXED +
+MOBILE-SATELLITE (space-to-Earth)  5.208B  5.351A +
+Earth exploration-satellite +
+Mobile except aeronautical mobile  +
+5.349  +
+5.341  5.342  5.350  +
+5.351  5.352A  5.354
+a| SPACE OPERATION (space-to-Earth) +
+MOBILE-SATELLITE (space-to-Earth)  5.208B  5.351A +
+Earth exploration-satellite +
+Fixed +
+Mobile  5.343  +
+5.341  5.351  5.354
+a| SPACE OPERATION (space-to-Earth)  +
+FIXED +
+MOBILE-SATELLITE (space-to-Earth)  5.208B  5.351A +
+Earth exploration-satellite +
+Mobile  5.349  +
+5.341  5.351  5.352A  +
+5.354
+a| Complex
+|1530 – 1535 MHz
+a| SPACE OPERATION (space-to-Earth) +
+MOBILE-SATELLITE (space-to-Earth)  5.208B  5.351A  5.353A +
+Earth exploration-satellite +
+Fixed +
+Mobile except aeronautical mobile  +
+5.341  5.342  5.351  +
+5.354
+a| SPACE OPERATION (space-to-Earth) +
+MOBILE-SATELLITE (space-to-Earth)  5.208B  5.351A  5.353A +
+Earth exploration-satellite +
+Fixed +
+Mobile 5.343  +
+5.341  5.351  5.354
+|
+|Complex
+|1535 – 1559 MHz
+a| MOBILE-SATELLITE (space-to-Earth)  5.208B  5.351A  +
+5.341  5.351  5.353A  5.354  5.355  5.356  5.357  5.357A  5.359  5.362A
+|
+|
+|Complex
+|1616 – 1610.6 MHz
+a| MOBILE-SATELLITE (Earth-to-space)  5.351A +
+AERONAUTICAL RADIONAVIGATION  +
+5.341  5.355  5.359  +
+5.364  5.366  5.367  +
+5.368  5.369  5.371  +
+5.372
+a| MOBILE-SATELLITE (Earth-to-space)  5.351A +
+AERONAUTICAL RADIONAVIGATION +
+RADIODETERMINATION-SATELLITE (Earth-to-space)  +
+5.341  5.364  5.366  5.367  +
+5.368  5.370  5.372
+a| MOBILE-SATELLITE (Earth-to-space)  5.351A +
+AERONAUTICAL RADIONAVIGATION +
+Radiodetermination-satellite (Earth-to-space)  +
+5.341  5.355  5.359  5.364  +
+5.366  5.367  5.368  5.369  +
+5.372
+|Complex
+|1610.6 – 1613.8 MHz
+a| MOBILE=SATELLITE (Earth-to-space)  5.351A +
+RADIO ASTRONOMY +
+AERONAUTICAL RADIONAVIGATION  +
+5.149  5.341  5.355  +
+5.359  5.364  5.366  +
+5.367  5.368  5.369  +
+5.371  5.372
+a| MOBILE=SATELLITE (Earth-to-space)  5.351A +
+RADIO ASTRONOMY +
+AERONAUTICAL RADIONAVIGATION +
+RADIODETERMINATION-SATELLITE (Earth-to-space)  +
+5.149  5.341  5.364  +
+5.366  5.367  5.368  +
+5.370  5.372
+a| MOBILE=SATELLITE (Earth-to-space)  5.351A +
+RADIO ASTRONOMY +
+AERONAUTICAL RADIONAVIGATION +
+Radiodetermination-satellite (Earth-to-space)  +
+5.149  5.341  5.355  +
+5.359  5.364  5.366  +
+5.367  5.368  5.369  +
+5.372
+|Complex
+|1613.8 – 1626.5 MHz
+a| MOBILE=SATELLITE (Earth-to-space)  5.351A +
+AERONAUTICAL RADIONAVIGATION +
+Mobile-satellite (space-to-Earth)  5.208B +
+5.341  5.355  5.359  +
+5.364  5.365  5.366  +
+5.367  5.368  5.369  +
+5.371  5.372
+a| MOBILE=SATELLITE (Earth-to-space)  5.351A +
+AERONAUTICAL RADIONAVIGATION +
+RADIODETERMINATION-SATELLITE (Earth-to-space)  +
+Mobile-satellite (space-to-Earth)  5.208B  +
+5.341  5.364  5.365  +
+5.366  5.367  5.368  +
+5.370  5.372
+a| MOBILE=SATELLITE (Earth-to-space)  5.351A +
+AERONAUTICAL RADIONAVIGATION +
+Mobile-satellite (space-to-Earth)  5.208B  +
+Radiodetermination-satellite (Earth-to-space)  +
+5.341  5.355  5.359  +
+5.364  5.365  5.366  +
+5.367  5.368  5.369  +
+5.372
+|Complex
+|1626.5 – 1660 MHz
+a| MOBILE-SATELLITE (Earth-to-space)  5.351A  +
+5.341  5.351  5.353A  5.354  5.355  5.357A  5.359  5.362A  5.374  5.375  5.376
+|
+|
+|Complex
+|2900 – 3100 MHz
+a| RADIOLOCATION  5.424A +
+RADIONAVIGATION  5.426  +
+5.425  5.427
+|
+|
+|No constraints
+|9200 – 9300 MHz
+a| EARTH EXPLORATION-SATELLITE (active)  5.474A  5.474B  5.474C +
+RADIOLOCATION +
+MARITIME RADIONAVIGATION  5.472 +
+5.473  5.474   5.474D
+|
+|
+|No constraints
+|9300 – 9500 MHz
+a| RADIONAVIGATION +
+EARTH EXPLORATION-SATELLITE (active) +
+SPACE RESEARCH (active) +
+RADIOLOCATION  +
+5.427  5.474  5.475  5.475A  5.475B  5.476A
+|
+|
+|No constraints
+|===

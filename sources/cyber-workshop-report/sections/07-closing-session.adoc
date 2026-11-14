@@ -1,0 +1,54 @@
+== CLOSING SESSION
+
+=== Key conclusions
+
+The workshop highlighted the following key conclusions
+
+. There should be a common terminology understood across an organization, covering not only IT staff but operational, management and technical people as well. E.g., the NIST Framework for Improving Critical Infrastructure Cybersecurity.
+. AtoN including VTS systems are considered critical infrastructure and require the application of Standards implementing security by design, the following reference documentation was recommended:
++
+--
+* ISO/IEC 27001 Information technology – Security techniques – Information security management systems
+* IEC 62443-4-1 sets out secure product development lifecycle requirements
+* IEC 62443-4-2 specifies technical security requirements for Industrial Automation Control System components
+--
+. There are vulnerabilities in PNT and AIS where IALA could have a key role to play in implementing protection and mitigation measures.
+. Cyber security should be part of the daily business within any organization including operation of AtoN and VTS systems. Raising awareness, implementing procedures, encouraging cyber-secure behaviour and regular cyber-security training should be implemented. Cyber security events and the associated risks should be incorporated in existing business continuity plans.
+. Many legacy systems are still in use that are difficult to maintain in a context of cyber security but may form a suitable back-up to other more advanced systems. This should be recognised in organisational procedures.
+. Assignment of cyber security roles/profiles and associated roles and responsibilities within an organisation is required. This should be recognised in organisational procedures.
+. Cyber security should be embedded into life cycle management of systems.
+. ARM Committee should consider reviewing the IALA risk toolbox to include cyber security.
+. Specific guidance regarding the implementation of cyber security within the AtoN and VTS systems and maritime services is required.
+. The following framework could be a useful reference for best practice in PNT:
++
+--
+* NISTIR 8323: Foundational PNT Profile: Applying the Cyber security Framework for the Responsible Use of Positioning, Navigation, and Timing (PNT) Services.
+--
+. For the purpose of incident recovery, scenarios for cyber incidents recovery should be developed, in particular for AtoN and VTS systems.
+. A clear incident response plan and policy should be established.
+. First response to cyber incidents is the AtoN and VTS providers’ own responsibility. For further analysis, forensics and assistance in recovery, a specialised 3rd party is recommended where the skills are not available in house.
+. Marine AtoN cyber security incidents should be reported and shared to relevant stakeholders.
+. Training on incident response and for crisis coordinators is required within AtoN and VTS system operating organisations.
+
+The Workshop recommended the following key items of further work for IALA:
+
+* A Recommendation for IALA members on how to apply the concepts of security by design to all electronic / connected systems and devices under the IALA remit; and
+* To consider how authentication, authorization & encryption can be applied to the systems within the scope of IALA and what are the priorities for these.).
+* Amend existing IALA recommendation R1009 on Disaster Recovery to include cyber security aspects
+* Amend existing IALA guideline G1120 on Disaster Recovery to include cyber security aspects
+* Develop a new guideline and/or recommendation for specifics in cyber incident response and recovery, possibly including crisis management, logistic chain, and business continuity management, for AtoN and VTS operators / providers.
+* IALA should consider being a facilitator for an ISAC (Information Sharing and Analysis Centre)
+
+In addition to these topics the WGs have produced further proposals that may be of interest to develop within the IALA committees and that will be referred to during the next work programme:
+
+* Working group 1 - Preventative procedural measures and behaviours
+* Working group 2 – Preventative technical measures
+* Working group 3 – Incident response and recovery (post operational)
+
+In addition to these topics, WG3 developed an informational paper “Inventory of best practices on incident response and recovery and business continuity” (ANNEX E)  as useful reference for the future work of the Committees which is annexed to this report of the workshop:
+
+=== Closing remarks
+
+Secretary-General Francis Zachariae made some remarks on the impressive work achieved during the week and chaired by Phil Day and by the working groups chairs and vice chairs. Secretary-General really appreciated the effort and the good contributions coming from the participants. It was also noted that specific work items, workflows and actions were proposed, and Francis Zachariae welcomed those that are to be provided by the IALA secretariat. The consideration of IALA as a a facilitator for an ISAC, is of great interest for the organization. Equally, the action on contributing by a cyber security policy for AtoN and VTS service providers was extremely relevant for the continuity of work in the IALA scope. Secretary-General finally recalled the need to come back at normal face two face business even if the outcome of this workshop becomes essential for the next work program and the IALA members.
+
+The host of the workshop, represented by André Châteauvert from the Canadian Coast Guard and Phil Day expressed their sincere gratitude for all the work done by the (vice) chairs, speakers and experts contributing to the workshop. They also sent their willingness to work in the same room promptly.

@@ -1,0 +1,61 @@
+= Approval of Amendments to the Constitution — Adoption des amendements aux statuts
+:doctype: general-assembly
+:series: A13
+:docnumber: 01
+:docidentifier: A13-01
+:language: en
+:published-date: 2018-05-29
+:copyright-year: 2018
+:mn-document-class: iala
+:mn-output-extensions: xml,html,doc,rxl
+:local-cache-only:
+:data-uri-image:
+:urn: urn:mrn:iala:pub:a13-01
+
+// SOURCE: reference-docs/resolutions/Resolution-A13-01.pdf (1 page).
+//
+// IDENTIFIER MAPPING: the printed document titles the resolution "Resolution
+// A13-01", "Adopted by the 13th General Assembly of 29th May 2018" — the
+// A-prefix carries the Assembly session number (A13 = 13th General Assembly,
+// 2018), confirming the session-numbering reading of the A12/A13 series
+// (A12-01 is the 12th General Assembly, 2014). relaton-data-iala gives
+// docidentifier "IALA A13-01 (E)", urn urn:mrn:iala:pub:a13-01:e.
+//
+// LAYOUT: the published resolution is bilingual, set in two facing columns
+// (English left, French right). The bilingual text is transcribed as a
+// two-column table preserving the published column pairing; the page
+// furniture is not transcribed (IALA logo; page-top right-hand stamp
+// "Resolution A13-01"; footer address "10, rue des Gaudines – 78100 Saint
+// Germain en Laye, France / Tél. +33 (0)1 34 51 70 01 – Fax +33 (0)1 34 51
+// 82 05 – contact@iala-aism.org / www.iala-aism.org").
+//
+// The resolution carries no edition.
+
+// The whole published page is set as a two-column bilingual table; the
+// in-table title rows below are part of the printed layout.
+.Resolution A13-01
+[cols="1,1"]
+|===
+^| *IALA ASSEMBLY RESOLUTION* ^| *RESOLUTION D’ASSEMBLEE de l’AISM*
+
+^| _Adopted by the 13th General Assembly_ +
+_of 29th May 2018_ ^| _Adoptée par la 13ème Assemblée générale_ +
+_du 29 mai 2018_
+
+^| *Resolution A13-01* +
+*APPROVAL OF AMENDMENTS TO THE CONSTITUTION* ^| *Résolution A13-01* +
+*ADOPTION DES AMENDEMENTS AUX STATUTS*
+
+^| *THE GENERAL ASSEMBLY* ^| *L’ASSEMBLEE GENERALE*
+
+a| RECALLING that the IALA Constitution was last modified and approved by the General Assembly on 27th May 2014;
+
+HAVING CONSIDERED the advice of the Council provided to the General Assembly;
+
+APPROVES the IALA Constitution as amended on 29th May 2018.
+a| RAPPELANT que les Statuts de l’AISM ont été modifiés pour la dernière fois et approuvés par l’Assemblée générale le 27 mai 2014 ;
+
+AYANT PRIS CONNAISSANCE de l’avis formulé par le Conseil à l’Assemblée générale ;
+
+APPROUVE les Statuts de l’AISM tels que modifiés le 29 mai 2018.
+|===

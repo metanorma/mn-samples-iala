@@ -1,0 +1,43 @@
+= Resolution on the Delegation of Responsibility from the General Assembly to the Council
+:doctype: general-assembly
+:series: GA01
+:docnumber: 02
+:docidentifier: GA01.02
+:language: en
+:published-date: 2025-02-18
+:copyright-year: 2025
+:mn-document-class: iala
+:mn-output-extensions: xml,html,doc,rxl
+:local-cache-only:
+:data-uri-image:
+:urn: urn:mrn:iala:pub:ga01.02
+
+// SOURCE: reference-docs/resolutions/GA01-Res.02-EN-Resolution-delegation-of-responsability.pdf
+// (1 page; file name "GA01-Res.02"; the running header prints "GA01/Res.02"
+// and the document body titles the resolution "Resolution GA01.02"; the
+// file name spelling "responsability" is the IALA download page's, not the
+// document text).
+//
+// COVER / DOCUMENT BLOCK (printed in the footer block of the page):
+// "1st General Assembly / International Organization for Marine Aids to
+// Navigation"; "GA01/Res.02"; "06 March 2025"; "Original: English".
+// The :published-date: above is the adoption date ("Adopted on 18 February
+// 2025"); the printed document date is 06 March 2025.
+//
+// APPROVAL: "Adopted on 18 February 2025 (Agenda items b)" — the agenda
+// reference is printed in the singular-plural form "Agenda items b"; kept
+// verbatim.
+//
+// The resolution carries no edition; the :urn: follows the Pubid::Iala
+// canonical form urn:mrn:iala:pub:ga01.02 (no edition segment).
+
+THE ASSEMBLY,
+
+RECALLING the outcome of the Tokyo Conference on the General Regulations, including the Financial Regulations in November 2023, in particular with regard to the suspension, reinstatement or termination of Associate membership;
+
+FURTHER RECALLING the provisions of the Convention Article 7.1, 7.7 (j), and Article 8.8 (a);
+
+MINDFUL OF the necessity to sanction members who fail to fulfil their obligations while also ensuring the possibility of prompt reinstatement immediately upon meeting the required conditions without delay;
+
+. APPROVES the delegation of responsibilities from the General Assembly to the Council when suspending and terminating or reinstating Associate membership due to non-payment of fees in line with the General Regulations, including the Financial Regulations;
+. APPROVES the delegation of responsibilities from the General Assembly to the Council when reinstating Associate membership when the Associate Member has met the requirements for reinstatement set by the General Assembly after a suspension for any activities incompatible with the aim or objectives of the Organization in accordance with the General Regulations.

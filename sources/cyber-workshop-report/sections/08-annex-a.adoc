@@ -1,0 +1,73 @@
+[appendix]
+== List of participants
+
+[cols=",",options="header"]
+|===
+|Participant |e-mail
+
+|Andreas Walderhaug |andreas.walderhaug@knc.kongsberg.com
+|Emma Stephan |emma.stephan@cerema.fr
+|Ernest Batty |ernie.b@imisglobal.com
+|Hideki Noguchi |Hideki.noguchi@gmail.com
+|Jakob P. Larsen |jpl@bimco.org
+|Jamie Brennan |jamie.brennan@dfo-mpo.gc.ca
+|Jim Park |jin.h.park@kriso.re.kr
+|Jonathan Pritchard |jonathan.pritchard@iictechnologies.com
+|Luc De Nijs |luc.de.nijs@saabgroup.com
+|Maarten Berrevoets |Maarten.Berrevoets@minienw.nl
+|Marcus Krol |marcus.krol@innovative-navigation.de
+|Martijn Ebben |m.ebben@portofrotterdam.com
+|Michel Cousquer |michel.cousquer@cerema.fr
+|Monica Sundklev |Monica.Sundklev@transportstyrelsen.se
+|MURPHY Helen |helen.murphy@irishlights.ie
+|Phil Day |phild@nlb.org.uk
+|Philip Lane |pl@cirm.org
+|Pierre Mingot |pierre.mingot@cerema.fr
+|Saito Naoki |n.saito@classnk.or.jp
+|Sangwon Park |psw6745@kmi.re.kr
+|Simon Milyard |simon.milyard@trinityhouse.co.uk
+|Tani Makiko |maki-tani@classnk.or.jp
+|William Adams |william.c.adams@uscg.mil
+|Youngsil Lee |lys0113@dongseo.ac.kr
+|Yunja Yoo |yjyoo@kmi.re.kr
+|Jillian Carson Jackson |jillian@jcjconsulting.net
+|Michael Strandberg |mst@dma.dk
+|Morten Brix Laursen |mbx@dma.dk
+|Shwu-Jing Chang |sjchang@mail.ntou.edu.tw
+|Malcolm Nicholson |Malcolm.Nicholson@spx.com
+|Jens Ohle |jens.ohle@spx.com
+|Kaisu Heikonen |kaisu.heikonen@ftia.fi
+|Jeoungkyu Lim |jklim@krs.co.kr
+|Sanghoon Choi |choish@krs.co.kr
+|Pierre-Yves Martin |pierre-yves.martin@cerema.fr
+|Gareth Wimpenny |Gareth.wimpenny@gla-rad.org
+|Yukimatsu Shunsuke |jcghkokugikaihatsu2-9s8t@mlit.go.jp
+|Wim Smets |wim.smets@mow.vlaanderen.be
+|Takeharu Kato |jcghkokugikaihatsu3-3u5j@mlit.go.jp
+|Anthony Beaupre-Jacques |anthony.beauprejacques@tc.gc.ca
+|Christopher Jackson |christopher.douglas.jackson@gmail.com
+|Darren Day |Darren.day@thls.org
+|Peter Dobson |Peter.Dobson@thls.org
+|Anna Beckett |Anna.Beckett@nlb.org.uk
+|Colin Fender |Colin.Fender@nlb.org.uk
+|Paul Hudson |Paul.Hudson@nlb.org.uk
+|Guttorm Tomren |guttorm.tomren@kystverket.no
+|Shivani Seepersad |dawn@seepersad.org
+|Axel Hahn |axel.hahn@uol.de
+|Helen Murphy |training@irishlights.ie
+|Andre Chateauvert |andre.chateauvert@dfo-mpo.gc.ca
+|Jean-Francois Coutu |jean-francois.coutu@dfo-mpo.gc.ca
+|Ramesh Pagidipalli |ramesh.pagidipalli@gov.in
+|Rene Hogendoorn |rene.hogendoorn@saabgroup.com
+|Dirk Eckhoff |dirk.eckhoff@wsv.bund.de
+|Stefaan Priem |stefaan.priem@mow.vlaanderen.be
+|Alan Jacobsen |Alan.Jacobsen@wsv.bund.de
+|Dongwoo Kang |dwkang@kriso.re.kr
+|Jose M. Fernandez |jose.fernandez@bastionnage.ca
+|Sewoong OH |osw@kriso.re.kr
+|Terry Rambarran |terry.rambarran@yahoo.com
+|Omar Eriksson |omar.eriksson@iala-aism.org
+|Jaime Alvarez Velasco |jaime.alvarez@iala-aism.org
+|Minsu Jeon |minsu.jeon@iala-aism.org
+|Francis Zachariae |francis.zachariae@iala-aism.org
+|===

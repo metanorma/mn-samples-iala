@@ -1,0 +1,47 @@
+= Resolution on the General Regulations and the Financial Regulations
+:doctype: general-assembly
+:series: GA01
+:docnumber: 01
+:docidentifier: GA01.01
+:language: en
+:published-date: 2025-02-18
+:copyright-year: 2025
+:mn-document-class: iala
+:mn-output-extensions: xml,html,doc,rxl
+:local-cache-only:
+:data-uri-image:
+:urn: urn:mrn:iala:pub:ga01.01
+
+// SOURCE: reference-docs/resolutions/GA01-Res.01-EN-Resolution-on-General-Regulations-and-Financial-Regulations.pdf
+// (1 page; file name "GA01-Res.01"; the running header prints "GA01/Res.01"
+// and the document body titles the resolution "Resolution GA01.01"; the
+// relaton-data-iala record gives docidentifier "IALA GA01.01 (E)").
+//
+// COVER / DOCUMENT BLOCK (printed in the footer block of the page):
+// "1st General Assembly / International Organization for Marine Aids to
+// Navigation"; "GA01/Res.01"; "06 March 2025"; "Original: English".
+// The :published-date: above is the adoption date ("Adopted on 18 February
+// 2025"); the printed document date is 06 March 2025.
+//
+// APPROVAL: "Adopted on 18 February 2025 (Agenda items b)" — the agenda
+// reference is printed in the singular-plural form "Agenda items b"; kept
+// verbatim.
+//
+// The resolution carries no edition; the :urn: follows the Pubid::Iala
+// canonical form urn:mrn:iala:pub:ga01.01 (no edition segment).
+//
+// The published document has no numbered clauses beyond the two operative
+// resolutions, which are transcribed as the numbered list below. The recital
+// verbs (RECALLING / MINDFUL OF / HAVING CONSIDERED) are kept in the
+// printed capitalization.
+
+THE ASSEMBLY,
+
+RECALLING the transitional arrangements annexed to the Convention which agrees on the use of the General Regulations of the International Association of Marine Aids to Navigation and Lighthouse Authorities _mutatis mutandis_, unless the Organization has adopted General Regulations;
+
+MINDFUL OF the provision of Article 7.7 (c) of the Convention which requires the General Assembly to approve the General and Financial Regulations of the Organization;
+
+HAVING CONSIDERED the draft General Regulations and the Financial Regulations as agreed by the Conference in Tokyo from 7-9 November 2023:
+
+. APPROVES the draft General Regulations and the Financial Regulation of the Organization;
+. RESOLVES that they shall take effect immediately in line with the transitional arrangements annexed to the Convention.
