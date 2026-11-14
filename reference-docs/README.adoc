@@ -39,6 +39,10 @@ mirrors the public PDFs.)
 |`reports/`
 |Cyber-security workshop report.
 
+|letter (L)
+|`circulars/`
+|Circular Letters 2025-01, 2025-02 (Circular Letter YYYY/NN series; public archive iala-aism.org/circular-letters). Secretariat correspondence layout: letterhead logo, "Circular Letter YYYY/NN" + date, Subject/To block, salutation, unnumbered body flow, sign-off (Secretary-General). No MRN/URN printed, no edition, no clause numbers.
+
 |brand
 |`brand/`
 |IALA logo use guide. Colours: headings/table text #00558C, covers color-coded per type (palette extract in Style Guide appendix 3), Calibri throughout.
