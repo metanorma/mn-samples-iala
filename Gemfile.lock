@@ -3,7 +3,7 @@ GIT
   revision: b112a8aad9550e8f51ec947578be8aebc863566a
   branch: main
   specs:
-    metanorma-cli (1.18.4)
+    metanorma-cli (1.18.6)
       canon (>= 0.2.12)
       git (>= 3.0)
       isodoc (~> 3.7.9)
@@ -1355,7 +1355,7 @@ CHECKSUMS
   metanorma (2.5.24) sha256=94cbcdfb99f5674e0d9ba1f0c67d519e0236351c5cc4de7bbcd118feca7d07c4
   metanorma-bipm (2.9.3) sha256=0e9641fe49059c454d1a9b168013e3017292ad62d4876194d9c71b02f9bd9397
   metanorma-cc (2.9.2) sha256=36651d5e6300847fed525829dc3c2557e4ac0748d26fdb00fcd3bd6f2e200b46
-  metanorma-cli (1.18.4)
+  metanorma-cli (1.18.6)
   metanorma-core (0.2.8) sha256=3b2d73dd4859c7bd3b9d6a72cf0d5d357eac4a4c9daccb619aee21d2cf95e4c9
   metanorma-document (0.5.6) sha256=33567211f30023351dd5c5d5903b9199fb83121550e01e336e142a722c6d5aa2
   metanorma-gb (1.5.10) sha256=a374cd96828cd7da4ef44eb827c425a2743b6a8583fcd2988f85d7b644985e1e
