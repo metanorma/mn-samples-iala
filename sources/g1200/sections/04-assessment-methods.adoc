@@ -1,0 +1,235 @@
+== Assessment methods
+
+To gain a comprehensive understanding of a candidate’s abilities and suitability, a range of assessment methods should be considered. These may include:
+
+* psychometric tests;
+* practical tests or exercises; and
+* interviews.
+
+Relying solely on a single method provides limited insight into a candidate’s aptitude and behavioural suitability, particularly for a role as a VTS operator. To ensure a more accurate evaluation, a multi-method assessment approach is encouraged.
+
+Designing an effective recruitment process may require expert input. It is also recommended to consider utilizing services offered by external providers or third-party organizations for specific assessment components. This helps ensure that all tests and exercises are appropriately designed to complement the interview process and provide a thorough evaluation of each candidate’s potential.
+
+Depending on the nature of the test and the resources available, assessment methods may be conducted in one of two ways:
+
+* in person
+* online via computer-based platforms
+
+Psychometric assessments and certain aptitude tests are often well-suited for remote delivery, while practical exercises or simulations may require on-site administration. Choosing the appropriate delivery mode for each method is essential to ensure valid results in the evaluation process.
+
+Personal information, such as CVs, diplomas, experience records and evaluation results, may be collected and processed during recruitment. Applicants should be informed of their rights and the purposes of processing both before application and at recruitment. Organizations must handle all personal information securely and define a retention period.
+
+=== psychometric tests
+
+A psychometric test is designed to provide a quantitative analysis of a person's mental capacities or personality traits, typically as shown by responses to a standard series of questions or statements.
+
+The contents of a psychometric test are generally divided into two categories:
+
+* Aptitude tests, which measure the intellectual abilities required for work
+* Personality tests, which aim to understand the candidate's character
+
+==== aptitude tests
+
+An aptitude test is designed to determine a person's capacity in any given skill or field of knowledge, particularly those relevant to job performance. Rather than focusing on academic knowledge or school-based learning, these tests evaluate practical thinking skills such as logical reasoning, information processing and problem-solving ability. These are competencies that cannot be easily improved through short-term memorization or test preparation—they are typically developed through consistent, long-term habits and experiences.
+
+Aptitude tests are generally divided into two main areas:
+
+* Verbal Reasoning
+
+This assesses the ability to accurately understand the logic and argument of written texts, including vocabulary, reading comprehension and identifying key messages.
+
+High-scoring candidates tend to read quickly and understand texts logically. They are often skilled communicators with strong language habits.
+
+Low-scoring candidates, on the other hand, often lack regular reading habits and may struggle to grasp written content accurately. This can lead to misunderstandings in communication-heavy roles.
+
+* Numerical and Logical Reasoning
+
+This assesses the ability to perform calculations, interpret charts and graphs and apply logic to solve problems efficiently.
+
+High-scoring candidates remain calm under pressure, read problems carefully and select efficient strategies. They are comfortable with numbers and suited for structured tasks like accounting or programming.
+
+Low-scoring candidates, by contrast, tend to skip careful reading and rely on guesswork. They may struggle with division, percentages and overall numerical processing.
+
+Aptitude tests may provide insight into a candidate’s personal attributes such as:
+
+* numerical reasoning
+* short-term memory recall
+* timely action
+* ability to recognize patterns
+* situational awareness
+* spatial reasoning or visualization;
+* ability to synthesize information from multiple inputs
+* ability to maintain attention for extended periods and avoid distraction
+
+These general intellectual abilities have been shown to be predictive of job performance. While aptitude test scores are important for selection, there is no universal passing score. Each organization should set its own standards based on the skills it needs.
+
+==== personality tests
+
+A personality test assesses various traits related to job performance, such as interpersonal style, work attitude and goal orientation, based on a candidate’s responses to questions about their everyday behavior and ways of thinking.
+
+The results quantify how well the candidate is likely to adapt to specific job roles and workplace environments, allowing employers to evaluate whether the candidate’s characteristics align with the qualities they seek and to identify any discrepancies from the impression formed during the interview.
+
+Personality tests are used to gain a deeper understanding of the candidate’s individual strengths/weaknesses and to supplement the findings from interviews.
+
+Personality tests may provide insight into a candidate’s personal attributes such as:
+
+* ability to give, receive and act upon feedback
+* ability to cope with stress
+* decision making
+* empathy
+* prioritization
+* adaptability and flexibility
+* assertiveness
+* honesty and integrity
+* initiative and proactivity
+* ability to maintain effectiveness in single-person operations
+* ability to maintain focus during periods of low or intermittent activity
+* ability to maintain attention for extended periods and avoid distraction
+* responsibility
+* self-motivation; ability to work independently
+* teamwork; ability to work effectively with others
+
+=== practical tests or exercises
+
+Practical tests or exercises aim to simulate key aspects of the VTS work environment, allowing recruiting team members to observe how candidates respond to realistic tasks and challenges. These assessments provide valuable insights into a candidate’s applied skills, cognitive processes and behavioural tendencies that may not be fully captured through psychometric testing or interviews alone.
+
+Unlike psychometric tests that focus on abstract reasoning or personality traits, practical exercises are designed to evaluate real-time performance, including how candidates process information, make decisions under pressure and communicate in dynamic environments. Practical exercises can take many forms and should be tailored to reflect the demands of VTS operations.
+
+When incorporating practical tests into the recruitment process, it is essential to:
+
+* Define clear assessment criteria based on the aptitudes and behaviours identified as critical for VTS roles;
+* Ensure the test design and difficulty are appropriate to distinguish between candidates with different ability levels;
+* Where appropriate, integrate different practical test elements within or alongside VTS simulation exercises;
+* Provide structured briefing to ensure candidates understand the objectives, context and format of the exercise;
+* Ensure fairness and consistency by providing standardized training for evaluators, using structured scoring tools and ensuring a controlled testing environment; and
+* Train assessors to observe not only whether tasks are completed, but also how tasks are approached and what reasoning is applied.
+
+Practical tests should not be overly complex or technical, particularly for candidates who have not yet undergone VTS training. Instead, exercises should focus on assessing potential, not current proficiency.
+
+In this context, particular attention should be given to a candidate’s capacity to learn and adapt. The ability to reflect on feedback, adjust approaches and progressively improve performance is a critical indicator of future effectiveness as a VTS operator. Candidates who demonstrate learning potential, such as gradually modifying their behaviour or communication procedures during exercises, may become competent operators over time, even if some essential abilities are not fully evident at the recruitment stage.
+
+The following sections provide examples of practical tests or exercises. These should not be used as stand-alone procedures but should complement a wider recruitment process.
+
+==== VTS-simulation
+
+Guideline G1027 Simulation in VTS Training [5] acknowledges the use of VTS simulation when assessing a candidate’s suitability to operate in a VTS. The inclusion of a simulation exercise in the recruitment process will provide insight how a candidate may behave in a VTS training and in a VTS operational environment.
+
+When conducting simulation in the recruitment process attention should be given to the candidate’s background and experience. Furthermore, expectations and assessment of the candidate’s performance should be different from those during participants in a VTS training course. The exercise should be simple and focused on assessing the candidate’s general abilities. The candidate should be briefed of the expectations prior to the exercise and how to operate the equipment.
+
+A simulation exercise may provide insight into a candidate’s personal attributes such as:
+
+* adaptability and flexibility
+* ability to remain calm and composed in difficult situations
+* timely action
+* situational awareness
+* effective communication skills
+* initiative and proactivity
+
+It is essential that the team assessing the exercise understands the principles of a simulation exercise and is aware of the qualities that determine a candidate’s suitability.
+
+==== accuracy under time pressure test
+
+Accuracy under time pressure testing may be used to assess a candidate’s ability to process information, make decisions and perform tasks when working within a set timeframe.
+
+The exercise may include tasks requiring candidates to receive, understand and act on information accurately within limited time which may include:
+
+* identifying irregular or abnormal situations
+* handling multiple tasks at the same time
+* maintaining consistent performance during longer or demanding task periods
+
+It may be possible to use a VTS simulator or software with similar functions, however this is not critical to the assessment approach. The exercise should be simple and focused and candidates should be briefed on the scenario, expectations and any equipment or software prior to the exercise.
+
+Assessment may include the accuracy rate of task completion, reaction time, the ability to maintain accuracy under time pressure, performance consistency throughout the exercise and the type and severity of errors. Errors may be categorized, for example, as critical errors, e.g. omission of information or failure to recognize key information or major risks, or incorrect transmission of critical information, and non-critical errors such as incomplete information gathering, delayed but correct responses, or less effective prioritization.
+
+The exercise may provide insight into a candidate’s personal attributes such as:
+
+* decision making
+* timely action
+* teamwork as the ability to work effectively with others
+* effective communication skills
+* situational awareness
+* ability to detect anomalies
+* spatial reasoning or visualization
+* critical thinking
+* ability to cope with stress
+* ability to remain calm and composed in difficult situations
+* prioritization
+* ability to maintain attention for extended periods and avoid distraction
+* ability to maintain focus during periods of low or intermittent activity
+
+==== working memory test
+
+Working memory supports the development and maintenance of situational awareness and reliable monitoring and communication performance. Working memory testing may be used to assess a candidate’s ability to temporarily store, update and apply information relevant to task performance.
+
+The working memory test may include tasks requiring candidates to retain key information over short periods, recall and use information accurately, update stored information as situations change, integrate new and existing information and maintain task performance despite distractions or interruptions.
+
+The exercise should be simple and focused and candidates should be briefed on the scenario, expectations and any equipment or software prior to the exercise.
+
+Assessment may consider accuracy of information recall, effectiveness of memory updating, task accuracy under distraction, response time during interference and the ability to maintain task continuity throughout the exercise.
+
+These tasks may provide insight into a candidate’s personal attributes such as:
+
+* situational awareness
+* ability to detect anomalies
+* ability to synthesize information from multiple inputs
+* spatial reasoning or visualization
+* ability to recognize patterns
+* short-term memory recall
+
+=== interview
+
+The interview plays a critical role in assessing a candidate’s motivation, communication skills, personal attributes and alignment with the responsibilities of the VTS role. While psychometric and practical tests provide measurable data, interviews allow assessors to explore how and why a candidate behaves in certain ways. They also provide an opportunity to evaluate interpersonal qualities such as calmness, clarity of expression, adaptability and judgment under pressure. In addition, interviews help determine whether the candidate can integrate smoothly into the team and contribute effectively as a member of the organization.
+
+At the same time, the interview enables candidates to assess the organization. Through direct interaction with interviewers, candidates can consider whether they can adapt to the organizational culture, apply their abilities effectively and feel comfortable in the working environment. In this way, interviews serve as a two-way process that helps prevent mismatches in expectations between the candidate and the organization.
+
+To ensure fairness and effectiveness, careful preparation and structured execution are essential when conducting interviews.
+
+Preparation before the interview should include the following points:
+
+* Set Evaluation Standards
++
+Decide in advance what aptitudes and behaviors the organization is looking for in a candidate. Having clear standards helps make sure that different interviewers judge candidates in the same way. To keep the process fair and reduce bias, tools such as evaluation sheets or scoring rubrics should be prepared and shared among assessors before the interview.
+
+* Prepare a Question List
++
+Make a list of questions that go beyond just checking the resume or work history. Questions should aim to bring out the candidate’s qualities, experiences and motivations, giving a clearer picture of their character, suitability and commitment to the role.
+
+* Trained Assessors
++
+Interviews should be conducted by assessors who are trained in objective evaluation techniques, including recognizing behavioral indicators and avoiding common biases. Ideally, the panel should include experienced VTS personnel or instructors who can relate candidate responses to the VTS operational environment.
+
+When conducting the interview, the following practices are recommended:
+
+* Balanced Atmosphere
++
+Create an interview environment where candidates feel at ease and able to speak openly. Using a respectful and professional tone helps candidates relax and give honest, useful answers. At the same time, interviewers should stay objective and avoid becoming too casual, so the interview keeps its role as a fair and serious assessment.
+
+* Structured Approach
++
+--
+A structured interview ensures a fair and consistent process.
+
+Begin by inviting the candidate to briefly present their motivation for applying, including their interest in VTS operations and the organization. This helps confirm alignment of expectations before proceeding with the interview.
+
+Ask questions based on the resume and work history to confirm accuracy, then continue with the prepared question list to explore relevant competencies and experiences.
+
+Finally, leave time for the candidate to ask their own questions. This helps address any doubts they may have and ensures expectations are clear on both sides.
+--
+
+* Systematic Scoring
++
+--
+Evaluate responses against pre-defined evaluation standards so that judgments are based on observable behaviours and aptitudes rather than subjective impressions.
+
+Keeping records of each interview supports fair and objective decisions. When there are multiple interviewers, share and compare notes to avoid biased judgments and ensure a balanced evaluation.
+--
+
+Web-based interviews offer advantages such as widening access to candidates and reducing the time and cost of selection. However, they also have some limitations. For example, facial expressions and reactions may be harder to assess for both candidates and recruiters, which can make communication less smooth than in face-to-face interviews. It can also be difficult for organisations to present their workplace environment and for candidates to fully demonstrate their suitability for the role. In addition, technical problems may occur.
+
+Online interviews require careful preparation including:
+
+* selecting reliable interview platforms
+* checking audio-visual equipment and internet connections in advance
+* communicating more clearly and expressively than in face-to-face settings
+
+Where appropriate, a hybrid approach combining online and in-person interviews can retain the advantages of online interviews while supporting better mutual understanding.

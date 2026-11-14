@@ -1,0 +1,19 @@
+[bibliography]
+
+== References
+
+* [[[imo-resolution-a-1158-32,IMO. Resolution A.1158(32)]], Guidelines for Vessel Traffic Services
+
+* [[[iala-recommendation-r0103,IALA. Recommendation R0103 (V-103)]], Training and Certification of VTS Personnel
+
+* [[[iala-guideline-g1150,IALA. Guideline G1150]]], Establishing, Planning and Implementing a VTS
+
+* [[[iala-guideline-g1156,IALA. Guideline G1156]]], Recruitment, Training and Certification of VTS Personnel
+
+* [[[iala-c0103-1,IALA. C0103-1]]], VTS Operators Training
+
+* [[[iala-c0103-2,IALA. C0103-2]]], VTS Supervisor Training
+
+* [[[iala-c0103-3,IALA. C0103-3]]], VTS On-the-job Training (OJT)
+
+* [[[iala-c0103-5,IALA. C0103-5]]], VTS Recurrent, Refresher and Adaptation Training

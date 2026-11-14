@@ -1,0 +1,11 @@
+[bibliography]
+
+== Further reading
+
+* [[[andy-2025,Andy, F., Thomas R., Joseph B., & Jeffrey, K. (2025)]], Individual differences in working memory and the benefit of retrieval practice.
+
+* [[[boon-2019,Boon, P., Theeuwes, J., & Belopolsky, V. (2019)]], Updating spatial working memory in a dynamic visual environment.
+
+* [[[isabelle-2025,Isabelle, G., Stephanie, G., Carolyn, H., Oliver H,. & Lynn, N. (2025)]], How prediction error drives memory updating: role of locus coeruleus–hippocampal interactions.
+
+* [[[lisa-2018,Lisa, S. & Christian, M. (2018)]], Memory retrieval of everyday information under stress.

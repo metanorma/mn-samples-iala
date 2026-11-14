@@ -4,6 +4,7 @@ metanorma:
       - sources/s1040/document.adoc
       - sources/r1026/document.adoc
       - sources/g1199/document.adoc
+<<<<<<< HEAD
       - sources/c0103-1/document.adoc
       - sources/s1050/document.adoc
       - sources/s1060/document.adoc
@@ -11,6 +12,12 @@ metanorma:
       - sources/r1024/document.adoc
       - sources/cl-2025-01/document.adoc
       - sources/cl-2025-02/document.adoc
+=======
+      - sources/g1200/document.adoc
+      - sources/g1201/document.adoc
+      - sources/r1025/document.adoc
+      - sources/r1027/document.adoc
+>>>>>>> 59866b7 (Encode guidelines G1200 G1201 and recommendations R1025 R1027 (tranche 2))
 
   collection:
     organization: "IALA: International Organization for Marine Aids to Navigation"

@@ -1,0 +1,71 @@
+== Asynchronous training course design
+
+Asynchronous training course design for remote training in VTS includes similar steps, with a focus on the asynchronous element. This includes considering the purpose and operational scope for the instructor and the student such as characteristics and constraints, selecting content suitable for asynchronous learning, providing clear instructions and pathways for the learning, developing and integrating engaging learning activities and incorporating timely feedback to support the learning.
+
+Asynchronous learning content may be incorporated into the wider training program, supporting learning at different levels.
+
+In addition to these six key points, consideration of the accessibility, usability and reliability of the technical platform used for asynchronous learning needs to be considered.
+
+. Training purpose and operational scope
++
+Start by clearly identifying what the training is intended to achieve and where it sits within the overall VTS training pathway. This includes confirming whether the course supports initial training, refresher training, continued professional development, or preparatory learning ahead of simulator or on-the-job training. Learning objectives should be clearly linked to VTS tasks, responsibilities and decision-making contexts. Outcomes should be limited to those that can be effectively achieved without real-time instructor intervention.
+
+. Student characteristics and constraints
++
+Understand who the students are and the conditions under which they will complete the training. This includes their VTS experience level, language proficiency, familiarity with digital learning platforms and likely study environment. For asynchronous delivery, particular attention should be given to cognitive workload, expected time-on-task and the need for flexibility to accommodate shift work and fatigue management common in VTS operations.
+
+. Content suitable for asynchronous delivery
++
+--
+Not all VTS learning is appropriate for asynchronous formats. Content should focus on knowledge acquisition, procedural understanding, regulatory frameworks and concept reinforcement, rather than real-time coordination or high-workload decision-making.
+
+In addition, content should be:
+
+* clearly presented
+* self-contained and
+* structured so that learners can pause, revisit and reflect without losing continuity
+--
+
+. Learning pathways and instructions
++
+Organise the course into short, logically sequenced modules with clearly stated objectives and completion criteria. Each module should follow a consistent structure (e.g. introduction, core content, activity, reflection, knowledge check) to reduce cognitive load. Ensure there is clear content navigation with predictable layouts to maintain engagement.
+
+. Interactive learning activities
++
+--
+Asynchronous courses should move beyond passive reading or videos. Activities may include:
+
+* scenario-based questions
+* guided analysis of traffic situations
+* short decision-making exercises
+* reflective prompts
+* quizzes with explanatory feedback
+
+These activities should reinforce learning objectives and encourage active engagement, while remaining achievable without synchronous (live) instructor support. Activities may be submitted for review and feedback or included in an automated feedback mechanism.
+--
+
+. Feedback and self-assessment
++
+Provide learners with timely and meaningful feedback through automated quizzes, model answers, or guided explanations. Self-assessment tools help learners gauge their understanding and identify areas requiring further study. For VTS training, feedback should emphasise reasoning and situational awareness, working to ensure deeper understanding, not just correct or incorrect answers. As technology develops, asynchronous training can integrate AI in the feedback tools, providing a ‘digital instructor’ to support the learner.
+
+=== Recorded content
+
+Recorded content plays an important role in remote training for VTS, particularly in asynchronous learning environments. Well-designed recordings allow students to engage with material at their own pace, revisit complex concepts and reinforce understanding without the time pressure associated with live instruction.
+
+Recordings are especially effective when introducing regulatory frameworks, standard operational concepts and procedures and providing foundational knowledge that underpins safe and efficient traffic monitoring and management.
+
+Considerations for effective recorded content include:
+
+* Deliberate designing the content for learning rather than simply capturing live sessions
+* Present in a concise, clearly structured manner that focuses on specific learning objectives
+* Use realistic visual material to support understanding
+* Include demonstrations (e.g. clicking a button or opening a new page)
+* Consider cognitive load, ensuring clear audio and simple visuals
+
+When developing recorded content, additional practical tips include:
+
+* Writing the script in a simple, clear language
+* Reading the script aloud to check for coherence
+* Sending the script to a colleague for feedback
+
+To support recorded content, consider providing asynchronous elements with supplemental material such as printed notes or case studies.

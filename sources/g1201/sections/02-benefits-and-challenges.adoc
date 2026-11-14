@@ -1,0 +1,37 @@
+== Benefits and challenges
+
+Remote training in VTS brings a number of benefits and challenges, which differ depending on the type of training and how it is delivered, see Table 1. These differences have implications for the skill sets required by instructors, see Section 4.
+
+.Benefits and challenges of remote training
+|===
+h|Element/category h|Benefits h|Challenges
+
+| Geographical Aspects | Students in different locations, who are unable to be present at a training site, can still participate | Locations may be on different time zones/ fatigue issues with synchronous training sessions in different time zones
+| Training tasks (asynchronous) | Provides an alternative approach when students are unable to rearrange schedules | While providing opportunity to learn in a self-directed manner, some students may struggle to find the time or have the discipline to complete tasks outside of a formal training environment
+| Training tasks (synchronous) | Supports independent learning (adult training concepts) | Some students may struggle to complete the task as expected by the instructor
+| Cost | Reduced costs for e.g. travel, accommodation, training venue | Costs related to provision of technology, which may include a student’s own technology, internet connection and access to other tools such as printers
+| Training resource sharing | Ability to use the technology in an effective manner, with sharing of training materials and resources, increasing digital intelligence and confidence | Asynchronous approaches may increase time to respond when questions on resources arise, some participants may feel overwhelmed by technology
+| Special Circumstances | Opportunity for continuity of training in special circumstances, such as limitations on travel or gatherings in the same physical space | Could be difficult to provide practical experiences, requires revised approaches and specific instructor skill sets
+| Social interaction
+a|
+--
+Supports family life/ less disruptive to family and social network
+
+Opportunity for interaction through digital tools, including national and international participation
+--
+a|
+--
+Ensuring engagement between students / between students and instructor(s) requires specific instructor skill sets
+
+Reduced interaction in a physical environment,i.e. interaction out of class, could lead to feelings of isolation among learners
+--
+| Sustainability | Remote training can support sustainability initiatives, with reduced carbon footprint through reduced or no travel | Energy consumed for technology to support training environment
+| Monitoring and assessing | Those students who may feel intimidated by group settings have opportunity to excel, reduced stress for monitoring and assessing
+a|
+--
+Some students may fall behind through misunderstanding or in ability to express themselves through the online tools
+
+Additional tools may be required to ensure authenticity and effectiveness of assessments
+--
+| Technology | Provides opportunity for enabling learning in digital intelligence, increased comfort level with technology | Technical issues and connection problems may disrupt the learning experience
+|===
