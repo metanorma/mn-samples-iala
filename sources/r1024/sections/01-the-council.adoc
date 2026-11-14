@@ -1,0 +1,42 @@
+== The Council
+
+RECALLING:
+
+. the function of IALA with respect to Safety of Navigation, the efficiency of maritime transport and the protection of the environment.
+. Article 8 of the IALA Constitution regarding the authority, duties and functions of the Council.
+
+RECOGNIZING:
+
+. that the maritime sector is increasingly depending on digital and (inter)connected technologies and systems.
+. that technologies applied for Maritime Services in the context of e-Navigation and AtoN, including VTS, may be susceptible to accidental and deliberate disruption.
+
+CONSIDERING the endorsement of the ARM Committee of the findings of the IALA workshop on cyber security that was held from 15 to 19 November 2021 as a virtual workshop and several input documents on cyber security in various committees.
+
+NOTING:
+
+. that awareness of cyber risk within the IALA domains and among the IALA members may be improved, especially for non-IT personnel;
+. that existing risk management processes often do not include cyber risks;
+. that the risk of unavailability or unreliability of systems due to cyber incidents is often not included in business continuity plans;
+. that there often is insufficient insight into used technology, especially legacy systems, within members environments;
+. that there are many tools, publications, standards, and best practices available to address cyber security vulnerabilities, risky processes, and human behaviours;
+. that specific technologies are used within the IALA domains for which there are no ready-to-use standards or best practices regarding cyber security; and
+. that the process of modernization is often lengthy and resource intensive.
+
+RECOMMENDS:
+
+. to improve cyber security awareness:
+.. within IALA by providing practical technical examples and how such examples can be valuable for members, both in identifying their own cyber risks and in applying mitigation methods; and
+.. within the members organizations by supporting the performance of cyber security functions by all personnel, including management, through appropriate means, which may include policy development, training or exercises.
+. that IALA members develop or update their risk management processes and perform risk assessments where necessary, with prioritization of:
+.. physical safety risks stemming from vulnerabilities in digital systems and data handling;
+.. the estimation of impact, corruption or (accidental/deliberate) loss of critical systems or (corruption of) data following a cyber incident; and
+.. equipment and data receptive to vulnerabilities and cyber attacks.
+. to amend business continuity plans with cyber incident scenarios and mitigations as well as to develop incident response and - recovery plans;
+. that regular inventories be performed, including a risk assessment per (type of) system or technology used, with due consideration to the interconnections with other systems and data sources. Suggested methods are identified in Annex A;
+. to adopt appropriate industry standards for managing cyber risk and/or apply best practices. In particular, the concept of “security by design” should be practiced. Suggestions for appropriate standards and best practices are summarized in Annex A;
+. to implement protective measures or processes for all AtoN services and technologies, including VTS; and
+. that IALA members work towards the goal of ensuring all data in the IALA domain is provided with a means to authenticate the data, thereby allowing the user to determine if data originates from a legitimate source.
+
+INVITES Members and Marine Aids to Navigation authorities to implement the provisions of the Recommendation.
+
+REQUESTS the ARM committee to keep the Recommendation under review and to propose amendments as necessary.

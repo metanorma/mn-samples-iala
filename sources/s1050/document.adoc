@@ -1,0 +1,72 @@
+= Training and Certification
+:doctype: standard
+:series: S
+:docnumber: 1050
+:docidentifier: S1050
+:edition: 2.0
+:language: en
+:published-date: 2023-06
+:copyright-year: 2023
+:mn-document-class: iala
+:mn-output-extensions: xml,html,doc,rxl
+:imagesdir: images
+:local-cache-only:
+:data-uri-image:
+:toclevels: 3
+:urn: urn:mrn:iala:pub:s1050:ed2.0
+
+// COVER (published PDF page 1): "IALA STANDARD", S1050, "TRAINING AND
+// CERTIFICATION", Edition 2.0, June 2023, urn:mrn:iala:pub:s1050:ed2.0, IALA
+// address block (with fax number) and bilingual organization name.
+//
+// APPROVAL PAGE (published PDF page 2, printed before the contents). Captured
+// verbatim below; feeds the missing recital-page and document-history cover
+// XSL templates (I1 catalogue item):
+//
+// THE GENERAL ASSEMBLY
+//
+// BEARING IN MIND the provisions of the United Nations Convention on the Law
+// of the Sea (UNCLOS) and the International Convention for the Safety of Life
+// at Sea (SOLAS),
+//
+// RECOGNIZING that the aim of IALA is to foster the safe, economic and
+// efficient movement of vessels, through improvement and harmonization of
+// Marine Aids to Navigation world-wide,
+//
+// RECALLING article 7 of the IALA Constitution regarding the authority, duties
+// and functions of the General Assembly,
+//
+// RECALLING ALSO that a goal of the work of IALA is that Marine Aids to
+// Navigation are developed and harmonized through international cooperation
+// and the provision of standards as described in the Strategic Vision,
+//
+// HAVING CONSIDERED the advice of the Council provided to General Assembly at
+// its 13th Session,
+//
+// APPROVES the IALA Standard 1050 Training and Certification, and
+//
+// INVITES members and Marine Aids to Navigation authorities world-wide to
+// undertake to implement the provisions of the Standard.
+//
+// Encoding note: the published contents page lists this clause as "ADOPTION OF
+// AND AMENDMENT OF STANDARDS"; the body heading (transcribed here) reads
+// "APPROVAL AND AMENDMENT OF STANDARDS". Unlike S1040, the clause 5 preamble
+// reads "This Standard references normative provisions" (no "and informative
+// provisions") and closes with "There are no informative provisions that
+// should be observed if compliance with this Standard is claimed."
+
+include::sections/01-introduction.adoc[]
+
+include::sections/02-purpose.adoc[]
+
+include::sections/03-application.adoc[]
+
+include::sections/04-scope.adoc[]
+
+include::sections/05-referenced-documents.adoc[]
+
+include::sections/06-supplementary-elements.adoc[]
+
+include::sections/07-approval-and-amendment.adoc[]
+
+include::sections/08-document-history.adoc[]

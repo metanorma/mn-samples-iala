@@ -1,0 +1,15 @@
+== Scope
+
+IALA standards may contain normative and informative provisions.
+
+Normative provisions are those with which it is necessary to conform in order to claim compliance to the Standard.
+
+Informative provisions are those which specify additional desirable practices but with which it is not necessary to conform in order to claim compliance to the Standard.
+
+This Standard references normative provisions, detailed in the listed IALA recommendations, covering the following scope:
+
+S1050.1:: Training and assessment
+
+S1050.2:: Accreditation, competency, certification and revalidation
+
+S1050.3:: Capacity building

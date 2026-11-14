@@ -1,6 +1,10 @@
 metanorma:
   source:
     files:
+      - sources/s1050/document.adoc
+      - sources/s1060/document.adoc
+      - sources/r1023/document.adoc
+      - sources/r1024/document.adoc
       - sources/g1199/document.adoc
 
   collection:

@@ -1,0 +1,56 @@
+= Cyber Security for the IALA Domains
+:doctype: recommendation
+:series: R
+:docnumber: 1024
+:docidentifier: R1024
+:edition: 1.0
+:language: en
+:published-date: 2022-12
+:copyright-year: 2022
+:mn-document-class: iala
+:mn-output-extensions: xml,html,doc,rxl
+:imagesdir: images
+:local-cache-only:
+:data-uri-image:
+:toclevels: 3
+:urn: urn:mrn:iala:pub:r1024:ed1.0
+
+// COVER (published PDF page 1): "IALA RECOMMENDATION" with the "(NORMATIVE)"
+// qualifier, R1024, "CYBER SECURITY FOR THE IALA DOMAINS", Edition 1.0,
+// December 2022, urn:mrn:iala:pub:r1024:ed1.0, IALA address block and
+// bilingual organization name. The running header title reads "IALA
+// Recommendation (Normative) R1024 Cyber Security for the IALA Domains".
+//
+// DOCUMENT REVISION PAGE (published PDF page 2, printed before the recital
+// page). Captured verbatim below; feeds the missing document-history cover XSL
+// template (I1 catalogue item):
+//
+// DOCUMENT REVISION
+// "Revisions to this document are to be noted in the table prior to the issue
+// of a revised document."
+//
+// |===
+// |Date |Details |Approval
+//
+// |December 2022
+// |First issue
+// |Council 76
+// |===
+//
+// Encoding note: the printed document comprises the Council recital page and
+// an "ANNEX A SUGGESTIONS FOR APPROPRIATE STANDARDS AND BEST PRACTICES"
+// preceded by its own "ANNEX CONTENTS" page (a generated contents page, not
+// encoded). The annex is encoded as an appendix section, which Metanorma
+// letters Annex A as printed; its printed clause numbers (1, 2, 2.1-2.3)
+// render as A.1, A.2, A.2.1-A.2.3, and the in-text references to "Annex A"
+// are kept as printed. The printed annex contents types sub-clause 2.3 in
+// lower case ("for the maritime domain"); the typed case is kept. Published
+// typos kept as printed, including the lower-case recital openings ("the
+// function of IALA ..."), "within members environments" (NOTING item 4), the
+// spaced hyphen in "incident response and - recovery plans" (RECOMMENDS item
+// 3), and the lower-case "ARM committee" (REQUESTS). The printed "ready-to-
+// use" line break (NOTING item 6) is rejoined.
+
+include::sections/01-the-council.adoc[]
+
+include::sections/02-annex-a.adoc[]

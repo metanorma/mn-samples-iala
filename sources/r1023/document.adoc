@@ -1,0 +1,47 @@
+= Maritime Resource Names
+:doctype: recommendation
+:series: R
+:docnumber: 1023
+:docidentifier: R1023
+:edition: 1.0
+:language: en
+:published-date: 2022-06
+:copyright-year: 2022
+:mn-document-class: iala
+:mn-output-extensions: xml,html,doc,rxl
+:imagesdir: images
+:local-cache-only:
+:data-uri-image:
+:toclevels: 3
+:urn: urn:mrn:iala:pub:r1023:ed1.0
+
+// COVER (published PDF page 1): "IALA RECOMMENDATION" with the "(NORMATIVE)"
+// qualifier, R1023, "MARITIME RESOURCE NAMES", Edition 1.0, June 2022,
+// urn:mrn:iala:pub:r1023:ed1.0, IALA address block and bilingual organization
+// name. The running header title reads "IALA Recommendation (Normative) R1023
+// maritime resource names" (all lower case; cover title is used here).
+//
+// DOCUMENT REVISION PAGE (published PDF page 2, printed before the recital
+// page). Captured verbatim below; feeds the missing document-history cover XSL
+// template (I1 catalogue item):
+//
+// DOCUMENT REVISION
+// "Revisions to this document are to be noted in the table prior to the issue
+// of a revised document."
+//
+// |===
+// |Date |Details |Approval
+//
+// |June 2022
+// |First issue
+// |Council 75
+// |===
+//
+// Encoding note: the published recommendation carries no numbered clauses, no
+// contents page and no annex: its entire text is the Council recital page,
+// transcribed below as a single section. Published artifacts kept as printed:
+// the INVITES recital ends with a comma (before the REQUESTS recital), the
+// RECOMMENDS items are introduced by "RECOMMENDS that:", and "utilize" and
+// "recognized" appear in their American spellings.
+
+include::sections/01-the-council.adoc[]

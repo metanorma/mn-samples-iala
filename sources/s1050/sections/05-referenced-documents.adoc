@@ -1,0 +1,25 @@
+== Referenced documents
+
+In this Standard, any reference to a recommendation is to the most recent version approved by the IALA Council.
+
+In this Standard the word 'shall' is used to indicate that a provision is normative and is to be followed in order to comply with the Standard. The word 'should' introduces informative provisions.
+
+The following recommendations are normative provisions, and shall be observed if compliance with this Standard is claimed.
+
+|===
+|Scope |Number |Title
+
+|S1050.1 Training and assessment
+|R0141
+|Training and Certification of Marine Aids to Navigation Personnel
+
+|
+|R0103
+|Training and Certification of VTS Personnel
+
+|S1050.2 Accreditation, competency, certification and revalidation
+|R0149
+|Accreditation of Training Organisations
+|===
+
+There are no informative provisions that should be observed if compliance with this Standard is claimed.

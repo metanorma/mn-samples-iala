@@ -1,0 +1,15 @@
+== Scope
+
+IALA standards may contain normative and informative provisions.
+
+Normative provisions are those with which it is necessary to conform in order to claim compliance to the Standard.
+
+Informative provisions are those which specify additional desirable practices but with which it is not necessary to conform in order to claim compliance to the Standard.
+
+This Standard references normative and informative provisions, detailed in the listed IALA recommendations, covering the following scope:
+
+S1060.1:: Wide and medium bandwidth systems
+
+S1060.2:: Narrow bandwidth systems
+
+S1060.3:: Harmonized maritime connectivity

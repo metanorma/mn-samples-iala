@@ -1,0 +1,28 @@
+// The published recommendation carries no numbered clauses: its entire text is
+// the Council recital page, transcribed below as a single section.
+== The Council
+
+RECALLING:
+
+. The function of IALA with respect to Safety of Navigation, the efficiency of maritime transport and the protection of the environment.
+. Article 8 of the IALA Constitution regarding the authority, duties and functions of the Council.
+
+RECOGNIZING:
+
+. The need to develop guidance on Maritime Resource Names (MRN) within IALA’s remit, and as a subset of Uniform Resource Names (URN).
+. The need for IALA to provide Maritime Resource Name domains to other authorities or interested parties for their use.
+. The responsibilities allocated to IALA as the owner of the Maritime Resource Name (MRN) within the URN context.
+. That subsequent domains within the MRN construct have been and will continue to be recognized.
+
+CONSIDERING the proposals of the IALA Aids to Navigation Requirements and Management (ARM) and e-Navigation Information Services and Communications (ENAV) Committees.
+
+ADOPTS the Recommendation on Maritime Resource Names as amplified in IALA Guidelines G1143 on Unique Identifiers for Maritime Resources and G1164 on Management of Maritime Resource Name Organisation Identifiers.
+
+RECOMMENDS that:
+
+. National members and other appropriate authorities providing Marine Aids to Navigation services observe the provisions specified in IALA Guideline G1143; and
+. Authorities wishing to utilize MRN in areas outside of IALA’s remit observe the application procedures outlined in IALA Guideline G1164.
+
+INVITES Members, Marine Aids to Navigation authorities, and other interested parties worldwide to implement the provisions of the Recommendation,
+
+REQUESTS the IALA Aids to Navigation Requirements and Management (ARM) Committee to keep the Recommendation under review and to propose amendments, as necessary.
