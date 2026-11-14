@@ -1,0 +1,136 @@
+== Approaches to remote training
+
+There are different approaches that can be used to support remote training. Efficient use of training tools is essential to an effective training program.
+
+Table 2 provides a comparison of different aspects of training between synchronous, asynchronous, recorded content and in-person training. This comparison considers: timing, interaction, engagement, structure, facilitation needs, flexibility, technology, provision of feedback, assessment, accessibility, options for ‘best use’, strengths and limitations.
+
+Annex A.1 provides approaches to address the challenges when implementing online training.
+
+.Comparison for different approaches to training
+|===
+h|Aspect h|Remote Synchronous (live online) h|Asynchronous (self-paced) h|Recorded Content h|In-Person (Traditional)
+
+| Timing | Real-time, fixed schedule | Anytime, self-paced | Anytime, on demand | Real-time, fixed schedule
+| Interaction | Chat, polls, breakout rooms, whiteboards | Forums, quizzes, peer feedback, instructor follow-up | Minimal unless paired with activities | In person face-to-face, informal exchanges
+| Engagement | Moderate–high, but screen fatigue risk | Moderate, depends on activity design | Low unless supplemented | High — natural energy & presence
+| Structure | Short blocks (60–90 min max at a time), structured schedule | Modular, flexible pacing | Bite-sized clips | May include short or longer blocks
+| Facilitation needs | High — requires online facilitation skills | Low once designed | Very low once recorded | High — classroom management
+| Flexibility | Limited (time zones, bandwidth) | Very high (anytime, any pace) | Very high (on-demand, repeatable) | Limited (location & time dependent)
+| Technology | Stable conferencing tools | Learning Management Systems (LMS) or online platform | Hosting platform, captions | Venue, AV, materials
+| Feedback | Immediate (Q&A, polls) | Delayed (automated or instructor) | None unless linked externally | Immediate, verbal, non-verbal
+| Assessment | Quizzes, group tasks, breakout activities | Online quizzes, assignments | Linked quizzes or worksheets | Role-play, simulations, observed tasks
+| Accessibility | Dependent on internet, devices, time zones | Flexible; design-dependent | Subtitles, transcripts, multi-device | Travel & venue accessibility
+| Best Use | Interactive workshops, discussions, coaching | Knowledge-building, reflection | Scalable explainer content | Hands-on practice, networking
+| Strengths
+a|
+--
+* Real-time engagement
+* Instant feedback
+* Collaboration opportunities
+--
+a|
+--
+* High flexibility
+* Self-paced
+* Good for global learners
+--
+a|
+--
+* Scalable & reusable
+* Consistent quality
+* Easy to update small pieces
+--
+a|
+--
+* Real-time engagement
+* Instant feedback
+* Strong relationship building
+--
+| Limitations
+a|
+--
+* Screen fatigue
+* Time zone barriers
+* Requires strong facilitation
+--
+a|
+--
+* Risk of learner isolation
+* Delayed feedback
+* Challenge for motivation
+--
+a|
+--
+* Low interactivity
+* Passive learning risk
+* Quality depends on design
+--
+a|
+--
+* Logistically demanding
+* Less flexible
+* Resource-intensive
+--
+|===
+
+=== Training tools
+
+The tools available for training in both blended and hybrid environments continue to evolve. Any tools selected should support the objectives as identified in the model courses. The training tools used should reflect the objectives of the training program and be suited to the approach for the training, i.e. synchronous/asynchronous, hybrid or blended learning.
+
+Examples of training tools may include:
+
+* e-learning platforms
+* multi-point audio/video conference
+* multi-point online communication
+* online screen sharing
+* online streaming media, including sharing of video and sound
+* online assessment
+* recording
+* file downloading/uploading
+* email
+* instant messaging
+* file sharing
+* simulation training (cloud based).
+
+Guideline G1027 Simulation in VTS Training provides further guidance on the use of simulation to support VTS training, including the use of cloud based or virtual simulation allowing online and remote training.
+
+=== Adapting existing training for remote training
+
+Adapting existing training to remote training needs to consider the learning objectives. It may be relatively straightforward with ‘like for like’ options, or there may be a requirement to identify more creative responses.
+
+Some possible options for remote training are provided in Table 3.
+
+.Physical training requirements with remote training option
+|===
+h|Physical Training h|Remote Equivalent
+
+| Training space with reference materials | Virtual learning space with reference materials
+| Classroom interaction | Virtual classroom with video and audio feeds
+| Small group discussion/ activities | Breakout room option within the virtual classroom tool
+| Brainstorming activities using whiteboards or flip charts | Whiteboard feature in virtual classroom tool, use of mindmap software shared online
+| Demonstration of information / sharing of ideas using whiteboards or flip chart activities | Collaboration tools in virtual classroom tool e.g. annotate feature / whiteboard
+| Guest lecture/ expert presenters | Guest lecture/ expert presenters
+| Ongoing review of content presented and preparation for tests | Verbal and breakout room review activities, online ‘quizzes’ (e.g. Kahoot, Mentimeter or other quiz software)
+| Student interaction/ sense of being part of a cohort (incidental learning during breaks, after hours) | Creating opportunities for interaction, sharing knowledge and experience in breakout groups, creating online ‘groups’ (e.g. instant messaging groups)
+| Simulated VTS Decision Support Tool | Simulated VTS Decision Support Tool
+| Simulated VHF radio | Simulated VHF radio
+| Simulated telephone lines | Simulated telephone line
+| Time of day activities – adjustable clock in simulator | Time of day activities - adjustable clock app in the simulator
+a|
+--
+Training spaces for:
+
+* VTS Centre
+* Simulation control room
+* Outside world/ Port Team
+--
+a|
+--
+Breakout rooms in virtual classroom for:
+
+* VTS Centre
+* Simulation control room
+* Outside world/ Port Team
+--
+| Peer Monitor (Student as Peer Monitor sits in the simulated VTS centre and monitors the activity, making notes as per Peer Monitor Form) | Peer Monitor (Student as Peer Monitor monitors the activity in the simulated VTS centre, making notes as per Peer Monitor Form)
+|===

@@ -1,0 +1,43 @@
+== Aptitudes for VTS operators
+
+To perform effectively in a VTS role, candidates need to possess a combination of aptitudes and behaviors. These characteristics support the cognitive, emotional and interpersonal demands of the job, particularly in high-pressure, safety-critical environments.
+
+=== aptitudes
+
+An aptitude is defined as the natural capacity to learn or understand; intelligence, sharpness and readiness. A number of aptitudes of VTS operators are listed below. They are ranked from highest to lowest, based on a 2025 questionnaire that identified the aptitudes and behaviors demonstrated by successful VTS operators:
+
+* Situational awareness
+* Decision making
+* Prioritization
+* Ability to detect anomalies
+* Timely action
+* Ability to synthesize information from multiple inputs
+* Spatial reasoning or visualization
+* Multitasking
+* Ability to provide, receive and act upon feedback
+* Ability to cope with stress
+* Ability to recognize patterns
+* Short-term memory recall
+* Numerical reasoning
+* Empathy
+* Critical thinking
+
+=== behaviours
+
+A behaviour is the manner of conducting oneself in the external relations of life; demeanour, deportment, bearing and manners. A number of behaviours of VTS operators are listed below that are also ranked from highest to lowest, based on the questionnaire:
+
+* Responsibility;
+* Ability to remain calm and composed in difficult situations;
+* Sense of duty; understanding the value of their role
+* Ability to maintain attention for extended periods and avoid distraction
+* Teamwork; ability to work effectively with others
+* Initiative and proactivity
+* Ability to maintain focus during periods of low or intermittent activity
+* Honesty and integrity
+* Adaptability and flexibility
+* Ability to be concise
+* Self-motivation; ability to work independently
+* Ability to maintain effectiveness in single-person operations
+* Assertiveness
+* Service or client-oriented mindset
+* Effective communication skills

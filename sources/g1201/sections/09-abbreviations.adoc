@@ -1,0 +1,6 @@
+== Abbreviations
+
+ADDIE:: Analyse, Design, Develop, Implement and Evaluate
+AI:: Artificial Intelligence
+ISD:: Instructional Systems Design
+LMS:: Learning Management System

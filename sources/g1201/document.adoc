@@ -1,0 +1,75 @@
+= Remote Training in VTS
+:doctype: guideline
+:series: G
+:docnumber: 1201
+:docidentifier: G1201
+:edition: 1.0
+:language: en
+:published-date: 2026-06
+:copyright-year: 2026
+:mn-document-class: iala
+:mn-output-extensions: xml,html,doc,rxl
+:imagesdir: images
+:local-cache-only:
+:data-uri-image:
+:toclevels: 3
+:urn: urn:mrn:iala:pub:g1201:ed1.0
+
+// COVER (published PDF page 1): "GUIDELINE", G1201, "ON REMOTE TRAINING IN
+// VTS", Edition 1.0, June 2026, urn:mrn:iala:pub:g1201:ed1.0 (the cover URN
+// matches the corpus convention exactly), IALA address block and bilingual
+// organization name. The running footer title reads "Guideline G1201 on
+// Remote Training in VTS"; the title attribute carries the title without the
+// template connector "ON".
+//
+// DOCUMENT REVISION PAGE (published PDF page 2, printed before the contents).
+// Captured verbatim below; feeds the missing document-history cover XSL
+// template (I1 catalogue item):
+//
+// DOCUMENT REVISION
+// "Revisions to this document are to be noted in the table prior to the issue
+// of a revised document. The latest edition of the Guideline is the only
+// version in force unless the Guideline is explicitly revoked by the Council."
+//
+// |===
+// |Date |Revision Details |Approval
+//
+// |June 2026
+// |Edition 1.0
+// |Council 04
+// |===
+//
+// Encoding note: hand transcription from the published PDF (no Word source).
+// The published contents page misnumbers the delivery-mode definitions as
+// 1.3.1-1.3.4 while the body carries them as 1.2.1-1.2.4, lists "4.1
+// instructional skill sets for traditional and remote learning" in lower case
+// and "6.1 Consideration of teaching methodS"; the body headings are
+// authoritative and are encoded here. Published typos kept as printed,
+// including "knowing the tools being used to training" (clause 4.1) and
+// "environment,i.e." (Table 1). Figure 1 (page 12) is a vector graphic in the
+// PDF; it is reproduced as images/figure-1.png, cropped from a 200 dpi render
+// of the published page. The footnote on page 15 (The Simulation Instructor's
+// Handbook) is encoded as an Asciidoc footnote. Clause 1 carries the
+// delivery-mode definitions under 1.2 per the body numbering.
+
+include::sections/01-introduction.adoc[]
+
+include::sections/02-benefits-and-challenges.adoc[]
+
+include::sections/03-approaches-to-remote-training.adoc[]
+
+include::sections/04-instructor-skill-sets-for-remote-training.adoc[]
+
+include::sections/05-preparing-for-remote-training.adoc[]
+
+include::sections/06-conducting-training.adoc[]
+
+include::sections/07-asynchronous-training-course-design.adoc[]
+
+include::sections/08-definitions.adoc[]
+
+include::sections/09-abbreviations.adoc[]
+
+include::sections/10-references.adoc[]
+
+include::sections/11-annex-a.adoc[]

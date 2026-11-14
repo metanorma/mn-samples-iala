@@ -1,0 +1,46 @@
+= Harmonized Waterway Datasets
+:doctype: recommendation
+:series: R
+:docnumber: 1025
+:docidentifier: R1025
+:edition: 1.0
+:language: en
+:published-date: 2024-12
+:copyright-year: 2024
+:mn-document-class: iala
+:mn-output-extensions: xml,html,doc,rxl
+:imagesdir: images
+:local-cache-only:
+:data-uri-image:
+:toclevels: 3
+:urn: urn:mrn:iala:pub:r1025:ed1.0
+
+// COVER (published PDF page 1): "IALA RECOMMENDATION" with the "(Normative)"
+// qualifier, R1025, "HARMONIZED WATERWAY DATASETS", Edition 1.0, December
+// 2024, urn:mrn:iala:pub:r1025:ed1.0, IALA address block. The running footer
+// title reads "IALA Recommendation R1025 Harmonized Waterway Datasets".
+//
+// DOCUMENT REVISION PAGE (published PDF page 2, printed before the recital
+// page). Captured verbatim below; feeds the missing document-history cover XSL
+// template (I1 catalogue item):
+//
+// DOCUMENT REVISION
+// "Revisions to this document are to be noted in the table prior to the issue
+// of a revised document."
+//
+// |===
+// |Date |Details |Approval
+//
+// |December 2024
+// |1st issue
+// |Transition Council 3
+// |===
+//
+// Encoding note: the published recommendation carries no numbered clauses, no
+// contents page and no annex: its entire text is the Council recital page,
+// transcribed below as a single section. The Council adopts Guideline G1184
+// through this recommendation; the ADOPTS recital spells the adopted title
+// "Harmonized Waterways Datasets" (with "Waterways") while the cover title
+// reads "Harmonized Waterway Datasets"; both are kept as printed.
+
+include::sections/01-the-council.adoc[]

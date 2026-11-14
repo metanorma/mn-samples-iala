@@ -1,0 +1,39 @@
+== Introduction
+
+A major factor in the effective delivery of Vessel Traffic Services (VTS) is the competence of its personnel. VTS personnel should only be considered competent when appropriately trained and qualified. It is recommended that competent authorities and VTS providers implement and establish VTS training and certification in a standardized and harmonized manner in accordance with guidelines and model courses.
+
+Remote training has become a key part of modern education and professional development, offering accessible, flexible learning opportunities that helps VTS personnel stay skilled and maintain competency. It provides an alternative way to deliver training and ensures that all students, regardless of location, are appropriately trained and qualified for their VTS duties.
+
+Advancements in technology, the drive to reduce operational costs and a growing focus on environmental sustainability have also played a significant role in its use.
+
+Remote training also brings challenges which need to be considered when preparing and conducting remote training such as keeping learners engaged, peer-to-peer interactions, maintaining the integrity of assessments and bridging gaps in access to technology.
+
+This guideline is designed to address these issues, providing a framework to create and deliver effective remote training programs in VTS.
+
+=== Purpose
+
+The purpose of this document is to provide guidance to training organisations and VTS providers when preparing and conducting remote training for VTS personnel.
+
+This Guideline is associated with Recommendation R0103 Training and Certification of VTS Personnel, a normative provision of Standard 1050 Training and Certification. To demonstrate compliance with the recommendation the practices described in this guideline should be taken into account.
+
+=== Terms and Definitions
+
+Remote Training is any training interaction where the instructor and student are not in the same physical location, using online or offline methods and tools to achieve learning objectives. It can be delivered synchronously or asynchronously and may take the form of fully remote, blended or hybrid delivery.
+
+For the purpose of this Guideline, the following definitions apply.
+
+==== Synchronous training
+
+Synchronous means ‘at the same time’. Synchronous learning refers to a situation where instructors and students gather at the same time and (virtual or physical) place and interact in ‘real-time‘. For remote synchronous learning the training relies on technology to support real-time interaction.
+
+==== Asynchronous training
+
+Asynchronous means ‘not existing or occurring at the same time’. Asynchronous learning refers to a situation where students access materials independently, regardless of time and place, within a specified timeframe during which the materials are made available.
+
+==== Blended delivery
+
+Blended delivery combines traditional face-to-face instruction with online learning. This approach uses the strengths of both methods to create a flexible and effective learning experience.
+
+==== Hybrid delivery
+
+Hybrid delivery is where participants may be both in a traditional face-to-face classroom situation with some students or instructors online. This can also include online tools to support the learning, such as cloud-based simulation used by students who are physically within the same training environment.
