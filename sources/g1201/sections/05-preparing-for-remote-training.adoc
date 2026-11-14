@@ -1,0 +1,59 @@
+== Preparing for remote training
+
+To prepare both the instructor and the student for the course, pre-course sessions, pre-reading and provision of ‘tools overview’ documents prior to commencing the course should be considered.
+
+=== Preparation for the Instructor
+
+Effective remote VTS training begins with deliberate preparation by the instructor. Learning objectives are the key to effective training and these should be clearly defined and aligned with VTS competencies and tasks, with a realistic assessment of what can be achieved in a remote environment.
+
+Instructors should confirm whether the session is instructor-led synchronous, asynchronous or blended and ensure content is appropriately scoped to avoid excessive cognitive load or unrealistic expectations of learner performance.
+
+As for all training, the instructor should prepare all learning materials in advance, including presentations, recorded content, scenarios and reference materials. Any demonstrations or screen-sharing activities should be rehearsed to ensure smooth delivery and to confirm that sensitive or operational systems are not unintentionally accessed.
+
+Clear session plans, time allocations and interaction points should be established, reflecting a schedule that can manage attention, workload and learner engagement.
+
+Technical and safety considerations are critical. Instructors should test all platforms, audio, video and connectivity in advance and have contingency plans in place for technical failures. Expectations regarding participation, use of cameras and microphones, confidentiality and recording should be communicated clearly at the outset. Instructors should also plan how they will monitor engagement and wellbeing remotely, including scheduled breaks and opportunities for questions, to maintain a safe and effective learning environment.
+
+Instructors should also prepare themselves. This includes ensuring they are technically confident with the delivery platform, mentally prepared to manage dynamic interaction in a remote setting. Consideration should be given to personal workload and fatigue management, particularly during extended or consecutive sessions. Instructors should schedule appropriate breaks, manage cognitive demand and maintain professional presence and energy throughout the training to ensure consistent and effective delivery.
+
+=== Preparation for the Student
+
+Students should prepare for remote VTS training by ensuring they have a suitable learning environment that supports concentration, safety and privacy. This includes a quiet space free from operational distractions, an ergonomically appropriate workstation, with reliable access to the required technology. It is acknowledged that there may be distractions from home life when students join synchronous online training.
+
+Remote training is a formal learning activity. Students need to have dedicated time set aside and clear separation from live operational duties. Remote training in VTS should not be carried out while on an operational watch.
+
+Before the session, students should familiarise themselves with the learning objectives, agenda and any pre-course materials provided. Completing preparatory readings or viewing recordings can help establish a common baseline.
+
+Students should also test their technical setup in advance to minimise disruptions and reduce stress during the training.
+
+Active engagement is an important part of preparation. Students should come prepared to participate in discussions, complete activities and ask questions when clarification is needed. They should be aware of expectations regarding confidentiality, appropriate use of recordings and respectful communication. Taking responsibility for managing personal wellbeing—such as taking breaks, managing screen time and reporting issues that affect learning—supports both individual learning outcomes and the overall effectiveness of remote VTS training.
+
+=== Security
+
+Guideline G1182 on Cyber Security Specifics from an IALA Perspective, provides details on principles and best practices from a cyber security perspective. Elements to consider include:
+
+* system security - Training tools that are used should adhere to relevant usage requirements and internet safety practices, being able to address common cyber threats such as viruses and malware
+* data security - Training tools that are used should support data backup and protection
+* privacy protection - Training tools that are used should ensure that user-generated data when using the platform cannot be accessed by any unauthorized users
+* fault handling - Training tools that are used should include fault handling, such as error logs generation, fault counting and analysing, diagnostic testing, error correction
+
+=== Health and Safety
+
+Health and safety considerations include:
+
+* physical risk – reduced travel and fatigue from commuting and limited exposure to hazardous environments (e.g. operational control rooms, ports, or severe weather travel)
+* wellbeing - participants can train from familiar environments, reducing stress and allowing better rest before and after sessions
+* ergonomic risks - home workstations may not meet ergonomic standards, increasing the risk of musculoskeletal strain during long sessions
+* cognitive fatigue - prolonged screen time, especially for complex VTS concepts, can increase mental fatigue and reduce attention
+
+=== Safe and Effective Learning Environment
+
+A safe and effective learning environment is fundamental to the successful delivery of remote training for VTS. Remote training must support the acquisition of knowledge and skills without introducing additional health, safety, or operational risks to participants. This includes ensuring that learning activities are conducted in conditions that minimize physical strain, manage cognitive workload and protect the wellbeing of VTS personnel, while maintaining clear separation from live operational duties.
+
+Equally important is the creation of a psychologically safe learning environment. Remote delivery can encourage participation by reducing perceived pressure associated with classroom or control-room settings, allowing students to ask questions, test understanding and make errors in a controlled setting. Clear expectations, structured facilitation and appropriate use of realistic examples are essential to ensure that students can engage confidently.
+
+To be effective, remote training must also be deliberately designed to support interaction and engagement. This includes the use of structured discussion, case studies, guided exercises and collaborative tools that promote active participation and situational understanding.
+
+When appropriately designed and supported by suitable technology and instructional practices, remote training can provide a safe, inclusive and effective learning environment.
+
+Annex A provides checklists and points to remember when setting up a remote training environment.

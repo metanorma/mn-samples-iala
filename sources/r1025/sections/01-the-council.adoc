@@ -1,0 +1,22 @@
+== The Council
+
+RECALLING:
+
+. The function of IALA with respect to Safety of Navigation, the efficiency of maritime transport and the protection of the environment.
+. Article 8 of the IALA Constitution regarding the authority, duties and functions of the Council.
+
+RECOGNIZING:
+
+. The need to develop harmonised waterways is to deliver the benefits of e-navigation to all segments of maritime, especially those segments which operate outside the SOLAS domain and are unlikely to adopt S-100 compliant systems.
+. The need to develop syntax and taxonomy to ensure unique and persistent maritime resource names are applied to harmonised waterways features on a global scale.
+. The ability of the International Hydrographic Organization’s S-100 Universal Hydrographic Data Model to improve marine safety information data quality and production efficiency.
+
+CONSIDERING the proposals of the IALA Aids to Navigation Requirements and Management Committee.
+
+ADOPTS the IALA Guideline G1184 Harmonized Waterways Datasets.
+
+RECOMMENDS that National members and other appropriate Authorities providing marine aids to navigation services comply with IALA Guideline G1184.
+
+INVITES Members and marine aids to navigation authorities worldwide to implement the provisions of the Recommendation.
+
+REQUESTS the IALA Aids to Navigation Requirements and Management Committee or such other committee as the Council may direct to keep the Guideline under review and to propose amendments, as necessary.

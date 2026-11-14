@@ -1,0 +1,9 @@
+== Document purpose
+
+The purpose of this document is to provide guidance on the key personal attributes for VTS operators, as well as the methods to assess these qualities during the recruitment process.
+
+It aims to support competent authorities, VTS providers and training organizations in identifying and selecting more suitable candidates who possess the necessary skills, attitudes and competencies to perform effectively in critical maritime environments.
+
+This document is not intended to replace existing national legislation or established hiring practices but to complement them by offering additional considerations for enhancing the selection process.
+
+This Guideline is associated with Recommendation R0103 _Training and Certification of VTS personnel_ [3], a normative provision of Standard S1040 Vessel Traffic Services (VTS). To demonstrate compliance with the Recommendation, the practices of this Guideline should be taken into account.

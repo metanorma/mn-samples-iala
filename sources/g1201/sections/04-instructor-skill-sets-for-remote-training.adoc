@@ -1,0 +1,121 @@
+== Instructor skill sets for remote training
+
+Developing and delivering effective remote training, using blended and hybrid approaches, requires specific skill sets in addition to traditional instructional skill sets. (Figure 1 refers)
+
+A summary of the skill sets is provided in Table 4. This has been developed based on Analyse, Design, Develop, Implement and Evaluate (ADDIE), a standard approach to Instructional Systems Design (ISD).
+
+.Instructor skill sets for remote training
+|===
+h|Element h|Traditional approach h|Remote training approach h|Comments
+
+| Analyse
+a|
+--
+Face to face workshops with VTS providers
+
+Meeting to identify requirements
+
+Training gap analysis based on information provided
+--
+a|
+--
+Online session with VTS providers
+
+Online meeting to identify requirements
+
+Training gap analysis based on information provided
+--
+a|
+--
+All aspects can be completed in a similar manner, using tools available
+
+Gap analysis referring to documents provided, prior learning assessment, etc. has little or no change in approach
+
+Skill set on how to run online meetings and workshops
+--
+| Design | Design training program, with SMART objectives, to address the results of the analysis | Design training program, with SMART objectives, to address the results of the analysis | No change in approach
+| Develop
+a|
+--
+Training activities to address the objectives, focus on in-classroom activities; simulation; group work and presentations
+--
+a|
+--
+Training activities to address the objectives, focus on virtual class activities (synchronous); self- learning/group activities (asynchronous); online breakout group activities; presentations
+--
+| Instructors need to be aware of the tools available, with a skill set to develop effective learning interventions using online tools for both synchronous and asynchronous
+| Implement
+a|
+--
+Instructor in the classroom, managing the students based on the lesson plan
+
+Traditional skills to use tools in the classroom, classroom management techniques
+--
+a|
+--
+Instructor online, or instructor/students in class with others online (hybrid)
+
+Evolve traditional instructional skills, making best use of tools to ensure interaction, confirm learning and manage the class in an online environment
+--
+a|
+--
+Similar skills to implement a learning program
+
+Specific skills to use online tools, manage multiple screens, share screens and sound, effectively use different digital tools to create an effective and interactive learning environment
+--
+| Evaluate
+a|
+--
+Summative and formative evaluations carried out
+
+Summative evaluations with instructor supervising on site
+
+Assignments provided and marked
+
+Formative evaluation based on ongoing assessment of performance
+--
+a|
+--
+Summative and formative evaluations carried out.
+
+Summative evaluations with instructor monitoring remotely, with means to ensure student identity and assessment environment
+
+Assignments provided and marked
+
+Formative evaluation based on ongoing assessment of performance
+--
+a|
+--
+Similar skill sets to evaluate
+
+Specific skills to use online validation tools for summative assessments; online learning management systems for assignment submission/ marking; means to verify participation and ongoing (formative) evaluation
+--
+|===
+
+=== Instructional skill sets for traditional and remote learning
+
+Whether teaching in a traditional face-to-face environment or in a remote learning environment, there are core skill sets for all instructors. The provision of synchronous remote training requires additional skill sets, seeFigure 1.
+
+Traditional instructor skills include:
+
+* knowing the tools being used to training
+* ability to convey information clearly and concisely (communication skills)
+* use of tonal quality when presenting/ Pitch, Pace, Power and Pause
+* maintain instructional energy and learner focus
+* encouraging student interaction
+* time management
+* fatigue management
+* cultural awareness
+
+For online or remote training, in addition to traditional skill sets, some specific skills to support online/remote learning include:
+
+* consciously integrating interactions into online activities using breakout sessions
+* identifying options to encourage interaction by using different tools (e.g. messaging apps, whiteboards, group activities and presentations)
+* demonstrating the ability to use multiple screens when teaching, sharing content both visual and auditory
+* identifying additional, sometimes innovative, approaches to achieving the objectives for training
+* ensuring a strong online ‘presence’ using voice and visual presence to convey enthusiasm and energy
+* ensuring strong understanding of the online tools being used, with the ability to trouble shoot technical problems remotely
+* demonstrating patience with technology, conveying a sense of support even when technology may not work as expected
+
+.Examples of traditional and remote instructor skill sets
+image::figure-1.png[]

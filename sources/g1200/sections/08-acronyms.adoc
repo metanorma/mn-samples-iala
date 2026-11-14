@@ -1,0 +1,6 @@
+== Acronyms
+
+CV:: Curriculum Vitae
+MASS:: Maritime Autonomous Surface Ships
+OJT:: On-the-Job Training
+VTS:: Vessel Traffic Services

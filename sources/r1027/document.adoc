@@ -1,0 +1,64 @@
+= VDE Payload Format Identifiers (VPFI)
+:doctype: recommendation
+:series: R
+:docnumber: 1027
+:docidentifier: R1027
+:edition: 1.1
+:language: en
+:published-date: 2026-06
+:copyright-year: 2026
+:mn-document-class: iala
+:mn-output-extensions: xml,html,doc,rxl
+:imagesdir: images
+:local-cache-only:
+:data-uri-image:
+:toclevels: 3
+:urn: urn:mrn:iala:pub:r1027:ed1.1
+
+// COVER (published PDF page 1): "RECOMMENDATION" with the "(NORMATIVE)"
+// qualifier, R1027, "VDE PAYLOAD FORMAT IDENTIFIERS (VPFI)", Edition 1.1,
+// June 2026, urn:mrn:iala:pub:r1027:ed1.1, IALA address block. The running
+// footer title reads "Recommendation (Normative) R1027 VDE payload Format
+// Identifiers (VPFI)" (with lower-case "payload"; cover title is used here).
+//
+// DOCUMENT REVISION PAGE (published PDF page 2, printed before the recital
+// page). Captured verbatim below; feeds the missing document-history cover XSL
+// template (I1 catalogue item). The revision table records "Edition 1.0" while
+// the cover reads Edition 1.1; both are kept as printed:
+//
+// DOCUMENT REVISION
+// "Revisions to this document are to be noted in the table prior to the issue
+// of a revised document. The latest edition of the Recommendation is the only
+// version in force unless the Recommendation is explicitly revoked by the
+// Council."
+//
+// |===
+// |Date |Revision details |Approval
+//
+// |June 2026
+// |Edition 1.0
+// |Council 04
+// |===
+//
+// Encoding note: the printed document comprises the Council recital page, an
+// unlettered "ANNEX VDE PAYLOAD FORMAT IDENTIFIERS" of three numbered clauses,
+// and an "APPENDIX 1 – UNIQUE IDENTIFIER FOR VDE PAYLOAD FORMATS" carrying the
+// normative payload tables. Metanorma letters annexes automatically, so the
+// printed annex and appendix are encoded as two sibling annexes (Annex A,
+// Annex B): the annex-scoped appendix section type admits only strictly
+// hierarchical clauses (no introductory paragraphs beside subclauses), which
+// the printed appendix clauses require. The printed clause numbers (1 CONTEXT
+// ... 5 ABBREVIATIONS) are conveyed by the heading nesting, and in-text
+// references ("See §4.2", "See Table 4") are kept as printed. Published typos
+// kept as printed, including "Annex Cand D" (clause 1 of the appendix),
+// "Message typoes" (Table 20 caption), the clause 4.3.1 heading "EXT USING
+// UTF-8 ENCODING, ENCRYPTED" (printed as "EXT", cf. Table 16 which names the
+// message "UTF8 encrypted Text Message"; encoded in sentence case with the
+// printed spelling), the broken cross-reference "see Table 13 - VPFI 1 Message
+// formatsTable 13." (Table 14), and "defined inG1192" (Table 21).
+
+include::sections/01-the-council.adoc[]
+
+include::sections/02-annex.adoc[]
+
+include::sections/03-appendix.adoc[]
