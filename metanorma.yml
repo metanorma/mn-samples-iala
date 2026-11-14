@@ -9,6 +9,8 @@ metanorma:
       - sources/s1060/document.adoc
       - sources/r1023/document.adoc
       - sources/r1024/document.adoc
+      - sources/cl-2025-01/document.adoc
+      - sources/cl-2025-02/document.adoc
 
   collection:
     organization: "IALA: International Organization for Marine Aids to Navigation"

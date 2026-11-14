@@ -1,0 +1,49 @@
+= Nomination of Chairs and Vice Chairs of the Committees and Subsidiary Bodies for the Work Period 2025-2027
+:doctype: letter
+:docnumber: 2025/01
+:docidentifier: 2025/01
+:language: en
+:published-date: 2025-01
+:copyright-year: 2025
+:mn-document-class: iala
+:mn-output-extensions: xml,html,doc,rxl
+:imagesdir: images
+:local-cache-only:
+:data-uri-image:
+:toclevels: 3
+
+// COVER (published PDF page 1): IALA letterhead logo, "Circular Letter 2025/01"
+// (bold, right-aligned), "08 January 2025", then the correspondence head
+// "Subject: NOMINATION OF CHAIRS AND VICE CHAIRS OF THE COMMITTEES AND
+// SUBSIDIARY BODIES FOR THE WORK PERIOD 2025-2027" and "To: Member States".
+// The letter is Secretariat correspondence signed by Francis Zachariae,
+// Secretary-General. 2 pages; no attachments/annexes list (the committee
+// list in the body serves that role).
+//
+// IDENTIFIER: the printed form is "Circular Letter 2025/01" — IALA circular
+// letters are numbered YYYY/NN (public archive at iala-aism.org/circular-letters;
+// PDFs also hosted on iala.int, e.g. CL-2025-01, CL-2025-02). This is distinct
+// from the Pubid::Iala "L" Letter series (dotted numbering, e.g. L2.1.11) and
+// unrelated to the C-series (model courses); the circular-letter form is
+// carried in :docnumber:/:docidentifier: as printed, with the "Circular
+// Letter" label conveyed by the letter doctype.
+//
+// URN: the letter prints no MRN/URN (unlike the S/R/G covers), so no :urn:
+// attribute is encoded; none is invented.
+//
+// STRUCTURE: the letter body is correspondence flow, not clause structure.
+// The correspondence head (Subject/To, salutation, opening paragraphs) is
+// carried by an untitled [%unnumbered] section so it is not wrapped as a
+// Foreword preamble; the three run-in underlined headings of the print
+// ("Background", "Committee Chairs and Vice Chairs", "Appointment and
+// procedure") are encoded as [%unnumbered] sections (the print carries no
+// clause numbers). The committee list is kept as printed paragraphs with hard
+// line breaks (the print indents the Chair/Vice Chair lines; the indentation
+// is a presentation concern left to the XSL). The quoted General Regulations
+// text is encoded as the printed quotation. The Secretary-General's signature
+// graphic is extracted from printed PDF page 2 (images/signature-zachariae.png).
+// Published typos kept as printed, including "some of the existing Chairs and
+// Vice Chairs is eligible for reappointment" and the missing colon after
+// "Policy Advisory Panel (PAP)".
+
+include::sections/01-letter.adoc[]

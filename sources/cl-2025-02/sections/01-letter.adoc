@@ -1,0 +1,152 @@
+[%unnumbered]
+== {blank}
+
+Subject: *Outcome of the 3^rd^ session of the IALA Transition Council*
+
+To: IALA members
+
+Dear IALA member,
+
+The 3^rd^ session of the Transition Council meeting was held from 10 to 13 December 2024 at the IALA headquarters in France and by video conference.
+
+This meeting was the last before the 1^st^ General Assembly of the new organization. After addressing the usual items, the Council noted the financial impacts, agreed on the 2025 budget and agreed the Resolutions as drafted in Annex TC03-9.3.
+
+The Council noted the membership situation status and agreed on the following membership rates which will be submitted for approval to the 1^st^ General Assembly in 2025 in Singapore:
+
+|===
+|IALA MEMBERS |2025 |2026 |2027
+
+|Member States |€19,680 |€25,000 |€25,000
+|Associate members |€19,680 |€20,860 |€22,200
+|Affiliate Industrial members |€6,730 |€6,870 |€7,000
+|Affiliate members |€3,250 |€3,320 |€3,380
+|===
+
+The Council agreed on the three-year outline budget 2025-2026-2027.
+
+Following recommendations from the FAC, the Council approved the financial arrangements for the relocation project specifically a maximum financial liability to IALA of €2 million consisting of the sale of the building and reserves.
+
+The Council approved :
+
+* *The* revised Committee work programme for 2023-2027;
+* the revised R0132 on Quality Management for Marine AtoN Authorities, Ed3.0;
+* the new Recommendation on Harmonized waterways datasets, Ed1.0;
+* the new Guideline on Harmonized waterways datasets, Ed1.0;
+* the new Guideline on Enhancing the safety and efficiency of navigation around offshore renewable energy installations (OREI), Ed1.0;
+* the revised G1077 on Developing maintenance strategy for Aids to Navigation, Ed2.0;
+* the revised G1158 on VDES R-Mode, Ed2.0;
+* the revised G1175 on Operation and Management AtoN in extreme environmental conditions, Ed2.0 and withdraw the documents G1108 on the challenges of providing AtoN services in polar regions, Ed1.1 and G1136 on providing AtoN services in extremely hot and humid climates, Ed1.1;
+* the new Guideline on overview of a floating AtoN, Ed1.0;
+* the new Guideline on Medium Frequency R-Mode signal structure and navigation message, Ed1.0 ;
+* the new draft Guideline on quality management practices for VTS providers, Ed1.0;
+* the revised G1128 on Specification of e-Navigation Technical Services, Ed1.6 ;
+* the revised G1183 on Provision of MCP identities, Ed1.1;
+* the workshop proposal on IMT for Marine Aids to Navigation.
+* the revised document on Maritime Radio Communication (MarCom) Manual, Ed1.0;
+* the information provided on CIE Research Group on Cone fundamentals;
+* the liaison note on the use of S-200 for VTS and its submission to the IHO S-100WG;
+* the information paper on Enhanced radar positioning systems to IMO NCSR;
+* the liaison note on draft revision of ITU-R M.1371-5 Technical characteristics for AIS to ITU-R WP5B;
+* the working document towards a preliminary draft revision of Recommendation ITU-R M.2092-1 VDES;
+* the liaison note to ITU-R WP5D on use cases and service requirements of Marine AtoN.
+
+The Council decided to send the new Guideline on VTS interaction with a mix of conventional, automated and autonomous ships back to VTS committee and then PAP, MASS Task Force for further review.
+
+The Council agreed to submit the papers to the General Assembly and to have the WATON Day 2025 main event in London, UK.
+
+The Council selected the Lingao Lighthouse, China, as the Heritage Lighthouse of the year 2025.
+
+The Council approved National membership in the Association to be transferred as Associate in the IGO:
+
+* Libyan Ports & Maritime Transport Authority, _Libya_
+
+The Council approved Affiliate Industrial membership for:
+
+* Navtec S. A, _Argentina_
+* American Consulting Group S.A, _Argentina_
+* Aurora Control Inc, _Canada_
+* Chengdu Dixin Technology Co., Ltd, _People's Republic of China_
+* Whenzou Weixun Technology Co. Ltd., _People's Republic of China_
+* SabetoFlex, _Denmark_
+* Sea Marine Technology M.S, _Venezuela_
+
+The Council approved Affiliate membership for:
+
+* Japan Ship Technology Research Association, _Japan_
+
+The Council agreed Honorary membership to:
+
+Council members/former Council members:
+
+* Dipl. Eng. Christian Forst
+* Capt. Ian McNaught
+* Cdre Mike Bullock
+* RAdm Piero Pellizzari
+* Mr. Jacques Manchard
+
+Committee Chairs/Vice Chairs:
+
+* Mr. Hideki Noguchi
+* Monica Sundklev
+* R. David Lewald
+* Jorge Arroyo
+
+Others:
+
+* Mr. Paul Ridgway
+* Mr. Gilbert Audurier
+
+The Council noted the resignations from:
+
+* Jiangsu Koropp, _People's Republic of China (Industrial membership)_
+* Horizonte AS, Norway _((Industrial membership)_
+* Fédération Francaise des Pilotes Maritimes, _France (Associate membership)_
+* Finnish Transport and Communication Agency, _Finland (Associate membership)_
+* Swedish Transport Agency, _Sweden (Associate membership)_
+
+The Council noted the following changes:
+
+* Spartan Maritime (M), _Malaysia_ changed its name to Lync Lab Sdn Bhd.
+* Sarawak Marine Department, _Malaysia_ changed its name to Sarawak Buoys and Light Board.
+* Direction Générale de la Marine Marchande, _Rep of Congo_. Their membership was about to be proposed for termination for non-payment, but IALA received copies of their ratification on December 9, 2024. They therefore remain a member of IALA.
+
+The Council noted reinstatement of membership for the following members who had been suspended by Council 80 but who had settled their debts, as a reaction to the exceptional measure taken by the Secretary-General to waive the contributions in arrears to members who pay the 2024 contribution before the end of the year:
+
+* Woori Haeyang, _Rep of Korea_
+* STC B.V, _the Netherlands_
+* Navmoor Limited, _the United Kingdom_
+
+The Council also decided to suspend the rights of participation in IALA Committees in 2025 for all the organizations that will not meet their financial obligations consecutively to the Secretary-General's exceptional measure.
+
+Terminate National membership for:
+
+* Office National de Signalisation Maritime, _Algeria_
+* Instituto Hidrografico de Sinalizaçao Maritima, _Angola_
+* Nigerian Ports Authority, _Nigeria_
+* Service National de la Signalisation Maritime, _Gabon_
+
+Terminate Industrial membership for:
+
+* Beijing Caton Global Technology Co. ltd, _People's Republic of China_
+* Shanghai Space Earth Net Information, Technology Co., Ltd., _People's Republic of China_
+* Safe Sea Services FZCO, _The United Arab Emirates_
+* Tridel Technologies Private Ltd., _India_
+* BC Cuerpo Construction Corporation, _Philippines_
+* Tecotrex Welding Marine, _Qatar_
+
+Terminate Associate membership for:
+
+* Port Autonome de San Pedro, _Côte d'Ivoire_
+* TWL Logistics Ltd., _Papua New Guinea_
+* Rosmorport, _Russia_
+* Instituto Nacional de Canalizaciones, _Venezuela_
+
+The full report is available at https://www.iala.int/meetings/3-9/ . New publications can be found on the website https://www.iala.int/guidance-publications/search-in-publications/ .
+
+Yours sincerely,
+
+image::signature-zachariae.png[]
+
+Francis Zachariae
+
+Secretary-General
