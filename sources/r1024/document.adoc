@@ -15,41 +15,59 @@
 :urn: urn:mrn:iala:pub:r1024:ed1.0
 
 // COVER (published PDF page 1): "IALA RECOMMENDATION" with the "(NORMATIVE)"
-// qualifier, R1024, "CYBER SECURITY FOR THE IALA DOMAINS", Edition 1.0,
-// December 2022, urn:mrn:iala:pub:r1024:ed1.0, IALA address block and
-// bilingual organization name. The running header title reads "IALA
-// Recommendation (Normative) R1024 Cyber Security for the IALA Domains".
+// qualifier printed as the second banner line, R1024, "CYBER SECURITY FOR THE
+// IALA DOMAINS", Edition 1.0, December 2022, urn:mrn:iala:pub:r1024:ed1.0,
+// IALA address block and bilingual organization name. The running footer
+// title reads "IALA Recommendation (Normative) R1024 Cyber Security for the
+// IALA Domains" (sentence-cased qualifier); carried by the normativity
+// clause below. The printed cover also carries an invisible (white-on-white)
+// "RECOMMENDATION" text line above the banner, a design artifact of the
+// published file that is not transcribed.
 //
 // DOCUMENT REVISION PAGE (published PDF page 2, printed before the recital
-// page). Captured verbatim below; feeds the missing document-history cover XSL
-// template (I1 catalogue item):
-//
-// DOCUMENT REVISION
-// "Revisions to this document are to be noted in the table prior to the issue
-// of a revised document."
-//
-// |===
-// |Date |Details |Approval
-//
-// |December 2022
-// |First issue
-// |Council 76
-// |===
-//
+// page): encoded below as a real revision clause, exactly as printed.
+
+[preface,type=normativity]
+== Normativity
+
+(NORMATIVE)
+
+[type=revision]
+== Document revision
+
+Revisions to this document are to be noted in the table prior to the issue of a revised document.
+
+|===
+|Date |Details |Approval
+
+|December 2022
+|First issue
+|Council 76
+|===
+
 // Encoding note: the printed document comprises the Council recital page and
 // an "ANNEX A SUGGESTIONS FOR APPROPRIATE STANDARDS AND BEST PRACTICES"
-// preceded by its own "ANNEX CONTENTS" page (a generated contents page, not
-// encoded). The annex is encoded as an appendix section, which Metanorma
-// letters Annex A as printed; its printed clause numbers (1, 2, 2.1-2.3)
-// render as A.1, A.2, A.2.1-A.2.3, and the in-text references to "Annex A"
-// are kept as printed. The printed annex contents types sub-clause 2.3 in
-// lower case ("for the maritime domain"); the typed case is kept. Published
-// typos kept as printed, including the lower-case recital openings ("the
-// function of IALA ..."), "within members environments" (NOTING item 4), the
-// spaced hyphen in "incident response and - recovery plans" (RECOMMENDS item
-// 3), and the lower-case "ARM committee" (REQUESTS). The printed "ready-to-
-// use" line break (NOTING item 6) is rejoined.
+// preceded by its own "ANNEX CONTENTS" page. The annex contents page is
+// encoded as a real clause (typed annex-contents) ahead of the annex; its
+// entry list and page references render from the annex headings as printed.
+// The annex is encoded as an appendix section, which Metanorma letters Annex
+// A as printed; its printed clause numbers (1., 2., 2.1.-2.3.) are carried by
+// the heading nesting, and the in-text references to "Annex A" are kept as
+// printed. The printed annex contents types sub-clause 2.3 in lower case
+// ("for the maritime domain"); the typed case is kept. Published typos kept
+// as printed, including the lower-case recital openings ("the function of
+// IALA ..."), "within members environments" (NOTING item 4), the spaced
+// hyphen in "incident response and - recovery plans" (RECOMMENDS item 3),
+// and the lower-case "ARM committee" (REQUESTS). The printed "ready-to-use"
+// line break (NOTING item 6) is rejoined.
 
 include::sections/01-the-council.adoc[]
+
+// ANNEX CONTENTS page (published PDF page 5, printed between the recital
+// page and the annex): a generated contents page for the annex, encoded as
+// its own typed clause; the entry list renders from the annex headings.
+
+[type=annex-contents]
+== Annex contents
 
 include::sections/02-annex-a.adoc[]
