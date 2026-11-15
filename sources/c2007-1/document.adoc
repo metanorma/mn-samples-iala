@@ -1,4 +1,8 @@
-= Aids to Navigation - Technician Training Radar Beacons (Racon) Maintenance
+= Aids to Navigation - Technician Training
+// :title-subtitle-en: maps to bibdata title[@type="subtitle"] (cf.
+// title_other in the front-title mapping), which the cover prints as
+// the second title line and the running footer joins to the docidentifier.
+:presentation-metadata-cover-subtitle: Radar Beacons (Racon) Maintenance
 :doctype: model-course
 :series: C
 // docnumber carries the part suffix (C2007-1) as a single attribute; the
@@ -28,40 +32,29 @@
 // urn urn:mrn:iala:pub:c2007-1:ed3.0, title "AIDS TO NAVIGATION -
 // TECHNICIAN TRAINING RADAR BEACONS (RACON) MAINTENANCE".
 //
-// COVER (published PDF page 1): "IALA MODEL COURSE", C2007-1, "AIDS TO
-// NAVIGATION - TECHNICIAN TRAINING / RADAR BEACONS (RACON) MAINTENANCE"
-// (one title printed over two lines), Edition 3.0, December 2021, IALA
-// address block (10, rue des Gaudines – 78100 Saint Germaine en Laye, France
-// with academy@iala-aism.org) and bilingual organization name. The cover
-// line where other C-series covers print the URN instead renders the
-// unresolved Word field text "Erreur ! Référence non valide pour un signet."
-// ("Error! Bookmark not valid."); the same broken field appears in the
-// running footer of every page after "Edition 3.0". The published PDF
-// therefore prints no URN anywhere; the :urn: above follows the
-// relaton-data-iala record. The French error text is a publication defect,
-// flagged to the secretariat in the PR.
+// TITLE: the printed cover carries the title over two lines - "AIDS TO
+// NAVIGATION - TECHNICIAN TRAINING" / "RADAR BEACONS (RACON) MAINTENANCE" -
+// and the running footer joins the docidentifier with the second line
+// ("IALA Model Course C2007-1 – Radar Beacons (Racon) Maintenance"). The
+// title/subtitle pair encodes the two printed lines; the catalogue title
+// remains the concatenation of both.
+//
+// COVER (published PDF page 1): "IALA MODEL COURSE", C2007-1, the two-line
+// title, Edition 3.0, December 2021, IALA address block (10, rue des
+// Gaudines – 78100 Saint Germaine en Laye, France with academy@iala-aism.org)
+// and bilingual organization name. The cover line where other C-series
+// covers print the URN instead renders the unresolved Word field text
+// "Erreur ! Référence non valide pour un signet." ("Error! Bookmark not
+// valid."); the same broken field appears in the running footer of every
+// page after "Edition 3.0". The published PDF therefore prints no URN
+// anywhere; the :urn: above follows the relaton-data-iala record and the
+// field defect is not reproduced. The French error text is a publication
+// defect, flagged to the secretariat in the PR.
 //
 // DOCUMENT REVISION PAGE (published PDF page 2, printed before the contents).
-// Captured verbatim below; feeds the missing document-history cover XSL
-// template (I1 catalogue item). The table carries four empty trailing rows
-// (spare rows for future revisions), not transcribed; unlike G1195 the
-// table has no Approval column:
-//
-// DOCUMENT REVISION
-// "Revisions to this IALA Document are to be noted in the table prior to the
-// issue of a revised document."
-//
-// |===
-// |Date |Page / Section Revised |Requirement for Revision
-//
-// |June 2016
-// |Pages 3 & 6
-// |Minor text amendments and update of Teaching Modules
-//
-// |December 2021
-// |Entire document
-// |Review of content
-// |===
+// Encoded as a real revision clause so the PDF renders the printed
+// Date / Page / Section Revised / Requirement for Revision table verbatim
+// (the four spare empty rows are added by the stylesheet padding).
 //
 // FOREWORD (published PDF page 5): carries the IALA-AISM address block for
 // the IALA World-Wide Academy laid out as a two-column contact block
@@ -73,12 +66,37 @@
 // craft and buoy tenders model course, not corrected for this Racon
 // maintenance course. Flagged to the secretariat in the PR.
 //
-// STRUCTURE: the published document numbers its clauses 1-8 within
-// "PART 1 - COURSE OVERVIEW" and restarts at 1 for the five modules within
-// "PART 2 – TEACHING MODULES". Following the C0103-1 precedent, the part
-// dividers are encoded as level-1 clauses and the published hierarchy nests
-// beneath them (Part 1 clauses at level 2, Part 2 modules at level 2 with
-// module sub-clauses at levels 3-4 and lessons at level 5).
+// STRUCTURE: the published document prints "PART 1 - COURSE OVERVIEW" and
+// "PART 2 – TEACHING MODULES" as unnumbered part dividers, numbers the
+// Part 1 clauses 1-8, and restarts at 1 for the five modules within
+// Part 2 (module sub-clauses 1.1-1.3, lessons 1.3.1-1.3.3). Following the
+// C0103-1 precedent, the part dividers are encoded as level-1 clauses and
+// the published hierarchy nests beneath them (Part 1 clauses at level 2,
+// Part 2 modules at level 2 with module sub-clauses at levels 3-4 and
+// lessons at level 5); the stylesheet drops the part segment of the
+// clause numbers so the rendering matches the print.
+
+// DOCUMENT REVISION
+// [preface] keeps the clause in the preface flow: the revision page
+// prints before the contents and out of the body clause numbering.
+[type=revision]
+[preface]
+== Document revision
+
+Revisions to this IALA Document are to be noted in the table prior to the issue of a revised document.
+
+|===
+|Date |Page / Section Revised |Requirement for Revision
+
+|June 2016
+|Pages 3 & 6
+|Minor text amendments and update of Teaching Modules
+
+|December 2021
+|Entire document
+|Review of content
+|===
+
 
 include::sections/01-foreword.adoc[]
 

@@ -10,7 +10,11 @@
 :imagesdir: images
 :local-cache-only:
 :data-uri-image:
-:toclevels: 3
+:toclevels: 4
+// the printed Contents carries level 2-4 entries ("1.1 General" through
+// "3.3.3.1 Digital Selective Calling") but no level-1 entries; the
+// rendering stylesheet drops the level-1 and annex-title entries for
+// manuals, and needs the fourth level on board to show the depth-4 ones.
 :urn: urn:mrn:iala:pub:maritime-radio-communications-plan:ed3.0
 
 // SOURCE: reference-docs/manuals-plans/IALA-Maritime-Radio-Communications-Plan-MRCP-Ed-3_Dec2017.pdf
@@ -47,9 +51,11 @@
 //
 // DOCUMENT HISTORY (published PDF page 2, printed before the contents).
 // Encoded as a real revision clause so the PDF renders the printed
-// Date / Details / Approval table verbatim.
-
-[type=revision]
+// Date / Details / Approval table verbatim. The [preface] role places the
+// clause in the preface collection (it takes no clause number there, and
+// the body numbering starts at 1. Introduction as printed); the rendering
+// stylesheet re-anchors it ahead of the Contents.
+[preface,type=revision]
 == Document history
 
 |===
@@ -60,16 +66,16 @@
 a|Council 46
 
 |December 2012
-|Entire document
-a|General revision to update terminology;
-Sections 3.4.3 (VHF) and 4 (securing spectrum);
-Changes to status of e-navigation and maturing communications concepts;
+a|Entire document
+General revision to update terminology +
+Sections 3.4.3 (VHF) and 4 (securing spectrum) +
+Changes to status of e-navigation and maturing communications concepts +
 Outcomes of WRC-12 / preparation for WRC-15
 a|Council 54
 
 |December 2017
-|Entire document
-a|General revision to reflect outcomes of WRC-15 / preparation for WRC-19
+a|Entire document
+General revision to reflect outcomes of WRC-15 / preparation for WRC-19
 a|Council 65
 |===
 //

@@ -1,3 +1,9 @@
+// The published document numbers the Introduction as clause 1; the
+// title-based classification would keep it unnumbered in the preface,
+// shifting every body number by one. Pin the classification with
+// [heading=clause] (cf. the mrcp and cyber-workshop-report encoding)
+// so the numbering matches the print (1. INTRODUCTION ... 8. SKILLS).
+[heading=clause]
 == Introduction
 
 The use of standard messaging structure and phrases when interacting with participating ships is essential for Vessel Traffic Services (VTS) to ensure clear, concise, and unambiguous communications and minimize potential misunderstanding of the intent of messages and reduce the time required for effective communication.

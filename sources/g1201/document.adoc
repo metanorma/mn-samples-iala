@@ -1,4 +1,4 @@
-= Remote Training in VTS
+= on Remote Training in VTS
 :doctype: guideline
 :series: G
 :docnumber: 1201
@@ -18,25 +18,26 @@
 // VTS", Edition 1.0, June 2026, urn:mrn:iala:pub:g1201:ed1.0 (the cover URN
 // matches the corpus convention exactly), IALA address block and bilingual
 // organization name. The running footer title reads "Guideline G1201 on
-// Remote Training in VTS"; the title attribute carries the title without the
-// template connector "ON".
+// Remote Training in VTS"; the title carries the printed connector "ON"
+// (rendered in capitals on the cover).
 //
 // DOCUMENT REVISION PAGE (published PDF page 2, printed before the contents).
-// Captured verbatim below; feeds the missing document-history cover XSL
-// template (I1 catalogue item):
-//
-// DOCUMENT REVISION
-// "Revisions to this document are to be noted in the table prior to the issue
-// of a revised document. The latest edition of the Guideline is the only
-// version in force unless the Guideline is explicitly revoked by the Council."
-//
-// |===
-// |Date |Revision Details |Approval
-//
-// |June 2026
-// |Edition 1.0
-// |Council 04
-// |===
+// Encoded as a real revision clause so the PDF renders the printed
+// Date / Revision Details / Approval table verbatim.
+
+[type=revision]
+== Document revision
+
+Revisions to this document are to be noted in the table prior to the issue of a revised document. The latest edition of the Guideline is the only version in force unless the Guideline is explicitly revoked by the Council.
+
+[%unnumbered]
+|===
+|Date |Revision Details |Approval
+
+|June 2026
+|Edition 1.0
+|Council 04
+|===
 //
 // Encoding note: hand transcription from the published PDF (no Word source).
 // The published contents page misnumbers the delivery-mode definitions as

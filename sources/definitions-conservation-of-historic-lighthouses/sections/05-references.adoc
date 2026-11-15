@@ -1,3 +1,8 @@
+// A top-level clause titled "References" is classified as the
+// bibliography and hoisted out of the section flow; the published
+// leaflet prints it as body clause 5. [heading=clause] pins the
+// classification.
+[heading=clause]
 == References
 
 // The printed references are a numbered list (1-5); the trailing period of

@@ -24,20 +24,25 @@
 // urn:mrn:iala:pub:g1195:ed1.0.
 //
 // DOCUMENT REVISION PAGE (published PDF page 2, printed before the contents).
-// Captured verbatim below; feeds the missing document-history cover XSL
-// template (I1 catalogue item):
-//
-// DOCUMENT REVISION
-// "Revisions to this document are to be noted in the table prior to the issue
-// of a revised document."
-//
-// |===
-// |Date |Details |Approval
-//
-// |Dec 2025
-// |First edition
-// |Council 03
-// |===
+// Encoded as a real revision clause so the PDF renders the printed
+// Date / Details / Approval table verbatim (the spare empty rows are
+// added by the stylesheet padding).
+
+// [preface] keeps the clause in the preface flow: the revision page
+// prints before the contents and out of the body clause numbering.
+[type=revision]
+[preface]
+== Document revision
+
+Revisions to this document are to be noted in the table prior to the issue of a revised document.
+
+|===
+|Date |Details |Approval
+
+|Dec 2025
+|First edition
+|Council 03
+|===
 //
 // PAGE SEQUENCE: Annex A (Reference Level Descriptors) is printed on landscape
 // A4 pages 21-25 as full-width single pages (no two-up spread); its table is
