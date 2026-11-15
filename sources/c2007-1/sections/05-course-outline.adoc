@@ -6,7 +6,9 @@ The required standard of competence is considered to be the level of proficiency
 
 This Model Course is focussed at the satisfactory level of competence.
 
-.Table 1 - Levels of Competence
+// The printed caption prints "Table 1 Levels of Competence"; the flat
+// table numbering is applied by the stylesheet.
+.Levels of Competence
 |===
 |Competence Level |Learning Outcome |Instructional Objectives |Required skills
 

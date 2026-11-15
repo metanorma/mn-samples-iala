@@ -1,3 +1,8 @@
+// The published leaflet numbers the Introduction as body clause 1;
+// the title-based classification would keep it unnumbered in the
+// preface. Pin the classification with [heading=clause] (cf. the mrcp
+// and cyber-workshop-report encoding).
+[heading=clause]
 == Introduction
 
 === Purpose

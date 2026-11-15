@@ -1,3 +1,8 @@
+// The title-based classification would absorb a clause titled
+// "Definitions" into the auto-generated terms section; the published
+// leaflet prints it as body clause 2. [heading=clause] pins the
+// classification.
+[heading=clause]
 == Definitions
 
 // The printed entries separate the term from the definition with a spaced

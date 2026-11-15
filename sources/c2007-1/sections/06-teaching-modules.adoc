@@ -4,7 +4,9 @@
 // the page break); encoded as one table. The printed "Evaluation" row has
 // an empty Overview cell, and the closing "Total Hours" row prints
 // "9.5" over "1.5 day course" in the Overview column.
-.Table 2 - Table of Teaching Modules
+// The printed caption prints "Table 2 Table of Teaching Modules"; the
+// flat table numbering is applied by the stylesheet.
+.Table of Teaching Modules
 |===
 |Module Title |Time in hours |Overview
 
