@@ -1,0 +1,3 @@
+=== Objective
+
+Upon successful completion of this course, participants will have acquired sufficient knowledge and skill to install and maintain Racons within their organizations.

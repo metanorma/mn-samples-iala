@@ -1,0 +1,26 @@
+== Document purpose
+
+The purpose of this guideline is to provide a framework to assess the competency of VTS operators in the use of standard messaging structure and phrases to:
+
+* Facilitate clear, concise, and unambiguous VTS communications that are timely and effective; and
+* Minimize misunderstanding of the intent of messages and reduce the time required for effective VTS communication.
+
+The Guideline may assist:
+
+* VTS providers to monitor that VTS operators continue to conform with the practices for VTS communications as outlined in IMO SMCP and IALA G1132. This framework may be incorporated into periodic performance assessments, On-the-Job and revalidation training programmes to assess competency with standard message structure and phrases; and
+* VTS training organizations to assess the competency of how students use standard messaging structure and phrases in the delivery of model courses.
+
+This Guideline is associated with IALA Recommendation R1012 VTS Communications, which is a normative provision of IALA Standard S1040 Vessel Traffic Services, and shall be observed if compliance with this Standard is claimed. To demonstrate compliance with the Recommendation, the practices described in the Guideline should be taken into account.
+
+=== Relationship to key documents
+
+This Guidance should be read in conjunction with:
+
+* IALA Recommendation R1012 VTS Communications
+* IALA G1132 VTS Voice Communications and Phraseology
+* IALA G1141 Operational Procedures for Delivering VTS
+* IALA G1089 Provision of a VTS
+* IMO A.918(22) Standard Marine Communication Phrases (SMCP)
+* IMO A.954(23) Proper Use of VHF Channels at Sea
+* ITU publication Radio Regulations Volume 1 (2020) Chapter VII - Distress and Safety Communications.
+* National procedures or documents on the use of VTS Communications

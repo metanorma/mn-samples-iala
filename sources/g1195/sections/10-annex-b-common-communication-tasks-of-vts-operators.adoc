@@ -1,0 +1,127 @@
+[appendix]
+== Common communication tasks of VTS operators
+
+These are some communication and interaction activities that VTS operators regularly complete:
+
+// The printed table spans published PDF pages 26-27 (the header row repeats
+// on page 27 and the "Vessels at anchor" row breaks across the page break);
+// encoded as one table. Bullet levels follow the printed minus/o markers.
+|===
+|Situations |Details
+
+|Pre-arrival information
+a|
+* Receive pre-arrival information from ship
+* Request any outstanding information from ship / allied services (e.g. agents) to ensure compliance with reporting requirements
+* Provide arrival instructions
+* Inform allied services/pilotage providers of ships intended arrival
+
+|Vessels entering VTS area
+a|
+* Receive entry report from ship with route or passage plan information
+* Query if the ship has any defects or deficiencies, such as navigation or manoeuvring equipment failure
+* Inform of relevant traffic and navigational information
+* Inform of berthing/anchorage details
+* Inform of pilotage requirements
+* Provide instructions not to proceed past pilot boarding grounds without pilot
+* Receive /acknowledge notification of pilot onboard
+
+|Monitor and manage vessels in the VTS area
+a|
+* Inform of relevant traffic and navigational information
+* Inform ship with other requested information
+* Receive / acknowledge notification of pilotage movements (e.g. onboard/disembark)
+* Inform of activities that may interfere with the flow of ship traffic such as nautical activities (e.g. sailing regattas) or marine works in-progress (such as dredging, submarine cable-laying)
+* Provide permission to conduct special activities (e.g. hot works, lifeboat drills, deck wash)
+* Provide instructions to organize traffic:
+** To prioritize and forward plan the sequence of movements in the VTS area (e.g. departure from berth, ships transporting special cargo)
+** To keep clear of special areas, ships, or positions
+** When a ship has passed a point of no return
+** When establishing ship safety or exclusion zones
+* Provide instructions to ensure speed limits are observed
+* Provide instructions to ensure compliance with the regulatory provisions
+
+|Responding to developing unsafe situations
+a|
+* Query ship on their intentions (e.g. deviation from standard route etc.)
+* Assist a ship:
+** That has defects or deficiencies, such as navigation or manoeuvring equipment failure.
+** With navigational information (e.g. navigating to an anchoring position/ channel/ fairway/ lane, proximity to navigational hazards, providing with range and bearing)
+** Unsure of its route or position
+** To support the unexpected incapacity of a key member of the bridge team
+* Provide advice/ warning/ instruction to a ship
+** They are deviating from the planned or recommended route towards shallow water, dangerous wrecks or other obstacles not otherwise promulgated
+** Are at risk of grounding or collision
+** To alter the course, speed
+** To close up/drop back on/from another ship
+** To keep clear from area/position
+* Inform of meteorological conditions (e.g. low visibility, strong winds)
+* Assist in emergency response or support to emergency services
+
+|Vessels at anchor
+a|
+* Provide instruction to anchor in a nominated position/specified location
+* Provide advice/ warning/ instruction not to anchor in a nominated position/specified location
+* Request ship to report when ship is at anchor
+* Assist ships into anchorage position
+* Request ship to weigh or heave up anchor at a specified time / report to VTS
+* Receive permission to proceed request when ship is ready to leave anchorage
+* Provide / Deny permission for a ship to proceed from anchorage
+* Request ship to report when the anchor is clear of the water and underway
+* Inform of relevant traffic and navigational information to the ship prior to departure
+* Advise ship they are dragging anchor and request to check position of its anchor
+* Information exchange/update with allied services
+
+|Vessels at berth
+a|
+* Inform of reporting requirements and restrictions while at berth
+* Request ship to report at a specified time before departing
+* Receive permission to proceed request when ship is ready to depart a berth
+* Provide / Deny permission for a ship to depart a berth
+* Request ship to report when ship has singled up, or last line has been let go
+* Inform of relevant traffic and navigational information to the ship prior to departure
+* Information exchange/update with allied services
+
+|Vessels departing the VTS area
+a|
+* Receive exit report from ship
+* Inform / remind of reporting requirements with adjacent or next VTS
+* Receive /acknowledge notification of pilot disembarkation
+
+|Transition between adjacent VTSs
+a|
+* Inform adjacent VTS of ship information such as identification, cargo, destination, and ETA
+
+|Adverse environmental conditions
+a|
+* Inform / broadcast information on adverse environmental conditions within the VTS area (e.g. poor visibility, strong currents or tidal streams, high winds, ice etc.)
+* Inform of additional reporting requirements
+* Provide instructions to organize traffic (e.g. restrict or prohibit ship movements, increase separation between ships)
+* Provide instructions for additional requirements (e.g. mandatory tug service, pilot, etc.)
+
+|Environmental protections
+a|
+* Inform / broadcast relevant information to mitigate risks with ships (e.g. cetaceans or marine mammals in an area, impacts of ship wash)
+* Provide advice/ warning/ instructions to individual ships in the vicinity of an area
+* Provide instructions to impose speed restrictions in an area or to reduce ship wash
+* Request information on sightings (e.g. to identify potential interaction hotspots)
+
+|Interaction with allied services
+a|
+* Exchange information with allied services such as:
+** Pilots
+** Tugs and tug operators
+** Icebreakers and icebreaker operators
+** The organizers of marine events
+** Shipping agents
+** Government agencies, including law enforcement agencies
+
+|Emergency response
+a|
+* Receive / request information about the emergency
+* Inform response agencies and allied services of emergency
+* Assist in emergency response or support response agencies
+* Coordinate communications between ship, response agencies and allied services
+* Inform or relay information about the emergency with ships in VTS area
+* Provide instructions to manage and restrict traffic in the area
+|===

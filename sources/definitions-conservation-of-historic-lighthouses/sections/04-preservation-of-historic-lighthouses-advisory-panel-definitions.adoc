@@ -1,0 +1,29 @@
+== Preservation of Historic Lighthouses Advisory Panel definitions
+
+=== Lighthouse
+
+(definition retained for the purpose of the lighthouse book)
+
+To be considered as a LIGHTHOUSE, the station must satisfy at least 2 of the following criteria:
+
+* The station has been designed to be manned;
+* The station consists, or originally consisted, of several buildings;
+* The height of the tower should be greater than 10m above the ground;
+* The range of the light should be greater than 15 nautical miles;
+* The light is used for general navigation.
+
+=== Historic Lighthouse
+
+(definition retained for the purpose of the lighthouse book)
+
+To be considered as an HISTORIC LIGHTHOUSE, the station must also satisfy at least 3 of the following criteria:
+
+* Age;
+* Engineering and technical achievements related to the location and/or the building time;
+* Architectural interest (e.g. design, use of material);
+* National or local interest (e.g. history, culture);
+* Archaeological importance.
+
+These definitions were as set out in 1998 and references to the range of the light should be considered as the maximum range during the history of the lighthouse.
+
+In a heritage definition a lighthouse station includes all Aids to Navigation related to the site.

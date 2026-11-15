@@ -1,0 +1,33 @@
+=== Module 3 - Inspection and testing
+
+==== Scope
+
+This module outlines the procedures for testing and transporting Racons. Applicable safety procedures from Module 2 will be reinforced during the lessons.
+
+==== Learning objective
+
+Upon completion, the student will have a satisfactory understanding as to how to properly and safely inspect, test, and troubleshoot problems with Racons.
+
+==== Syllabus
+
+===== Lesson 1 - Measurement and test equipment
+
+. Cathode-ray oscilloscope (CRO).
+. Power meter.
+. Power sensor.
+. Signal generator.
+. Circulators.
+. Racon test unit.
+. Remote working radar.
+
+===== Lesson 2 - Programming the Racon
+
+. Testing Racon using remote ship's 3 and 9Ghz radar(s).
+. Morse Code programming.
+
+===== Lesson 3 - Transporting Racons
+
+. Demonstrated competence in Racon shipment, including:
+a. Racon shipment accessories required.
+b. Racon packaging.
+c. Racon shipment procedures.

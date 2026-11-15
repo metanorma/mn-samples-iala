@@ -1,0 +1,32 @@
+=== Module 4 - Installation
+
+==== Scope
+
+This module describes the methods for changing, wiring and installing Racons on buoys, structures, lighthouses and major floating aids. Applicable safety procedures from Module 2 will be reinforced during the lessons.
+
+==== Learning objective
+
+Upon completion, the student will have a satisfactory understanding as to how to properly and safely install Racons on aid to navigation structures.
+
+==== Syllabus
+
+===== Lesson 1 - Inspection prior to installation
+
+. Physical condition.
+. Documenting asset details.
+
+===== Lesson 2 - Wiring
+
+. Cable types.
+. Connections.
+
+===== Lesson 3 - Installation
+
+. Physical requirements:
+a. Racon orientation.
+b. Protection of the Racon against site environmental conditions.
+c. Working at heights.
+. Installing Racons:
+a. Racon stands.
+b. Dissimilar materials contact.
+c. Racon terminal boxes.

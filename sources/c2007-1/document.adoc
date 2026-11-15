@@ -1,0 +1,113 @@
+= Aids to Navigation - Technician Training Radar Beacons (Racon) Maintenance
+:doctype: model-course
+:series: C
+// docnumber carries the part suffix (C2007-1) as a single attribute; the
+// structuredidentifier partnumber variant crashes the iho-base cleanup for
+// the iala taste (see the same note on C0103-1).
+:docnumber: 2007-1
+:docidentifier: C2007-1
+:edition: 3.0
+:language: en
+:published-date: 2021-12
+:copyright-year: 2021
+:mn-document-class: iala
+:imagesdir: images
+:local-cache-only:
+:data-uri-image:
+:toclevels: 3
+:urn: urn:mrn:iala:pub:c2007-1:ed3.0
+
+// SOURCE:
+// reference-docs/model-courses/Model-Course-C2007-1-L2-Module-7.12-Racons-Ed.3.0..pdf
+// (11 pages, all portrait A4; the odd double dot before ".pdf" is in the
+// deposited file name). The file name carries "L2-Module-7.12" (the course
+// is a Level 2 module within the WWA C2000 training framework); the printed
+// document itself carries no L2/module designation beyond the Foreword's
+// reference to E-R0141 Level 2 technician responsibilities, and the
+// relaton-data-iala record gives docidentifier "IALA C2007-1 Ed 3.0",
+// urn urn:mrn:iala:pub:c2007-1:ed3.0, title "AIDS TO NAVIGATION -
+// TECHNICIAN TRAINING RADAR BEACONS (RACON) MAINTENANCE".
+//
+// COVER (published PDF page 1): "IALA MODEL COURSE", C2007-1, "AIDS TO
+// NAVIGATION - TECHNICIAN TRAINING / RADAR BEACONS (RACON) MAINTENANCE"
+// (one title printed over two lines), Edition 3.0, December 2021, IALA
+// address block (10, rue des Gaudines – 78100 Saint Germaine en Laye, France
+// with academy@iala-aism.org) and bilingual organization name. The cover
+// line where other C-series covers print the URN instead renders the
+// unresolved Word field text "Erreur ! Référence non valide pour un signet."
+// ("Error! Bookmark not valid."); the same broken field appears in the
+// running footer of every page after "Edition 3.0". The published PDF
+// therefore prints no URN anywhere; the :urn: above follows the
+// relaton-data-iala record. The French error text is a publication defect,
+// flagged to the secretariat in the PR.
+//
+// DOCUMENT REVISION PAGE (published PDF page 2, printed before the contents).
+// Captured verbatim below; feeds the missing document-history cover XSL
+// template (I1 catalogue item). The table carries four empty trailing rows
+// (spare rows for future revisions), not transcribed; unlike G1195 the
+// table has no Approval column:
+//
+// DOCUMENT REVISION
+// "Revisions to this IALA Document are to be noted in the table prior to the
+// issue of a revised document."
+//
+// |===
+// |Date |Page / Section Revised |Requirement for Revision
+//
+// |June 2016
+// |Pages 3 & 6
+// |Minor text amendments and update of Teaching Modules
+//
+// |December 2021
+// |Entire document
+// |Review of content
+// |===
+//
+// FOREWORD (published PDF page 5): carries the IALA-AISM address block for
+// the IALA World-Wide Academy laid out as a two-column contact block
+// (name/address left, telephone/fax/e-mail/Internet right); transcribed as
+// a table. Published copy-paste defects kept verbatim: the second and last
+// Foreword paragraphs describe "This model course on AtoN Service Craft and
+// Buoy Tenders" and "training of AtoN technicians in an introduction to
+// service craft and buoy tenders" — text lifted from the sibling service
+// craft and buoy tenders model course, not corrected for this Racon
+// maintenance course. Flagged to the secretariat in the PR.
+//
+// STRUCTURE: the published document numbers its clauses 1-8 within
+// "PART 1 - COURSE OVERVIEW" and restarts at 1 for the five modules within
+// "PART 2 – TEACHING MODULES". Following the C0103-1 precedent, the part
+// dividers are encoded as level-1 clauses and the published hierarchy nests
+// beneath them (Part 1 clauses at level 2, Part 2 modules at level 2 with
+// module sub-clauses at levels 3-4 and lessons at level 5).
+
+include::sections/01-foreword.adoc[]
+
+include::sections/02-part-1-course-overview.adoc[]
+
+include::sections/03-scope.adoc[]
+
+include::sections/04-objective.adoc[]
+
+include::sections/05-course-outline.adoc[]
+
+include::sections/06-teaching-modules.adoc[]
+
+include::sections/07-specific-course-related-teaching-aids.adoc[]
+
+include::sections/08-acronyms.adoc[]
+
+include::sections/09-definitions.adoc[]
+
+include::sections/10-references.adoc[]
+
+include::sections/11-part-2-teaching-modules.adoc[]
+
+include::sections/12-module-1-introduction-to-racon-technology.adoc[]
+
+include::sections/13-module-2-safety.adoc[]
+
+include::sections/14-module-3-inspection-and-testing.adoc[]
+
+include::sections/15-module-4-installation.adoc[]
+
+include::sections/16-module-5-inventory-management-and-disposal.adoc[]

@@ -1,0 +1,3 @@
+=== Scope
+
+This course is intended to provide technicians with the theoretical and practical training necessary to acquire a satisfactory competence in the installation and maintenance of Racons.

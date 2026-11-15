@@ -1,0 +1,11 @@
+== Introduction
+
+The use of standard messaging structure and phrases when interacting with participating ships is essential for Vessel Traffic Services (VTS) to ensure clear, concise, and unambiguous communications and minimize potential misunderstanding of the intent of messages and reduce the time required for effective communication.
+
+Ensuring the competency of VTS operators in the use of standard messaging structure and phrases is essential to for a VTS to:
+
+* Identify the strengths and areas where VTS operators may need to improve;
+* Monitor the progress and growth of VTS operators by providing appropriate feedback and support; and
+* Evaluate the effectiveness of training programs (e.g. model courses, OJT at the VTS).
+
+Noting the diversity of linguistic backgrounds and cultural experiences worldwide, this guideline has been prepared to facilitate global harmonization in the delivery of VTS messages and their intent.

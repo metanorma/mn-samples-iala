@@ -1,0 +1,47 @@
+== Assessment process
+
+After the completion of the test, systematic and sufficient administrative procedures should be implemented to ensure the transparency and reliability of the assessment process while providing clear guidelines for result handling and record management. The following key steps should be included in the post-test administrative procedures.
+
+=== Collection and verification of results
+
+After the test, the responses provided, such as audio recordings or other related data, should be collected and securely stored to prevent any loss. While the procedures for recording and storing information are similar for both manual and computer-supported methods, extra care is required to ensure accuracy and to avoid technical issues, such as incomplete or corrupted files, as these can affect the reliability of automated processing. This verification step ensures the integrity of the evaluation process, regardless of the method or tools used. Once verified, the collected data should be organized and prepared to enable smooth and efficient processing in either manual or automated workflows.
+
+=== Evaluation, review, and summary of results
+
+For consistency and alignment throughout the evaluation and review process a standardized framework for assessing each competency area should be used. A detailed rating scale is provided in Annex A which may be used as a reference level to assess competency against the four evaluation criteria elements. Further, Annex D provides practical examples of areas that may be used to assess the competency of VTS operators in the use of standard messaging structure and phrases.
+
+The performance summary for each individual should include quantitative scores reflecting their proficiency level based on the evaluation criteria outlined in Annex A as well as qualitative feedback offering constructive comments on their strengths and areas for improvement directly linked to the competencies assessed. Providing clear and actionable feedback is essential for helping them to understand their performance, identify strengths and areas for improvement, and outline a path for future development.
+
+=== Recording and retention of results
+
+The recording and retention of results should be a systematic and secure process to safeguard data integrity, confidentiality, and reliability of the data. All assessment results, including quantitative scores, qualitative feedback, and supporting materials such as audio recordings, should be documented as evidence to demonstrate the competencies attained.
+
+Processes should be established to address the following key aspects:
+
+* Defining information to be retained such as test scores and response records.
+* Implementation of secure storage systems, whether digital or physical, to prevent unauthorized access or data breaches.
+* Limitation of access to authorized personnel only, ensuring confidentiality.
+* Establishment of retention periods that balance regulatory requirements and operational needs, with appropriate archiving or disposal of records after the retention period.
+
+By ensuring these measures are in place, the assessment process not only maintains its transparency and reliability but also complies with data privacy standards. This approach ensures that information is managed responsibly and ethically throughout the entire process.
+
+=== Notification of results and feedback delivery
+
+After the assessment, it is essential to communicate test results clearly and transparently. Effective delivery of results and feedback reinforces the transparency, and reliability of the process, while empowering individuals to understand their performance and identify opportunities for improvement.
+
+* Notification of Results: Results should be delivered using secure methods to ensure confidentiality and prevent unauthorized access. Individuals should be informed of their results within a predefined timeframe to maintain transparency and trust in the process.
+* Feedback Delivery: Feedback should summarize the individual's performance, highlighting key strengths and areas for improvement. It should include actionable, personalised recommendations to support clear development goals. Feedback should be constructive and focus on helping individuals build on their strengths while addressing any identified gaps.
+
+=== Handling of issues
+
+Procedures should be in place to address situations where individuals raise concerns about their results or encounter technical issues during the assessment process. Timelines for submitting and resolving appeals should be defined to ensure a timely and objective resolution. Additionally, steps for re-evaluation or remedial measures should be outlined to provide individuals with a transparent and supportive process for addressing their concerns.
+
+=== Ongoing enhancement of the assessment process
+
+Regular analysis and evaluation of assessment data are essential to maintaining a consistent and reliable assessment process while ensuring alignment with evolving standards and best practices. Specific areas for improvement can be identified and addressed by examining scores, feedback, and performance records. Key aspects of this process include:
+
+* Tracking and analysing an individuals' performance over time to monitor trends and evaluate the effectiveness of the process.
+* Gathering feedback from both individuals and assessors to refine and update evaluation guidelines.
+* Utilizing data analysis to enhance the transparency and reliability of the assessment process, with findings incorporated into the design of future assessments.
+
+This approach ensures that the assessment process remains robust, transparent, and adaptable to changing needs.

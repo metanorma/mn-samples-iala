@@ -1,0 +1,17 @@
+=== Course outline
+
+This course is intended to cover the knowledge and practical competence required for a technician to properly install and maintain Racons used on fixed and floating aids to navigation. The complete course comprises five modules, each of which deals with a specific subject representing an aspect of installing and maintaining Racons. Each module begins by stating its scope and aims, and then provides a teaching syllabus. This is a practical, job-centred course designed to provide trainees with a realistic, hands-on educational experience
+
+The required standard of competence is considered to be the level of proficiency that should be achieved for the proper performance of the duties carried out by the technician in their organization.
+
+This Model Course is focussed at the satisfactory level of competence.
+
+.Table 1 - Levels of Competence
+|===
+|Competence Level |Learning Outcome |Instructional Objectives |Required skills
+
+|2
+|The conduct of routine tasks unsupervised and some more complex tasks under guidance
+|A satisfactory understanding of theoretical concepts and principles so that they can be applied in practice
+|Correctly acquired responses have become habitual. Actions can be performed confidently and efficiently
+|===

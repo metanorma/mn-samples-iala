@@ -1,0 +1,25 @@
+== Benefits of assessing competency in VTS English communications
+
+The benefits of assessing competency of VTS interactions and communications include:
+
+1. *Enable individuals to improve their communication skills*
++
+--
+The competency assessment offers a comprehensive evaluation of an individual's ability to provide VTS by identifying their current level of proficiency and allowing individuals to focus on specific areas that require improvement, such as message structures, standardized vocabulary and phrases in verbal communication.
+
+This targeted approach helps individuals gain confidence and competence in using VTS communications effectively.
+
+It also provides valuable insights into their strengths and weaknesses, enabling them to understand where they excel and where they can enhance their skills. This awareness empowers individuals to make informed decisions about where they may need to improve.
+--
+
+2. *Improve interactions between VTS, ships and allied services*
++
+--
+Effective communication is essential for the coordination of VTS operations. Improved VTS communication reduces misinterpretation and assists in establishing better relationships and coordination between VTS, ships and allied services.
+--
+
+3. *Reduce workplace errors*
++
+--
+Miscommunication can be minimized by ensuring that VTS operators have the necessary skills to communicate accurately and effectively to interact with vessel traffic and respond to developing situations within a VTS area.
+--

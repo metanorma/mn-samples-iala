@@ -1,0 +1,245 @@
+== Development of a competency test
+
+Competency tests are tools designed to evaluate an individual's knowledge, skills, and abilities in a consistent and objective manner. These tests play a role in ensuring that VTS operators have the necessary communication competencies to perform their duties effectively, both in routine and high-pressure scenarios.
+
+Properly designed competency tests should focus on genuine skill development and practical application. To achieve these objectives, it is essential to adopt a structured and systematic approach to test design. A test matrix serves as a valuable tool by organizing key components of the test and aligning them with clearly defined goals. This includes defining evaluation criteria, setting difficulty levels, balancing question types, and allocating scores to key assessment components. This document provides the framework that can be adapted to consider operational requirements during the design and application of a test matrix.
+
+By integrating the principles of a test matrix, the following advantages can be realized:
+
+* Structural Integrity: Systematic design focuses on evaluating specific competencies rather than assembling unrelated questions.
+* Consistency: Standardized criteria enable consistent assessments, regardless of an individual's background.
+* Clarity in Test Development: Defined criteria provide a clear structure for creating coherent and well-organized assessments.
+* Validity and Reliability: Tests measure intended competencies accurately and produce consistent results across administrations.
+* Meaningful Result Interpretation: Precise performance analysis highlights strengths and areas for improvement, supporting actionable feedback and program refinement.
+
+By addressing these factors, the test matrix can be designed flexibly to meet practical needs while maintaining alignment with global standards.
+
+=== Defining test objectives and competencies required
+
+The objective of a competency test is to measure how VTS operators interact and communicate using standard messaging structure and phrases when performing a specific task or activity during VTS operations. Annex B identifies some of the communication and interaction activities regularly performed by VTS operators.
+
+It is important that the objectives are defined in terms of the level of language competencies required and specific outcomes that the test needs to measure. These objectives should be clear, measurable, and focus on what the test is intended to evaluate.
+
+To achieve the objectives, the individual should demonstrate they meet the required VTS communication skills and behaviour competencies as identified in the evaluation criteria.
+
+=== Testing methods
+
+The structure of the test and assessment methods may vary depending on the operational requirements and assessment tools available.
+
+While traditional face-to-face or group-based assessments have been widely implemented, the increasing integration of technology has highlighted the inherent limitations of these human-dependent methods. Issues such as assessor subjectivity, varying levels of expertise, and the impact of fatigue can lead to inconsistencies in the assessment process which raise concerns about the objectivity and reliability of the results. Further, face-to-face assessments tend to be resource-intensive, making them less suitable for large-scale evaluations or assessments that require precise measurement of specialized language skills. These methods often lack standardized mechanisms for maintaining transparent test records, complicating the process of reviewing or verifying results in cases of disputes or re-evaluation.
+
+In contrast, automated systems, such as computer-based and AI-driven assessments, as well as automated simulation-based evaluations, offer comprehensive solutions by systematically recording responses and evaluation data, thus ensuring transparency and accountability in high-stakes testing environments.
+
+As technology continues to integrate into testing environments, it is important that the most suitable testing method is used to maximize objectivity, efficiency, and scalability. The following sections outline some testing methods, focusing on their specific features and advantages.
+
+==== Traditional tests involving human interactions
+
+Traditional interactive assessments encompass various methods such as interactive interviews, role-play exercises, and listening tasks, each with distinct benefits and challenges. Interactive interviews is a commonly used method that provides a more natural and communicative testing environment, where the assessor can use prescribed scenarios and adapt situations on the spot which minimizes the likelihood of rehearsed responses. It is particularly effective in evaluating verbal communication skills through conversation and immediate feedback throughout the process. However, this approach is resource-intensive and requires strict standardization to minimize bias and can be affected by variations in human interactions.
+
+Listening exercises serve as another option, where individuals listen to prompts and respond by answering questions or interacting based on what they hear. This method ensures consistency by using standardized prompts and allowing assessors to gauge listening comprehension and situational responses.
+
+Another widely used method is role play, which evaluates the verbal and interpersonal skills, such as articulation, persuasion and problem-solving. Unlike interactive interviews, role-play exercises are designed to replicate real-life situations, focusing on routine or emergency communications where individuals need to manage and respond to developing situations. The exercises can be conducted either one-on-one or in group-based formats, providing a dynamic and practical assessment environment. While this method effectively simulates real-world conditions, it may face limitations in capturing the full complexity of such situations in a controlled setting.
+
+Written communication tasks, such as preparing or revising digital messages, may offer insights into how effectively a VTS operator uses standard messaging formats and identifies errors. These tasks can highlight proficiency in structuring clear and accurate messages. However, they fall short in evaluating verbal communication skills and the interactive abilities essential for real-time operational scenarios, making them less suitable as a primary method for assessing communication competence in VTS contexts.
+
+==== Computer-based testing
+
+Computer-based testing involves individuals responding to pre-recorded, pre-set questions, with their responses recorded for later evaluation. This method eliminates the need for real-time interaction and ensures test consistency. The consistent nature of the questions and the uniform conditions under which they are administered guarantee objectivity, while the absence of live interaction minimizes the influence of spontaneous variability. All questions and responses are systematically documented, providing a clear record for subsequent review or re-evaluation if required. Additionally, this method supports the inclusion of multimedia elements, such as audio files, images, and videos, that facilitates a broader range of assessment activities.
+
+==== AI-based evaluation systems
+
+This approach uses artificial intelligence (AI) to analyse individual responses in real time, assessing key elements such as pronunciation, vocabulary, grammar, and fluency. Results are automatically recorded, and the AI system applies predefined criteria to assign scores. Objectivity is maintained through the consistent application of structured evaluation criteria, thereby reducing the risk of human bias. All response data is securely stored, and AI-generated records are preserved for future verification if required. This system is particularly well-suited for managing large numbers of VTS operators efficiently, ensuring that all responses are recorded and available for subsequent review or analysis.
+
+==== Simulation-based evaluation
+
+Simulation-based evaluation uses simulated scenarios to replicate specific situations and responses are recorded for later assessment. For example, a common simulation exercise is presented and the individual responds to a given problem. Standardized scenarios ensure objectivity as all individuals are tested under identical conditions. The entire simulation process including responses and actions is automatically recorded, providing a reliable record for dispute resolution or post-assessment review.
+
+=== Test duration
+
+The length of the test should be kept to a maximum of 30 minutes to maintain the individual's focus and ensure a valid and efficient assessment. The rationale for this limitation is:
+
+* For individuals, long tests increase mental fatigue and reduce performance accuracy, particularly in the later stages of the test. Limiting the duration helps to avoid cognitive overload, leading to a more balanced and accurate assessment of language proficiency; and
+* For assessors, shorter tests ensure efficient grading and helps prevent inconsistencies in scoring due to fatigue. Focused, shorter tests promote a more consistent assessment for all individuals.
+
+=== Scoring allocation
+
+A score allocation should be given to each evaluation criteria to determine its relative importance in the overall assessment. These weighted scores may reflect specific training goals, operational priorities, national regulatory considerations, or the language proficiency of individuals.
+
+Further, scoring allocation is important with the comparability of tests as it ensures that everyone is evaluated according to the same criteria and standards.
+
+=== Test questions
+
+Test questions should be designed around the test objectives, while balancing four key elements that will form the framework for the test. The following elements ensure that the test is consistent, comprehensive, and provides a valid assessment of an individual's abilities:
+
+* Evaluation criteria specify the skills being assessed, forming the foundation for structuring and formatting the test questions.
+* Question types determine how individuals will respond and which particular skills will be evaluated, shaping the complexity of the assessment.
+* Difficulty level to adjusts the depth and challenge of the questions, ensuring that the test accurately measures the required proficiency.
+* Media utilization determines how the questions are presented (e.g. text, audio, video, or images) enhancing the realism of the examination and expanding the scope of the evaluation.
+
+Annex B outlines common communication and interaction activities regularly performed by VTS operators during daily VTS operations, which can serve as a basis for developing test questions.
+
+It is recommended to limit the number of questions and scenario exercises to no more than ten, progressing gradually with difficulty and complexity from a low level (N.1) to a high level (N.10). The reasons for this limitation are to:
+
+* Reduce the cognitive load by limiting the number of questions to help prevent mental fatigue, allowing individuals to stay focused and perform at their best.
+* Improve the test efficiency by using a focused set of questions to avoid redundancy and ensuring that each question serves a distinct purpose and contributes to the overall assessment.
+* Prevent the test from becoming overwhelming for both individuals and assessors by assessing key competencies.
+
+Some example test questions are provided in Annex C to illustrate how VTS communication competencies may be evaluated assessed through practical, scenario-based tasks.
+
+==== Applying evaluation criteria
+
+Test questions should be structured around the evaluation criteria described in Section 5.1 (Evaluation Criteria) and Annex A: Reference Level Descriptors which focus on message structure, message delivery, message interpretation, and standard phraseology. This approach enhances the test's validity and reliability, enabling an objective evaluation of the individuals' abilities.
+
+==== Selecting question types
+
+To comprehensively assess the individuals' diverse skills, questions should be presented in various formats that consistently evaluate communication skills. Each question type should target specific competencies while utilizing media such as text, audio, images, and video to ensure a holistic assessment of the individual's performance.
+
+Examples of question types and applications are provided below, but the test should not be limited to these formats.
+
+===== Text-based questions
+
+These questions assess the individual's ability to convey information based on written text.
+
+* Message Delivery: Provide a message based on the scenario.
+* Message Revision: Correct and rephrase inaccurate written messages.
+* Message Summarization: Summarize long texts and convey key points.
+* Information Transmission: Relay information from text to a designated recipient.
+* Situation Explanation: Analyse a written scenario and explain it.
+
+===== Image-based questions
+
+These questions evaluate the individual's ability to interpret visual information and respond appropriately.
+
+* Situation Interpretation: Analyse an image and provide information using Standard VTS phraseology (e.g. SMCP, G1132).
+* Warning Message Composition: Compose a warning message, applying an appropriate message marker based on the image provided.
+* Situation Transmission: Relay visual information from the image to nearby vessels.
+* Problem Analysis: Analyse a problem shown in the image and propose instructions for a vessel.
+* Information Confirmation: Review the image, correct inaccurate information, and deliver the corrected information.
+
+===== Audio-based questions
+
+These questions test the individual's ability to interpret and respond to auditory information.
+
+* Listening and Responding: Listen to an audio message and provide an appropriate response.
+* Message Confirmation: Confirm the content of a message after listening.
+* Message Transmission: Summarize auditory information and relay it to a designated party.
+* Situation Summarization: Summarize complex situations based on audio information and relay them.
+* Correcting Information: Listen to an incorrect message and provide a corrected version.
+
+===== Audio-visual-based questions
+
+These questions test the individual's ability to interpret and respond to auditory information.
+
+* Analysing and Responding: Analyse audiovisual material and provide an appropriate response.
+* Problem Solving: Resolve issues presented through audiovisual materials.
+* Information Transmission: Relay audiovisual information to a relevant party.
+* Situation Summarization: Summarize the audiovisual situation and relay it.
+* Verifying and Correcting Information: Review audiovisual materials, correct any inaccuracies, and provide an updated message.
+
+===== Video-based questions
+
+These questions require individuals to analyse visual scenarios in video format and respond accordingly.
+
+* Analysing and Responding: Analyse the video and provide an appropriate response.
+* Situation Transmission: Relay information from the video to another party.
+* Warning Message Composition: Compose a warning message based on the visual information in the video.
+* Situation Summarization: Summarize complex situations from the video and relay the information.
+* Correcting and Transmitting Information: Watch the video, correct any misinformation, and provide the updated information.
+
+===== Dialogue simulation questions
+
+These questions simulate conversational scenarios, requiring individuals to engage in exchanges within a simulated environment.
+
+* Initiating Dialogue: Begin a conversation and exchange instructions within the simulated scenario.
+* Message Confirmation: Confirm and respond to the information provided by the other party.
+* Requesting Additional Information: Request additional information when the message is unclear.
+* Transmitting Information: Relay received information to the relevant recipient.
+* Closing the Scenario: Appropriately conclude the conversation at the end of the scenario.
+
+===== Interactive-based questions
+
+These questions simulate real-time interactions, requiring individuals to engage in live dialogues and provide immediate responses.
+
+* Real-Time Instructions: Respond to real-time instructions provided by a simulation system or assessor.
+* Requesting Additional Information: Request supplementary information when the provided data is insufficient.
+* Decision Making: Choose the correct course of action when presented with multiple options.
+* Continuing the Conversation: Engage in a simulated conversation by responding appropriately to incoming messages.
+* Situation Management: Manage and respond as the situation evolves in real time.
+
+==== Levels of difficulty
+
+To ensure a comprehensive and accurate assessment of individuals' communication and interaction skills, it is important to progressively increase task difficulty using different media formats. Using a combination of text, images, audio, and video not only reflects real-world VTS communication challenges but also ensures a balanced evaluation of both basic and complex skills.
+
+The test should start with simpler formats, such as text-based or image-based questions, focusing on foundational skills like message delivery or interpreting visual information. As the test progresses, more complex media formats such as audio scenarios or video simulations, should be introduced, requiring individuals to integrate multiple information sources and respond to dynamic situations.
+
+Incorporating varied media formats throughout the test provides the following benefits:
+
+* Enhanced Realism: Different formats simulate the diverse communication scenarios encountered in VTS operations, leading to a practical and relevant evaluation.
+* Layered Skill Assessment: Mixing text, images, audio, and video enables a thorough assessment of a range of communication skills, from basic interpretation to complex problem-solving; and
+* Adaptability Evaluation: Using different media types challenges individuals to switch between communication modes, which is critical for real-world operational environments.
+
+==== Utilisation of media
+
+When incorporating media in a test, it is important to consider key factors such as adjusting task difficulty, defining response scope, using standard phrases, managing scenario complexity, and maintaining practical relevance. These factors play an important role in ensuring the test not only accurately evaluates communication skills but also reflects the practical demands of real-world scenarios. Additionally, applying consistent evaluation criteria across all media formats further enhances the accuracy of the test.
+
+* Adjusting Difficulty to Reduce Cognitive Load: The difficulty of the media used in the test should be adjusted to match the complexity of the tasks. For example, simpler tasks may involve text or images, while more complex tasks could incorporate audio or video content. By progressively increasing the difficulty, individuals are given the opportunity to demonstrate their abilities without being overwhelmed ensuring they can perform optimally.
+* Ensuring Consistency in Responses and Use of Standard Phrases: Consistency in responses is critical for maintaining accuracy in the assessment process. Clearly defining the scope and purpose of each question reduces the potential for overly broad or varied answers. This clarity directs individuals toward responses that closely meet the task requirements, making it easier for assessors to evaluate based on predefined criteria. Additionally, using standard phrases is essential for measuring an individual's ability to communicate effectively in real-world VTS scenarios. Structuring test questions to prompt the correct use of these standard phrases ensures that individuals not only demonstrate their technical language proficiency but also reinforces consistency in their responses and aligns them with expected industry communication standards.
+* Managing the Complexity of Situations in Media: While video and audio can create a more immersive testing environment, it is important that the complexity of the scenarios does not detract from the primary goal of assessing communication skills. Overly complicated or unclear scenarios can confuse individuals or cause unnecessary cognitive strain. The media presented should reflect real-life scenarios, allowing individuals to focus on effective communication without being overwhelmed by extraneous or irrelevant details.
+* Maintaining Consistency in Evaluation Criteria: Regardless of the media format used - whether text, audio, images, or video - the evaluation criteria must remain consistent. This ensures that all individuals are assessed using the same standards, promoting the reliability of the test. Consistency across different media formats is essential for ensuring that the evaluation accurately reflects an individual's communication abilities.
+* Ensuring Relevance to Operational Situations: The media used in the test should represent realistic scenarios that VTS operators are likely to encounter. The test should simulate situations such as emergency communications or routine traffic management, allowing individuals to demonstrate their ability to use standard phrases and respond appropriately.
+
+=== Trial test
+
+Consideration should be given to conducting a trial test with a small, representative group to identify potential issues and make necessary refinements. This approach ensures a more accurate and effective competency assessment by addressing ambiguities and optimizing the test's structure and content.
+
+The trial testing involves the following steps:
+
+* Conduct Trial Test: An initial trial test with a small, representative group will help to identify any issues or ambiguities within the questions or scenarios. Focusing on these problems or unclear elements is essential for improving the test's overall quality. This process allows for a more thorough evaluation of how the test performs in a real-world context, providing clearer insights into its effectiveness and practical usability.
+* Feedback Collection: Gather detailed feedback following the trial test on various aspects such as the clarity of instructions, the relevance of questions, and any issues encountered during the test. This feedback is valuable for identifying specific areas that require improvement and ensuring the test is both user-friendly and effective in assessing the required competencies.
+* Result Analysis: Performance data from the representative test group should be analysed to evaluate how effectively the test measures the intended competencies and to identify patterns that may indicate issues with the test's structure or content. This analysis helps determine whether the test effectively reflects the various aspects of communication skills.
+* Test Refinement: Based on the analysis and feedback, necessary adjustments should be made to the test. This may include refining questions, revising scenarios, or clarifying instructions to improve its accuracy and reliability. By iterating on the test design, the assessment process will be further strengthened over time.
+
+=== Test implementation
+
+When implementing a competency test, careful attention should be given to various factors to ensure the process is smooth, consistent, and effective. Proper planning and execution are crucial to achieving reliable and valid results while maintaining consistency and ensuring that all individuals are evaluated under standardized conditions. Key considerations include, but are not limited to, the following:
+
+==== Test environment
+
+A controlled and consistent test environment is essential to ensure that all individuals are evaluated under the same conditions.
+
+* Testing Space: The testing space should be designed to minimize distractions, ensuring it is free from noise.
+* Individual Personal Space: Everyone should be provided with sufficient personal space to complete the assessment with minimal interference from others.
+* Equipment Check: All equipment, including microphones and recording devices, should be thoroughly tested beforehand to ensure proper functionality.
+* Time Limits: All individuals should be provided with the same amount of time to respond to each question set.
+
+==== Instructions and preparations
+
+Clear instructions and adequate preparation of materials are critical to enable individuals to understand the test process and perform accordingly.
+
+* Detailed Guidance: Information about the test format, timing, and evaluation criteria should be available.
+* Practice Materials: Sample questions may be provided to familiarize individuals with the structure and content of the test.
+
+For online assessments, individuals should be provided with information on how to access the platform including instructions on resolving basic technical problems.
+
+==== Monitoring and supervision
+
+Proper monitoring and supervision should be maintained to ensure the integrity of the test and address unforeseen issues. Observers who are not involved in training may be used to oversee the process to enhance objectivity and transparency.
+
+* Process Monitoring: The test process should be closely monitored to prevent technical issues or violations of test regulations.
+* Real-Time Support: Supervisors should be available to resolve issues promptly and ensure the smooth progression of the test.
+
+==== Use of technology
+
+Technology plays a vital role in modern speaking assessments, particularly in online or computer-based settings.
+
+* Equipment Testing: Microphones, speakers, and recording devices should be tested in advance to confirm they are fully operational.
+* Network Stability: Stable internet connectivity is required online assessments.
+* Technical Support: Technical support should be available to address any unexpected issues.
+
+=== Test evaluation, review and update
+
+Regular review and refining of tests are essential to verify that the objectives of the test and the competencies required remain focused, relevant, and effective by evolving to meet the needs of all parties.
+
+To assess the effectiveness of the competency test, systematically gather data on test results (e.g. how well individuals are meeting the competencies) and overall performance to how the test is capturing the intended skills. The analysis may identify trends that indicate strengths or weaknesses in the test.
+
+It is important to incorporate feedback and insights to improve the test's design, content, and administration processes into upcoming competency tests. This may include conducting frequent sessions to evaluate feedback from previous tests, analysing results for areas that need enhancement, and implementing changes to maintain high standards.

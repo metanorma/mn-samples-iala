@@ -1,0 +1,12 @@
+=== Acronyms
+
+To assist in the use of this model course, the following acronyms have been used:
+
+AtoN:: Aid(s) to Navigation
+CRO:: Cathode-Ray Oscilloscope
+GHz:: Giga Hertz
+IALA:: International Association of Marine Aids to Navigation and Lighthouse Authorities
+Racon:: Radar Beacon
+RF:: Radio Frequency
+SOLAS:: International Convention for the Safety of Life at Sea, 1974 (as amended)
+WWA:: World Wide Academy

@@ -1,0 +1,51 @@
+== Definitions
+
+// The printed entries separate the term from the definition with a spaced
+// hyphen ("ALTERATION - Work, ..."), here carried by the definition-list
+// markup. The printed entry "RESTORATION" omits the hyphen ("RESTORATION
+// Alteration of a building ..."), a print defect subsumed by the same
+// encoding.
+
+=== List
+
+The following definitions were noted at the IALA Seminar on the Practical Aspects of Lighthouse Preservation in Gothenburg 2005 (reference http://www.historic-scotland.gov.uk/stirlingcharter.pdf):
+
+ALTERATION:: Work, the object of which is to change or improve the function of a building or artefact or to modify its appearance.
+
+ARCHAEOLOGY:: Scientific study and interpretation of the past, based on the uncovering, retrieval, recording and interpretation of information from physical evidence.
+
+CONSERVATION:: Action to secure the survival or preservation of buildings, cultural artefacts, natural resources, energy or anything of acknowledged value to the future.
+
+CONSERVATION AREA:: Area of special architectural or historic interest, the character or appearance of which it is desirable to preserve or enhance.
+
+CONVERSION:: Alteration, the object of which is a change of use of a building or artefact, from one use or type to another.
+
+DESIGN:: Abstract concept of a building or artefact. It can exist in the mind or on paper and if realised, it can be represented in the building or artefact itself.
+
+FABRIC:: Physical material of which a building or artefact is made.
+
+INTERVENTION:: Any action which has a physical effect on the fabric of a building or artefact.
+
+MAINTENANCE:: Routine work necessary to keep the fabric of a building, the moving parts of machinery, grounds, gardens or any other artefact, in good order.
+
+MANAGEMENT:: Activities appropriate for maintaining the feature or area in good condition.
+
+PRESERVATION:: State of survival of a building or artefact, whether by historical accident or through a combination of protection and active conservation.
+
+PROTECTION:: The provision of legal restraints or controls on the destruction or damaging of buildings or artefacts, natural features, systems, sites, areas or other things of acknowledged value, with a view to their survival or preservation for the future.
+
+REBUILDING:: Remaking, on the basis of a recorded or reconstructed design, a building or part of a building or artefact which has been irretrievably damaged or destroyed.
+
+RECONSTRUCTION:: Re-establishment of what occurred or what existed in the past, on the basis of documentary or physical evidence.
+
+RECORD:: The description, depiction and analysis of any feature or area using drawings, survey, photographs and any other suitable means as well as the preservation of documents, photographs and other material relating to the feature or area in any earlier condition or use. (Note: based on R. Mercer's consultation response).
+
+REPAIR:: Work beyond the scope of regular maintenance to remedy defects, significant decay or damage caused deliberately or by accident, neglect, normal weathering or wear and tear, the object of which is to return the building or artefact to good order, without alteration or restoration.
+
+REPLICATION:: Making an exact copy or copies of a building or artefact.
+
+RESTORATION:: Alteration of a building or artefact which has decayed, been lost or damaged, or is thought to have been inappropriately repaired or altered in the past, the objective of which is to make it conform again to its design or appearance at a previous date.
+
+REVERSIBILITY:: Concept of work to a building, part of a building or artefact being carried out in such a way that it can be reversed at some future time, without any significant damage having been done.
+
+SUSTAINABLE:: Using the heritage in a way which meets the needs of today without compromising the ability of future generations to understand, appreciate and benefit from the historic environment.
