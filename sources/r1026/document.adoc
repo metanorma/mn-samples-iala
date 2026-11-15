@@ -8,7 +8,6 @@
 :published-date: 2025-12
 :copyright-year: 2025
 :mn-document-class: iala
-:mn-output-extensions: xml,html,doc,rxl
 :imagesdir: images
 :local-cache-only:
 :data-uri-image:
