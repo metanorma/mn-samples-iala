@@ -21,21 +21,22 @@
 // OPERATOR RECRUITMENT".
 //
 // DOCUMENT REVISION PAGE (published PDF page 2, printed before the contents).
-// Captured verbatim below; feeds the missing document-history cover XSL
-// template (I1 catalogue item):
-//
-// DOCUMENT REVISION
-// "Revisions to this IALA Document are to be noted in the table prior to the
-// issue of a revised document. The latest edition of the Guideline is the only
-// version in force unless the Guideline is explicitly revoked by the Council."
-//
-// |===
-// |Date |Revision details |Approval
-//
-// |June 2026
-// |Edition 1.0
-// |Council 04
-// |===
+// Encoded as a real revision clause so the PDF renders the printed
+// Date / Revision details / Approval table verbatim.
+
+[type=revision]
+== Document revision
+
+Revisions to this IALA Document are to be noted in the table prior to the issue of a revised document. The latest edition of the Guideline is the only version in force unless the Guideline is explicitly revoked by the Council.
+
+[%unnumbered]
+|===
+|Date |Revision details |Approval
+
+|June 2026
+|Edition 1.0
+|Council 04
+|===
 //
 // Encoding note: the Word source types all headings in lower case and the
 // IALA template renders them in capitals; the published contents mirrors the
