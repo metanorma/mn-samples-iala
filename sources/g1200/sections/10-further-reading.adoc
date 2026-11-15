@@ -1,11 +1,14 @@
-[bibliography]
+// FURTHER READING (published PDF page 13, section 10): printed as a plain
+// bulleted list (en dashes), not bracketed citations. Published typos kept
+// as printed, including the missing spaces before the years and the
+// "H,." comma-period in the Isabelle entry.
 
 == Further reading
 
-* [[[andy-2025,Andy, F., Thomas R., Joseph B., & Jeffrey, K. (2025)]], Individual differences in working memory and the benefit of retrieval practice.
+* Andy, F., Thomas R., Joseph B., & Jeffrey, K.(2025) Individual differences in working memory and the benefit of retrieval practice.
 
-* [[[boon-2019,Boon, P., Theeuwes, J., & Belopolsky, V. (2019)]], Updating spatial working memory in a dynamic visual environment.
+* Boon, P., Theeuwes, J., & Belopolsky, V. (2019) Updating spatial working memory in a dynamic visual environment.
 
-* [[[isabelle-2025,Isabelle, G., Stephanie, G., Carolyn, H., Oliver H,. & Lynn, N. (2025)]], How prediction error drives memory updating: role of locus coeruleus–hippocampal interactions.
+* Isabelle, G., Stephanie, G., Carolyn, H., Oliver H,. & Lynn, N.(2025) How prediction error drives memory updating: role of locus coeruleus–hippocampal interactions.
 
-* [[[lisa-2018,Lisa, S. & Christian, M. (2018)]], Memory retrieval of everyday information under stress.
+* Lisa, S. & Christian, M.(2018) Memory retrieval of everyday information under stress.

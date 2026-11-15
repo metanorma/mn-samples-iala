@@ -23,34 +23,38 @@
 // address block and bilingual organization name.
 //
 // DOCUMENT REVISION PAGE (published PDF page 2, printed before the contents).
-// Captured verbatim below; feeds the missing document-history cover XSL
-// template (I1 catalogue item):
-//
-// DOCUMENT REVISION
-// "Revisions to this IALA document are to be noted in the table prior to the
-// issue of a revised document."
-//
-// |===
-// |Date |Details |Approval
-//
-// |March 1988
-// |1st issue
-// |Council 20
-//
-// |December 2005
-// |Edition 1.1
-// |Council 37
-//
-// |December 2009
-// |Edition 2.0 a|Entire document. Reflecting 10 years' experience and the
-// evolution of technology
-// |Council 46
-//
-// |December 2022
-// |Edition 3.0 a|Entire document. Full review to reflect IMO Resolution
-// A.1158(32), changes in technology and the evolution of VTS Operations.
-// |Council 76
-// |===
+// Encoded as a real revision clause so the PDF renders the printed
+// Date / Details / Approval table verbatim.
+
+[type=revision]
+== Document revision
+
+Revisions to this IALA document are to be noted in the table prior to the issue of a revised document.
+
+[%unnumbered]
+|===
+|Date |Details |Approval
+
+|March 1988
+|1st issue
+|Council 20
+
+|December 2005
+|Edition 1.1
+|Council 37
+
+|December 2009
+a|Edition 2.0
+
+Entire document. Reflecting 10 years' experience and the evolution of technology
+|Council 46
+
+|December 2022
+a|Edition 3.0
+
+Entire document. Full review to reflect IMO Resolution A.1158(32), changes in technology and the evolution of VTS Operations.
+|Council 76
+|===
 //
 // Encoding note: the published document numbers its model-course modules
 // 1-7 with module-internal clauses 1.1, 1.1.1, ... under unnumbered "PART A"
