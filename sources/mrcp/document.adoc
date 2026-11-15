@@ -1,7 +1,7 @@
 = Maritime Radio Communications Plan
 :doctype: manual
-:docnumber: MRCP
-:docidentifier: MRCP
+:docnumber: maritime-radio-communications-plan
+:docidentifier: maritime-radio-communications-plan
 :edition: 3.0
 :language: en
 :published-date: 2017-12
@@ -12,7 +12,7 @@
 :local-cache-only:
 :data-uri-image:
 :toclevels: 3
-:urn: urn:mrn:iala:pub:mrcp:ed3.0
+:urn: urn:mrn:iala:pub:maritime-radio-communications-plan:ed3.0
 
 // SOURCE: reference-docs/manuals-plans/IALA-Maritime-Radio-Communications-Plan-MRCP-Ed-3_Dec2017.pdf
 // (74 pages: 55 portrait A4 + 19 landscape A4 pages carrying the wide tables
@@ -75,9 +75,10 @@
 //
 // IDENTIFIER: the plan carries no series number and the cover prints no
 // edition; the file name reads "MRCP Ed 3" and the document history shows
-// three issues (2009, 2012, 2017). The :edition: 3.0 and :urn:
-// urn:mrn:iala:pub:mrcp:ed3.0 follow the corpus convention; secretariat
-// confirmation of the registered form is outstanding (see PR).
+// three issues (2009, 2012, 2017). The docidentifier and URN follow the
+// registered relaton-data-iala record "IALA maritime-radio-communications-
+// plan" (slug-form, like the other unnumbered IALA manuals and reports);
+// the edition carries the document history's third issue as 3.0.
 //
 // PRINTED NUMBERING QUIRK: the printed section "2.1 International
 // Organizations" is numbered "2.1" a second time (after "2.1 General") in
