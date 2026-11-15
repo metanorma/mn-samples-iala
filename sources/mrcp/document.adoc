@@ -46,31 +46,32 @@
 // file); not transcribed.
 //
 // DOCUMENT HISTORY (published PDF page 2, printed before the contents).
-// Captured verbatim below; feeds the missing document-history cover XSL
-// template (I1 catalogue item):
-//
-// DOCUMENT HISTORY
-//
-// |===
-// |Date |Details |Approval
-//
-// |December 2009
-// |1st issue
-// |Council 46
-//
-// |December 2012
-// |Entire document
-// |General revision to update terminology
-// |Sections 3.4.3 (VHF) and 4 (securing spectrum)
-// |Changes to status of e-navigation and maturing communications concepts
-// |Outcomes of WRC-12 / preparation for WRC-15
-// |Council 54
-//
-// |December 2017
-// |Entire document
-// |General revision to reflect outcomes of WRC-15 / preparation for WRC-19
-// |Council 65
-// |===
+// Encoded as a real revision clause so the PDF renders the printed
+// Date / Details / Approval table verbatim.
+
+[type=revision]
+== Document history
+
+|===
+|Date |Details |Approval
+
+|December 2009
+|1st issue
+a|Council 46
+
+|December 2012
+|Entire document
+a|General revision to update terminology;
+Sections 3.4.3 (VHF) and 4 (securing spectrum);
+Changes to status of e-navigation and maturing communications concepts;
+Outcomes of WRC-12 / preparation for WRC-15
+a|Council 54
+
+|December 2017
+|Entire document
+a|General revision to reflect outcomes of WRC-15 / preparation for WRC-19
+a|Council 65
+|===
 //
 // IDENTIFIER: the plan carries no series number and the cover prints no
 // edition; the file name reads "MRCP Ed 3" and the document history shows
