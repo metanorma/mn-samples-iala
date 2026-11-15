@@ -7,7 +7,6 @@
 :published-date: 2014-05-27
 :copyright-year: 2014
 :mn-document-class: iala
-:mn-output-extensions: xml,html,doc,rxl
 :local-cache-only:
 :data-uri-image:
 :urn: urn:mrn:iala:pub:a12-01

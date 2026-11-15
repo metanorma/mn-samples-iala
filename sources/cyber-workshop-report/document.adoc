@@ -6,7 +6,6 @@
 :published-date: 2021-11-19
 :copyright-year: 2021
 :mn-document-class: iala
-:mn-output-extensions: xml,html,doc,rxl
 :imagesdir: images
 :local-cache-only:
 :data-uri-image:

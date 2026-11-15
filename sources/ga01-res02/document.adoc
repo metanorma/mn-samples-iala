@@ -7,7 +7,6 @@
 :published-date: 2025-02-18
 :copyright-year: 2025
 :mn-document-class: iala
-:mn-output-extensions: xml,html,doc,rxl
 :local-cache-only:
 :data-uri-image:
 :urn: urn:mrn:iala:pub:ga01.02

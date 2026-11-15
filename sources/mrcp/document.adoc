@@ -7,7 +7,6 @@
 :published-date: 2017-12
 :copyright-year: 2017
 :mn-document-class: iala
-:mn-output-extensions: xml,html,doc,rxl
 :imagesdir: images
 :local-cache-only:
 :data-uri-image:
