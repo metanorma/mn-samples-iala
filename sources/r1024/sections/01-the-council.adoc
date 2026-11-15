@@ -1,18 +1,18 @@
 == The Council
 
-RECALLING:
+**RECALLING**:
 
 . the function of IALA with respect to Safety of Navigation, the efficiency of maritime transport and the protection of the environment.
 . Article 8 of the IALA Constitution regarding the authority, duties and functions of the Council.
 
-RECOGNIZING:
+**RECOGNIZING**:
 
 . that the maritime sector is increasingly depending on digital and (inter)connected technologies and systems.
 . that technologies applied for Maritime Services in the context of e-Navigation and AtoN, including VTS, may be susceptible to accidental and deliberate disruption.
 
-CONSIDERING the endorsement of the ARM Committee of the findings of the IALA workshop on cyber security that was held from 15 to 19 November 2021 as a virtual workshop and several input documents on cyber security in various committees.
+**CONSIDERING** the endorsement of the ARM Committee of the findings of the IALA workshop on cyber security that was held from 15 to 19 November 2021 as a virtual workshop and several input documents on cyber security in various committees.
 
-NOTING:
+**NOTING:**
 
 . that awareness of cyber risk within the IALA domains and among the IALA members may be improved, especially for non-IT personnel;
 . that existing risk management processes often do not include cyber risks;
@@ -22,7 +22,7 @@ NOTING:
 . that specific technologies are used within the IALA domains for which there are no ready-to-use standards or best practices regarding cyber security; and
 . that the process of modernization is often lengthy and resource intensive.
 
-RECOMMENDS:
+**RECOMMENDS:**
 
 . to improve cyber security awareness:
 .. within IALA by providing practical technical examples and how such examples can be valuable for members, both in identifying their own cyber risks and in applying mitigation methods; and
@@ -37,6 +37,6 @@ RECOMMENDS:
 . to implement protective measures or processes for all AtoN services and technologies, including VTS; and
 . that IALA members work towards the goal of ensuring all data in the IALA domain is provided with a means to authenticate the data, thereby allowing the user to determine if data originates from a legitimate source.
 
-INVITES Members and Marine Aids to Navigation authorities to implement the provisions of the Recommendation.
+**INVITES** Members and Marine Aids to Navigation authorities to implement the provisions of the Recommendation.
 
-REQUESTS the ARM committee to keep the Recommendation under review and to propose amendments as necessary.
+**REQUESTS** the ARM committee to keep the Recommendation under review and to propose amendments as necessary.

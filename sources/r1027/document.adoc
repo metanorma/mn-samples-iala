@@ -15,29 +15,40 @@
 :urn: urn:mrn:iala:pub:r1027:ed1.1
 
 // COVER (published PDF page 1): "RECOMMENDATION" with the "(NORMATIVE)"
-// qualifier, R1027, "VDE PAYLOAD FORMAT IDENTIFIERS (VPFI)", Edition 1.1,
-// June 2026, urn:mrn:iala:pub:r1027:ed1.1, IALA address block. The running
-// footer title reads "Recommendation (Normative) R1027 VDE payload Format
-// Identifiers (VPFI)" (with lower-case "payload"; cover title is used here).
+// qualifier printed as the second banner line, R1027, "VDE PAYLOAD FORMAT
+// IDENTIFIERS (VPFI)", Edition 1.1, June 2026, urn:mrn:iala:pub:r1027:ed1.1,
+// IALA address block. The running footer title reads "Recommendation
+// (Normative) R1027 VDE payload Format Identifiers (VPFI)" — the footer
+// title is typed with lower-case "payload" (the cover title is not); the
+// running-title clause below carries the footer form.
 //
 // DOCUMENT REVISION PAGE (published PDF page 2, printed before the recital
-// page). Captured verbatim below; feeds the missing document-history cover XSL
-// template (I1 catalogue item). The revision table records "Edition 1.0" while
-// the cover reads Edition 1.1; both are kept as printed:
-//
-// DOCUMENT REVISION
-// "Revisions to this document are to be noted in the table prior to the issue
-// of a revised document. The latest edition of the Recommendation is the only
-// version in force unless the Recommendation is explicitly revoked by the
-// Council."
-//
-// |===
-// |Date |Revision details |Approval
-//
-// |June 2026
-// |Edition 1.0
-// |Council 04
-// |===
+// page): encoded below as a real revision clause, exactly as printed. The
+// revision table records "Edition 1.0" while the cover reads Edition 1.1;
+// both are kept as printed.
+
+[preface,type=normativity]
+== Normativity
+
+(NORMATIVE)
+
+[preface,type=running-title]
+== Running title
+
+VDE payload Format Identifiers (VPFI)
+
+[type=revision]
+== Document revision
+
+Revisions to this document are to be noted in the table prior to the issue of a revised document. The latest edition of the Recommendation is the only version in force unless the Recommendation is explicitly revoked by the Council.
+
+|===
+|Date |Revision details |Approval
+
+|June 2026
+|Edition 1.0
+|Council 04
+|===
 //
 // Encoding note: the printed document comprises the Council recital page, an
 // unlettered "ANNEX VDE PAYLOAD FORMAT IDENTIFIERS" of three numbered clauses,

@@ -18,34 +18,26 @@
 // TECHNOLOGIES", Edition 2.0, June 2023, urn:mrn:iala:pub:s1060:ed2.0, IALA
 // address block and bilingual organization name.
 //
-// APPROVAL PAGE (published PDF page 2, printed before the contents). Captured
-// verbatim below; feeds the missing recital-page and document-history cover
-// XSL templates (I1 catalogue item):
-//
-// THE GENERAL ASSEMBLY
-//
-// BEARING IN MIND the provisions of the United Nations Convention on the Law
-// of the Sea (UNCLOS) and the International Convention for the Safety of Life
-// at Sea (SOLAS),
-//
-// RECOGNIZING that the aim of IALA is to foster the safe, economic and
-// efficient movement of vessels, through improvement and harmonization of
-// Marine Aids to Navigation world-wide,
-//
-// RECALLING article 7 of the IALA Constitution regarding the authority, duties
-// and functions of the General Assembly,
-//
-// RECALLING ALSO that a goal of the work of IALA is that Marine Aids to
-// Navigation are developed and harmonized through international cooperation
-// and the provision of standards as described in the Strategic Vision,
-//
-// HAVING CONSIDERED the advice of the Council provided to General Assembly at
-// its 13th Session,
-//
-// APPROVES the IALA Standard 1060 Digital Communication Technologies, and
-//
-// INVITES members and Marine Aids to Navigation authorities world-wide to
-// undertake to implement the provisions of the Standard.
+// APPROVAL PAGE (published PDF page 2, printed before the contents): the
+// General Assembly recitals, encoded below as a real recitals clause,
+// exactly as printed.
+
+[preface,type=recitals]
+== The General Assembly
+
+**BEARING IN MIND** the provisions of the United Nations Convention on the Law of the Sea (UNCLOS) and the International Convention for the Safety of Life at Sea (SOLAS),
+
+**RECOGNIZING** that the aim of IALA is to foster the safe, economic and efficient movement of vessels, through improvement and harmonization of Marine Aids to Navigation world-wide,
+
+**RECALLING** article 7 of the IALA Constitution regarding the authority, duties and functions of the General Assembly,
+
+**RECALLING ALSO** that a goal of the work of IALA is that Marine Aids to Navigation are developed and harmonized through international cooperation and the provision of standards as described in the Strategic Vision,
+
+**HAVING CONSIDERED** the advice of the Council provided to General Assembly at its 13th Session,
+
+**APPROVES** the IALA Standard 1060 Digital Communication Technologies, and
+
+**INVITES** members and Marine Aids to Navigation authorities world-wide to undertake to implement the provisions of the Standard.
 //
 // Encoding note: the published contents page lists this clause as "ADOPTION OF
 // AND AMENDMENT OF STANDARDS"; the body heading (transcribed here) reads
