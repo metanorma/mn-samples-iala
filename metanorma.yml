@@ -22,6 +22,9 @@ metanorma:
       - sources/a12-01/document.adoc
       - sources/a13-01/document.adoc
       - sources/cyber-workshop-report/document.adoc
+      - sources/g1195/document.adoc
+      - sources/c2007-1/document.adoc
+      - sources/definitions-conservation-of-historic-lighthouses/document.adoc
 
   collection:
     organization: "IALA: International Organization for Marine Aids to Navigation"
