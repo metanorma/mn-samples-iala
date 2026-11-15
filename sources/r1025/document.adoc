@@ -15,26 +15,39 @@
 :urn: urn:mrn:iala:pub:r1025:ed1.0
 
 // COVER (published PDF page 1): "IALA RECOMMENDATION" with the "(Normative)"
-// qualifier, R1025, "HARMONIZED WATERWAY DATASETS", Edition 1.0, December
-// 2024, urn:mrn:iala:pub:r1025:ed1.0, IALA address block. The running footer
-// title reads "IALA Recommendation R1025 Harmonized Waterway Datasets".
+// qualifier printed as the second banner line, R1025, "HARMONIZED WATERWAY
+// DATASETS", Edition 1.0, December 2024, urn:mrn:iala:pub:r1025:ed1.0, IALA
+// address block. The running footer title reads "IALA Recommendation R1025
+// Harmonized Waterway Datasets" — the printed footer omits the qualifier
+// that the banner carries; the banner form is the encoded artifact, and the
+// footer deviation is a published-file quirk. The cover address block is a
+// raster image in the published file.
 //
+// RECITAL QUALIFIER (published PDF page 1, printed as the second banner
+// line under "IALA RECOMMENDATION"): encoded as a typed preface clause; the
+// cover banner and the running footer consume it.
+
+[preface,type=normativity]
+== Normativity
+
+(Normative)
+
 // DOCUMENT REVISION PAGE (published PDF page 2, printed before the recital
-// page). Captured verbatim below; feeds the missing document-history cover XSL
-// template (I1 catalogue item):
-//
-// DOCUMENT REVISION
-// "Revisions to this document are to be noted in the table prior to the issue
-// of a revised document."
-//
-// |===
-// |Date |Details |Approval
-//
-// |December 2024
-// |1st issue
-// |Transition Council 3
-// |===
-//
+// page): encoded below as a real revision clause, exactly as printed.
+
+[type=revision]
+== Document revision
+
+Revisions to this document are to be noted in the table prior to the issue of a revised document.
+
+|===
+|Date |Details |Approval
+
+|December 2024
+|1st issue
+|Transition Council 3
+|===
+
 // Encoding note: the published recommendation carries no numbered clauses, no
 // contents page and no annex: its entire text is the Council recital page,
 // transcribed below as a single section. The Council adopts Guideline G1184
