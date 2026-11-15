@@ -1,0 +1,19 @@
+== Foreword
+
+The International Association of Marine Aids to Navigation and Lighthouse Authorities (IALA) recognises that training in all aspects of Aids to Navigation (AtoN) service delivery, from inception through installation and maintenance to replacement or removal at the end of a planned life-cycle, is critical to the consistent provision of that AtoN service.
+
+Taking into account that under the SOLAS Convention, Chapter V, Regulation 13, paragraph 2; Contracting Governments, undertake to take into account the international recommendations and guidelines when establishing aids to navigation, including referring to the appropriate recommendations and guidelines of IALA. This includes recommendations on training and qualification of AtoN technicians, and consequently IALA has adopted Recommendation R0141 on Standards for Training and Certification of AtoN personnel.
+
+IALA committees working closely with the IALA World Wide Academy have developed a series of model courses for AtoN personnel having E-R0141 Level 2 technician responsibilities. This model course on AtoN Service Craft and Buoy Tenders should be read in conjunction with the Training Overview Document IALA WWA C2000 which contains standard guidance for the conduct of all Level 2 model courses
+
+This model course is intended to provide national members and other appropriate authorities charged with the provision of AtoN services with specific guidance on the training of AtoN technicians in an introduction to service craft and buoy tenders. Assistance in implementing this and other model courses may be obtained from the IALA World Wide Academy at the following address:
+
+// The printed contact block lays the academy address (left) beside the
+// telephone/fax/e-mail/Internet details (right).
+|===
+|The Dean |Tel: (+) 33 1 34 51 70 01
+|IALA World-Wide Academy |Fax: (+) 33 1 34 51 82 05
+|10 rue des Gaudines |e-mail: academy@iala-aism.org
+|78100 Saint Germain-en-Laye |Internet: www.iala-aism.org
+|France |
+|===

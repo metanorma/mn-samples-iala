@@ -1,0 +1,25 @@
+=== Module 2 - Safety
+
+==== Scope
+
+This module describes methods for safely storing and handling Racons.
+
+==== Learning objective
+
+Upon completion, the student will have a satisfactory understanding of how to work with Racons safely.
+
+==== Syllabus
+
+===== Lesson 1 - Potential hazards
+
+. Working with RF:
+a. Dangers of exposure to RF.
+b. First aid measures.
+c. Dangerous voltages.
+. Personal protection:
+a. Climatic protection.
+b. Body protection.
+c. Hand and foot protection.
+. Safe handling and storage:
+a. Guidelines for transportation and storage.
+b. Proper lifting methods.

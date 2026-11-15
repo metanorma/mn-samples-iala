@@ -1,0 +1,10 @@
+== Other relevant sources of information
+
+// The printed entries are a numbered list (1-2); entry 2's URL is printed
+// broken over several lines and is joined here. The document closes with the
+// centred "ooooOOOooo" end-of-document mark, kept as printed.
+
+. Definitions in a better known international charter such as Burra: http://www.icomos.org/australia/burra.html
+. Organisation of World Heritage Cities (OWHC) provides details of other charters from the last forty years: http://urbo.ovpm.org/index.php?module=pagesetter&tid=2&rc=1&filter=categorie:eq:62
+
+ooooOOOooo

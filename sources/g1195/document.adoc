@@ -1,0 +1,87 @@
+= VTS English Communication Competency Testing
+:doctype: guideline
+:series: G
+:docnumber: 1195
+:docidentifier: G1195
+:edition: 1.0
+:language: en
+:published-date: 2025-12
+:copyright-year: 2025
+:mn-document-class: iala
+:imagesdir: images
+:local-cache-only:
+:data-uri-image:
+:toclevels: 3
+:urn: urn:mrn:iala:pub:g1195:ed1.0
+
+// SOURCE:
+// reference-docs/guidelines/G1195-Ed1.0-VTS-English-communication-competency-testing.pdf
+// (35 pages: 20 portrait A4 + 5 landscape A4 (Annex A, published pages 21-25)
+// + 10 portrait A4).
+//
+// COVER (published PDF page 1): "IALA GUIDELINE", G1195, "VTS ENGLISH
+// COMMUNICATION COMPETENCY TESTING", Edition 1.0, December 2025,
+// urn:mrn:iala:pub:g1195:ed1.0.
+//
+// DOCUMENT REVISION PAGE (published PDF page 2, printed before the contents).
+// Captured verbatim below; feeds the missing document-history cover XSL
+// template (I1 catalogue item):
+//
+// DOCUMENT REVISION
+// "Revisions to this document are to be noted in the table prior to the issue
+// of a revised document."
+//
+// |===
+// |Date |Details |Approval
+//
+// |Dec 2025
+// |First edition
+// |Council 03
+// |===
+//
+// PAGE SEQUENCE: Annex A (Reference Level Descriptors) is printed on landscape
+// A4 pages 21-25 as full-width single pages (no two-up spread); its table is
+// transcribed as a single table with full-width element band rows.
+//
+// RUNNING FOOTER (all pages except the cover): "IALA Guideline G1195 VTS
+// English Communication Competency Testing / Edition 1.0
+// urn:mrn:iala:pub:g1195:ed1.0" left, page number "P n" right.
+//
+// SECTION 3 (published page 6) carries three numbered lead-ins ("1 Enable
+// individuals to improve their communication skills", "2 Improve
+// interactions between VTS, ships and allied services", "3 Reduce workplace
+// errors") that are absent from the printed contents; they are encoded as an
+// ordered list of bold lead-ins with block bodies, not as clause headings,
+// so the generated clause numbering stays aligned with the printed contents.
+//
+// ANNEX C (published pages 28-31): each example question is printed as a
+// boxed two-column table (label / content); transcribed as published,
+// including the Questions 3 and 4 shared-heading structure and the two
+// reference images (images/q3-q4-reference-image.png,
+// images/q5-reference-image.png). Question 6 references a video; its printed
+// [Video Script] text is transcribed as published (the video itself is not
+// part of the PDF).
+
+include::sections/01-introduction.adoc[]
+
+include::sections/02-document-purpose.adoc[]
+
+include::sections/03-benefits-of-assessing-competency-in-vts-english-communications.adoc[]
+
+include::sections/04-elements-of-quality-competency-test.adoc[]
+
+include::sections/05-evaluation-framework.adoc[]
+
+include::sections/06-development-of-a-competency-test.adoc[]
+
+include::sections/07-assessment-process.adoc[]
+
+include::sections/08-skills-and-qualifications-for-test-design-and-assessment.adoc[]
+
+include::sections/09-annex-a-reference-level-descriptors.adoc[]
+
+include::sections/10-annex-b-common-communication-tasks-of-vts-operators.adoc[]
+
+include::sections/11-annex-c-example-test-questions.adoc[]
+
+include::sections/12-annex-d-examples-of-how-to-assess-competency.adoc[]

@@ -1,0 +1,203 @@
+[appendix]
+== Example test questions
+
+This annex provides some example test questions to illustrate how VTS communication competencies may be assessed through practical, scenario-based tasks. The questions are structured around the evaluation framework (see Section 5) and are designed to reflect realistic VTS communication and interaction activities, which are aligned with the Common Communication Tasks of VTS Operators (see Annex B).
+
+Depending on the specific competencies being assessed, different question type formats may be used, such as text, audio, images, and video. For more information on question types, refer to Section 6.5 – Question Types.
+
+// Each printed question is a boxed two-column table (label / content);
+// transcribed as published.
+
+=== Question 1 - Transmit the provided safety message aloud
+
+|===
+a|Task Specifications
+a|
+* *Communication Task:* Responding to developing unsafe situations
+* *Question Type:* Text-based (Message Delivery)
+* *Scenario Title:* Broadcasting a navigational warning regarding a dangerous wreck
+
+|Time allocation
+a|
+The student may have 45 seconds to review the test instructions and 45 seconds to deliver the response.
+
+|Test Instructions
+a|
+You are required to deliver the Securite message to vessels in the VTS area.
+
+Review the information provided and deliver the message using standard message delivery practices.
+
+|Written Prompt on Screen
+a|
+Securite. Securite. Securite.
+
+All stations. All stations. All stations.
+
+This is Incheon VTS. Incheon VTS. Incheon VTS.
+
+WARNING Dangerous wreck in position 37° 25' 52" North, 126° 34' 02" East.
+
+All vessels in the vicinity are advised to navigate with caution.
+
+Out.
+|===
+
+=== Question 2 - Construct a VTS message appropriate to the given situation
+
+|===
+a|Task Specifications
+a|
+* *Communication Task:* Vessels entering VTS area
+* *Question Type:* Text and Audio-based (Analysing and Responding)
+* *Scenario Title:* Provide anchoring instructions to a vessel entering Busan VTS area
+
+|Time allocation
+a|
+The student may have 30 seconds to review the test instructions and 30 seconds to deliver the response.
+
+|Test Instructions
+a|
+You are a VTS operator in Busan. A vessel is entering the VTS area and you will need to provide them with anchorage information.
+
+You will hear a message from the vessel and be provided with reference information on key messages to be delivered. Construct your message using appropriate techniques, standard message structure, message marker(s), and phrases. Verify the vessel correctly interpreted the message.
+
+|Audio Message
+a|
+.Incoming Vessel's Message
+____
+Busan VTS, this is container ship Halla Star.
+
+I am entering Busan VTS area from the southeast.
+
+What is my anchoring position?
+
+Over.
+____
+
+|Reference Information on Screen
+a|
+.Messages to be delivered by VTSO
+----
+- Go to anchorage area B3
+- Stay at least 5 cables away from other ships
+- Listen on VHF Channel 14 for more information
+----
+|===
+
+=== Questions 3 and 4 - Construct a VTS message appropriate to the provided image and text
+
+|===
+a|Task Specifications
+a|
+* *Communication Task:* Responding to developing unsafe situations
+* *Question Type:* Text and Image-based (Warning message composition)
+* *Scenario Title:* Instructing a vessel to navigate in the correct traffic lane
+
+|Time allocation
+a|
+The student may have 30 seconds to review the test instructions and 30 seconds to deliver the response.
+
+|Test Instructions
+a|
+You are a VTS operator in Busan.
+
+You will use the same image to answer two questions but deliver messages to different vessels — Question 3 to Container Ship Alpha and Question 4 to Ro-Ro Ship Bravo.
+
+Review the image and reference information and deliver your response to Container Ship Alpha and Ro-Ro Ship Bravo.
+
+Construct your message using appropriate techniques, standard message structure, message marker(s), and phrases. Verify the vessel correctly interpreted the message.
+
+|Reference Information on Screen for Question 3
+a|
+.Messages to be delivered by VTSO
+----
+- Ship name: Alpha
+- Ship type: Container ship
+- Activity: MV Alpha is currently navigating in an incorrect traffic lane (outbound).
+- Required action: MV Alpha needs to change course to starboard and follow the inbound lane.
+----
+
+|Reference Image on Screen for Question 3 and 4
+a|
+image::q3-q4-reference-image.png[]
+
+a|Task Specifications for Question 4
+a|
+* *Communication Task:* Responding to developing unsafe situations
+* *Question Type:* Text and Image-based (Situation transmission and warning message composition)
+* *Scenario Title:* Issue a collision warning to prevent a potential collision
+
+|Reference Information on Screen for Question 4
+a|
+.Messages to be delivered by VTSO
+----
+- Ship name: Bravo
+- Ship type: Ro-Ro ship
+- Activity: Head-on situation developing with MV Alpha, creating a potential risk of collision
+- Distance from Ro-Ro Ship Bravo: 2.5 nautical miles
+- Required action: MV Bravo should remain alert and take appropriate caution
+----
+|===
+
+=== Question 5 - Construct a VTS message appropriate to the provided image and text
+
+|===
+a|Task Specifications
+a|
+* *Communication Task:* Responding to developing unsafe situations
+* *Question Type:* Text and Image-based (Warning message composition)
+* *Scenario Title:* Delivering a warning message to a vessel regarding nearby towing operations
+
+|Time allocation
+a|
+The student may have 45 seconds to review the test instructions and 30 seconds to deliver the response
+
+|Test Instructions
+a|
+You are a VTS operator in Yeosu.
+
+Review the image and reference information and deliver your response to MV Pioneer.
+
+Construct your message using appropriate techniques, standard message structure, message marker(s), and phrases. Verify the vessel correctly interpreted the message.
+
+|Reference Information on Screen
+a|
+.Messages to be delivered by VTSO
+----
+- Ship type: A tug-barge
+- Ship name: Blue Horizon
+- Activity: MV Blue Horizion is engaged in a towing operation
+- Distance from MV Pioneer: 1 nautical mile
+- Relative position: On MV Pioneer's starboard bow
+- Required action: MV Pioneer should avoid getting too close to the towing operation.
+  Use Channel 12 to reach the tug.
+----
+
+|Reference Image on Screen
+a|
+image::q5-reference-image.png[]
+|===
+
+=== Question 6 - Watch the video and construct a safety message appropriate to the situation
+
+|===
+a|Task Specifications
+a|
+* *Communication Task:* Emergency response
+* *Question Type:* Audio-visual based questions (Situation summarization and transmission)
+* *Scenario Title:* Broadcasting a safety message following a shipping incident
+
+|Time allocation
+a|
+The student may have 60 seconds to watch the video, and 30 seconds for preparation, then 30 seconds to deliver their response
+
+|Test Instructions
+a|
+You are a VTS operator in Port Selvana.
+
+You will first watch a short video showing a recent maritime accident that occurred inside the port. Based on the information presented in the video, you will be required to compose a message to be broadcast to nearby vessels in the VTS area.
+
+|Reference Information on Screen
+a|
+*[Video Script]* A maritime accident occurred off the coast of Port Selvana earlier today when a container vessel collided with another ship underway, resulting in nine large containers falling into the sea. The drifting containers are obstructing the main fairway near the port breakwater. The incident happened during heavy fog, as the region enters its monsoon season. Poor visibility is believed to have played a major role in the collision. Due to the ongoing recovery operations, port authorities have temporarily suspended all vessel movements. Port Selvana authorities are currently working to clear the fairway and restore normal traffic flow.
+|===

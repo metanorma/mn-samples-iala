@@ -1,0 +1,65 @@
+= Definitions relating to the Conservation of Historic Lighthouses
+:doctype: report
+:docnumber: definitions-conservation-of-historic-lighthouses
+:docidentifier: definitions-conservation-of-historic-lighthouses
+:language: en
+:published-date: 2008-12
+:copyright-year: 2008
+:mn-document-class: iala
+:imagesdir: images
+:local-cache-only:
+:data-uri-image:
+:toclevels: 3
+:urn: urn:mrn:iala:pub:definitions-conservation-of-historic-lighthouses
+
+// SOURCE: reference-docs/misc/definitions-conservation-of-historic-lighthouses.pdf
+// (5 pages, all portrait A4).
+//
+// COVER (published PDF page 1): "INFORMATION PAPER", "(To be read in
+// conjunction with the Conservation Manual)", "Definitions relating to the
+// Conservation of Historic Lighthouses", "December 2008", the historic
+// IALA-AISM logo and the pre-2014 IALA address block ("20ter, rue Schnapper,
+// 78100 Saint Germain en Laye, France / Telephone +33 1 34 51 70 01 Telefax
+// +33 1 34 51 82 05 / E-mail - iala-aism@wanadoo.fr Internet -
+// http://iala-aism.org"). The document carries no edition, no document
+// number and no printed URN.
+//
+// IDENTIFIER: the :docnumber:/:docidentifier:/:urn: slugs follow the IALA
+// publication catalogue slug and the relaton-data-iala record
+// (id "definitions-conservation-of-historic-lighthouses", docidentifier
+// "IALA definitions-conservation-of-historic-lighthouses", author
+// subdivision EEP, published 2008-12-01, copyright 2008). The catalogue
+// record carries no urn field; the :urn: above is minted following the
+// corpus slug pattern (cf. urn:mrn:iala:pub:report-workshop-iala-cyber-security).
+//
+// DOCUMENT TYPE: the cover prints "INFORMATION PAPER"; the relaton-data-iala
+// record registers doctype "resolution", which the printed document does not
+// support (it is committee information material, not an adopted resolution).
+// The iala taste offers no information-paper doctype; :doctype: report is
+// used as the closest registered type (cf. the workshop-report precedent),
+// with the secretariat question on the catalogue's doctype registration
+// raised in the PR.
+//
+// TITLE: the printed cover title is "Definitions relating to the Conservation
+// of Historic Lighthouses"; the relaton-data-iala title is "Definitions –
+// Conservation of Historic Lighthouses". The printed form is used as the
+// document title; the catalogue form is preserved in the record comment.
+//
+// RUNNING FOOTER (pages 2-5): "Information Paper – Definitions relating to
+// the Conservation of Historic Lighthouses / December 2008" left, "Page n
+// of 5" right.
+//
+// END MARKER: the printed document closes with the centred "ooooOOOooo"
+// end-of-document mark, kept verbatim at the close of the last section.
+
+include::sections/01-introduction.adoc[]
+
+include::sections/02-definitions.adoc[]
+
+include::sections/03-other-commonly-used-words.adoc[]
+
+include::sections/04-preservation-of-historic-lighthouses-advisory-panel-definitions.adoc[]
+
+include::sections/05-references.adoc[]
+
+include::sections/06-other-relevant-sources-of-information.adoc[]

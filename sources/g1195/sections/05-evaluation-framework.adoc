@@ -1,0 +1,107 @@
+== Evaluation framework
+
+=== Evaluation criteria
+
+The evaluation criteria for VTS communication competency testing are based on the framework outlined in IALA G1132, these include:
+
+* Message compilation;
+* Message delivery;
+* Message interpretation; and
+* Standard phraseology.
+
+==== Message compilation
+
+This is the process of assembling and structuring information into a clear, coherent, and effective message that considers the operational context and communication procedures. The following should be taken into account:
+
+* Message structure: the framework to convey information or instructions unambiguously using a standard format and content structure. Further, there are some general rules for constructing and composing VHF messages to emphasize brevity, clarity, and precision.
+* Message markers: IMO Resolution A.918(22) defines eight message markers in the SMCP, seven of which (i.e. information, advice, warning, instruction, question, answer, and request) are frequently used in VTS operations for precise communication to ensure messages are understood as intended.
+* Phonetic alphabet and numbers: The use of the phonetic alphabet and numbers enhances clarity by avoiding misunderstanding and preventing potential confusion in the delivery of specific words or letters over in radio communications.
+* Standard use of maritime terminology: The correct application of maritime terminology - encompassing positions, bearings, courses, distances, speeds, times, geographical names, and abbreviations - essential for clear and effective communication.
+
+==== Message delivery
+
+These criteria ensure that VTS communications are professional, clear, concise, consistent, and accurate. The following considerations should be taken into account:
+
+* Preparation when using VHF: The proper use of VHF equipment is essential to ensure that transmissions are successful, and the message's initial content is not lost.
+* Tone and volume: Demonstration of calm confidence, professionalism, and respectfulness in tone. The voice volume should be moderated to normal conversation levels to avoid distortion from shouting and prevent inaudibility from soft speech.
+* Emphasis on keywords: Highlighting of key words in a message by pronouncing them with a slightly elevated tone and longer duration to ensure they are distinctly accentuated.
+* Speech rate: The recommended speech rate is about 120 words per minute (WPM) for routine communication, whereas a slower rate of 100 WPM is advised for emergencies or when dealing with developing unsafe situations, to ensure clarity of speech.
+* Word grouping and pausing: The utilization of word grouping (the division of sentences into smaller groups or phrases) and the insertion of brief pauses between each word group both for enhancing listeners' understanding of the message and for facilitating speakers' preparation for delivery, ultimately contributing to mutual intelligibility.
+* Questioning techniques: The effective application of questioning techniques (i.e. closed questions, open questions, and funnel questions) to gather and disseminate information based on real-time situations within the VTS area.
+* Avoidance of ambiguous language: The avoidance of unambiguous terminology and the use of local terminology can lead to confusion and misunderstandings.
+* Confirmation/Clarification of message: The effective application of standard communication protocols involves various actions such as confirmation, correction, reinforcement, and request within maritime exchanges. This includes:
+** "Yes" or "no" followed by the appropriate phrase, and responding affirmatively or negatively
+** "Received" to acknowledge receipt of the message
+** "Stand by" to indicate temporary unavailability of the requested information
+** "Correction" followed by the corrected part of the message
+** "Repeat" to emphasize the corresponding and important part of the message.
+** "Say again" when messages are not properly heard.
+* Distress and safety communication: The ability to apply operational procedures to provide accurate, effective communications in response to distress and safety situations, even under the pressure.
+
+==== Message interpretation
+
+Message interpretation focuses on how VTS operators use various communication strategies to accurately understand and interpret messages. This process aims to enhance mutual understanding and effective communication by taking into account:
+
+* Effective listening skills: Observations should be made on aspects of attentive listening, clarity of information, and accurate interpretation of the information provided. Individuals should pay close attention to the speaker's message by:
+** engaging in appropriate communication to clarify information.
+** identifying key issues and confirm accuracy.
+** determining the most appropriate message markers according to the target communicative situations, to effectively convey the intention of the message and facilitate the listener's understanding.
+** identifying the most appropriate communication procedures to respond to the situation. For example, if the situation demands an instruction, then they should be able to respond with the appropriate message marker and standard phrases.
+* Closed-loop communication: To reduce the risk of misunderstandings, a closed-loop communication or read-back technique may be used to confirm that VTS messages are correctly received and understood.
+
+==== Standard phraseology
+
+Individuals should be familiar with standard phraseology and be able to immediate recall phrases consistent with:
+
+* IMO Resolution A.918(22) - the IMO Standard Marine Communication Phrases
+* Part C of IALA Guideline G1132 on VTS Voice Communications and Phraseology
+
+Competency testing should consider the following core areas associated with the provision of VTS, which may include:
+
+* General communications (e.g. Radio Checks, VTS Operational Status, Requesting Reports, Call Requests, Use of Other VHF Channels, Reporting of Ship Identification and Particulars, Speed, Engine)
+* Provision of information (e.g. traffic information, weather information, tidal/hydrological information, information broadcasts).
+* Management of ship traffic (e.g. navigating in the VTS area, berthing, proceeding from or to an alongside berth or anchorage, anchor operations, pilotage).
+* Responding to a developing unsafe situation.
+* Applying the phraseology as appropriate for the specific situation.
+
+It is acknowledged that situations may arise where no standard phrases have been identified. Although plain languagefootnote:[Plain language is communications that is clear, concise, well-organized, and follows other best practices appropriate to the subject or field and intended audience.] or locally adopted phrases may be used in these circumstances, as described in IALA G1132 on VTS Voice Communications and Phraseology, it is advisable to design the test in a manner that minimizes the use of plain language or locally adopted phrases.
+
+=== Rating scale
+
+The VTS communication proficiency rating scale has been developed to assess the competency of VTS operators in the use of standard messaging structure and phrases. Level 1 is designed for beginners, where they may only have a foundational understanding of VTS, while Level 6 indicates a high level of proficiency.
+
+It is expected that qualified VTS operators should achieve at least a Level 4 rating on the scale to be considered competent in VTS communications.
+
+Annex A provides reference level descriptors of how this rating scale may be used to assess competency against these four evaluation criteria elements. Each element is further detailed with six progressive levels, ranging from Basic Competence (Level 1) to Expert (Level 6). These reference level descriptors provide a clear progression of skills, enabling assessors to comprehensively and systematically evaluate competencies.
+
+The following descriptions provide a broad definition of the levels of proficiency in VTS communications.
+
+// The printed first column stacks "Level n" over its parenthetical name
+// ("Level 1" / "(Basic)"); kept in one cell per row.
+|===
+|Rating Scale |Description
+
+|Level 1 (Basic)
+a|
+May string together very basic messages using standard messaging structure and phrases, but with extreme difficulty in being understood. Often misinterprets messages and fails to clarify critical information.
+
+|Level 2 (Developing)
+a|
+Begins to apply standard message structures and phrases with few errors and lacks sustained fluency. Continues to develop complex interpretations and frequently requires clarifications. Overall, has a limited understanding of VTS communications specific terminology/standard phrases, and continues to interpret messages and respond accordingly.
+
+|Level 3 (Eligible)
+a|
+Uses standard messaging structure and phrases satisfactorily. Understands communications with measured pace, rephrasing, and repetition. Demonstrates adequate listening skills and able to interpret messages effectively and respond accordingly, though may struggle under pressure.
+
+|Level 4 (Operational)
+a|
+Effectively uses standard messaging structure and phrases with occasional minor mistakes. Achieves reliable communication outcomes by applying communication techniques for clarity and effective delivery. Corrects major errors to maintain understanding of message essence, despite occasional detail misunderstandings.
+
+|Level 5 (Proficient)
+a|
+Confidently uses standard messaging structure and phrases accurately and fluently in all but the most demanding situations. Makes occasional minor mistakes that do not hinder understanding. May occasionally require clarification when interpreting messages, which can be usually resolved with some assistance.
+
+|Level 6 (Expert)
+a|
+Fluently uses standard messaging structure and phrases in all VTS communications and interactions. Ensures optimal clarity and effectiveness by adapting communication tools effortlessly. Effectively interprets messages and responds accordingly.
+|===

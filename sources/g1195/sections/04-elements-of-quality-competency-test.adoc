@@ -1,0 +1,23 @@
+== Elements of quality competency test
+
+An effective competency assessment must be valid, authentic, sufficient, current, and reliable. The key elements of a quality test are:
+
+* *Valid:* The test content needs to accurately measure whether VTS operators have the skills they need to effectively communicate. Specifically, the test should include tasks that reflect real-world scenarios, ensuring the results are meaningful and relevant to the practical requirements of the role.
+* *Authentic:* The test ensures that the evidence presented accurately represents the learner's skills, knowledge and abilities. The evidence is directly related to the assessment task and the work of the VTS operators.
+* *Sufficient:* The test sufficiently assesses the VTS Operator's communication skills, against the evaluation criterion. Included in ensuring a sufficient test, this refers to how accurately a test reflects the language and communication demands of VTS operations and situations VTS personnel may encounter.
+* *Current:* The test needs to be up-to-date and reflects the current knowledge and practices.
+* *Reliable:* The test yields consistent results over time and across different assessors, with repeatability where the test produces similar results for an individual regardless of whether they complete it once or multiple times. To ensure credibility, the test must be administered and scored in a standardized way.
+
+Reliability needs to be considered in three different ways:
+
+* *How the test is structured*
++
+The structure of the test should enable results to be meaningfully compared between VTS operators. This does not imply that all VTS operators will face identical questions, but rather that the questions and tasks should be comparable in type and difficulty. All individuals should have the same amount of time to complete the test. In this way, results can be compared with confidence, and a high score will reliably indicate a high level of competency in VTS interaction and communications.
+* *How it is assessed*
++
+Answers should be graded in an identical manner using the same standards, ensuring that each assessment criterion is consistently applied across different levels. This ensures errors are addressed uniformly, leading to accurate and meaningful results.
++
+Further, comparing the communication skills of different VTS operators or tracking an individual's competence over time can help to refine model courses and tailor other training programs.
+* *How it is given*
++
+The conditions in which a test is given play can affect the outcomes. To ensure reliable results, tests should be administered in environments with minimal distractions, as certain settings may otherwise make it more difficult for some individuals to perform well in the test.

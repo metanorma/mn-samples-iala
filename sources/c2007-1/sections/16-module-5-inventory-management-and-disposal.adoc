@@ -1,0 +1,26 @@
+=== Module 5 - Inventory management and disposal
+
+==== Scope
+
+This module describes the procedures for managing the Racon inventory, and for proper disposal and recycling of Racons.
+
+==== Learning objective
+
+Upon completion, the student will have a satisfactory understanding of the policies and regulations in his or her organization which govern the proper management and disposal of Racons.
+
+==== Syllabus
+
+===== Lesson 1 - Inventory management
+
+. Legal requirements and regulations governing management.
+. Procedures for life-cycle inventory tracking.
+. Racon labelling.
+. Installation and inspection records.
+
+===== Lesson 2 - Disposal
+
+. Legal requirements and regulations governing disposal.
+. Methods of disposal:
+a. Recycling options.
+b. Proper disposal methods.
+. Disposal records.

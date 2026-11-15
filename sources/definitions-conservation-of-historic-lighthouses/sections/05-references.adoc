@@ -1,0 +1,10 @@
+== References
+
+// The printed references are a numbered list (1-5); the trailing period of
+// reference 4 is as printed.
+
+. Stirling Charter http://www.historic-scotland.gov.uk/stirlingcharter.pdf
+. British Standard BS 7913: 1998 The principles of the conservation of historic buildings
+. IALA Lighthouse Conservation Manual Version 1, 2006
+. US Parks Lighthouse Preservation Handbook.
+. http://www.nps.gov/history/maritime/hdbktoc.htm

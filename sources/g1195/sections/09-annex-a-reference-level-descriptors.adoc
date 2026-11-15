@@ -1,0 +1,108 @@
+[appendix]
+== Reference level descriptors
+
+// The printed table (published PDF pages 21-25, landscape A4) carries the
+// element band rows MESSAGE COMPILATION / MESSAGE DELIVERY / MESSAGE
+// INTERPRETATION / STANDARD PHRASEOLOGY as full-width shaded rows spanning
+// all seven columns; several element labels share one row of level
+// descriptors as printed. Published typos kept as printed, including
+// "expert command of of maritime terminology" (Level 6, standard use of
+// maritime terminology).
+|===
+^|ELEMENTS ^|Level 1 (Basic) ^|Level 2 (Developing) ^|Level 3 (Eligible) ^|Level 4 (Operational) ^|Level 5 (Proficient) ^|Level 6 (Expert)
+
+7+|*MESSAGE COMPILATION*
+
+|Message structure
+|Demonstrates a limited ability to apply standard message structures, frequently making errors in constructing and ordering of information. Messages often lack clarity and omit key elements.
+|Begins to apply standard message structures with some errors in formatting and clarity. Shows a basic understanding of how to construct and adapt message content for various contexts.
+|Applies standard message structure with moderate accuracy. Consistently conveys routine information and handles complex situations with some errors.
+|Competently uses standard message structure to clearly convey information or instructions. Effectively adjusts messages to meet specific requirements, rarely making mistakes in routine situations but occasionally may face challenges in unusual situations.
+|Confidently and fluently applies standard message structures with clarity and precision in a wide range of routine and complex communication scenarios, making rare errors.
+|Consistently uses standard message structure expertly to convey information clearly and reduce ambiguity across all types of communication scenarios, even under pressure or in unusual situations.
+
+a|Message markers +
+Phonetic alphabet & numbers
+|Shows limited proficiency with message markers, phonetic alphabet, and numbers. Frequent errors and inconsistencies indicate significant gaps in understanding and applying these concepts.
+|Demonstrates basic understanding of message markers, phonetic alphabet, and numbers, but makes frequent errors. Can apply concepts with guidance, though performance remains inconsistent.
+|Uses message markers, phonetic alphabet, and numbers with moderate accuracy in routine scenarios. Occasional errors indicate the need for further practice and refinement.
+|Consistently applies message markers, phonetic alphabet, and numbers correctly in most standard communications. Errors are rare and do not significantly affect clarity or overall message effectiveness.
+|Applies message markers, phonetic alphabet, and numbers accurately and confidently in both routine and complex scenarios.
+|Uses message markers, phonetic alphabet, and numbers with precision and consistency, even in complex or developing situations, ensuring clear and effective communication under pressure.
+
+a|Standard use of maritime terminology (e.g. positions, bearings, course, distance, speed, time, geographical names, and abbreviations)
+|Has only a basic recognition of maritime terminology and frequently misuses or misunderstands terms, leading to significant communication errors.
+|Demonstrates familiarity with standard navigational and operational terms but applies terminology with partial accuracy. Errors are common particularly in routine communications.
+|Applies maritime terminology with moderate accuracy. Uses standard terms reliably in routine communications but may struggle with complex terminology or under pressure.
+|Demonstrates a solid understanding of maritime terminology and uses it accurately in most operational contexts. Occasionally incorporates more advanced terms. Minor errors may occur but rarely affect clarity.
+|Confidently and consistently uses maritime terminology, to enhance communication clarity and operational effectiveness. Adapts terminology appropriately to a range of operational situations.
+|Demonstrates expert command of of maritime terminology, navigational and operational terms. Seamlessly integrates terminology into all communications, contributing to clear, efficient, and context-appropriate communications.
+
+7+|*MESSAGE DELIVERY*
+
+|Preparation when using VHF
+|Has a limited understanding of the importance of pauses after activating the PTT button, resulting in clipped or incomplete message beginnings.
+|Shows awareness of the need for brief pauses but does not consistently apply this practice, occasionally resulting in loss of message content.
+|Generally remembers to pause after PTT activation, reducing instances of clipped messages.
+|Consistently uses brief pauses after PTT activation, ensuring message starts clearly every time.
+|Expertly manages PTT activation with pauses tailored to the communication context, preventing any loss of message content.
+|Demonstrates expert use of VHF equipment to consistently apply precise timing to every message.
+
+a|Tone and volume +
+Emphasis on keywords +
+Speech rate +
+Word grouping and pausing
+|Shows significant inconsistencies in tone and volume, often using an inappropriate, speech rate that is rushed or unclear. Struggles with word grouping and pausing, resulting in unclear or hard to follow messages.
+|Begins to manage tone and volume with some consistency. Speech rate is occasionally appropriate and begins to incorporate basic word grouping and pausing techniques.
+|Maintains generally appropriate tone, volume and speech rate in routine situations. Uses word grouping and pausing to improve the overall clarity of the message, though somewhat inconsistent.
+|Consistently uses appropriate tone and volume. Adjusts speech rate to meet specific communication context and uses word grouping and pausing effectively to support the listener understand the message clearly and easily.
+|Demonstrates strong control over tone, volume, and speech rate across a wide range of situations. Applies word grouping and pausing naturally to enhance clarity and ensure listener understanding.
+|Exhibits expert level control in managing tone, volume, and speech rate. Seamlessly adapts delivery to suit the audience and situation, using word grouping and pausing to achieve clarity and efficiency in VTS communications.
+
+a|Questioning techniques +
+Avoidance of ambiguous language +
+Confirmation/clarification of message (Responses, corrections, repetitions, etc.)
+|Rarely uses questioning techniques and frequently relies on vague or ambiguous language. Struggles to confirm or clarify messages, often resulting in repeated or misunderstood information.
+|Occasionally uses basic questioning techniques and shows awareness of ambiguous language. Makes attempts to confirm or clarify, information, but with limited success.
+|Applies questioning techniques with moderate success. Usually avoids ambiguous language, and generally confirms or clarifies messages accurately, though sometimes with occasional gaps in clarity or completeness.
+|Effectively uses a variety of questioning techniques to support message accuracy. Consistently avoids ambiguous language and confirms or clarifies information with seldom need for repetition.
+|Uses questioning techniques to guide and refine communication. Consistently communicates with clarity, avoiding ambiguous language, and confirms or clarifies information with high precision, requiring minimal follow-up.
+|Demonstrates expert questioning and clarification techniques, adapting to the situation as needed. Maintains clear, unambiguous language to help ensure a shared understanding without the need for repetition or confusion.
+
+a|Distress and safety communications (distress, urgency and safety calls)
+|Demonstrates little understanding of distress and safety communication procedures. Frequently makes errors and unable to apply related protocols.
+|Shows basic knowledge of distress and safety communication procedures. Occasionally applies protocols correctly with guidance but is prone to errors.
+|Applies distress and safety communication procedures with moderate accuracy. Reliably manages routine distress calls but may hesitate or miscommunicate in developing situations.
+|Competently applies distress and safety communication procedures correctly and confidently in most standard emergency scenarios. Errors are rare and do not significantly affect the overall communication outcomes.
+|Demonstrates a high degree of skill in managing distress and safety communications across a range of emergency scenarios. Consistently applies operational procedures with clarity and precision, showing a sound understanding of communication protocols.
+|Displays expert-level proficiency in distress and safety communications, effectively managing all types of emergency scenarios. Adapts procedures as needed while ensuring clear, and accurate communication.
+
+7+|*MESSAGE INTERPRETATION*
+
+|Effective listening skills
+|Struggles to maintain focus during communications. Frequently misunderstands key information and rarely seeks clarification. Needs significant improvement in active listening and interpretation skills.
+|Shows some ability to listen attentively but often misses important details, particularly in longer or more complex communications. Occasionally seeks clarification but understanding remains inconsistent.
+|Maintains attention and focus during most routine communications. Accurately understands most communications and occasionally asks clarifying questions to confirm understanding.
+|Consistently listens with focus and accurately interprets routine and moderately complex messages. Regularly seeks clarification when needed and contributes to clear, effective communications.
+|Demonstrates advanced listening skills by consistently interpreting both routine and complex situations accurately. Actively engages with the speaker to probe deeper, ensuring a thorough understanding and minimizes the need for repetition or correction.
+|Exhibits expert listening skills across all communication scenarios. Maintains focus, interprets complex and critical information accurately, and responds promptly and appropriately.
+
+|Closed-loop communications
+|Lacks the ability to implement closed-loop communication or read-back techniques. Fails to confirm message understanding which requires repeats and extensive corrections.
+|Attempts to use closed-loop communication or read-back techniques with limited effectiveness. Message confirmation is often delayed, requiring several attempts of repeated messages to achieve clarity.
+|Implements closed-loop communication or read-back techniques with moderate consistency. Usually confirms messages accurately but sometimes may require multiple clarifications to ensure that messages are correctly received and understood.
+|Consistently uses closed-loop communication or read-back techniques to confirm messages are correctly received and understood with accuracy. Misunderstandings are actively resolved when they occur.
+|Confidently manages the message confirmation using closed-loop communication or read-back techniques. Promptly corrects any discrepancies to ensure messages are correctly received and understood.
+|Demonstrates mastery in closed-loop communication or read-back techniques to proactively manage the message confirmation process. Efficiently addresses any discrepancies to maintain the clarity and accuracy with all communications.
+
+7+|*STANDARD PHRASEOLOGY*
+
+a|SMCP +
+IALA G1132
+|Frequently misapplies or misunderstands standard phraseology, leading to incorrect and often unclear usage of communication.
+|Shows basic ability to use standard phraseology, but often struggles with accuracy and clarity, especially in less familiar or non-routine situations.
+|Correctly applies standard phraseology in routine contexts and occasionally in developing situations. Minor errors occur but generally do not significantly impact overall clarity.
+|Effectively uses standard phraseology in both routine and developing situations. Communication is generally clear and accurate, with few errors.
+|Uses standard phraseology with high accuracy and clarity, by consistently applying it correctly in almost all routine and developing situations.
+|Applies standard phraseology across all communication scenarios with expert level consistency that is tailored to context, regardless of complexity and situational demands.
+|===

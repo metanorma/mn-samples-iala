@@ -1,0 +1,8 @@
+=== References
+
+In addition to any specific references required by the Competent Authority, the following material is relevant to this course:
+
+. IALA NAVGUIDE.
+. IALA Recommendation R0101 on Maritime Radar Beacons (Racons).
+. IALA Guideline G1010 on Racon Range Performance.
+. Technical documentation from Racon equipment manufacturers.

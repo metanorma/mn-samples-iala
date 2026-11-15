@@ -1,0 +1,27 @@
+=== Module 1 - Introduction to Racon technology
+
+==== Scope
+
+This module provides an overview of Racon technology and the various AtoN applications.
+
+==== Learning objective
+
+Upon completion, the student will have a satisfactory understanding of how Racons work and be familiar with their various applications as an aid to navigation.
+
+==== Syllabus
+
+===== Lesson 1 - Racon technology
+
+. Physical construction.
+. Principles of operation.
+. Terminology.
+
+===== Lesson 2 - Racon types
+
+. 9Ghz Band.
+. 3Ghz Band.
+. Frequency Agile.
+. Advantages and disadvantages.
+. Typical uses and applications.
+. Racon detection by new technology (solid state) radar systems.
+. Alternatives to Racon use.

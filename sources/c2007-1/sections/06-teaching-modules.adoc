@@ -1,0 +1,38 @@
+=== Teaching modules
+
+// Table 2 spans printed PDF pages 6-7 (the "Installation" row breaks across
+// the page break); encoded as one table. The printed "Evaluation" row has
+// an empty Overview cell, and the closing "Total Hours" row prints
+// "9.5" over "1.5 day course" in the Overview column.
+.Table 2 - Table of Teaching Modules
+|===
+|Module Title |Time in hours |Overview
+
+|Introduction to Racon technology
+|1.0
+|Racon technology, terminology and the type of Racons used in aids to navigation
+
+|Safety
+|1.0
+|Safely storing, handling, and working with Racons at height.
+
+|Inspection, testing and maintenance
+|4.0
+|Understanding manufacturer's specification and testing, inspecting, and troubleshooting problems
+
+|Installation
+|2.0
+|Wiring, and installing Racons on buoys, ground, structures, lighthouses, and major floating aids
+
+|Inventory management and disposal
+|0.5
+|Managing the inventory, and properly disposing and recycling
+
+|Evaluation
+|1.0
+|
+
+|Total Hours
+|9.5
+|1.5 day course
+|===

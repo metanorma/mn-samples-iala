@@ -1,0 +1,9 @@
+== Other commonly used words
+
+// The printed entries separate the term from the definition with an en dash
+// ("RENOVATION – restoring ..."), here carried by the definition-list markup.
+RENOVATION:: restoring to good condition; make as if new again; make good any dilapidation; to renovate an old house.
+
+REFURBISHMENT:: renovation or restoration; to make a building look new and bright again; to rebuild or replenish with all new material; to restore to original (or better) working order and appearance.
+
+DESIGNATION:: historic importance recognised at International, National or Local level by statutory authority.
