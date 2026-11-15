@@ -3,7 +3,7 @@
 :docnumber: 2025/01
 :docidentifier: 2025/01
 :language: en
-:published-date: 2025-01
+:published-date: 2025-01-08
 :copyright-year: 2025
 :mn-document-class: iala
 :imagesdir: images
