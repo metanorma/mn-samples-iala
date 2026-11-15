@@ -29,23 +29,30 @@
 // 82 05 – contact@iala-aism.org / www.iala-aism.org").
 //
 // The resolution carries no edition.
+//
+// The printed line breaks of the bilingual head are hard-encoded where the
+// print sets them (the French column wraps the resolution header after
+// "de" and the adopted line before "generale"); the running text of the
+// resolution body wraps as set.
 
 // The whole published page is set as a two-column bilingual table; the
 // in-table title rows below are part of the printed layout.
 .Resolution A13-01
 [cols="1,1"]
 |===
-^| *IALA ASSEMBLY RESOLUTION* ^| *RESOLUTION D’ASSEMBLEE de l’AISM*
+^| *IALA ASSEMBLY RESOLUTION* ^| *RESOLUTION D’ASSEMBLEE de* +
+*l’AISM*
 
 ^| _Adopted by the 13th General Assembly_ +
-_of 29th May 2018_ ^| _Adoptée par la 13ème Assemblée générale_ +
+_of 29th May 2018_ ^| _Adoptée par la 13ème Assemblée_ +
+_générale_ +
 _du 29 mai 2018_
 
-^| *Resolution A13-01* +
-*APPROVAL OF AMENDMENTS TO THE CONSTITUTION* ^| *Résolution A13-01* +
+| *Resolution A13-01* +
+*APPROVAL OF AMENDMENTS TO THE CONSTITUTION* | *Résolution A13-01* +
 *ADOPTION DES AMENDEMENTS AUX STATUTS*
 
-^| *THE GENERAL ASSEMBLY* ^| *L’ASSEMBLEE GENERALE*
+| *THE GENERAL ASSEMBLY* | *L’ASSEMBLEE GENERALE*
 
 a| RECALLING that the IALA Constitution was last modified and approved by the General Assembly on 27th May 2014;
 
