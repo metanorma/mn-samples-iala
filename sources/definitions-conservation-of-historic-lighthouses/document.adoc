@@ -1,5 +1,13 @@
 = Definitions relating to the Conservation of Historic Lighthouses
+// :title-subtitle-en: maps to bibdata title[@type="subtitle"], printed
+// in parentheses on the leaflet cover (cf. title_other in the
+// front-title mapping).
+:presentation-metadata-cover-subtitle: To be read in conjunction with the Conservation Manual
 :doctype: report
+// The published leaflet form (plain "INFORMATION PAPER" title page, no
+// banner, leaflet footer) rides the presentation-metadata doctype alias;
+// the registered :doctype: itself stays under the catalogue question.
+:presentation-metadata-doctype-alias: information-paper
 :docnumber: definitions-conservation-of-historic-lighthouses
 :docidentifier: definitions-conservation-of-historic-lighthouses
 :language: en
