@@ -1,0 +1,102 @@
+== SERVICE TEMPLATE DYNAMIC BEHAVIOUR
+
+**Reference: IEC 63173-2 SECOM v1.0.0 Clause 5.7 SECOM service interface definitions**
+
+=== Generic sequence for signatures
+
+This sequence assumes the following actors:
+
+// The four actor names share one printed line, transcribed as printed.
+  Data Provider  Data Sender  Data Receiver  Data Consumer
+
+The sequence describes the data from its source through transport using SECOM to the end-user.
+
+Provider preparation:
+
+* The data provider must have an identity in trusted PKI system
+* The data provider creates a private-public key pair
+* The data provider sends the public key to PKI system to get it signed and connected to a specific identity/identifier in the PKI system (Certificate Signing Request)
+* The data sender must have an identity in trusted PKI system
+* The data sender creates a private-public key pair
+* The data sender sends the public key to PKI system to get it signed and connected to a specific identity/identifier in the PKI system (Certificate Signing Request)
+
+Data Provider and Data Sender:
+
+* The data provider selects identifier and certificate to use for the data signing
+* The data provider creates a signature for the data
+* The data provider transfers the data with its signature to the data sender.
+* The data sender protects the data transferring by the selected communication mechanism, e.g. SECOM. SECOM Upload wraps the data, the signature and metadata into an envelope. The envelope is signed by the data sender.
+* The data sends contacts the data receiver and transfers the data
+
+Data Receiver and Data Consumer
+
+* The data receiver receives the transferred object with envelope. The envelope signature is verified.
+* The data receiver forwards the data and data signature to the data consumer
+* The data consumer verifies the data signature
+
+=== Dynamic Behavior of the Service Interface
+
+// "cotains" is as printed.
+The following chapters cotains sequence diagrams for the service interfaces.
+
+==== Upload interface
+
+**Reference: IEC 63173-2 SECOM v1.0.0 Clause 5.7.2.4 Dynamic behavior**
+
+.Upload data interface
+image::figure-1-upload-data-interface.png[]
+
+==== Upload Link interface
+
+**Reference: IEC 63173-2 SECOM v1.0.0 Clause 5.7.3.4 Dynamic behavior**
+
+.Upload link interface
+image::figure-2-upload-link-interface.png[]
+
+==== Get Interface
+
+**Reference: IEC 63173-2 SECOM v1.0.0 Clause 5.7.5.4 Dynamic behavior**
+
+.Get data interface
+image::figure-3-get-data-interface.png[]
+
+.Get encrypted data interface
+image::figure-4-get-encrypted-data-interface.png[]
+
+==== Get By Link interface
+
+**Reference: IEC 63173-2 SECOM v1.0.0 Clause 5.7.7.4 Dynamic behavior**
+
+.Get by link interface
+image::figure-5-get-by-link-interface.png[]
+
+==== Request Access interface
+
+**Reference: IEC 63173-2 SECOM v1.0.0 Clause 5.7.8.4 Dynamic behavior**
+
+.Access request interface
+image::figure-6-access-request-interface.png[]
+
+==== Subscription interface
+
+**Reference: IEC 63173-2 SECOM v1.0.0 Clause 5.7.10.4 Dynamic behavior**
+
+.Subscription interface
+image::figure-7-subscription-interface.png[]
+
+==== EncryptionKey interface
+
+// The source cites "Clause 5.7.8.4" here, duplicating the Access reference;
+// the interfaces table (clause 4.2) assigns 5.7.15 to EncryptionKey. Kept
+// as printed.
+**Reference: IEC 63173-2 SECOM v1.0.0 Clause 5.7.8.4 Dynamic behavior**
+
+.EncryptionKey interface
+image::figure-8-encryptionkey-interface.png[]
+
+==== Public Key Interface
+
+**Reference: IEC 63173-2 SECOM v1.0.0 Clause 5.7.16.4 Dynamic behavior**
+
+.PublicKey interface
+image::figure-9-publickey-interface.png[]

@@ -1,0 +1,35 @@
+== APPENDIX – Guidance on Implementation
+
+More information can be found in ref [2].
+
+=== Example on shore Service Deployment
+
+SECOM Service deployed close to shoreside application.
+
+**Reference: IEC 63173-2 SECOM v1.0.0 Appendix D.3**
+
+.Deployment example for SECOM on shore
+image::figure-10-deployment-example-for-secom-on-shore.png[]
+
+=== Example on Ship – SECOM Service outside Ship
+
+SECOM Service deployed outside ship on stable network and polled at time intervals from shipside system.
+
+**Reference: IEC 63173-2 SECOM v1.0.0 Appendix D.2**
+
+.Deployment example for SECOM on ship
+image::figure-11-deployment-example-for-secom-on-ship.png[]
+
+=== Example on Ship – Consuming SECOM Service
+
+Shipside system consumes other SECOM Services directly from shipside system.
+
+.Deployment example for SECOM on ship
+image::figure-12-deployment-example-for-secom-on-ship-consumer.png[]
+
+=== Example on Ship – Service Onboard
+
+SECOM Service deployed onboard ship on stable network and polled at time intervals.
+
+.Deployment example for SECOM on ship
+image::figure-13-deployment-example-for-secom-on-ship-onboard.png[]

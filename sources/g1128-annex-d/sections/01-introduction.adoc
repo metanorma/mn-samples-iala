@@ -1,0 +1,32 @@
+// The published document numbers the Introduction as clause 1; the
+// title-based classification would keep it unnumbered in the preface,
+// shifting every body number by one. Pin the classification with
+// [heading=clause] (cf. the g1195, mrcp and cyber-workshop-report
+// encoding) so the numbering matches the print (1. INTRODUCTION ...).
+[heading=clause]
+== Introduction
+
+The IEC 63173-2 SECOM contains the definition of a REST API that is payload agnostic and security procedure for the communication between the services. This template references IEC 63173-2 SECOM and complements where needed with clarifications and experiences from implementing.
+
+The rationale for this document is to describe the SECOM REST Service API as a service design Template according to G1128. The concept of design templates in G1128 is a proposal at this date but foreseen to be included in future versions of G1128.
+
+=== General
+
+The purpose of this document is to define a service design template that other service designs can either copy or refer to. This template is therefore payload agnostic and describes the complete set of SECOM service interfaces. A service design may not implement the optional interfaces.
+
+The intention is that service technical designs can refer to this template and add the specific data exchanged, the specific operational context (by reference to service specification) and the specific service interfaces used in that design.
+
+The template can be used by both ship services and shore services.
+
+=== Intended Readership
+
+This service design description document is intended to be read by service architects and designers of technical services.
+
+=== Inputs from Other Sources
+
+The main part of this template is from IEC 63173-2 SECOM.
+
+// The permission text is quoted verbatim (curly quotes as printed); the
+// source anchors a footnote at the closing quote, transcribed as an
+// asciidoc footnote.
+“The author thanks the International Electrotechnical Commission (IEC) for permission to reproduce Information from its International Standards. All such extracts are copyright of IEC, Geneva, Switzerland. All rights reserved. Further information on the IEC is available from www.iec.ch. IEC has no responsibility for the placement and context in which the extracts and contents are reproduced by the author, nor is IEC in any way responsible for the other content or accuracy therein.”footnote:[IEC 63173-2 ed. 1.0 “Copyright © 2022 IEC Geneva, Switzerland. www.iec.ch”]

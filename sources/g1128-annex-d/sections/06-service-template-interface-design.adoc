@@ -1,0 +1,511 @@
+== SERVICE TEMPLATE INTERFACE DESIGN
+
+This section describes each service interface based on information in the open API file for SECOM. For all details, please see IEC 63173-2 SECOM Standard.
+
+The Service Interface design covers the static design description while the dynamic design (behaviour) is described in the section SERVICE TEMPLATE DYNAMIC BEHAVIOUR.
+
+=== Service Interface SECOM REST
+
+=== Operation UPLOAD
+
+This interface is called when the client uploads (pushes) data to the service. The sender (client) decides format and protection of the data. If acknowledgement is requested, it will be given by callback to interface Acknowledgement.
+
+The purpose with this interface is to upload (push) information that is not larger than 350kb (Base64 encoded) to an information consumer. Larger data may generate HTTP response code 413 Payload too large.
+
+An information consumer can implement this interface in order to receive information.
+
+==== Operation Functionality
+
+The incoming data is restored and validated against the data schema. If valid, the data is forwarded to end user for processing.
+
+If acknowledgement is requested, the acknowledgement is sent when the data is beginning to be processed by the end user.
+
+==== Operation Parameters
+
+**POST [baseUrl]/v1/object {body} : response**
+
+Input is the data (payload) and its metadata wrapped and signed in the envelope.
+
+For details, see 11 APPENDIX - SERVICE DESIGN TEMPLATE OpenAPI (Swagger) in JSON.
+
+==== Interpretation guidelines
+
+The data is always provided in a one-line Base64 encoded string.
+
+The data content is defined by
+
+* Type of message in dataProductType [enum] as integer +
+e.g. 24 = S-421
+* Wrapping according to containerType [enum] as integer +
+e.g. S-100 DataSet
+* ZIP according to compressionFlag
+* Encrypted according to dataProtection [flag] +
+True means data is encrypted and an encryptionKey is needed
+
+**Data signature** shall be provided in a one-line HEX format using algorithm stated in **dataSignatureReference**.
+
+The value for **protectionScheme** is dynamically set based on the scheme administrator used for the data signing.
+
+**Exchange information**
+
+* Transaction identifier in UUID (unique for every upload)
+* Standalone or in subscription according to fromSubscription [flag]
+* Acknowledgement request according to ackRequest (enumeration)
+
+**Envelope signature**
+
+The envelope signature shall be made on a dot (.) separated “CSV” data structure of the envelope in the exact same order as the fields are defined in the table (OpenAPI):
+
+// The CSV field line and the closing sentence share one source paragraph
+// (soft line break); transcribed as one paragraph.
+data (Base64).containerType (int).dataProductType (int).dataProtection (true/false).protectionScheme (String).publicRootCertificateThumbprint .publicCertificate (Base64 minified PEM).digitalSignature (one line HEX).compressionFlag (true/false).fromSubscription (true/false).ackrequest (int).transactionidentifier (String UUID).envelopeSignatureCertificate (Base64 minified PEM).envelopeRootCertificateThumbprint.envelopeSignatureTime (UNIX seconds) +
+The envelope is signed using the ECDSA-384-SHA2 algorithm.
+
+=== Operation ACKNOWLEDGEMENT
+
+This interface is called as response to Acknowledgement request in Upload.
+
+During upload of information, an acknowledgement can be requested which is expected to be asynchronously received when the uploaded message has been delivered to the end system (technical acknowledgement), and an acknowledgement is delivered when the message has been opened and/or processed by the end user (operational acknowledgement). The acknowledgement contains a reference to the object delivered and has no time limit.
+
+==== Operation Functionality
+
+The operation validates the given transactionIdentifier and handles the acknowledgement of sent data. The acknowledgement can be either for deliver, opened or both.
+
+==== operation Parameters
+
+**POST baseUrl/v1/acknowledgement {body} : response**
+
+Input is the acknowledgement object with reference to information and time when delivered, wrapped in envelope and signed.
+
+For details, see 11 APPENDIX - SERVICE DESIGN TEMPLATE OpenAPI (Swagger) in JSON.
+
+==== Interpretation guidelines
+
+The transactionIdentifier describes the reference to what sending transaction of data that is acknowledged.
+
+The response can be either positive acknowledgement (ackType = 1 or 2) or negative acknowledgement (ackType = 3 (error). If negative acknowledgement is given, the error message is expected to be provided in nackType (0-4) describing the error.
+
+=== Operation GET
+
+This interface is called when the client gets (pulls) data from the service.
+
+The Get interface is used for pulling information from a service provider. The owner of the information (provider) is responsible for the authorization procedure before returning information. The consumer can ask for information by its reference, geometry, time or arbitrary query for e.g. status on the information product. If no filtering parameters are given, all authorized information is to be sent. The information owner decides what information the consumer is authorized to based on the identity in the TLS client certificate i.e. the identity the service instance belongs to.
+
+==== Operation Functionality
+
+Authorized data is packaged according to the request and returned in the service call.
+
+Request-Response pattern.
+
+==== Operation Parameters
+
+**GET baseUrl/v1/object/pathParams?queryParams : response**
+
+Input is the filtering parameters for the wanted data and data formats.
+
+Output is none or many base64 encoded data objects matching the filter.
+
+For details, see 11 APPENDIX - SERVICE DESIGN TEMPLATE OpenAPI (Swagger) in JSON.
+
+==== Interpretation guidelines
+
+If no data is returned, the response is HTTP code 404.
+
+The **dataReference** is used when a known data object is retrieved. The dataReference is provided in the response from Get Summary and is typically an UUID.
+
+The **containterType** describes how the data is packaged, e.g. S100_DataSet, S100_ExchangeSet or no specific container, e.g. RTZ in XML.
+
+The **dataProductType** describes which dataproduct that is in focus in the operation. The dataProductType can be set to OTHER if it is not in the SECOM enumeration. An S100_exchangeSet can contain more than one S-product. In that case the dataProductType is set to the most dominant S-product requested.
+
+The **productVersion** describes the specific version of the data product specification of the data requested.
+
+The **geometry** describes geographical criteria for the data requested. The geometry is given as a one-line WKT formatted string and can contain? one or more geographical objects.
+
+The **unlocode** describes with 5 characters the UN code for city or other area, such as a port. The unlocode is a list administered by UN and can be found on internet. Many unlocodes have a position in long/lat attached, but not all. In most cases the unlocode will be used as text only but this may depend on the service developer.
+
+The **validFrom**/**validTo** describes the requested validitytime for the requested data in ISO 8601 UTC formatted as yyyy-mm-dd hh:mmZ.
+
+=== Operation UPLOAD LINK
+
+The purpose with this interface is to upload (push) a link to information to a consumer. Hence, a consumer shall implement this interface in order to receive a link to the information that can be retrieved. This interface shall be used when large amounts of data shall be exchanged. The provider of information then uploads a link to a consumer, and the consumer then uses the Get by Link interface to pull the data from the provider.
+
+Use this when data is larger than allowed with POST in REST.
+
+==== Operation Functionality
+
+The link to data represented by the transactionIdentifier is stored and the called service is identified. A service lookup in MSR may be required to retrieve the URL to the called service. A service call is made to the Get By Link operation and the transactionIdentifier is provided. The sent data is then downloaded.
+
+==== Operation Parameters
+
+**POST baseUrl/v1/object/link {body} : response**
+
+The input is the link to the data.
+
+For details, see 11 APPENDIX - SERVICE DESIGN TEMPLATE OpenAPI (Swagger) in JSON.
+
+==== Interpretation guidelines
+
+The main data is the **transactionIdentifier** that shall be used as reference in a GET data By Link. The REST GET method allows any size and type of data to be downloaded.
+
+The envelope contains further information on the data that want to be sent. (that the client wants to send)
+
+If delivery acknowledgement is requested (**ackRequest** = 1 or 3) an Acknowledgement shall be sent back to the called service when data is retrieved with Get By Link. If opened acknowledgement is requested (ackRequest = 2 or 3) an Acknowledgement shall be sent back to the called service when data is being processed by the end user.
+
+The size shall be given in kBytes of the data that will be returned in the Get By Link call. The rationale is that the receiver may assess when in time it is suitable to actually retrieve the information.
+
+The **timeToLive** is given as information until what time the data will be available to retrieve with get By Link.
+
+=== Operation GET BY LINK
+
+This interface is called when the client downloads (pulls) large data by reference given from interface Upload Link.
+
+The Get By Link interface is used for pulling information from a data storage handled by the information owner. The link to the data storage can be exchanged with Upload Link interface. The owner of the information (provider) is responsible for the relevant authentication and authorization procedure before returning information.
+
+==== Operation Functionality
+
+The operation validates the given transactionIdentifier against the caller’s identity and the timeToLive given for the data. The data is then packaged according to agreement in Upload By Link and returned in the call.
+
+Request-Response pattern.
+
+==== operation Parameters
+
+**GET baseUrl/v1/object/link/pathParam?queryParam : response**
+
+Input is the filter parameters.
+
+For details, see 11 APPENDIX - SERVICE DESIGN TEMPLATE OpenAPI (Swagger) in JSON.
+
+==== Interpretation guidelines
+
+The unique **transactionIdentifier** given by the Upload By Link call.
+
+=== Operation GET SUMMARY
+
+This interface is called when the client wants a summary of available data from the service. The actual data is retrieved (pulled) using the interface Get.
+
+A list of information shall be returned from this interface. The summary contains identity, status, size and a short description of each information object. The actual information object shall be retrieved using the Get interface. The consumer can ask for information by geometry, location and time. If no filtering parameters are given, available summary information is to be sent.
+
+==== Operation Functionality
+
+The operation provides a list of information references that can be retrieved by the called party.
+
+==== Operation Parameters
+
+**GET baseUrl/v1/object/summary/pathParam?queryParam : response**
+
+Input is the filtering parameters for the wanted data and data formats.
+
+Output is a list of data information matching the filter.
+
+==== Interpretation guidelines
+
+The data criteria are all optional. If none is given, all available information references shall be returned. If several criteria are given, they shall be combined with logical AND, hence only information references are returned that meet all given criteria.
+
+The response could contain both authorized data and data that required further authorization.
+
+In the response, the **dataReference** are given as UUID for each data object listed. The dataReference can then be provided as input to a Get call.
+
+The **dataProtection** flag indicates whether the data is encrypted or not. If encrypted, an encryptionKey is required to decrypt the data.
+
+The **compression** flag indicates whether the data is compressed with ZIP or not.
+
+The **dataProductType** and productVersion indicate type and version of the data specification for the data object, e.g. 24=S-421 and productVersion “1.0.0”.
+
+The info_identifier, info_name, info_Status, info_Description, and info_lastModifiedData are data from the specific productType.
+
+The info_size represents the size of the data attribute when retrieved by Get data. The size does not include the envelope.
+
+=== Operation ACCESS
+
+This interface is called when the client asks for access to data from the service. Response is given by callback to interface Access Notification.
+
+Access to information can be requested through the Access interface. The result is sent asynchronously through the Access Notification interface.
+
+==== Operation Functionality
+
+The operation checks the availability for the caller to requested information.
+
+// The parenthetical "(explain)" is a source editorial note, kept verbatim.
+Request-Callback pattern. (explain)
+
+==== Operation Parameters
+
+**POST baseUrl/v1/access {body} : response**
+
+Input is the reason for requesting access to information.
+
+Output is given in an asynchronous callback to Access Notification.
+
+For details, see 11 APPENDIX - SERVICE DESIGN TEMPLATE OpenAPI (Swagger) in JSON.
+
+==== Interpretation guidelines
+
+The reason given in text is for a human user to read before replying on the request. For automatic processing, the reason is also given in the enumeration.
+
+The dataProductType and productVersion indicates what information is requested access to.
+
+// Editor-note sentence left in the source template, kept verbatim.
+Suggested formulation of above sentence: The dataProductType and productVersion parameters specify the type of information for which access is being requested.
+
+The **dataReference** indicates request to access a specific data object provided in Get Summary.
+
+The response is provided in an Access Notification object.
+
+=== Operation ACCESS NOTIFICATION
+
+This interface is called as callback response to interface Access.
+
+Results from Access Request shall be sent asynchronously through this interface.
+
+==== Operation Functionality
+
+The response to an Access request is received in this operation.
+
+==== Operation Parameters
+
+**POST baseUrl/v1/access/ notification {body} : response**
+
+Input is the decision from the request for access; True or False and a reason.
+
+For details, see 11 APPENDIX - SERVICE DESIGN TEMPLATE OpenAPI (Swagger) in JSON.
+
+==== Interpretation guidelines
+
+The decision by the information owner is given as true or false.
+
+A reason for the decision is always given in **decisionReason** as text for a human user.
+
+If the decision is granted, a **dataReference** to the data object should be provided. This can be used in Get data call or Subscription call.
+
+=== Operation SUBSCRIPTION
+
+This interface is called when the client or server initiates subscription on data from the service. Response is given as callback to interface Upload and Subscription Notification.
+
+The purpose of the interface is to request subscription on information, either specific information according to parameters, or the information accessible upon decision by the information provider. Each subscription request reflects one parameter query set.
+
+==== Operation Functionality
+
+The operation checks authorization to requested data and initiates a subscription if granted access. The response contains a subscriptionIdentifier that can be used to remove the subscription. Internally this subscriptionIdentifier is related to the baseURL on called service, where it is assumed that the service calling the subscription operation does also contain the Upload operation where subscribed data shall be pushed.
+
+The data is returned in Upload operation(s) where fromSubscription is set to true.
+
+// "SubscriptioNotofication" is as printed.
+Request-Response pattern that initiates a Request-Callback (SubscriptioNotofication) and Publish-Subscribe pattern (Upload).
+
+==== Operation Parameters
+
+**POST baseUrl/v1/ subscription {body} : response**
+
+Input is filtering parameters for the requested subscription.
+
+Output is a subscription identifier, if successful.
+
+For details, see 11 APPENDIX - SERVICE DESIGN TEMPLATE OpenAPI (Swagger) in JSON.
+
+==== Interpretation guidelines
+
+All criteria for the subscription are optional. If none are provided, all authorized data from the service will be included in the subscription. If more than one criterion is provided, the criteria will be combined with logical AND, hence all criteria must be met.
+
+The **containerType** criteria, e.g. S100_DataSet, means that the user wishes to only receive data from this subscription packaged into S100_Datasets.
+
+The **geometry** criteria means that only information intersecting with the geometry given will be sent in the subscription. This requires that data is geotagged somehow. If information is not geotagged, the criteria is ignored.
+
+The **unlocode** criteria means that only information related to the unlocode will be sent in the subscription. If there is no unlocode related to the information provided by the service, the unlocode is ignored.
+
+The **dataProductType** and productVersion criteria means that only information of the type and version will be sent in the subscription.
+
+The **dataReference** criteria means that only new updates of the specific data will be sent in the subscription. If the data object ends, the subscription ends.
+
+The **subscriptionPeriodStart** and **subscriptionPeriodEnd** criteria mean that data produced in the given time period will be sent in the subscription. When subscriptionPeriodEnd is reached, the subscription shall be removed automatically. The time period is recommended to be formatted as ISO 8601 yyyy-mm-dd hh:mm:ssZ in UTC.
+
+=== Operation SUBSCRIPTION NOTIFICATION
+
+This interface is called as callback response from interface Subscription or Remove Subscription.
+
+The interface receives notifications when the subscription is created or removed by the information producer.
+
+==== Operation Functionality
+
+When the subscription changes (i.e. is created or removed), the event will be received in this operation as information. The change (create or remove) can be initiated both by the client and by the server.
+
+==== Operation Parameters
+
+**POST baseUrl/v1/subscription/notification {body} : response**
+
+Input is the subscription identifier and type of event; Create or Delete.
+
+For details, see 11 APPENDIX - SERVICE DESIGN TEMPLATE OpenAPI (Swagger) in JSON.
+
+==== Interpretation guidelines
+
+The **subscriptionIdentifier** is the reference to the specific subscription in focus.
+
+The eventEnum describes the type of event, e.g. 1=subscription created, 2=subscription removed.
+
+=== Operation REMOVE SUBSCRIPTION
+
+This interface is called when the client or server removes a subscription. Response is given as callback to interface Subscription Notification.
+
+Subscription(s) can be removed either internally by the information owner, or externally by the consumer. This interface shall be used by the consumer to request removal of a subscription.
+
+==== Operation Functionality
+
+The operation removes the subscription attached to the subscriptionIdentifier. The operation generates a callback call to SubscriptionNotification.
+
+==== Operation Parameters
+
+**DELETE baseUrl/v1/ subscription {body} : response**
+
+Input is the subscription identifier.
+
+For details, see 11 APPENDIX - SERVICE DESIGN TEMPLATE OpenAPI (Swagger) in JSON.
+
+==== Interpretation guidelines
+
+The incoming **subscriptionIdentifier** given when the subscription was created, and provided in the SubscriptionNotification are used to remove the corresponding subscription.
+
+=== Operation CAPABILITY
+
+This interface is called when the client asks for the service capabilities.
+
+The purpose of the interface is to provide a dynamic method to ask a service instance at runtime what interfaces that are accessible, and what payload formats and versions that are valid.
+
+==== Operation Functionality
+
+The operation responds with all operations and data products that the service offers.
+
+==== Operation Parameters
+
+**GET baseUrl/v1/capability: response**
+
+Output is lists of all capabilities the service have implemented.
+
+For details, see 11 APPENDIX - SERVICE DESIGN TEMPLATE OpenAPI (Swagger) in JSON.
+
+==== Interpretation guidelines
+
+The response contains one object for each unique dataProductType that the service can provide.
+
+For each **dataProductType**, the available operations are listed with (as?) true or false.
+
+=== Operation PING
+
+This interface is called when the client checks the availability of the service.
+
+The purpose of the interface is to provide a dynamic method to ask for the technical status of the specific service instance.
+
+==== Operation Functionality
+
+The operation response with 200 to inform the user that the service is available and ready to serve.
+
+==== Operation Parameters
+
+**GET baseUrl/v1/ping : response**
+
+No input.
+
+Output is the service HTTP response.
+
+For details, see 11 APPENDIX - SERVICE DESIGN TEMPLATE OpenAPI (Swagger) in JSON.
+
+==== Interpretation guidelines
+
+No specific input or output are given from the operation. The HTTP response 200 shall be interpreted as the service is ready to serve the consumer.
+
+=== Operation ENCRYPTIONKEY
+
+This interface is called when sending (pushing) an encryption key to a receiver.
+
+==== Operation Functionality
+
+The operation receives an encryptionKey to be used for decryption of uploaded data that is encrypted; dataProtection = true.
+
+// "Diffie_hellman" and "(key?)" are as printed.
+The encryptionKey is protected with a Diffie_hellman procedure where the secret key is created by pairing public key with private key and the iv. Only the actor holding the opposite pair of PrivateKey-A - PublicKey-B and PrivateKey-B – PublicKey-A can re-create the secret (key?) and decrypt the data encryptionKey.
+
+==== Operation Parameters
+
+**POST baseUrl/v1/encryptionKey {body} : response**
+
+Input is the protected symmetric encryption key.
+
+For details, see 11 APPENDIX - SERVICE DESIGN TEMPLATE OpenAPI (Swagger) in JSON.
+
+==== Interpretation guidelines
+
+The **encryptionKey** and **iv** represent the encryptionKey.
+
+The **transactionIdentifier** is a reference to what data the key can decrypt.
+
+=== Operation ENCRYPTIONKEY NOTIFICATION
+
+This interface is called when asking for an encryption key to a receiver.
+
+The purpose of this interface is to receive a notification request for an exchange of an encrypted secret key. The response is sent asynchronously through the consumer’s POST encryption key operation.
+
+==== Operation Functionality
+
+The operation receives an encryptionKey event notification.
+
+==== Operation Parameters
+
+**POST baseUrl/v1/encryptionKey/notify {body} : response**
+
+Input is reference to the encrypted data.
+
+For details, see 11 APPENDIX - SERVICE DESIGN TEMPLATE OpenAPI (Swagger) in JSON.
+
+==== Interpretation guidelines
+
+// The source section body is a single hyphen placeholder, kept verbatim.
+-
+
+=== Operation GET PUBLICKEY
+
+This interface is called when the client gets (pulls) the public certificate(s) from the service.
+
+The purpose of the interface is to request a public key.
+
+==== Operation Functionality
+
+The operation is expected to return the requested public key, or the latest valid public key wrapped in X509 Certificate for the service.
+
+REQUEST-RESPONSE pattern.
+
+==== Operation Parameters
+
+**GET baseUrl/v1/PublicKey/pathParam?queryParam : response**
+
+Input is filtering parameters for the requested public certificate.
+
+Output is zero or one specific public leaf certificate according to filtering.
+
+For details, see 11 APPENDIX - SERVICE DESIGN TEMPLATE OpenAPI (Swagger) in JSON.
+
+==== Interpretation guidelines
+
+The **dataProtection** flag indicates as information whether the key is needed for an exchange of encryption key using Diffie-Hellman procedure or not.
+
+The **certificateThumbprint** is a reference to what public key that is requested. If not provided, the latest valid public key wrapped in a X.509 Certificate is returned.
+
+=== Operation UPLOAD PUBLIC KEY
+
+The purpose of the interface is to upload a consumers public key for e.g. exchanging an encryption key using Diffie-Hellman procedure.
+
+==== Operation Functionality
+
+The operation receives a public key wrapped in X.509 Certificate.
+
+The operation shall/should verify that the caller can be trusted.
+
+==== Operation Parameters
+
+**POST baseUrl/v1/PublicKey { body } : response**
+
+The input is PEM file.
+
+For details, see 11 APPENDIX - SERVICE DESIGN TEMPLATE OpenAPI (Swagger) in JSON.
+
+==== Interpretation guidelines
+
+The public key wrapped in publicCertificate.

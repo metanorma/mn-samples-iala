@@ -1,0 +1,17 @@
+// A top-level clause titled "References" is classified as the bibliography
+// and hoisted out of the section flow; the printed document numbers it as
+// body clause 10. [heading=clause] pins the classification.
+[heading=clause]
+== References
+
+// The printed references are a "[1]"-formatted list (Word numbering
+// "[%1]"); the corpus renders the ordered list with plain numerals. The
+// in-text cross-references ("ref [3]", "ref [2]", clauses 11 and 12) are
+// kept verbatim as printed. Reference 1 keeps the source typos verbatim
+// ("Guidelineline 1128 11??").
+. IALA Guidelineline 1128 11?? on Specification of e-Navigation Technical Services
+. IEC 63173-2 SECOM v1.0.0
+. SECOM Service Interface OpenAPI (https://cirm.org/secom)
+. IHO S-100 ed 5.2.0
+. NIST Digital Signature Standard (DSS–FIPS Publication 186)
+. RFC 9110 HTTP Semantics

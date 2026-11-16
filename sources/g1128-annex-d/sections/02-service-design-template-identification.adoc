@@ -1,0 +1,28 @@
+== SERVICE DESIGN TEMPLATE IDENTIFICATION
+
+The purpose of this section is to provide a unique identification of the service design and describe where the service is in terms of the engineering lifecycle.
+
+// The printed caption is an unnumbered centred line; encoded as a block
+// title (the renderer numbers the table). The table is a fill-in template:
+// every value cell is placeholder text as printed, the Architect(s) value
+// cell is empty, and the ID/Description value cells close with an empty
+// paragraph (no trailing content to transcribe).
+.Service Design Identification
+|===
+|Name |Service name
+
+|Implements |Specification name and version +
+specificationMRN
+
+|ID |urn:mrn:<oid>:techsvc:design:<serviceName>:<version>
+
+|Version |x.v
+
+|Description |description
+
+|Keywords |REST, SECOM, keywords
+
+|Architect(s) |
+
+|Status |One of provisional, ready for testing, released, deprecated
+|===
