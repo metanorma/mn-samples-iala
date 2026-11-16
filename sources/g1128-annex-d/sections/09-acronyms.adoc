@@ -1,0 +1,13 @@
+== ACRONYMS
+
+Persons producing the Technical Service are invited to provide a list of acronyms as appropriate.
+
+// No printed caption. The first row is an acronym entry, not a header row,
+// and the source closes the table with an empty spare row, kept verbatim.
+|===
+|REST |REpresentational State Transfer
+
+|SECOM |Secure Communication
+
+| |
+|===

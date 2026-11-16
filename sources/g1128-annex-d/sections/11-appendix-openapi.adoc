@@ -1,0 +1,6 @@
+// Clauses 11 and 12 are printed as numbered body clauses carrying the word
+// "APPENDIX" in their titles (not as annexes); the hyphen/en-dash contrast
+// between the two headings is as printed.
+== APPENDIX - SERVICE DESIGN TEMPLATE OpenAPI (Swagger) in JSON
+
+The OpenAPI JSON file can be found in ref [3].

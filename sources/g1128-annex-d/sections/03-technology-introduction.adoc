@@ -1,0 +1,68 @@
+== TECHNOLOGY INTRODUCTION
+
+=== General
+
+This design template realizes the SECOM Service defined in IEC 63173-2 SECOM as a service design template in G1128 format.
+
+The chosen technology is REST and HTTPS TLS as communication protection of the service.
+
+=== Service technology and service transportation protocol
+
+// The "Reference:" source-citation lines are bold in the print and are
+// transcribed bold throughout the document.
+**Reference: IEC 63173-2 SECOM v1.0.0 Clause 5.3 Service Technology**
+
+The technology (architectural style) chosen is REST (REpresentational State Transfer) upon HTTP/1.1 (RFC 7231).
+
+=== Security
+
+==== Communication channel security
+
+**Reference: IEC 63173-2 SECOM v1.0.0 Clause 6 SECOM communication channel security**
+
+The channel security between the SECOM REST service and a consumer are
+
+* HTTP/1.1 according to RFC-7231
+* HTTPS over TLS according to RFC-2818
+
+Valid versions of TLS for this version of service design template are
+
+* TLS version 1.2 and 1.3 (RFC-8446)
+
+X.509 Certificates are used in the TLS according to RFC 5280 and RFC 2459.
+
+Certificates shall be verified with OCSP and/or CRL methods.
+
+==== Data protection
+
+**Reference: IEC 63173-2 SECOM v1.0.0 Clause 4.3.4 SECOM data protection**
+
+**Reference: IHO S-100 ed5.0.0 Part 15 Data Protection Scheme**
+
+The data is mandatory to be signed by the sender to enable data authentication and integrity check by the receiver.
+
+The data can optionally be encrypted by the sender, and the sender is responsible for exchanging the encryption key with the receiver.
+
+The data (one or more data files) can optionally be packaged and compressed before being signed and sent.
+
+==== Data Signature
+
+**Reference: IEC 63173-2 SECOM v1.0.0 Clause 7.3 Data authentication and signing**
+
+**Reference: IHO S-100 ed5.0.0 Part 15-8 Data Authentication**
+
+**Reference: NIST Digital Signature Standard (DSS–FIPS Publication 186)**
+
+The recommended algorithm for signing data is ECDSA-384-SHA2 but the design supports also other algorithms.
+
+The signature is transported in HEX.
+
+==== Data Encryption
+
+**Reference: IEC 63173-2 SECOM v1.0.0 Clause 7.4 Data encryption**
+
+**Reference: IHO S-100 ed5.0.0 Part 15-6 Data Encryption**
+
+The encryption algorithm for encryption is AES and CBC mode.
+
+The symmetric encryption key can be exchanged by different means, including using the SECOM REST API to exchange the encryption key.

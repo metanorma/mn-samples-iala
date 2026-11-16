@@ -1,0 +1,62 @@
+== SERVICE DESIGN TEMPLATE OVERVIEW
+
+=== General
+
+This service design template is based on IEC 63173-2 SECOM Service and can be referred to by service designs for specific data formats and purposes.
+
+=== Service Template Interfaces
+
+**Reference: IEC 63173-2 SECOM v1.0.0 Clause 5.7 SECOM service interface definitions**
+
+The table below shows the interfaces defined in this template.
+
+// Referenced in print as "the table below"; no printed caption. The en
+// dashes of the SECOM Reference column are as printed.
+|===
+|Interface |SECOM Reference |Comment
+
+|Upload |IEC 63173-2 SECOM v1.0.0 Clause 5.7.2 service interface – Upload |This interface is called when the client uploads (pushes) data to the service. The sender (client) decides the format and protection of the data.
+
+|Upload Link |IEC 63173-2 SECOM v1.0.0 Clause 5.7.3 service interface – Upload Link |This interface is called when the client uploads (pushes) a reference pointer to large data. The data is downloaded using interface Get By Link.
+
+|Acknowledgement |IEC 63173-2 SECOM v1.0.0 Clause 5.7.4 service interface – Acknowledgement |This interface is called as response to Acknowledgement request in Upload.
+
+|Get |IEC 63173-2 SECOM v1.0.0 Clause 5.7.5 service interface – Get |This interface is called when the client gets (pulls) data from the service.
+
+|Get Summary |IEC 63173-2 SECOM v1.0.0 Clause 5.7.6 service interface – Get Summary |This interface is called when the client gets a summary of available data from the service. The data is retrieved (pulled) using the interface Get.
+
+|Get By Link |IEC 63173-2 SECOM v1.0.0 Clause 5.7.7 service interface – Get By Link |This interface is called when the client downloads (pulls) large data by reference given from interface Upload Link.
+
+|Access |IEC 63173-2 SECOM v1.0.0 Clause 5.7.8 service interface – Access |This interface is called when the client asks for access to data from the service. Response is given by callback to Access Notification.
+
+|Access Notification |IEC 63173-2 SECOM v1.0.0 Clause 5.7.9 service interface – Access Notification |This interface is called as response to interface Access.
+
+|Subscription |IEC 63173-2 SECOM v1.0.0 Clause 5.7.10 service interface – Subscription |This interface is called when the client or server initiates subscription on data from the service. Response is given with interface Upload and Subscription Notification.
+
+|Remove Subscription |IEC 63173-2 SECOM v1.0.0 Clause 5.7.11 service interface – Remove Subscription |This interface is called when the client or server removes subscription. Response is given with interface Subscription Notification.
+
+|Subscription Notification |IEC 63173-2 SECOM v1.0.0 Clause 5.7.12 service interface – Subscription Notification |This interface is called as response from Subscription or Remove Subscription.
+
+|Capability |IEC 63173-2 SECOM v1.0.0 Clause 5.7.13 service interface – Capability |This interface is called when the client asks for the service capabilities.
+
+|Ping |IEC 63173-2 SECOM v1.0.0 Clause 5.7.14 service interface – Ping |This interface is called when the client checks the availability of the service.
+
+|EncryptionKey |IEC 63173-2 SECOM v1.0.0 Clause 5.7.15 service interface – EncryptionKey |This interface is called when sending (pushing) encryption key to a receiver.
+
+|PublicKey |IEC 63173-2 SECOM v1.0.0 Clause 5.7.16 service interface – PublicKey |This interface is called when the client gets (pulls) the public certificate(s) from the service.
+|===
+
+=== TEMPLATE User Instructions
+
+This document is intended to be used as a document template for any new technical design according to G1128. The exact identifier and version of this technical design template shall be referenced.
+
+The operations not used can be omitted and the HTTP return code should be HTTP 405 Method not allowed or HTTP 501 Not implemented.
+
+Additions to the SECOM interface may be added but be careful, it may compromise anyone who implements a service based on the IEC Standard alone.
+
+// Editor-note sentence left in the source template, kept verbatim.
+Suggested change of above paragraph: Exercise caution when considering the inclusion of supplementary operations, as their integration may pose a potential risk for entities implementing a service solely based on the IEC Standard.
+
+The section “Interpretation guidelines” may be added with specific guidelines related to the focus in Technical Design.
+
+The baseURL are to be defined by the service provider, and the operation path, such as “/v1/object”, is defined by the SECOM standard and shall not be changed.

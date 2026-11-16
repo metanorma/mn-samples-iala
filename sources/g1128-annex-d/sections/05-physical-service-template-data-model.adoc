@@ -1,0 +1,5 @@
+== PHYSICAL SERVICE TEMPLATE DATA MODEL
+
+The data model of the payload is not part of the template and need to be specified in service specification and/or the payload dependent service design.
+
+For the service data exchange model, see each interface design in this document.

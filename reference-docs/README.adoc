@@ -43,6 +43,10 @@ mirrors the public PDFs.)
 |`circulars/`
 |Circular Letters 2025-01, 2025-02 (Circular Letter YYYY/NN series; public archive iala-aism.org/circular-letters). Secretariat correspondence layout: letterhead logo, "Circular Letter YYYY/NN" + date, Subject/To block, salutation, unnumbered body flow, sign-off (Secretary-General). No MRN/URN printed, no edition, no clause numbers.
 
+|annex (no prefix letter)
+|`guidelines/`
+|G1128 Annex D (Service Design Template for SECOM Service, Ed 1.6, Dec 2024) as `g1128-annex-d.pdf` (LibreOffice render of the deposited Word source; cover table "G1128 | Annex D", "IALA Technical Service:" title prefix, generated Contents + Table of figures, fill-in template tables, 13 figure diagrams). Standalone annex publication family; no dedicated directory yet.
+
 |brand
 |`brand/`
 |IALA logo use guide. Colours: headings/table text #00558C, covers color-coded per type (palette extract in Style Guide appendix 3), Calibri throughout.
