@@ -56,6 +56,13 @@ jobs:
           destination: artifact
           artifact-name: mn
           cache-site-for-manifest: metanorma.yml
+          # The site cache key must cover the toolchain, not only the
+          # document sources: a Gemfile.lock relock changes every
+          # document's rendering (e.g. the double "Contents" heading
+          # carried by the generic 3.5.2 intro page), but a
+          # manifest-only key served the stale site forever
+          # (actions-mn/cache hashes cache-extra-input into the key).
+          cache-extra-input: Gemfile.lock
 
   deploy-pages:
     if: github.ref == 'refs/heads/main'
