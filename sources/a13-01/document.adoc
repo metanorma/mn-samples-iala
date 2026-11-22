@@ -37,6 +37,17 @@
 
 // The whole published page is set as a two-column bilingual table; the
 // in-table title rows below are part of the printed layout.
+//
+// STRUCTURE: the published page carries no numbered sections, but the
+// metanorma-iho schema requires the body to be carried by at least one
+// clause, so the bilingual table is carried by a single untitled
+// [%unnumbered] section (== {blank}), the corpus house wrapper for
+// clause-less documents (cf. cl-2025-01). It renders no heading text and
+// stays out of the table of contents, so the printed reading is preserved.
+
+[%unnumbered]
+== {blank}
+
 .Resolution A13-01
 [cols="1,1"]
 |===

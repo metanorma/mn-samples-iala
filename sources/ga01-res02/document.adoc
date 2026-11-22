@@ -29,6 +29,20 @@
 //
 // The resolution carries no edition; the :urn: follows the Pubid::Iala
 // canonical form urn:mrn:iala:pub:ga01.02 (no edition segment).
+//
+// STRUCTURE: the printed text is set solid (no numbered sections), but the
+// metanorma-iho schema requires the body to be carried by at least one
+// clause, so the printed body is carried by a single untitled [%unnumbered]
+// section (== {blank}), the corpus house wrapper for clause-less documents
+// (cf. cl-2025-01). It renders no heading text and stays out of the table of
+// contents, so the printed reading is preserved.
+//
+// The two operative clauses are printed as a numbered list (1. APPROVES …
+// 2. APPROVES) and are transcribed as the numbered list below, with the
+// recital verbs kept in the printed capitalization.
+
+[%unnumbered]
+== {blank}
 
 THE ASSEMBLY,
 
