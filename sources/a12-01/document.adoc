@@ -32,10 +32,29 @@
 // Authorities / Association Internationale de Signalisation Maritime)");
 // not transcribed as content.
 //
-// The resolution carries no edition. The printed text is set solid (no
-// numbered sections); the six operative clauses are transcribed as the
-// numbered list below, with the recital verbs kept in the printed
+// CONTENT ORDER: letterhead (not transcribed) > title block "IALA General
+// Assembly Resolution A.01 / Adopted on 27 May 2014" (carried by the
+// :docidentifier: and :published-date: attributes) > resolution title >
+// "THE GENERAL ASSEMBLY," > ten recitals in the printed order (PROUD,
+// RECALLING, RECOGNIZING, FURTHER RECOGNISING, NOTING, MINDFUL, TAKING INTO
+// ACCOUNT, CONSIDERING, DESIRING, BELIEVING) > six operative clauses >
+// footer letterhead (not transcribed). The document carries no signature
+// block beyond the page furniture.
+//
+// STRUCTURE: the printed text is set solid (no numbered sections), but the
+// metanorma-iho schema requires the body to be carried by at least one
+// clause, so the printed body is carried by a single untitled [%unnumbered]
+// section (== {blank}), the corpus house wrapper for clause-less documents
+// (cf. cl-2025-01). It renders no heading text and stays out of the table of
+// contents, so the printed reading is preserved.
+//
+// The resolution carries no edition. The six operative clauses are printed
+// as a numbered list (1. DETERMINES … 6. AUTHORISES) and are transcribed as
+// the numbered list below, with the recital verbs kept in the printed
 // capitalization.
+
+[%unnumbered]
+== {blank}
 
 THE GENERAL ASSEMBLY,
 

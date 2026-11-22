@@ -34,6 +34,17 @@
 //
 // The resolution carries no edition; the :urn: follows the Pubid::Iala
 // canonical form urn:mrn:iala:pub:ga01.12 (no edition segment).
+//
+// STRUCTURE: the resolution body is set solid (no numbered sections), but
+// the metanorma-iho schema requires the body to be carried by at least one
+// clause, so the printed body is carried by a single untitled [%unnumbered]
+// section (== {blank}), the corpus house wrapper for clause-less documents
+// (cf. cl-2025-01). Without it the pre-annex body would be swallowed into a
+// generated Foreword; the wrapper renders no heading text and stays out of
+// the table of contents, so the printed reading is preserved.
+
+[%unnumbered]
+== {blank}
 
 THE ASSEMBLY,
 
