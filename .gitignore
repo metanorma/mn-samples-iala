@@ -5,6 +5,13 @@ _*images
 published/
 /relaton
 
+# build output (metanorma site generate)
+/_site/
+# vendored bundle cache (container builds)
+/vendor/
+# local audit/build scratch output
+/audit-out/
+
 *.log
 *.asciidoc.log.txt
 *.err.html

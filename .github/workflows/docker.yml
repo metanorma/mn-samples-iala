@@ -17,11 +17,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     container:
-      image: metanorma/metanorma:latest
+      # Pinned to the cut that matches Gemfile.lock (metanorma-cli
+      # 1.18.7.pre.20261123); float to latest after the 1.18.7 final.
+      image: metanorma/metanorma:1.18.7-pre.20261123
     env:
       # The container image exports BUNDLE_GEMFILE=/setup/Gemfile (its
-      # released stack); point bundler at this repo's git-pinned Gemfile
-      # so the unreleased IALA flavor is available. Relative on purpose:
+      # released stack); point bundler at this repo's Gemfile.lock so the
+      # build rides the exact locked toolchain (the iala flavor itself is
+      # released via metanorma-taste; the corpus tracks the prerelease
+      # metanorma-cli chain until 1.18.7 final). Relative on purpose:
       # the runner-side workspace path does not exist inside the
       # container.
       BUNDLE_GEMFILE: Gemfile

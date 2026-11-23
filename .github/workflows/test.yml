@@ -6,8 +6,11 @@ on:
   repository_dispatch:
     types: [ metanorma/metanorma-* ]
 
+permissions:
+  contents: read
+
 jobs:
   test-docker:
-    uses: mmetanorma/ci/.github/workflows/sample-test.yml@main
+    uses: metanorma/ci/.github/workflows/sample-test.yml@main
     secrets:
       pat_token: ${{ secrets.METANORMA_CI_PAT_TOKEN }}

@@ -43,6 +43,9 @@ Transcribing them into Metanorma format is this repository's purpose.
 |Calibri; headings/table text #00558C; covers color-coded per type (palette in G1115 appendix 3); footer replicates cover fields incl. MRN
 |===
 
-G1199's working Metanorma transcription: `sources/g1199/` on branch
-`initial-import` — compiles via the iala taste to semantic + presentation
-XML (the XSLT input).
+G1199's working Metanorma transcription lives at `sources/g1199/` on
+`main`. Every publication listed above has a transcription under
+`sources/<id>/`, each compiling via the iala taste to the full output
+set (semantic + presentation XML, HTML, DOC, PDF, Relaton XML). Two
+references are held for layout and style only, not transcribed: the
+Style Guide G1115 and the MARCOM manual.
