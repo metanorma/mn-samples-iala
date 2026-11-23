@@ -91,7 +91,7 @@ Figure 5 to 8 show four examples of the applicability of the various operational
 .Example of different digital services when a vessel is arriving to a port within a VTS area
 image::image8.png[]
 
-.F Example of different digital services when a vessel is arriving to an anchorage area within a VTS area
+.Example of different digital services when a vessel is arriving to an anchorage area within a VTS area
 image::image9.png[]
 
 .Example of different digital services when a vessel is transiting a VTS area
