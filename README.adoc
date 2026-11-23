@@ -38,10 +38,30 @@ are as follows:
 
 == Usage
 
-Clone this repository, then:
+The IALA flavor ships through the `metanorma-taste` gem; this repository
+locks the toolchain it builds with in `Gemfile.lock`. Clone this
+repository, then:
 
 [source,sh]
 ----
 bundle install
 bundle exec metanorma compile -t iala sources/g1199/document.adoc --agree-to-terms
 ----
+
+Every source under `sources/` compiles this way; `metanorma.yml` lists
+all of them for a full site build:
+
+[source,sh]
+----
+bundle exec metanorma site generate --agree-to-terms
+----
+
+The same build runs in CI inside the `metanorma/metanorma` container,
+with the image pinned to the cut matching `Gemfile.lock` (see
+`.github/workflows/docker.yml`). Output for each document is the full
+IALA format set: XML (semantic and presentation), HTML, DOC, PDF and
+Relaton XML.
+
+Each document carries its published layout reference in
+`reference-docs/<doctype>/`; the published PDF is the parity target the
+Metanorma output is checked against.
