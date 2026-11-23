@@ -24,7 +24,10 @@
 // Encoded as a real revision clause so the PDF renders the printed
 // Date / Revision details / Approval table verbatim.
 
-[type=revision]
+// [preface] keeps the clause in the preface flow, printed unnumbered before
+// the contents (published PDF page 2), the c2007-1 convention; without it
+// the clause prints numbered in the body flow.
+[preface,type=revision]
 == Document revision
 
 Revisions to this IALA Document are to be noted in the table prior to the issue of a revised document. The latest edition of the Guideline is the only version in force unless the Guideline is explicitly revoked by the Council.
