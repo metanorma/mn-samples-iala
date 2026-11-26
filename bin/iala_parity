@@ -1,0 +1,115 @@
+# frozen_string_literal: true
+
+# LADL corpus parity v2: the engine's labels over the parsed
+# presentation XML vs the DEPOSITED IALA published PDF (ground truth).
+#
+# The new pipeline's presentation XML carries no numbering by design —
+# numbering is what LADL supplies — so the comparison target is the
+# published document, not the XML.
+#
+# Usage (under the metanorma-document bundle):
+#   bundle exec ruby bin/iala_parity PROFILE XML PDF
+require "bundler/setup"
+require "metanorma/document"
+require "metanorma/html/labeller"
+
+profile_path = ARGV.shift or abort "usage: iala_parity PROFILE XML PDF"
+xml_path = ARGV.shift or abort "usage: iala_parity PROFILE XML PDF"
+pdf_path = ARGV.shift or abort "usage: iala_parity PROFILE XML PDF"
+
+step = Metanorma::Mirror::Output::Pipeline::Steps::ParseXml.new
+
+# Generic model walk: sections are any model nodes carrying both a
+# title and an anchor/id; recursion follows every lutaml collection.
+def each_section(obj, seen = {}, &)
+  return unless obj.is_a?(Lutaml::Model::Serializable)
+  return if seen[obj.object_id]
+
+  seen[obj.object_id] = true
+  yield obj if obj.respond_to?(:title) &&
+    (obj.respond_to?(:anchor) || obj.respond_to?(:id))
+
+  obj.class.attributes.each_key do |name|
+    next if name == "title"
+
+    v = obj.respond_to?(name) ? obj.public_send(name) : nil
+    Array(v).each { |child| each_section(child, seen, &) }
+  end
+end
+
+def normalize_title(t)
+  t.to_s.gsub(/\s+/, " ").strip.upcase
+end
+
+def normalize_number(n)
+  n.to_s.strip.delete(".").sub(/\A0+/, "")
+end
+
+# --- engine side: labels keyed by normalized title ---
+doc = step.flavor_class("iho").from_xml(File.read(xml_path))
+labeller = Metanorma::Html::Labeller.new(profile_path, root: doc)
+engine_by_title = {}
+each_section(doc) do |section|
+  title = section.title
+  next unless title.respond_to?(:text)
+
+  text = Array(title.text).map(&:to_s).join(" ").strip
+  next if text.empty?
+
+  label = labeller.local_for(section)
+  next if label.nil?
+
+  engine_by_title[normalize_title(text)] = label
+end
+
+# --- ground truth: numbered heading lines in the deposited PDF ---
+pdf_text = `pdftotext -layout #{pdf_path.inspect} -`
+lines = pdf_text.lines.map(&:rstrip)
+pdf_headings = []
+lines.each_with_index do |line, i|
+  next if line.include?("....") # TOC entries
+  # Section headings are ALL-CAPS: "1. INTRODUCTION", "5.1.1. MESSAGE
+  # COMPILATION". Mixed-case numbered lines are list items.
+  next unless (m = line.match(/\A(\d+(?:\.\d+)*)\.?[ \t]+([A-Z][^a-z\t]*?)\s*\z/))
+
+  heading = m[2]
+  # A wrapped heading continues on the next line: also caps, not a new
+  # number.
+  j = i + 1
+  while j < lines.size && lines[j] =~ /\A[A-Z][A-Z0-9 ,&()\/-]+\z/ &&
+        lines[j] !~ /\A\d/ && !lines[j].strip.empty?
+    heading += " #{lines[j].strip}"
+    j += 1
+  end
+  pdf_headings << [m[1], heading]
+end
+
+# --- compare: normalized-title prefix matching; the PDF carries the
+# same heading twice (TOC + body, wrapped fragments) — the engine side
+# holds the full model title, so prefix matching collapses the variants.
+def title_prefix(t, size = 40)
+  t[0, size]
+end
+
+matched = 0
+mismatches = []
+seen_numbers = Hash.new(0)
+pdf_headings.each do |number, heading|
+  seen_numbers[normalize_number(number)] += 1
+  key = title_prefix(normalize_title(heading))
+  label = engine_by_title.find do |title, _|
+    title.start_with?(key) || key.start_with?(title)
+  end
+  if label.nil?
+    mismatches << "PDF #{number} #{heading.inspect}: no engine label (section missing?)"
+  elsif normalize_number(label.last) != normalize_number(number)
+    mismatches << "PDF #{number} #{heading.inspect}: engine #{label.last.inspect}"
+  else
+    matched += 1
+  end
+end
+
+puts "PDF headings: #{pdf_headings.size}; matched: #{matched}; " \
+  "mismatches: #{mismatches.size}; engine labels: #{engine_by_title.size}"
+mismatches.each { |m| puts "  MISMATCH #{m}" }
+exit(mismatches.empty? && matched.positive? ? 0 : 1)
