@@ -1,0 +1,32 @@
+# frozen_string_literal: true
+require "bundler/setup"
+require "metanorma/document"
+require "metanorma/html/labeller"
+
+xml, profile = ARGV
+step = Metanorma::Mirror::Output::Pipeline::Steps::ParseXml.new
+doc = step.flavor_class("iho").from_xml(File.read(xml))
+lab = Metanorma::Html::Labeller.new(profile, root: doc)
+
+seen = {}
+walk = nil
+walk = lambda do |obj, depth|
+  return unless obj.is_a?(Lutaml::Model::Serializable)
+  return if seen[obj.object_id]
+
+  seen[obj.object_id] = true
+  if obj.respond_to?(:title) && (obj.respond_to?(:anchor) || obj.respond_to?(:id))
+    t = obj.title
+    txt = t.respond_to?(:text) ? Array(t.text).map(&:to_s).join(" ").strip : t.to_s
+    l = lab.local_for(obj)
+    klass = obj.class.name.split("::").last
+    puts format("  %-8s %-24s d%-2d %s", l.inspect, klass, depth, txt[0, 60].inspect) if l || depth <= 1
+  end
+  obj.class.attributes.each_key do |n|
+    next if n == "title"
+
+    v = obj.respond_to?(n) ? obj.public_send(n) : nil
+    Array(v).each { |c| walk.call(c, depth + 1) }
+  end
+end
+walk.call(doc, 0)
