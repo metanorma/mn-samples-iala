@@ -47,7 +47,10 @@ end
 
 # --- engine side: labels keyed by normalized title ---
 doc = step.flavor_class("iho").from_xml(File.read(xml_path))
-labeller = Metanorma::Html::Labeller.new(profile_path, root: doc)
+# IALA guideline deposits number the preface introduction as the first
+# body clause (deposit convention; ISO/IEC leaves it unnumbered).
+labeller = Metanorma::Html::Labeller.new(profile_path, root: doc,
+  numbered_preface_introduction: true)
 engine_by_title = {}
 each_section(doc) do |section|
   title = section.title
@@ -67,6 +70,8 @@ pdf_text = `pdftotext -layout #{pdf_path.inspect} -`
 lines = pdf_text.lines.map(&:rstrip)
 pdf_headings = []
 lines.each_with_index do |line, i|
+  # Headings opening a page carry a leading form-feed.
+  line = line.gsub(/\A[\f\r]+/, "")
   next if line.include?("....") # TOC entries
   # Section headings are ALL-CAPS: "1. INTRODUCTION", "5.1.1. MESSAGE
   # COMPILATION". Mixed-case numbered lines are list items.
@@ -84,26 +89,53 @@ lines.each_with_index do |line, i|
   pdf_headings << [m[1], heading]
 end
 
-# --- compare: normalized-title prefix matching; the PDF carries the
-# same heading twice (TOC + body, wrapped fragments) — the engine side
-# holds the full model title, so prefix matching collapses the variants.
-def title_prefix(t, size = 40)
-  t[0, size]
+# --- compare: title match by normalized prefix or word overlap (the
+# deposit and the model may differ in title form: "REFERENCES" vs
+# "NORMATIVE REFERENCES"); the PDF carries the same heading twice (TOC +
+# body, wrapped fragments) — prefix matching collapses the variants.
+# Candidates are SCORED: exact title > full prefix > word overlap, and
+# among overlaps the smallest word-count difference wins, so a
+# subclause ("Asynchronous training") never steals a clause's match
+# ("Asynchronous training course design").
+def title_words(t)
+  t.split(/\s+/).reject(&:empty?)
+end
+
+def title_score(pdf_title, engine_title)
+  return nil if pdf_title.empty? || engine_title.empty?
+
+  return 0 if pdf_title == engine_title
+  return 1 if engine_title.start_with?(pdf_title) || pdf_title.start_with?(engine_title)
+
+  pdf_words = title_words(pdf_title)
+  engine_words = title_words(engine_title)
+  return nil unless (pdf_words & engine_words) == pdf_words
+
+  2 + (engine_words.size - pdf_words.size)
+end
+
+def best_title_match(pdf_title, engine_by_title)
+  best = nil
+  best_score = nil
+  engine_by_title.each do |title, label|
+    score = title_score(pdf_title, title)
+    next if score.nil?
+    next if best_score && score >= best_score
+
+    best = label
+    best_score = score
+  end
+  best
 end
 
 matched = 0
 mismatches = []
-seen_numbers = Hash.new(0)
 pdf_headings.each do |number, heading|
-  seen_numbers[normalize_number(number)] += 1
-  key = title_prefix(normalize_title(heading))
-  label = engine_by_title.find do |title, _|
-    title.start_with?(key) || key.start_with?(title)
-  end
+  label = best_title_match(normalize_title(heading), engine_by_title)
   if label.nil?
     mismatches << "PDF #{number} #{heading.inspect}: no engine label (section missing?)"
-  elsif normalize_number(label.last) != normalize_number(number)
-    mismatches << "PDF #{number} #{heading.inspect}: engine #{label.last.inspect}"
+  elsif normalize_number(label) != normalize_number(number)
+    mismatches << "PDF #{number} #{heading.inspect}: engine #{label.inspect}"
   else
     matched += 1
   end
