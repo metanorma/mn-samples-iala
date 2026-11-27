@@ -8,10 +8,10 @@ gem "debug"
 
 # LADL parity harness: label the compiled presentation models through
 # the engine and diff against the baked numbering (bin/iala_parity).
-# TEMPORARY pin: the labeller seam rides metanorma-document#179 —
-# flip to released when merged.
+# The labeller seam merged (metanorma-document#179): git main until the
+# next release carries it, then "~> 0.5.16".
 gem "metanorma-document", github: "metanorma/metanorma-document",
-  branch: "feat/ladl-labeller-seam"
-# TEMPORARY pin: {key} vocabulary tokens ship on main (ladl#7) —
-# flip to "~> 0.2" when released.
+  branch: "main"
+# TEMPORARY pin: {key} vocabulary tokens + the MN 112 evaluator are on
+# main past the 0.1.1 release — flip to the next release when shipped.
 gem "ladl", github: "metanorma/ladl", branch: "main"
